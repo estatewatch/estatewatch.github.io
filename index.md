@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
-The Estate Watch website has closed and we are currently deciding on a permanent home for the archive.
-A mirror version snapshot of the website has been saved and can be accessed at the following URL:
+## The Estate Watch website has closed and we are currently deciding on a permanent home for the archive.
+
+In the meantime, a mirror version of the website has been saved and can be accessed at the following URL:
 
 [https://estatewatch-archive.netlify.app](https://estatewatch-archive.netlify.app)
 
