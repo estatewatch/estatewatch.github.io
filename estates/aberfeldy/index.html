@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Eleventy Base Blog v9</title>
+		<meta name="description" content="I am writing about my experiences as a naval navel-gazer.">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Eleventy Base Blog v9">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Keep images within the border */
+img {
+ max-width: 100%;
+ height: auto;
+ filter: drop-shadow(0 0 0.75rem rgb(180, 152, 157));
+}
+  
+map {
+	width: 100% 
+	height: 180px;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/eleventy-base-blog/" class="home-link">Eleventy Base Blog v9</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/eleventy-base-blog/">Estates Under Threat</a></li>
+					<li class="nav-item"><a href="/eleventy-base-blog/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/eleventy-base-blog/about/">About</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+<h1></h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2024-11-13">13 November 2024</time></li>
+	<li><a href="/eleventy-base-blog/tags/towerhamlets/" class="post-tag">towerhamlets</a></li>
+</ul>
+
+<picture><source type="image/avif" srcset="/eleventy-base-blog/estates/aberfeldy/JYNiYV-p8I-682.avif 682w"><source type="image/webp" srcset="/eleventy-base-blog/estates/aberfeldy/JYNiYV-p8I-682.webp 682w"><img loading="lazy" decoding="async" src="/eleventy-base-blog/estates/aberfeldy/JYNiYV-p8I-682.png" alt="Aberfeldy estate" width="682" height="467"></picture>
+<p>225 homes remain under threat of demolition at Poplar HARCA's redevelopment of the Aberfeldy estate in Tower Hamlets.</p>
+<p>The estate was transferred from Tower Hamlets to Poplar HARCA in 2007 under a stock transfer agreement.</p>
+<p>The estate borders the River Lea to the East, Balfron Tower to the West and the Robin Hood Gardens estate to the South. Poplar HARCA have already come under <a href="https://www.theguardian.com/cities/2019/sep/19/balfron-20-how-goldfingers-utopian-tower-became-luxury-flats">criticism</a> for its privatisation of Balfron Tower.</p>
+<p><picture><source type="image/avif" srcset="/eleventy-base-blog/estates/aberfeldy/CyXAj9rcKm-680.avif 680w"><source type="image/webp" srcset="/eleventy-base-blog/estates/aberfeldy/CyXAj9rcKm-680.webp 680w"><img loading="lazy" decoding="async" src="/eleventy-base-blog/estates/aberfeldy/CyXAj9rcKm-680.png" alt="alt text" width="680" height="512"></picture></p>
+<p>The scheme is part of Poplar HARCA's <a href="https://www.architectsjournal.co.uk/download?ac=1222139">‘Poplar Reshaping’ masterplan</a> which envisaged the redevelopment of ten estates: Aberfeldy, Brownfield, Bow Bridge, Coventry Cross, Burdett, Devons, Lansbury, Leopold, Lincoln and Teviot.</p>
+<p>13 residential blocks, 24 shops, a mosque and a community hall are set for demolition in remaining phases 3-6 of what has now been <a href="https://ecoworldlondon.com/media/1288/aberfeldy-village-host-brochure.pdf">re-branded</a> 'Aberfeldy Village' or 'Aberfeldy West'.</p>
+<picture><source type="image/avif" srcset="/eleventy-base-blog/estates/aberfeldy/pW4aS_q_fP-912.avif 912w"><source type="image/webp" srcset="/eleventy-base-blog/estates/aberfeldy/pW4aS_q_fP-912.webp 912w"><img loading="lazy" decoding="async" src="/eleventy-base-blog/estates/aberfeldy/pW4aS_q_fP-912.png" alt="alt text" width="912" height="339"></picture>
+<p>The scheme is being progressed in six phases in a joint venture with Malaysian investor, Ecoworld and will create 1176 new homes in total.</p>
+<p>The estate originally comprised 297 homes but 72 homes were demolished in phases 1-3, which are currently approaching completion.</p>
+<p>A ballot for the remaining 3 phases or 'Aberfeldy West' was approved in October 2020, with the majority of eligible residents voting in favour of full redevelopment. The scheme is being <a href="https://www.london.gov.uk/programmes-strategies/housing-and-land/homes-londoners/estate-regeneration/estate-regeneration-data">funded</a> by the Mayor.</p>
+<p>Compulsory purchase orders were <a href="https://www.towerhamlets.gov.uk/Documents/Planning-and-building-control/Aberfeldy_SoR_140616.pdf">issued in 2016</a> and confirmed in 2017 for the remaining three phases.</p>
+<p>The <a href="https://www.towerhamlets.gov.uk/Documents/Planning-and-building-control/Aberfeldy_SoR_140616.pdf">compulsory purchase order documents</a> confirm that 619 new homes will replace the 225 being demolished and that 100 will be affordable rent, the remainder being provided as predominantly mainly private housing.</p>
+<picture><source type="image/avif" srcset="/eleventy-base-blog/estates/aberfeldy/PgjK4mj48c-814.avif 814w"><source type="image/webp" srcset="/eleventy-base-blog/estates/aberfeldy/PgjK4mj48c-814.webp 814w"><img loading="lazy" decoding="async" src="/eleventy-base-blog/estates/aberfeldy/PgjK4mj48c-814.png" alt="alt text" width="814" height="243"></picture>
+<p>In August 2021, <a href="https://democracy.towerhamlets.gov.uk/documents/s189892/Aberfeldy%20Village%20SDC%20Pre-app%20Report%20Final.pdf">pre-application advice</a> was sought on a revised masterplan for the remainder of the estate. This proposes to  provide 1608 new homes of which 1181 units would be for private sale, 81 units of intermediate tenure and 346 units as affordable rent (i.e. up to 80% market rent).</p>
+<p>This resulted in a planning application which was refused by Tower Hamlets in 2022 on the basis that the affordable housing offer of 38% was too low. In May 2023, the Mayor called in the application for him to determine himself.</p>
+<p>Despite failing to conform with his minimum policy requirement for 50% affordable in estate redevelopments, the Mayor granted final planning approval in January 2024. It remains unclear what the final tenure mix will be. The Mayor's stage 2 report says that 89.2% of the 38% affordable housing will be <em>'low cost rented accommodation (comprising a mix of social rent, London Affordable Rent, Tower Hamlets Living Rent)</em>' and the remainder will be intermediate tenures (including shared ownership).</p>
+<hr>
+<p><strong>Links:</strong>
+<a href="https://planapps.london.gov.uk/planningapps/PA-21-02377">Mayor's stage 1 and stage 2 reports</a></p>
+<p><a href="https://development.towerhamlets.gov.uk/online-applications/applicationDetails.do?activeTab=documents&amp;keyVal=DCAPR_100784">Planning application documents (phases 1-3)</a></p>
+<p><a href="https://www.poplarharca.co.uk/new-homes-regeneration/development-projects/project/aberfeldy-west/">Poplar HARCA's web page for Aberfeldy West</a></p>
+<p>Poplar HARCA's <a href="/eleventy-base-blog/images/Aberfeldy-West-Landlords-Offer.pdf">Landlord Offer</a></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.512950,-0.004851], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.512950,-0.004851], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
+
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+		</footer>
+
+		<!-- This page `/eleventy-base-blog/estates/aberfeldy/` was built on 2024-11-13T13:04:37.693Z -->
+		<script type="module" src="/eleventy-base-blog/dist/rJ3_G-2ArF.js"></script>
+	</body>
+</html>
