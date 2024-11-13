@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Estate Watch</title>
+		<meta name="description" content="Monitoring London&#39;s estates under threat.">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Estate Watch">
+		
+		<style>/* Message Box */
+.message-box {
+	--color-message-box: #ffc;
+
+	display: block;
+	background-color: var(--color-message-box);
+	color: var(--color-gray-90);
+	padding: 1em 0.625em; /* 16px 10px /16 */
+}
+.message-box ol {
+	margin-top: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+	.message-box {
+		--color-message-box: #082840;
+	}
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Keep images within the border */
+img {
+ max-width: 100%;
+ height: auto;
+ filter: drop-shadow(0 0 0.75rem rgb(180, 152, 157));
+}
+  
+map {
+	width: 100% 
+	height: 180px;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">Estate Watch</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Estates Under Threat</a></li>
+					<li class="nav-item"><a href="/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/saveourestates/" aria-current="page">Save our estates!</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/resources/">Resources</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+<div class="message-box">
+<p>The negative social and environmental impacts of demolishing social housing estates are becoming increasingly evident. 
+</p><p>We are campaigning for the Mayor to introduce a policy presumption against redevelopment such that demolition should only be allowed in exceptional circumstances. See our <a href="/alternative-good-practice-guide-to-estate-regeneration.pdf">Alternative Good Practice Guide</a> for further details. </p><p></p>
+</div>
+<div class="message-box">
+<details>
+<summary><b>What is wrong with redeveloping London's housing estates?</b></summary>
+<ol>
+<li>
+<p>Despite best intentions, replacement 'affordable' housing invariably ends up in a loss of social rented housing and/or <a href="https://www.pilc.org.uk/news/affordable-housing-increases-rents-for-low-income-londoners/">higher rents</a>.</p>
+</li>
+<li>
+<p>Schemes are routinely delayed and subject to value engineering or landbanking by developers. Housing waiting lists are impacted and long-standing communities suffer uncertainty, disruption and displacement.</p>
+</li>
+<li>
+<p>Structurally sound homes are needlessly demolished and replaced, creating significant uneccessary carbon emissions that further exacerbate climate change.</p>
+</li>
+</ol>
+</details>
+</div>
+<hr>
+<div class="message-box">
+<details>
+<summary><b>Maintenance costs on aging housing estates are a burden, isn't it more cost effective to replace them?</b></summary>
+<blockquote>
+<p>Despite their age and lack of investment, evidence shows that most estates actually provide a surplus when rental income is compared to maintenance costs. See <a href="https://x.com/NunheadTRA/status/1667809201882636288">here</a> for some examples.</p>
+</blockquote>
+</details>
+</div>
+<hr>
+<div class="message-box">
+<details>
+<summary><b>But new private housing cross-subsidises the replacement social housing doesn't it?</b></summary>
+<blockquote>
+<p>Despite best intentions, developers' profit margins and the <a href="https://www.theguardian.com/cities/2015/jun/25/london-developers-viability-planning-affordable-social-housing-regeneration-oliver-wainwright">viability testing loopholes</a> mean that the cost of replacement social housing and demolition/rehousing ends up being subsidised mainly by local authorities, grant funding or by reducing the quantum and affordability of replacement social housing. See <a href="https://www.paywallskip.com/article?url=https%3A%2F%2Fwww.insidehousing.co.uk%2Fnews%2Festate-regenerations-failed-to-replace-social-homes-due-to-cross-subsidy-model-nhf-boss-says-88513">here</a> and <a href="https://www.pilc.org.uk/wp-content/uploads/2024/09/The-promise-of-cross-subsidy_FULL-REPORT.pdf">here</a> for evidence of this.</p>
+</blockquote>
+</details>
+</div>
+<hr>
+<div class="message-box">
+<details>
+<summary><b>What if the majority of residents vote for demolition, shouldn't their wishes be respected?</b></summary>
+<blockquote>
+<p>There are a number of problems with the current ballot process. Not least the fact that refurbishment is never an option on the ballot paper. Read our full review of the flaws in the ballot process <a href="/ballots/">here</a>.</p>
+</blockquote>
+<p><picture><source type="image/avif" srcset="/saveourestates/T0fmm8QqHR-500.avif 500w"><source type="image/webp" srcset="/saveourestates/T0fmm8QqHR-500.webp 500w"><img loading="lazy" decoding="async" src="/saveourestates/T0fmm8QqHR-500.jpeg" alt="" width="500" height="341"></picture></p>
+</details>
+</div>
+<hr>
+<div class="message-box">
+<details>
+<summary><b>London needs more homes, why shouldn't estates be rebuilt with increased density to house existing residents and also increase overall housing stock? </b></summary>
+<blockquote>
+<p>There are plenty of large brownfield sites in London that have stood empty for decades, having been land-banked by developers. It would be more effective to bring these forward for development before knocking down existing housing.</p>
+</blockquote>
+<blockquote>
+<p>Many estates earmarked for demolition are already high density. They tend to be selected not on their propensity to increase density but rather on architectural fashions (grey, concrete, 'monolithic' etc).</p>
+</blockquote>
+<blockquote>
+<p>In general, redeveloped estates do provide more homes in total but they tend to be smaller (1 &amp; 2 bed, rather than the family size homes they are often replacing). See the Aylesbury estate for example.</p>
+</blockquote>
+<blockquote>
+<p>Studies have shown that in-fill development on estates can be more effective in increasing density than wholescale redevelopment. See the <a href="https://www.brent.gov.uk/housing/new-council-homes/where-we-are-building/st-raphaels-estate/about">St Raphael's estate</a>, the <a href="/estates/altonarea/">Alton estate</a> and the <a href="https://westkengibbsgreen.wordpress.com/neighbourhood-plan-2021/">West Ken and Gibbs estate</a> for examples of these.</p>
+</blockquote>
+</details>
+</div>
+<hr>
+<h2 id="making-the-case-for-refurbishment">Making the case for refurbishment</h2>
+<p>The <a href="https://www.ucl.ac.uk/engineering-exchange/">Engineering Exchange at UCL</a> have produced a series of factsheets, videos and a peer-reviewed report, which show that refurbishment is the better option socially and environmentally.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align:left"></th>
+<th style="text-align:right"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><picture><source type="image/avif" srcset="/saveourestates/RozHd2rRVi-238.avif 238w"><source type="image/webp" srcset="/saveourestates/RozHd2rRVi-238.webp 238w"><img loading="lazy" decoding="async" src="/saveourestates/RozHd2rRVi-238.png" alt="ucl report" width="238" height="336"></picture></td>
+<td style="text-align:left"><a href="../https://www.ucl.ac.uk/engineering-exchange/sites/engineering-exchange/files/report-refurbishment-demolition-social-housing_1.pdf">Demolition or refurbishment of social housing - a review of the evidence</a></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td><picture><source type="image/avif" srcset="/saveourestates/j-wLQGiyk8-396.avif 396w"><source type="image/webp" srcset="/saveourestates/j-wLQGiyk8-396.webp 396w"><img loading="lazy" decoding="async" src="/saveourestates/j-wLQGiyk8-396.png" alt="embodied carbon factsheet" width="396" height="561"></picture></td>
+<td style="text-align:left"><a href="https://www.ucl.ac.uk/engineering-exchange/sites/engineering-exchange/files/fact-sheet-embodied-carbon-social-housing.pdf">Embodied Carbon: Factsheet</a></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td><picture><source type="image/avif" srcset="/saveourestates/qnuaLK6eoF-396.avif 396w"><source type="image/webp" srcset="/saveourestates/qnuaLK6eoF-396.webp 396w"><img loading="lazy" decoding="async" src="/saveourestates/qnuaLK6eoF-396.png" alt="ucl wellbeing report" width="396" height="561"></picture></td>
+<td style="text-align:left"><a href="https://www.ucl.ac.uk/engineering-exchange/sites/engineering-exchange/files/fact-sheet-health-and-wellbeing-social-housing.pdf">Health and Well-being: Factsheet</a></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td><picture><source type="image/avif" srcset="/saveourestates/86TBTUHyM6-396.avif 396w"><source type="image/webp" srcset="/saveourestates/86TBTUHyM6-396.webp 396w"><img loading="lazy" decoding="async" src="/saveourestates/86TBTUHyM6-396.png" alt="life span report" width="396" height="561"></picture></td>
+<td style="text-align:left"><a href="https://www.ucl.ac.uk/engineering-exchange/sites/engineering-exchange/files/fact-sheet-lifespan-and-decisions-social-housing.pdf">Lifespans and Decisions: Factsheet</a></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td><picture><source type="image/avif" srcset="/saveourestates/oMECnEFHfj-396.avif 396w"><source type="image/webp" srcset="/saveourestates/oMECnEFHfj-396.webp 396w"><img loading="lazy" decoding="async" src="/saveourestates/oMECnEFHfj-396.png" alt="policy briefing" width="396" height="561"></picture></td>
+<td style="text-align:left"><a href="https://www.ucl.ac.uk/engineering-exchange/sites/engineering-exchange/files/policy_brief_refurbishment_and_demolition_of_social_housing.pdf">Policy Briefing: Making decisions on demolition or refurbishment of social housing</a></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td><picture><source type="image/avif" srcset="/saveourestates/oVrTo7EPUE-396.avif 396w"><source type="image/webp" srcset="/saveourestates/oVrTo7EPUE-396.webp 396w"><img loading="lazy" decoding="async" src="/saveourestates/oVrTo7EPUE-396.png" alt="toolkit" width="396" height="561"></picture></td>
+<td style="text-align:left"><a href="https://www.ucl.ac.uk/engineering-exchange/sites/engineering-exchange/files/ucl150_a4-demolition-toolkit_v4_online.pdf">Refurbishment and Demolition: Community Toolkit</a></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/jFo_aFlg41Y?si=hI3fy1e0dJBFLwbz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/VwO5lyUiZpc?si=R-XQMe2FVTSXUQaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/A1OaRsFgg-E?si=E8rZ_b6wJ9-umqDB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+		</footer>
+
+		<!-- This page `/saveourestates/` was built on 2024-11-13T19:25:02.065Z -->
+		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+	</body>
+</html>
