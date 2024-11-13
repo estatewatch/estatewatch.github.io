@@ -3,11 +3,28 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged &#39;estates&#39;</title>
+		<title>Estate Watch</title>
 		<meta name="description" content="Monitoring London&#39;s estates under threat.">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Estate Watch">
 		
-		<style>.postlist { counter-reset: start-from 3 }
+		<style>/* Message Box */
+.message-box {
+	--color-message-box: #ffc;
+
+	display: block;
+	background-color: var(--color-message-box);
+	color: var(--color-gray-90);
+	padding: 1em 0.625em; /* 16px 10px /16 */
+}
+.message-box ol {
+	margin-top: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+	.message-box {
+		--color-message-box: #082840;
+	}
+}
 /* This is an arbitrary CSS string added to the bundle */
 /* Defaults */
 :root {
@@ -309,30 +326,32 @@ h2 + .header-anchor {
 
 		<main id="skip">
 			<heading-anchors>
-				 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-
-<h1 id="tagged-estates">Tagged “estates”</h1>
-
-
-
-<ol reversed="" class="postlist">
-
-	<li class="postlist-item">
-		<a href="/estates/almaestate/" class="postlist-link"><code>/estates/almaestate/</code></a>
-		<time class="postlist-date" datetime="2024-11-13">November 2024</time>
-	</li>
-
-	<li class="postlist-item">
-		<a href="/estates/aberfeldy/" class="postlist-link"><code>/estates/aberfeldy/</code></a>
-		<time class="postlist-date" datetime="2024-11-13">November 2024</time>
-	</li>
-
-</ol>
-
-
-<p>See <a href="/tags/">all tags</a>.</p>
-
+				<h1 id="github-guide">Github Guide</h1>
+<h2 id="how-to-edit-the-estate-watch-website">How to edit the Estate Watch website</h2>
+<div class="message-box">
+The Estate Watch website uses<a href="https://pages.github.com/"> Github</a> (a web-based platform which facilitates collaborative development of software projects) to store and publish data. The first step to getting involved is to sign up for a (free) github account at <a href="https://github.com/signup"> https://github.com/signup</a>.
+</div>
+<p>Once you are signed up and logged in to Github you will be able to click on any of the <em>'edit this page'</em> links on the Estate Watch website such as the one below:</p>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+  <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
+  <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"></path>
+</svg>
+		      <a href="https://github.com/estatewatch/estatewatch/blob/main/./content/guide.md">Edit this page on GitHub</a>
+<p>The first time you click on the link, you will be asked if you want to 'fork' the repository.</p>
+<p><picture><source type="image/avif" srcset="/guide/dlsV_Px7vv-1002.avif 1002w"><source type="image/webp" srcset="/guide/dlsV_Px7vv-1002.webp 1002w"><img loading="lazy" decoding="async" src="/guide/dlsV_Px7vv-1002.png" alt="image of forking at github" width="1002" height="208"></picture></p>
+<p>Click the green 'fork this repository' button and you will then be taken to the page you want to edit.</p>
+<blockquote>
+<p><strong>Note:</strong> You will only have to fork the repository once - the first time you make an edit.</p>
+</blockquote>
+<p>Once you have been redirected to the source text page, you will see a page shown in the screenshot below. You will need to click on the pencil icon at the top right of the page to enter editing mode:</p>
+<p><picture><source type="image/avif" srcset="/guide/2EIFZWQoWt-1362.avif 1362w"><source type="image/webp" srcset="/guide/2EIFZWQoWt-1362.webp 1362w"><img loading="lazy" decoding="async" src="/guide/2EIFZWQoWt-1362.png" alt="image of editing at github" width="1362" height="482"></picture></p>
+<p>Once in editing mode, you can add or amend the page accordingly. You can edit the text directly or add images using the add image icon at the bottom.</p>
+<p>This text editor differs from most word processing environments in that it uses 'Markdown' - a lightweight markup language for creating formatted text using a plain-text editor. You can read a brief guide on using Markdown here: <a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax</a></p>
+<p>When you have finished editing, click on the green 'Commit Changes' button on the top right corner of the page. This will submit your proposed changes for review by a moderator before being published.</p>
+<div class="message-box-green">
+<b>Please make sure that you don't upload any images that you haven't taken yourself or that you haven't been given permission to use!
+</b></div>
+<p>In the <a href="https://github.com/estatewatch/estatewatch/discussions">discussions section</a> you will find a 'to-do' list as well as some ideas about how to research estates under threat.</p>
 
 			</heading-anchors>
 		</main>
@@ -341,7 +360,7 @@ h2 + .header-anchor {
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/tags/estates/` was built on 2024-11-13T15:16:37.357Z -->
+		<!-- This page `/guide/` was built on 2024-11-13T15:16:37.243Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>
