@@ -27,6 +27,11 @@
 	</url>
 	
 	<url>
+		<loc>https://estatewatch.london/estates.json</loc>
+		<lastmod>2024-11-14</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://estatewatch.london/estates/aberfeldy/</loc>
 		<lastmod>2024-11-14</lastmod>
 	</url>
