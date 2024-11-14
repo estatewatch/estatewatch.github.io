@@ -5,7 +5,7 @@
 		<a href="{{ estate.url }}" class="postlist-link">{% if estate.data.name %}{{ estate.data.name }}{% else %}<code>{{ estate.url }}</code>{% endif %}</a>
 		 {{ estate.data.borough | capitalize | replace("Barkinganddagenham", "Barking & Dagenham") | replace("Cityoflondon", "City of London") | replace("Kensingtonandchelsea", "Kensington & Chelsea") | replace("Towerhamlets", "Tower Hamlets") | replace("Walthamforest", "Waltham Forest") }}
 		<a href="{{ estate.url }}">
-		<img src="{{ estate.data.image }}" alt="header image">
+		{% first_image estate %}
 		</a>
 	</li>
 	<script>
