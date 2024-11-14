@@ -1,3 +1,3 @@
 export default {
-	"layout": "layouts/post.njk",
+	"layout": "layouts/estate.njk",
 };

@@ -1,8 +1,8 @@
 export default {
-	title: "Estate Watch",
-	url: "https://estatewatch.london/",
+	title: "ESTATE WATCH",
+	url: "https://estatewatch.london",
 	language: "en",
-	description: "Monitoring London's estates under threat.",
+	description: "Monitoring London's estates under threat of demolition.",
 	author: {
 		name: "Your Name Here",
 		email: "youremailaddress@example.com",

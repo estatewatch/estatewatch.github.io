@@ -17,9 +17,9 @@ const eleventyComputed = {
 	}
 };
 ---
-<h1>Tagged “{{ tag }}”</h1>
+<h1>Tagged “{{ tag | capitalize | replace("Barkinganddagenham", "Barking & Dagenham") | replace("Cityoflondon", "City of London") | replace("Kensingtonandchelsea", "Kensington & Chelsea") | replace("Towerhamlets", "Tower Hamlets") | replace("Walthamforest", "Waltham Forest") }}”</h1>
 
-{% set postslist = collections[ tag ] %}
-{% include "postslist.njk" %}
+{% set estateslist = collections[ tag ] %}
+{% include "estateslist.njk" %}
 
-<p>See <a href="tags.njk">all tags</a>.</p>
+<p>See <a href="/tags/">all boroughs</a>.</p>
