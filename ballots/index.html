@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Estate Ballots - why the process is flawed</title>
+		<meta name="description" content="Monitoring London&#39;s estates under threat of demolition.">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="ESTATE WATCH">
+		
+		<style>/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Keep images within the border */
+img {
+ max-width: 100%;
+ height: auto;
+ filter: drop-shadow(0 0 0.75rem rgb(180, 152, 157));
+}
+  
+map {
+	width: 100% 
+	height: 180px;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<picture><source type="image/avif" srcset="/ballots/5qD3cKtzaH-16.avif 16w"><source type="image/webp" srcset="/ballots/5qD3cKtzaH-16.webp 16w"><img loading="lazy" decoding="async" width="16" alt="Magnifying glass icon" src="/ballots/5qD3cKtzaH-16.png" height="16"></picture><a href="/" class="home-link">ESTATE WATCH</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/saveourestates/">Save our estates!</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/resources/">Resources</a></li>
+					<li class="nav-item"><a href="/blog/">Latest</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+<h2 id="estate-ballots-why-the-process-is-flawed"> Estate Ballots - why the process is flawed</h2>
+<p>Estate ballots were introduced by the Mayor in 2018 but he <a href="https://www.london.gov.uk/sites/default/files/2024-07/List-of-exemptions.pdf">exempted</a> around half of London's estates under threat from the requirement on the basis that they had already been allocated funding (even if many of these funding agreements have since expired). This includes many of the largest estates like the Aylesbury, South Acton and Grahame Park estates.</p>
+<p><picture><source type="image/avif" srcset="/ballots/pRePIkbryZ-984.avif 984w"><source type="image/webp" srcset="/ballots/pRePIkbryZ-984.webp 984w"><img loading="lazy" decoding="async" src="/ballots/pRePIkbryZ-984.png" alt="" width="984" height="754"></picture></p>
+<p>The remainder require a positive ballot if they want to receive Mayoral funding.</p>
+<p>Most of the ballots that have taken place have resulted in residents voting in favour of demolition, but there are a number of problems with the ballot process:</p>
+<h1 id="the-issues">The issues</h1>
+<p>The main problems are as follows:</p>
+<ol>
+<li>
+<p>Ballots are being avoided altogether by schemes circumventing the requirement by not applying for Mayoral funding.</p>
+</li>
+<li>
+<p>Ballots are being repeated after a NO vote until a positive ballot is obtained. See for example the <a href="../estates/junipercrescent/">Juniper Crescent and Gilbeys Yard estate</a>.</p>
+</li>
+<li>
+<p>Temporary tenants, intermediate rent tenants and private rented sector tenants are excluded from being able to take part in ballots unless they have been on the Council's housing waiting list for at least one year.</p>
+</li>
+<li>
+<p>Significant resources are being allocated to YES vote campaigns while NO vote campaigns are entirely unfunded. In January 2022, it was revealed that Haringey Council spent a staggering £350k on its campaign for a YES vote in the <a href="../estates/lovelane/">Love Lane estate</a> ballot.</p>
+</li>
+<li>
+<p>Estates are being decanted well ahead of any ballot such that the majority of residents at the time of a ballot are temporary tenants, who are incentivised to vote YES on the promise of a secure tenancy. For example, temporary tenants numbered 226 on the <a href="../estates/lovelane/">Love Lane estate</a>, compared with 43 secure tenants and 25 resident leaseholders. These were offered secure tenancies at social rents if they vote in favour of redevelopment. Note that temporary tenants usually pay much higher rents than secure tenants.</p>
+</li>
+<li>
+<p>Residents are faced with a choice of redevelopment or continued decline in living conditions - refurbishment is never offered as an option on the ballot paper. ballot Landlord Offers routinely make it clear that if residents vote NO then their estates will receive only essential maintenance. They are also sometimes told that if they vote against the plans they will be subject to building on green space or rooftops.</p>
+</li>
+<li>
+<p>The majority of ballot Landlord Offers fail to comply with the Mayor's requirement to provide details of the proposed tenure mix. For those offers that do, in some cases the tenure mix is watered down later on as schemes enter the planning process - see the <a href="../estates/highlane/">High Lane estate</a> and the <a href="../estates/geoffreyclose/">Geoffrey Close estate</a> as examples of this. In both cases the proportion of social rented housing was reduced from the levels proposed in the ballot Landlord Offer.</p>
+</li>
+<li>
+<p>The majority of ballot Landlord Offers fail to provide detailed information about shared equity or equity loan schemes for leaseholders. These often end up being gatekept behind shared ownership (paying a proportion of rent) or accompanied by caveats in the small print which leave leaseholders worse off.</p>
+</li>
+</ol>
+<h1 id="demolition-or-disinvestment">Demolition or disinvestment?</h1>
+<p>One of the recurring elements when it comes to estate regeneration ballots is that residents are faced with the choice of demolition or disinvestment.</p>
+<p><picture><source type="image/avif" srcset="/ballots/T0fmm8QqHR-500.avif 500w"><source type="image/webp" srcset="/ballots/T0fmm8QqHR-500.webp 500w"><img loading="lazy" decoding="async" src="/ballots/T0fmm8QqHR-500.jpeg" alt="" width="500" height="341"></picture></p>
+<p>Here are several examples of such ballot choices:</p>
+<h2 id="douglas-bader-park-estate-barnet">Douglas Bader Park estate, Barnet</h2>
+<p>Residents on the <a href="../estates/douglasbaderpark/">Douglas Bader Park estate</a> in Colindale, were told that they would only see 'like-for-like' repairs <em>'as they are reported'</em> under the landlord's <em>'statutory duty'</em> if demolition is rejected:</p>
+<p><picture><source type="image/avif" srcset="/ballots/QbHbVPVBY8-1116.avif 1116w"><source type="image/webp" srcset="/ballots/QbHbVPVBY8-1116.webp 1116w"><img loading="lazy" decoding="async" src="/ballots/QbHbVPVBY8-1116.png" alt="" width="1116" height="200"></picture></p>
+<h2 id="juniper-crescent-estate-camden">Juniper Crescent estate, Camden</h2>
+<p>Similarly, residents of the <a href="../estates/junipercrescent/">Juniper Crescent and Gilbeys Yard estate</a> in Camden were told that their estate would only receive essential maintenance and repairs as reported if they voted no:</p>
+<p><picture><source type="image/avif" srcset="/ballots/uTMQfeCdk8-860.avif 860w"><source type="image/webp" srcset="/ballots/uTMQfeCdk8-860.webp 860w"><img loading="lazy" decoding="async" src="/ballots/uTMQfeCdk8-860.png" alt="" width="860" height="501"></picture></p>
+<h2 id="west-kentish-town-estate-camden">West Kentish Town estate, Camden</h2>
+<p>Residents of the <a href="../estates/westkentishtown/">West Kentish Town estate</a> in Camden were told that if they voted against regeneration then their estate wouldn't see any major improvement for at least another 5 to 10 years:</p>
+<p><picture><source type="image/avif" srcset="/ballots/VUZa2bKlNj-606.avif 606w"><source type="image/webp" srcset="/ballots/VUZa2bKlNj-606.webp 606w"><img loading="lazy" decoding="async" src="/ballots/VUZa2bKlNj-606.png" alt="" width="606" height="178"></picture></p>
+<h2 id="cambridge-road-estate-kingston">Cambridge Road estate, Kingston</h2>
+<p>Residents of the <a href="../estates/cambridgeroad/">Cambridge Road estate</a> in Kingston were told that if they voted against regeneration then their estate would only see 'essential maintenance' and repairs as reported:</p>
+<p><picture><source type="image/avif" srcset="/ballots/35gBuA5gd1-735.avif 735w"><source type="image/webp" srcset="/ballots/35gBuA5gd1-735.webp 735w"><img loading="lazy" decoding="async" src="/ballots/35gBuA5gd1-735.png" alt="" width="735" height="337"></picture></p>
+<h2 id="barnsbury-estate-islington">Barnsbury estate, Islington</h2>
+<p>Residents of the <a href="../estates/barnsbury/">Barnsbury estate</a> in Islington were told that if they voted against regeneration then ongoing problems like damp, overcrowding would not be tackled:</p>
+<p><picture><source type="image/avif" srcset="/ballots/BG41k59zzB-891.avif 891w"><source type="image/webp" srcset="/ballots/BG41k59zzB-891.webp 891w"><img loading="lazy" decoding="async" src="/ballots/BG41k59zzB-891.png" alt="" width="891" height="382"></picture></p>
+<h2 id="clichy-estate-tower-hamlets">Clichy estate, Tower Hamlets</h2>
+<p>Residents on the <a href="../estates/clichyestate/">Clichy estate</a> in Tower Hamlets residents were initially consulted on an 'infill' option as well as full redevelopment. But the <a href="https://www.whatdotheyknow.com/request/clichy_estate_ballot_paper_accom?nocache=incoming-1565802#incoming-1565802">information</a> sent to residents along with the ballot papers asked only whether they wanted full redevelopment or not.</p>
+<p>In addition, leaseholders were <a href="https://www.whatdotheyknow.com/request/658746/response/1565802/attach/4/Ballot%20information%20requested%201.pdf">told</a> that if they voted against redevelopment then they would be faced with major bills for any refurbishment.</p>
+<p>Finally, residents were told that if they don't vote for full redevelopment then they would likely have the infill option forced upon them anyway:</p>
+<p><picture><source type="image/avif" srcset="/ballots/gVKUanWs1t-863.avif 863w"><source type="image/webp" srcset="/ballots/gVKUanWs1t-863.webp 863w"><img loading="lazy" decoding="async" src="/ballots/gVKUanWs1t-863.png" alt="" width="863" height="369"></picture></p>
+<h2 id="teviot-estate-tower-hamlets">Teviot estate, Tower Hamlets</h2>
+<p>In Tower Hamlets, residents of the <a href="../estates/teviot/">Teviot estate</a> were similarly told that voting against regeneration would leave the estate in its current dilapidated state and face having new homes built on their roofs anyway:</p>
+<p><picture><source type="image/avif" srcset="/ballots/S2vMLfTYnx-335.avif 335w"><source type="image/webp" srcset="/ballots/S2vMLfTYnx-335.webp 335w"><img loading="lazy" decoding="async" src="/ballots/S2vMLfTYnx-335.png" alt="" width="335" height="382"></picture></p>
+<h2 id="wendling-estate-camden">Wendling estate, Camden</h2>
+<p>Camden's <a href="../estates/src/images/wendlingoffer.pdf">Landlord Offer</a> ahead of the ballot makes it clear that if residents vote against demolition the Council has no immediate plans to resolve the estate's ongoing maintenance issues.</p>
+<p><picture><source type="image/avif" srcset="/ballots/XumjGV-iKI-669.avif 669w"><source type="image/webp" srcset="/ballots/XumjGV-iKI-669.webp 669w"><img loading="lazy" decoding="async" src="/ballots/XumjGV-iKI-669.png" alt="" width="669" height="527"></picture></p>
+<p>Camden's pre-ballot information <a href="../estates/src/images/wendlingbooklet.pdf">booklets</a> go as far as saying that if residents voted against demolition, then it would be 2025 before the Council would 'consider' resuming cyclical maintenance works and that they would be <em>'considered against Camden's other priorities'</em> at that time.</p>
+<p><picture><source type="image/avif" srcset="/ballots/TGer4lCJHE-965.avif 965w"><source type="image/webp" srcset="/ballots/TGer4lCJHE-965.webp 965w"><img loading="lazy" decoding="async" src="/ballots/TGer4lCJHE-965.png" alt="" width="965" height="501"></picture></p>
+<h1 id="representative">Representative?</h1>
+<h2 id="high-path-estate-merton">High Path estate, Merton</h2>
+<p>Residents on Merton's <a href="../estates/highpath/">High Path estate</a> were balloted in 2016 as part of the Council's <a href="https://www.merton.gov.uk/assets/Documents/04_merton_report_of_consultation_stage_2_estates_local_plan.pdf">consultation</a>. Of the 608 households on the estate only 92 voted in the ballot and only 47 of these voted for demolition.</p>
+<p><picture><source type="image/avif" srcset="/ballots/gRGwDBoLx2-652.avif 652w"><source type="image/webp" srcset="/ballots/gRGwDBoLx2-652.webp 652w"><img loading="lazy" decoding="async" src="/ballots/gRGwDBoLx2-652.png" alt="" width="652" height="352"></picture></p>
+<p>Because the High Path estate was balloted before the introduction of the Mayor's ballot requirement and £21m GLA had already been agreed in principle, the Mayor was able to exempt the scheme along with 50 other estates which he says don't need to comply with the ballot requirements.</p>
+<h2 id="church-street-estate-westminster">Church Street estate, Westminster</h2>
+<p>Residents of Westminster's <a href="../estates/churchstreet/">Church street</a> estate were <a href="../estates/src/images/church_street_news_may.pdf">balloted</a> in 2013, with 87% of eligible residents voting in favour of redevelopment - albeit only 25% of residents turned out for the vote.</p>
+<p>The scheme underlying the ballot was then shelved in 2015 and a new masterplan was drawn up.</p>
+<p>In 2018, Westminster Council announced that it would be holding any more ballots for further phases of the scheme. This was met by <a href="https://www.westminsterextra.co.uk/article/council-chiefs-at-war-with-mayor-khan-over-estate-demolition-vote">protest</a> but the scheme continues to receive funding from the Mayor.</p>
+
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+		</footer>
+
+		<!-- This page `/ballots/` was built on 2024-11-14T09:56:25.279Z -->
+		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+	</body>
+</html>
