@@ -5,7 +5,7 @@ tags: enfield
 location: '[51.612022,-0.066698]'
 ballot: Approved 
 landlord: Enfield Council
-developer: null
+developer:
 itla: Source Partnership
 total: 795
 planning: Approved
@@ -31,7 +31,9 @@ In September 2021, the Council [applied for a scoping opinion](https://planninga
 
 A ballot of estate residents was held in November 2021. 78% of eligible residents voted in favour of redevelopment on an 85% turnout.
 
-A planning application was approved in September 2022 for 1900 new homes.
+The Mayor has pledged £150m grant funding to the scheme and Enfield approved its own planning application in September 2022 for 1900 new homes, half of which will be 'affordable'.
+
+In July 2024, it was [reported](https://www.constructionenquirer.com/2024/07/23/go-ahead-for-850m-north-london-estate-rebuild/) that Enfield Council is seeking a development partner for the scheme.
 
 ---
 
