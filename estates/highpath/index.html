@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ESTATE WATCH</title>
+		<meta name="description" content="Monitoring London&#39;s estates under threat of demolition.">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="ESTATE WATCH">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Keep images within the border */
+img {
+ max-width: 100%;
+ height: auto;
+ filter: drop-shadow(0 0 0.75rem rgb(180, 152, 157));
+}
+  
+map {
+	width: 100% 
+	height: 180px;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<picture><source type="image/avif" srcset="/estates/highpath/5qD3cKtzaH-16.avif 16w"><source type="image/webp" srcset="/estates/highpath/5qD3cKtzaH-16.webp 16w"><img loading="lazy" decoding="async" width="16" alt="Magnifying glass icon" src="/estates/highpath/5qD3cKtzaH-16.png" height="16"></picture><a href="/" class="home-link">ESTATE WATCH</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/saveourestates/">Save our estates!</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/resources/">Resources</a></li>
+					<li class="nav-item"><a href="/blog/">Latest</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<h1 id="high-path-estate">High Path estate</h1>
+
+<ul class="post-metadata">
+	<li><a href="/tags/merton/" class="post-tag">Merton</a></li>
+</ul>
+
+<pre class="language-yaml" tabindex="0"><code class="language-yaml"><span class="token key atrule">Homes under threat</span><span class="token punctuation">:</span> <span class="token number">608</span>
+<span class="token key atrule">Landlord</span><span class="token punctuation">:</span> Clarion
+<span class="token key atrule">Ballot Status</span><span class="token punctuation">:</span> Exempt
+<span class="token key atrule">Planning Status</span><span class="token punctuation">:</span> Approved
+<span class="token key atrule">Developer</span><span class="token punctuation">:</span> Clarion
+<span class="token key atrule">Architect</span><span class="token punctuation">:</span> PRP</code></pre>
+
+<p><picture><source type="image/avif" srcset="/estates/highpath/scEux8liKd-1024.avif 1024w"><source type="image/webp" srcset="/estates/highpath/scEux8liKd-1024.webp 1024w"><img loading="lazy" decoding="async" src="/estates/highpath/scEux8liKd-1024.jpeg" alt="High path estate image" width="1024" height="683"></picture></p>
+<p>In Nov 2018, the Mayor approved the demolition of 608 homes on Merton's High Path estate, to be replaced by 1,570 homes of which 20% affordable - all at up to 80% market rent or LHA rates (whichever is lower).</p>
+<p>The estate is located next to South Wimbledon underground station and comprises three 12-storey residential towers, a number of 2 to 4-storey low rise blocks, some houses and some sheltered flats. A small convenience store and church are also located within the estate. 251 of the 608 homes on the estate are under leasehold ownership.</p>
+<p>The Mayor's initial <a href="https://www.london.gov.uk/sites/default/files/public%3A//public%3A//PAWS/media_id_382375///high_path_estate_report.pdf">stage 1 report</a> said that <em>&quot;84% of current tenancies are on a social rent basis, with the balance comprising affordable rent tenancies set at 62.5% of market rent.&quot;</em> (para 24)</p>
+<p>The <a href="/images/mertons106.pdf">section 106 agreement</a> secures the right of any tenants who wish to return to the estate to do so under a social rented tenancy, but enables subsequent re-lets at affordable rent (up to 80 % market rent or LHA rates - whichever is lower).</p>
+<p>Phase 1 of the scheme is currently underway and phase 2 was granted detailed planning permission in Sep 2019. Consultation for the detailed plans of phase 3 has just started.</p>
+<p>The scheme is being progressed by Clarion Housing Association (formerly Circle/Affinity Sutton), which took over the Council's housing estate under a 2010 stock transfer agreement. The agreement required Clarion to bring the homes up to Decent Homes Standard by the end of 2015, but Clarion subsequently <a href="https://www.merton.gov.uk/assets/Documents/04_merton_report_of_consultation_stage_2_estates_local_plan.pdf">persuaded</a> the Council to agree to waiver this requirement for two estates which it claimed would benefit from full redevelopment - High Path estate and the <a href="/estates/merton/eastfields">Eastfields estate</a> and the partial redevelopment of the smaller Ravensbury estates.</p>
+<p><picture><source type="image/avif" srcset="/estates/highpath/mxnDyed6XW-762.avif 762w"><source type="image/webp" srcset="/estates/highpath/mxnDyed6XW-762.webp 762w"><img loading="lazy" decoding="async" src="/estates/highpath/mxnDyed6XW-762.png" alt="High path estate image" width="762" height="655"></picture></p>
+<p>The three Merton schemes have been <a href="https://planning.merton.gov.uk/MVM.DMS/Planning%20Application/1000098000/1000098159/17P1721_Clarions%20Financial%20Viability%20Appraisal%20Summary%20Report.pdf">awarded</a> £43m funding by the Mayor from his current affordable housing programme (of which £21m for the High Path estate) and have been <a href="https://www.london.gov.uk/sites/default/files/12.04.19_for_website_-_list_of_exemptions.pdf">granted an exemption</a> from his requirement to ballot residents.</p>
+<p><picture><source type="image/avif" srcset="/estates/highpath/cSyCIYWS1j-883.avif 883w"><source type="image/webp" srcset="/estates/highpath/cSyCIYWS1j-883.webp 883w"><img loading="lazy" decoding="async" src="/estates/highpath/cSyCIYWS1j-883.png" alt="High path estate image" width="883" height="326"></picture></p>
+<p>Residents were given the chance to express their views as part of Merton's <a href="https://www.merton.gov.uk/assets/Documents/04_merton_report_of_consultation_stage_2_estates_local_plan.pdf">consultation</a> on the scheme. Of the 92 residents who responded, only 41 respondents favoured “entire redevelopment”, 24 preferred “partial redevelopment”, and another 24 chose refurbishment.</p>
+<p><picture><source type="image/avif" srcset="/estates/highpath/gRGwDBoLx2-652.avif 652w"><source type="image/webp" srcset="/estates/highpath/gRGwDBoLx2-652.webp 652w"><img loading="lazy" decoding="async" src="/estates/highpath/gRGwDBoLx2-652.png" alt="High path estate image" width="652" height="352"></picture></p>
+<p>The <a href="/images/highpathsavills.pdf">options appraisal</a> was carried out by Savills and made several interesting conclusions, firstly that residents were satisfied with their current homes: <em>&quot;There is a strong community spirit and many of the residents of the High Path Estate enjoy living on the Estate (evidenced by low turnover of tenants, as well as feedback received from residents.)&quot;</em> - (para 2.1).</p>
+<p>Secondly, that whilst the cost of redevelopment was higher than that of refurbishment, the difference wasn't disclosed because of 'commercial confidentiality':</p>
+<p><picture><source type="image/avif" srcset="/estates/highpath/aHwbxhxrCs-785.avif 785w"><source type="image/webp" srcset="/estates/highpath/aHwbxhxrCs-785.webp 785w"><img loading="lazy" decoding="async" src="/estates/highpath/aHwbxhxrCs-785.png" alt="High path estate image" width="785" height="296"></picture></p>
+<p>Savills was later also instructed to produce a <a href="https://planning.merton.gov.uk/MVM.DMS/Planning%20Application/1000098000/1000098159/17P1721_Clarions%20Financial%20Viability%20Appraisal%20Summary%20Report.pdf">financial viability appraisal</a> justifying Clarion's claim that it couldn't provide a policy-compliant level of affordable housing for the scheme.</p>
+<p>It is worth noting that the three merton schemes provide something that no other regeneration scheme has offered - namely, a very generous <a href="http://35percent.org/img/mertonoffer.pdf">re-housing offer</a> to leaseholders which gives them full equity of a replacement home after 11 years. Although these have reported that the replacement homes offered are smaller than their current homes.</p>
+<p>In 2023, a new Outline Planning Application (OPA) for the remaining phases (4-7B) of the estate was submitted and approved. This permitted the further densification of development in the later phases of the scheme, with the express intention of 'optimising development capacity'.</p>
+<p>This incresed the permitted development to include a total of 2,272 homes of which 493 are described as 'social/affordable rent':</p>
+<p><picture><source type="image/avif" srcset="/estates/highpath/HjdnazyiTy-902.avif 902w"><source type="image/webp" srcset="/estates/highpath/HjdnazyiTy-902.webp 902w"><img loading="lazy" decoding="async" src="/estates/highpath/HjdnazyiTy-902.png" alt="High path estate image" width="902" height="468"></picture></p>
+<p>The <a href="https://planning.merton.gov.uk/MVM.DMS/Planning%20Application/1000120000/1000120762/22P3686_Section%20106%20Agreement.pdf">revised section 106 agreement</a> replaces the previous definition of affordable housing with a much looser definition:</p>
+<p><picture><source type="image/avif" srcset="/estates/highpath/1G7_VB9_dX-796.avif 796w"><source type="image/webp" srcset="/estates/highpath/1G7_VB9_dX-796.webp 796w"><img loading="lazy" decoding="async" src="/estates/highpath/1G7_VB9_dX-796.png" alt="High path estate image" width="796" height="395"></picture></p>
+<p>This is confirmed in the scheme's <a href="https://planning.merton.gov.uk/MVM.DMS/Planning%20Application/1000120000/1000120762/22P3686_Financial%20Viability%20Assessment%2003.pdf">viability assessment</a> which says <em>&quot;We have been advised by Clarion to assume that all rented homes will be let as Social Rent tenure homes, although note that the Section 106 agreement allows for a more flexible range of tenures to be provided.&quot;</em> (para 6.2.4)</p>
+<hr>
+<p><strong>Links:</strong></p>
+<p>Merton's planning application docs - <a href="https://planning.merton.gov.uk/MVM/Online/DMS/DocumentViewer.aspx?pk=1000098159&amp;SearchType=Planning%20Application">ref:17/P1721</a></p>
+<p>Mayor's <a href="https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/high-path-estate">stage 2 report</a> - approved Nov 2018</p>
+<p><a href="https://www.myclarionhousing.com/-/media/57A74ED432A347FE8636BFE20B10AB19.pdf?la=en&amp;sc_revision=de07b12b190e4b71a6bfde09c29e333c&amp;hash=9852FCA77FDFA41CC719944E317C4CB5E38CD263&amp;hash=9852FCA77FDFA41CC719944E317C4CB5E38CD263">Exhibition boards</a> for the consultation for phase 2 of the scheme.</p>
+<p>Revised outline application planning docs: <a href="https://planning.merton.gov.uk/MVM/Online/DMS/DocumentViewer.aspx?pk=1000120762&amp;SearchType=Planning%20Application">https://planning.merton.gov.uk/MVM/Online/DMS/DocumentViewer.aspx?pk=1000120762&amp;SearchType=Planning Application</a> (Ref:22/P3686)</p>
+<p>2022 Compulsory Purchase Order Statement of Reasons: <a href="https://www.merton.gov.uk/system/files/2022-06/Statement%20of%20Reasons%20-%20High%20Path%20No1-%20PDF.pdf">https://www.merton.gov.uk/system/files/2022-06/Statement of Reasons - High Path No1- PDF.pdf</a></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.414691,-0.190444], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.414691,-0.190444], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
+<iframe width="610" height="325" src="https://www.youtube.com/embed/1pe_DEn1TWc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<iframe width="610" height="325" src="https://www.youtube.com/embed/OfMMGLSuzYw?si=lQ4-5SuHPkkhjkoM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+		</footer>
+
+		<!-- This page `/estates/highpath/` was built on 2024-11-14T15:14:59.787Z -->
+		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+	</body>
+</html>

@@ -1,0 +1,658 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Tagged &#39;ealing&#39;</title>
+		<meta name="description" content="Monitoring London&#39;s estates under threat of demolition.">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="ESTATE WATCH">
+		
+		<style>.postlist { counter-reset: start-from NaN }
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Keep images within the border */
+img {
+ max-width: 100%;
+ height: auto;
+ filter: drop-shadow(0 0 0.75rem rgb(180, 152, 157));
+}
+  
+map {
+	width: 100% 
+	height: 180px;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<picture><source type="image/avif" srcset="/tags/ealing/5qD3cKtzaH-16.avif 16w"><source type="image/webp" srcset="/tags/ealing/5qD3cKtzaH-16.webp 16w"><img loading="lazy" decoding="async" width="16" alt="Magnifying glass icon" src="/tags/ealing/5qD3cKtzaH-16.png" height="16"></picture><a href="/" class="home-link">ESTATE WATCH</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/saveourestates/">Save our estates!</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/resources/">Resources</a></li>
+					<li class="nav-item"><a href="/blog/">Latest</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+<h1 id="tagged-ealing">Tagged “Ealing”</h1>
+
+
+
+<ol reversed="" class="postlist">
+
+	<li class="estateslist-item">
+		<a href="/estates/airways/" class="postlist-link">Airways estate</a>
+		 Ealing
+		<a href="/estates/airways/">
+		<picture><source type="image/avif" srcset="/tags/ealing/zETKzQPkOS-610.avif 610w"><source type="image/webp" srcset="/tags/ealing/zETKzQPkOS-610.webp 610w"><img loading="lazy" decoding="async" src="/tags/ealing/zETKzQPkOS-610.png" alt="header image" width="610" height="338"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.536168,-0.370230], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/estates/airways/" class="postlist-link">Airways estate</a>');
+</script>
+
+	<li class="estateslist-item">
+		<a href="/estates/brookhouse/" class="postlist-link">Brook House</a>
+		 Ealing
+		<a href="/estates/brookhouse/">
+		<picture><source type="image/avif" srcset="/tags/ealing/rnHH1GOjtO-663.avif 663w"><source type="image/webp" srcset="/tags/ealing/rnHH1GOjtO-663.webp 663w"><img loading="lazy" decoding="async" src="/tags/ealing/rnHH1GOjtO-663.png" alt="header image" width="663" height="394"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.503540,-0.280070], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/estates/brookhouse/" class="postlist-link">Brook House</a>');
+</script>
+
+	<li class="estateslist-item">
+		<a href="/estates/copleyclose/" class="postlist-link">Copley Close estate</a>
+		 Ealing
+		<a href="/estates/copleyclose/">
+		<picture><source type="image/avif" srcset="/tags/ealing/dpGaO_nnor-639.avif 639w"><source type="image/webp" srcset="/tags/ealing/dpGaO_nnor-639.webp 639w"><img loading="lazy" decoding="async" src="/tags/ealing/dpGaO_nnor-639.png" alt="header image" width="639" height="429"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.520018,-0.330991], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/estates/copleyclose/" class="postlist-link">Copley Close estate</a>');
+</script>
+
+	<li class="estateslist-item">
+		<a href="/estates/deancourt/" class="postlist-link">Dean Court</a>
+		 Ealing
+		<a href="/estates/deancourt/">
+		<picture><source type="image/avif" srcset="/tags/ealing/exkCZmp0BX-628.avif 628w"><source type="image/webp" srcset="/tags/ealing/exkCZmp0BX-628.webp 628w"><img loading="lazy" decoding="async" src="/tags/ealing/exkCZmp0BX-628.png" alt="header image" width="628" height="417"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.517792,-0.263030], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/estates/deancourt/" class="postlist-link">Dean Court</a>');
+</script>
+
+	<li class="estateslist-item">
+		<a href="/estates/friarypark/" class="postlist-link">Friary Park estate</a>
+		 Ealing
+		<a href="/estates/friarypark/">
+		<picture><source type="image/avif" srcset="/tags/ealing/TeywjrOWwj-648.avif 648w"><source type="image/webp" srcset="/tags/ealing/TeywjrOWwj-648.webp 648w"><img loading="lazy" decoding="async" src="/tags/ealing/TeywjrOWwj-648.png" alt="header image" width="648" height="526"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.516962,-0.264300], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/estates/friarypark/" class="postlist-link">Friary Park estate</a>');
+</script>
+
+	<li class="estateslist-item">
+		<a href="/estates/golflinks/" class="postlist-link">Golf Links estate</a>
+		 Ealing
+		<a href="/estates/golflinks/">
+		<picture><source type="image/avif" srcset="/tags/ealing/BuOlFBKWGR-640.avif 640w"><source type="image/webp" srcset="/tags/ealing/BuOlFBKWGR-640.webp 640w"><img loading="lazy" decoding="async" src="/tags/ealing/BuOlFBKWGR-640.jpeg" alt="header image" width="640" height="480"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.517047,-0.357820], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/estates/golflinks/" class="postlist-link">Golf Links estate</a>');
+</script>
+
+	<li class="estateslist-item">
+		<a href="/estates/grangecourt/" class="postlist-link">Grange Court estate</a>
+		 Ealing
+		<a href="/estates/grangecourt/">
+		<picture><source type="image/avif" srcset="/tags/ealing/BxEL-YI4EN-724.avif 724w"><source type="image/webp" srcset="/tags/ealing/BxEL-YI4EN-724.webp 724w"><img loading="lazy" decoding="async" src="/tags/ealing/BxEL-YI4EN-724.png" alt="header image" width="724" height="283"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.537050,-0.397191], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/estates/grangecourt/" class="postlist-link">Grange Court estate</a>');
+</script>
+
+	<li class="estateslist-item">
+		<a href="/estates/greenmanlane/" class="postlist-link">Green Man Lane estate</a>
+		 Ealing
+		<a href="/estates/greenmanlane/">
+		<picture><source type="image/avif" srcset="/tags/ealing/rntfnvAFZl-1069.avif 1069w"><source type="image/webp" srcset="/tags/ealing/rntfnvAFZl-1069.webp 1069w"><img loading="lazy" decoding="async" src="/tags/ealing/rntfnvAFZl-1069.jpeg" alt="header image" width="1069" height="727"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.511542,-0.325448], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/estates/greenmanlane/" class="postlist-link">Green Man Lane estate</a>');
+</script>
+
+	<li class="estateslist-item">
+		<a href="/estates/havelock/" class="postlist-link">Havelock estate</a>
+		 Ealing
+		<a href="/estates/havelock/">
+		<picture><source type="image/avif" srcset="/tags/ealing/MSTpja5wc3-1024.avif 1024w"><source type="image/webp" srcset="/tags/ealing/MSTpja5wc3-1024.webp 1024w"><img loading="lazy" decoding="async" src="/tags/ealing/MSTpja5wc3-1024.jpeg" alt="header image" width="1024" height="697"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.500392,-0.370627], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/estates/havelock/" class="postlist-link">Havelock estate</a>');
+</script>
+
+	<li class="estateslist-item">
+		<a href="/estates/highlane/" class="postlist-link">High Lane estate</a>
+		 Ealing
+		<a href="/estates/highlane/">
+		<picture><source type="image/avif" srcset="/tags/ealing/2GDyHLBqbs-617.avif 617w"><source type="image/webp" srcset="/tags/ealing/2GDyHLBqbs-617.webp 617w"><img loading="lazy" decoding="async" src="/tags/ealing/2GDyHLBqbs-617.png" alt="header image" width="617" height="513"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.519802,-0.344496], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/estates/highlane/" class="postlist-link">High Lane estate</a>');
+</script>
+
+	<li class="estateslist-item">
+		<a href="/estates/islipmanor/" class="postlist-link">Islip Manor estate</a>
+		 Ealing
+		<a href="/estates/islipmanor/">
+		<picture><source type="image/avif" srcset="/tags/ealing/7to9-ynrge-593.avif 593w"><source type="image/webp" srcset="/tags/ealing/7to9-ynrge-593.webp 593w"><img loading="lazy" decoding="async" src="/tags/ealing/7to9-ynrge-593.png" alt="header image" width="593" height="346"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.547140,-0.381975], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/estates/islipmanor/" class="postlist-link">Islip Manor estate</a>');
+</script>
+
+	<li class="estateslist-item">
+		<a href="/estates/lambourneclose/" class="postlist-link">Lambourne Close estate</a>
+		 Ealing
+		<a href="/estates/lambourneclose/">
+		<picture><source type="image/avif" srcset="/tags/ealing/aixQ07FFOY-738.avif 738w"><source type="image/webp" srcset="/tags/ealing/aixQ07FFOY-738.webp 738w"><img loading="lazy" decoding="async" src="/tags/ealing/aixQ07FFOY-738.png" alt="header image" width="738" height="351"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.503159,-0.335400], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/estates/lambourneclose/" class="postlist-link">Lambourne Close estate</a>');
+</script>
+
+	<li class="estateslist-item">
+		<a href="/estates/medlarfarm/" class="postlist-link">Medlar Farm estate</a>
+		 Ealing
+		<a href="/estates/medlarfarm/">
+		<picture><source type="image/avif" srcset="/tags/ealing/NPsrNY_lI2-610.avif 610w"><source type="image/webp" srcset="/tags/ealing/NPsrNY_lI2-610.webp 610w"><img loading="lazy" decoding="async" src="/tags/ealing/NPsrNY_lI2-610.png" alt="header image" width="610" height="430"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.535476,-0.389080], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/estates/medlarfarm/" class="postlist-link">Medlar Farm estate</a>');
+</script>
+
+	<li class="estateslist-item">
+		<a href="/estates/nevilleclose/" class="postlist-link">Neville Close estate</a>
+		 Ealing
+		<a href="/estates/nevilleclose/">
+		<picture><source type="image/avif" srcset="/tags/ealing/7LVUV9UZWI-720.avif 720w"><source type="image/webp" srcset="/tags/ealing/7LVUV9UZWI-720.webp 720w"><img loading="lazy" decoding="async" src="/tags/ealing/7LVUV9UZWI-720.png" alt="header image" width="720" height="420"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.505661,-0.266707], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/estates/nevilleclose/" class="postlist-link">Neville Close estate</a>');
+</script>
+
+	<li class="estateslist-item">
+		<a href="/estates/oaktreecourt/" class="postlist-link">Oaktree Court</a>
+		 Ealing
+		<a href="/estates/oaktreecourt/">
+		<picture><source type="image/avif" srcset="/tags/ealing/59HCzI-2wH-676.avif 676w"><source type="image/webp" srcset="/tags/ealing/59HCzI-2wH-676.webp 676w"><img loading="lazy" decoding="async" src="/tags/ealing/59HCzI-2wH-676.png" alt="header image" width="676" height="362"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.514864,-0.272706], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/estates/oaktreecourt/" class="postlist-link">Oaktree Court</a>');
+</script>
+
+	<li class="estateslist-item">
+		<a href="/estates/southacton/" class="postlist-link">South Acton estate</a>
+		 Ealing
+		<a href="/estates/southacton/">
+		<picture><source type="image/avif" srcset="/tags/ealing/i5m4ao3BLd-1024.avif 1024w"><source type="image/webp" srcset="/tags/ealing/i5m4ao3BLd-1024.webp 1024w"><img loading="lazy" decoding="async" src="/tags/ealing/i5m4ao3BLd-1024.jpeg" alt="header image" width="1024" height="683"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.502295,-0.272799], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/estates/southacton/" class="postlist-link">South Acton estate</a>');
+</script>
+
+	<li class="estateslist-item">
+		<a href="/estates/toplocks/" class="postlist-link">Toplocks estate</a>
+		 Ealing
+		<a href="/estates/toplocks/">
+		<picture><source type="image/avif" srcset="/tags/ealing/cVB94OW2iE-610.avif 610w"><source type="image/webp" srcset="/tags/ealing/cVB94OW2iE-610.webp 610w"><img loading="lazy" decoding="async" src="/tags/ealing/cVB94OW2iE-610.png" alt="header image" width="610" height="375"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.501843,-0.364982], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/estates/toplocks/" class="postlist-link">Toplocks estate</a>');
+</script>
+
+	<li class="estateslist-item">
+		<a href="/estates/trinityway/" class="postlist-link">Trinity Way estate</a>
+		 Ealing
+		<a href="/estates/trinityway/">
+		<picture><source type="image/avif" srcset="/tags/ealing/aOvo0sYzpq-693.avif 693w"><source type="image/webp" srcset="/tags/ealing/aOvo0sYzpq-693.webp 693w"><img loading="lazy" decoding="async" src="/tags/ealing/aOvo0sYzpq-693.png" alt="header image" width="693" height="425"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.512025,-0.247614], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/estates/trinityway/" class="postlist-link">Trinity Way estate</a>');
+</script>
+
+	<li class="estateslist-item">
+		<a href="/estates/yeadinglane/" class="postlist-link">Yeading Lane 1 estate</a>
+		 Ealing
+		<a href="/estates/yeadinglane/">
+		<picture><source type="image/avif" srcset="/tags/ealing/e8AkdBDUEX-610.avif 610w"><source type="image/webp" srcset="/tags/ealing/e8AkdBDUEX-610.webp 610w"><img loading="lazy" decoding="async" src="/tags/ealing/e8AkdBDUEX-610.png" alt="header image" width="610" height="387"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.533307,-0.394019], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/estates/yeadinglane/" class="postlist-link">Yeading Lane 1 estate</a>');
+</script>
+
+	<li class="estateslist-item">
+		<a href="/estates/yeadinglane2/" class="postlist-link">Yeading Lane 2 estate</a>
+		 Ealing
+		<a href="/estates/yeadinglane2/">
+		<picture><source type="image/avif" srcset="/tags/ealing/U6OE1QnaOP-633.avif 633w"><source type="image/webp" srcset="/tags/ealing/U6OE1QnaOP-633.webp 633w"><img loading="lazy" decoding="async" src="/tags/ealing/U6OE1QnaOP-633.png" alt="header image" width="633" height="325"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.531224,-0.381707], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/estates/yeadinglane2/" class="postlist-link">Yeading Lane 2 estate</a>');
+</script>
+
+</ol>
+
+
+<p>See <a href="/tags/">all boroughs</a>.</p>
+
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+		</footer>
+
+		<!-- This page `/tags/ealing/` was built on 2024-11-14T15:27:38.214Z -->
+		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+	</body>
+</html>

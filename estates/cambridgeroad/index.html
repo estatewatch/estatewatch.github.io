@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ESTATE WATCH</title>
+		<meta name="description" content="Monitoring London&#39;s estates under threat of demolition.">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="ESTATE WATCH">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Keep images within the border */
+img {
+ max-width: 100%;
+ height: auto;
+ filter: drop-shadow(0 0 0.75rem rgb(180, 152, 157));
+}
+  
+map {
+	width: 100% 
+	height: 180px;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<picture><source type="image/avif" srcset="/estates/cambridgeroad/5qD3cKtzaH-16.avif 16w"><source type="image/webp" srcset="/estates/cambridgeroad/5qD3cKtzaH-16.webp 16w"><img loading="lazy" decoding="async" width="16" alt="Magnifying glass icon" src="/estates/cambridgeroad/5qD3cKtzaH-16.png" height="16"></picture><a href="/" class="home-link">ESTATE WATCH</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/saveourestates/">Save our estates!</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/resources/">Resources</a></li>
+					<li class="nav-item"><a href="/blog/">Latest</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<h1 id="cambridge-road-estate">Cambridge Road estate</h1>
+
+<ul class="post-metadata">
+	<li><a href="/tags/kingston/" class="post-tag">Kingston</a></li>
+</ul>
+
+<pre class="language-yaml" tabindex="0"><code class="language-yaml"><span class="token key atrule">Homes under threat</span><span class="token punctuation">:</span> <span class="token number">820</span>
+<span class="token key atrule">Landlord</span><span class="token punctuation">:</span> RB Kingston
+<span class="token key atrule">Ballot Status</span><span class="token punctuation">:</span> Approved
+<span class="token key atrule">Planning Status</span><span class="token punctuation">:</span> Approved
+<span class="token key atrule">Developer</span><span class="token punctuation">:</span> Countryside Properties
+
+<span class="token key atrule">Itla</span><span class="token punctuation">:</span> PPCR</code></pre>
+
+<p><picture><source type="image/avif" srcset="/estates/cambridgeroad/PaFeljduVs-993.avif 993w"><source type="image/webp" srcset="/estates/cambridgeroad/PaFeljduVs-993.webp 993w"><img loading="lazy" decoding="async" src="/estates/cambridgeroad/PaFeljduVs-993.jpeg" alt="Cambridge road estate image" width="993" height="699"></picture></p>
+<p>820 homes have been earmarked for demoliton on Kingston's Cambridge Road estate.
+In October 2016, Kingston published a <a href="https://www.kingston.gov.uk/downloads/download/611/direction_of_travel_for_kingston">Direction of Travel document</a>, prepared by Kingston Council in collaboration with the Mayor of London, which identified potential opportunities for growth, infrastructure and investment in the borough. The Cambridge Road estate was one of the sites identified for potential redevelopment.</p>
+<p>In November 2019, Kingston signed a development agreement with developer Countryside Properties for the redevelopment of the estate.</p>
+<p>In March 2020, residents were balloted on the redevelopment proposals with the majority of residents voting in favour of redevelopment.</p>
+<p>This was perhaps the result of Kingston's <a href="/images/cambridgeroadoffer.pdf">'Landlord offer'</a> to residents ahead of the ballot, which told them that if they voted against demolition then they would only see essential maintenance to their estate and repairs as reported.</p>
+<p><picture><source type="image/avif" srcset="/estates/cambridgeroad/35gBuA5gd1-735.avif 735w"><source type="image/webp" srcset="/estates/cambridgeroad/35gBuA5gd1-735.webp 735w"><img loading="lazy" decoding="async" src="/estates/cambridgeroad/35gBuA5gd1-735.png" alt="Cambridge road estate image" width="735" height="337"></picture></p>
+<p>In November 2020, the developer submitted a <a href="https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=documents&amp;keyVal=QK385KNH00H00">planning application</a> seeking approval for demolition of the estate's 832 existing homes and their replacement by 2,170 homes of which just 33.5% affordable housing.</p>
+<p>This is in contradiction to the Council's own policy and Mayor's policy which both require a minimum of 50% affordable housing on public-owned land. The Mayor's <a href="https://gla.force.com/pr/s/planning-application/a0i4J000002UOhyQAG/20206860?tabset-c2f3b=2">stage 1 report</a> for the planning application says nothing about his 50% affordable housing requirement or the fact that the application falls short of it.</p>
+<p>The planning application says that 767 of the 2,170 new homes will be social rent but these will be predominantly smaller flats (531 of the social rented homes will be 1 or 2-beds). It says that in addition, approximately 100 new homes will be earmarked as shared equity homes for the estate's leaseholders - depending on take up.</p>
+<p>The application also proposes 848 new parking spaces despite Norbiton train station being located just 400m to the north of the estate.</p>
+<p>The <a href="https://publicaccess.kingston.gov.uk/online-applications/files/B700018DECE543EDE307FE31F2767E57/pdf/20_02942_FUL-FINANCIAL_VIABILITY_APPRAISAL_-DEC._2020-4589185.pdf">viability appraisal</a> submitted with the planning application discloses some interesting information about the financing of the scheme.</p>
+<p>Kingston Council is stumping up nearly £200M to see this scheme through. This includes:</p>
+<ul>
+<li>£80M in leaseholder buyback costs</li>
+<li>£11.2M in planning costs</li>
+<li>£130M for the social rented units of which £60M grant funding.</li>
+<li>£29M for the shared equity units for leaseholders</li>
+</ul>
+<p>Combined with £60M funding agreed by the Mayor, that's £250M of public money to replace a Council estate of 832 homes - more than £300k is being spent demolishing and replacing each home.</p>
+<p>Despite it being one of the Mayor's requirements for estate redevelopments, the application provides no cost/benefit analysis of refurbishment vs demolition. So it is impossible to say whether these public funds could be better spent exploring the <a href="http://estatewatch.london/refurbishment">environmental, social and economic benefits of refurbishment</a>. Neither does the application say anything about the Mayor's requirement that demolition is pursued as a last resort. The Mayor's <a href="https://gla.force.com/pr/s/planning-application/a0i4J000002UOhyQAG/20206860?tabset-c2f3b=2">stage 1 report</a> for the scheme simply says this:</p>
+<p><picture><source type="image/avif" srcset="/estates/cambridgeroad/q_XqWyj5dN-785.avif 785w"><source type="image/webp" srcset="/estates/cambridgeroad/q_XqWyj5dN-785.webp 785w"><img loading="lazy" decoding="async" src="/estates/cambridgeroad/q_XqWyj5dN-785.png" alt="Cambridge road estate image" width="785" height="177"></picture></p>
+<p>Another interesting point noted from the planning application is that the developer is going to pay £1.8M in carbon offset payments, because the new homes won't be as energy efficient as the Mayor's zero carbon planning policies require.</p>
+<p>The planning application's <a href="https://publicaccess.kingston.gov.uk/online-applications/files/7E2224EA3ACA29219051C7CA067126FF/pdf/20_02942_FUL-CRE_-_ENERGY_STATEMENT_PART_1-4584307.pdf">Energy Statement</a> acknowledges that the development will result in over 55,000 tonnes of CO2 emissions in the construction of the new homes alone.</p>
+<p>You can view the planning application documents on Kingston's planning portal <a href="https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=documents&amp;keyVal=QK385KNH00H00">here (ref:20/02942)</a>.</p>
+<p>The Mayor's stage 1 report is available <a href="https://gla.force.com/pr/s/planning-application/a0i4J000002UOhyQAG/20206860?tabset-c2f3b=2">here.</a></p>
+<p>The planning application was approved in January 2022.</p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.408046,-0.287284], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.408046,-0.287284], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
+<p>![Cambridge road estate image](src/images/cambridge4.jpg&quot;, &quot;Cambridge Rd estate&quot; %}
+![Cambridge road estate image](src/images/croadaerial.png&quot;, &quot;Cambridge Rd estate aerial&quot; %}</p>
+
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+		</footer>
+
+		<!-- This page `/estates/cambridgeroad/` was built on 2024-11-14T15:14:59.779Z -->
+		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+	</body>
+</html>

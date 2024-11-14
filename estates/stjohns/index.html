@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ESTATE WATCH</title>
+		<meta name="description" content="Monitoring London&#39;s estates under threat of demolition.">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="ESTATE WATCH">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Keep images within the border */
+img {
+ max-width: 100%;
+ height: auto;
+ filter: drop-shadow(0 0 0.75rem rgb(180, 152, 157));
+}
+  
+map {
+	width: 100% 
+	height: 180px;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<picture><source type="image/avif" srcset="/estates/stjohns/5qD3cKtzaH-16.avif 16w"><source type="image/webp" srcset="/estates/stjohns/5qD3cKtzaH-16.webp 16w"><img loading="lazy" decoding="async" width="16" alt="Magnifying glass icon" src="/estates/stjohns/5qD3cKtzaH-16.png" height="16"></picture><a href="/" class="home-link">ESTATE WATCH</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/saveourestates/">Save our estates!</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/resources/">Resources</a></li>
+					<li class="nav-item"><a href="/blog/">Latest</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<h1 id="st-johns-estate">St John&#39;s estate</h1>
+
+<ul class="post-metadata">
+	<li><a href="/tags/towerhamlets/" class="post-tag">Tower Hamlets</a></li>
+</ul>
+
+<pre class="language-yaml" tabindex="0"><code class="language-yaml"><span class="token key atrule">Homes under threat</span><span class="token punctuation">:</span> <span class="token number">84</span>
+<span class="token key atrule">Landlord</span><span class="token punctuation">:</span> One Housing Group
+<span class="token key atrule">Ballot Status</span><span class="token punctuation">:</span> Approved
+<span class="token key atrule">Planning Status</span><span class="token punctuation">:</span> Approved
+
+
+<span class="token key atrule">Itla</span><span class="token punctuation">:</span> TPAS</code></pre>
+
+<p><picture><source type="image/avif" srcset="/estates/stjohns/8XgwGsW0Me-1024.avif 1024w"><source type="image/webp" srcset="/estates/stjohns/8XgwGsW0Me-1024.webp 1024w"><img loading="lazy" decoding="async" src="/estates/stjohns/8XgwGsW0Me-1024.jpeg" alt="St Johns estate image" width="1024" height="682"></picture></p>
+<p>84 homes are under threat of demolition on the St John's estate in Tower Hamlets.</p>
+<p>As a result of stock transfer in 2005, <a href="https://onehousing.co.uk">One Housing Group</a> currently owns 2,027 former council homes across four estates on the Isle of Dogs.</p>
+<p>In 2014 One Housing Group produced a <a href="/images/ProjectStone.pdf">52 page report - ‘Project Stone’</a> setting out proposals to replace all four of its Isle of Dogs estates in a joint venture with developer Argent:</p>
+<ul>
+<li>Barkantine estate - 769 homes.</li>
+<li><a href="/estates/towerhamlets/stjohns/">St John’s estate</a> - 607 homes.</li>
+<li><a href="/estates/towerhamlets/samuda/">Samuda estate</a> - 517 homes.</li>
+<li><a href="/estates/towerhamlets/kingsbridge/">Kingsbridge estate</a> - 134 homes.</li>
+</ul>
+<p>Project Stone proposed just 30% of the redeveloped properties as affordable housing. Of these, 17% would have been shared ownership and 13% would have been affordable rented.</p>
+<p><picture><source type="image/avif" srcset="/estates/stjohns/xjKG39zR-2-864.avif 864w"><source type="image/webp" srcset="/estates/stjohns/xjKG39zR-2-864.webp 864w"><img loading="lazy" decoding="async" src="/estates/stjohns/xjKG39zR-2-864.png" alt="St Johns estate image" width="864" height="597"></picture></p>
+<p>The plans met with <a href="http://www.4estatesforum.org.uk">organised opposition</a> from residents on the four estates who had not been consulted and after the Mayor of Tower Hamlets intervened, OHG scrapped its masterplan and agreed that proposals would only be pursued after a 'conversation' with residents.</p>
+<p>In May 2017, One Housing Group applied to the Mayor in a bid for funding for the redevelopment of the St John's estate and has now started 'conversations' with residents in specific blocks of three of the four estates (Samuda estate excluded):</p>
+<p><picture><source type="image/avif" srcset="/estates/stjohns/HGCP8himow-549.avif 549w"><source type="image/webp" srcset="/estates/stjohns/HGCP8himow-549.webp 549w"><img loading="lazy" decoding="async" src="/estates/stjohns/HGCP8himow-549.png" alt="St Johns estate image" width="549" height="670"></picture></p>
+<p>The Mayor has designated the Isle of Dogs as an 'opportunity area' and his <a href="https://airdrive-secure.s3-eu-west-1.amazonaws.com/london/dataset/isle-of-dogs-and-south-poplar-opportunity-area-planning-framework/2019-10-18T14%3A33%3A23/Appendix%20A%20Isle%20of%20Dogs%20and%20South%20Poplar%20OAPF.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJJDIMAIVZJDICKHA%2F20200603%2Feu-west-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200603T161828Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=e9f1e1b74bfcd4ea3f185de6fa62ea24ad89c7701eee317bad9d78024ba5474f&amp;X-Amz-SignedHeaders=host">planning framework</a> for the area envisages 49,000 new homes some of which provided through the regeneration of existing housing estates:</p>
+<p><picture><source type="image/avif" srcset="/estates/stjohns/AMzSRCHjqy-816.avif 816w"><source type="image/webp" srcset="/estates/stjohns/AMzSRCHjqy-816.webp 816w"><img loading="lazy" decoding="async" src="/estates/stjohns/AMzSRCHjqy-816.png" alt="St Johns estate image" width="816" height="539"></picture></p>
+<p>80% of eligible residents voted in favour of demolition in a 2021 ballot and planning permission was granted in 2022 for 347 new homes on the site, of which 67 for social rent, 29 shared ownership and the remainder private.</p>
+<p><picture><source type="image/avif" srcset="/estates/stjohns/dSpaDGNnq5-1077.avif 1077w"><source type="image/webp" srcset="/estates/stjohns/dSpaDGNnq5-1077.webp 1077w"><img loading="lazy" decoding="async" src="/estates/stjohns/dSpaDGNnq5-1077.png" alt="St Johns estate image" width="1077" height="509"></picture></p>
+<hr>
+<p><strong>Links:</strong><br>
+One Housing Group's website - <a href="https://www.onehousing.co.uk/about-us/what-we-do/development-and-regeneration/isle-of-dogs">https://www.onehousing.co.uk/about-us/what-we-do/development-and-regeneration/isle-of-dogs</a></p>
+<p>The <a href="http://4estatesforum.org.uk">4 Estates Forum</a></p>
+<p>July 2021 Consultation Boards - <a href="https://www.onehousing.co.uk/__data/assets/pdf_file/0021/27633/20210616_Consultation-Event-Boards-for-web.pdf">https://www.onehousing.co.uk/__data/assets/pdf_file/0021/27633/20210616_Consultation-Event-Boards-for-web.pdf</a></p>
+<p><a href="src/images/stjohnslandoffer.pdf">Landlord Offer</a></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.499039,-0.008984], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.499039,-0.008984], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
+<p><picture><source type="image/avif" srcset="/estates/stjohns/VWpSuVVkXJ-4000.avif 4000w"><source type="image/webp" srcset="/estates/stjohns/VWpSuVVkXJ-4000.webp 4000w"><img loading="lazy" decoding="async" src="/estates/stjohns/VWpSuVVkXJ-4000.jpeg" alt="St Johns estate image" width="4000" height="3000"></picture>
+<picture><source type="image/avif" srcset="/estates/stjohns/bDsok6R4HU-602.avif 602w"><source type="image/webp" srcset="/estates/stjohns/bDsok6R4HU-602.webp 602w"><img loading="lazy" decoding="async" src="/estates/stjohns/bDsok6R4HU-602.png" alt="St Johns estate image" width="602" height="486"></picture>
+<picture><source type="image/avif" srcset="/estates/stjohns/PomrPQ8VV9-4000.avif 4000w"><source type="image/webp" srcset="/estates/stjohns/PomrPQ8VV9-4000.webp 4000w"><img loading="lazy" decoding="async" src="/estates/stjohns/PomrPQ8VV9-4000.jpeg" alt="St Johns estate image" width="4000" height="3000"></picture>
+<picture><source type="image/avif" srcset="/estates/stjohns/jT3qqFWuua-4000.avif 4000w"><source type="image/webp" srcset="/estates/stjohns/jT3qqFWuua-4000.webp 4000w"><img loading="lazy" decoding="async" src="/estates/stjohns/jT3qqFWuua-4000.jpeg" alt="St Johns estate image" width="4000" height="3000"></picture>
+<picture><source type="image/avif" srcset="/estates/stjohns/752ER_0vbg-642.avif 642w"><source type="image/webp" srcset="/estates/stjohns/752ER_0vbg-642.webp 642w"><img loading="lazy" decoding="async" src="/estates/stjohns/752ER_0vbg-642.png" alt="St Johns estate image" width="642" height="433"></picture></p>
+<p><em>Image credits: Luka Zumbach</em></p>
+
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+		</footer>
+
+		<!-- This page `/estates/stjohns/` was built on 2024-11-14T15:14:59.795Z -->
+		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+	</body>
+</html>

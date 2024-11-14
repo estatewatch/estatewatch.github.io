@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ESTATE WATCH</title>
+		<meta name="description" content="Monitoring London&#39;s estates under threat of demolition.">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="ESTATE WATCH">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Keep images within the border */
+img {
+ max-width: 100%;
+ height: auto;
+ filter: drop-shadow(0 0 0.75rem rgb(180, 152, 157));
+}
+  
+map {
+	width: 100% 
+	height: 180px;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<picture><source type="image/avif" srcset="/estates/eastfields/5qD3cKtzaH-16.avif 16w"><source type="image/webp" srcset="/estates/eastfields/5qD3cKtzaH-16.webp 16w"><img loading="lazy" decoding="async" width="16" alt="Magnifying glass icon" src="/estates/eastfields/5qD3cKtzaH-16.png" height="16"></picture><a href="/" class="home-link">ESTATE WATCH</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/saveourestates/">Save our estates!</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/resources/">Resources</a></li>
+					<li class="nav-item"><a href="/blog/">Latest</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<h1 id="eastfields-estate">Eastfields estate</h1>
+
+<ul class="post-metadata">
+	<li><a href="/tags/merton/" class="post-tag">Merton</a></li>
+</ul>
+
+<pre class="language-yaml" tabindex="0"><code class="language-yaml"><span class="token key atrule">Homes under threat</span><span class="token punctuation">:</span> <span class="token number">446</span>
+<span class="token key atrule">Landlord</span><span class="token punctuation">:</span> Clarion
+<span class="token key atrule">Ballot Status</span><span class="token punctuation">:</span> Exempt
+<span class="token key atrule">Planning Status</span><span class="token punctuation">:</span> Approved
+<span class="token key atrule">Developer</span><span class="token punctuation">:</span> Clarion
+<span class="token key atrule">Architect</span><span class="token punctuation">:</span> Levitt Bernstein</code></pre>
+
+<p><picture><source type="image/avif" srcset="/estates/eastfields/_PxFddPHEC-1500.avif 1500w"><source type="image/webp" srcset="/estates/eastfields/_PxFddPHEC-1500.webp 1500w"><img loading="lazy" decoding="async" src="/estates/eastfields/_PxFddPHEC-1500.jpeg" alt="Eastfields estate image" width="1500" height="844"></picture></p>
+<p>In Nov 2018, the Mayor approved the demolition of 446 homes on Merton's Eastfields estate, to be replaced by 800 homes of which only 262 affordable (all at affordable rent of up to 80% market rent or <a href="https://www.gov.uk/government/publications/understanding-local-housing-allowances-rates-broad-rental-market-areas">LHA levels</a> - whichever is lower).</p>
+<p>The Mayor's <a href="https://www.london.gov.uk/sites/default/files/public%3A//public%3A//PAWS/media_id_437651///eastfields_estate_report.pdf">approval notice</a> confirms that replacement 'social' housing will be affordable rent tenure and confirms that he has granted an <a href="/approved/ballotexemptions">exemption</a> from his requirement to ballot residents on the demolition of their homes.</p>
+<p>The estate is a seven hectare site overlooking Streatham Park Cemetery, comprising a mix of houses and three storey blocks of flats. It also contains a large area of open space at the centre of the estate.</p>
+<p>The scheme is being progressed in five phases over a 13-year period. According to the <a href="https://www.myclarionhousing.com/your-community-and-local-area/regeneration-projects/merton/eastfields/consultation_archive/">latest newsletter</a> submission of the detailed planning application for phase 1 has been delayed.</p>
+<p>The <a href="/images/mertons106.pdf">section 106 agreement</a> secures the right of any tenants who wish to return to the estate to do so under a social rented tenancy, but enables subsequent re-lets at affordable rent (up to 80 % market rent or LHA rates - whichever is lower).</p>
+<p>The scheme is being progressed by Clarion Housing Association (formerly Circle/Affinity Sutton), which took over the Council's housing estate under a 2010 stock transfer agreement. The agreement required Clarion to bring the homes up to Decent Homes Standard by the end of 2015, but Clarion subsequently <a href="https://www.merton.gov.uk/assets/Documents/04_merton_report_of_consultation_stage_2_estates_local_plan.pdf">persuaded</a> the Council to agree to waiver this requirement for two estates which it claimed would benefit from full redevelopment - <a href="/estates/merton/highpath/">High Path estate</a> and the Eastfields estate, and partial redevelopment of the smaller Ravensbury estate.</p>
+<p><picture><source type="image/avif" srcset="/estates/eastfields/mxnDyed6XW-762.avif 762w"><source type="image/webp" srcset="/estates/eastfields/mxnDyed6XW-762.webp 762w"><img loading="lazy" decoding="async" src="/estates/eastfields/mxnDyed6XW-762.png" alt="Eastfields estate image" width="762" height="655"></picture></p>
+<p>The three Merton schemes have been <a href="https://planning.merton.gov.uk/MVM.DMS/Planning%20Application/1000098000/1000098159/17P1721_Clarions%20Financial%20Viability%20Appraisal%20Summary%20Report.pdf">awarded</a> £43m funding by the Mayor from his current affordable housing programme (of which £15m for the Eastfields estate) and have been <a href="https://www.london.gov.uk/sites/default/files/12.04.19_for_website_-_list_of_exemptions.pdf">granted an exemption</a> from his requirement to ballot residents.</p>
+<p><picture><source type="image/avif" srcset="/estates/eastfields/cSyCIYWS1j-883.avif 883w"><source type="image/webp" srcset="/estates/eastfields/cSyCIYWS1j-883.webp 883w"><img loading="lazy" decoding="async" src="/estates/eastfields/cSyCIYWS1j-883.png" alt="Eastfields estate image" width="883" height="326"></picture></p>
+<p>The <a href="https://www.merton.gov.uk/assets/Documents/www2/eastfields_-_chmp_case_for_regen.pdf">options appraisal</a> was carried out by Savills and made several interesting conclusions, firstly that residents were satisfied with their current homes: <em>&quot;There is a strong community spirit and many of the residents of the High Path Estate enjoy living on the Estate (evidenced by low turnover of tenants, as well as feedback received from residents.)&quot;</em> - (para 2.1).</p>
+<p>Secondly, that the existing buildings are structurally sound. (para 2.21)</p>
+<p>Thirdly, that whilst the cost of redevelopment was higher than that of refurbishment, the difference wasn't disclosed because of 'commercial confidentiality':</p>
+<p><picture><source type="image/avif" srcset="/estates/eastfields/aHwbxhxrCs-785.avif 785w"><source type="image/webp" srcset="/estates/eastfields/aHwbxhxrCs-785.webp 785w"><img loading="lazy" decoding="async" src="/estates/eastfields/aHwbxhxrCs-785.png" alt="Eastfields estate image" width="785" height="296"></picture></p>
+<p>Savills was later also instructed to produce a <a href="https://planning.merton.gov.uk/MVM.DMS/Planning%20Application/1000098000/1000098159/17P1721_Clarions%20Financial%20Viability%20Appraisal%20Summary%20Report.pdf">financial viability appraisal</a> justifying Clarion's claim that it couldn't provide a policy-compliant level of affordable housing for the scheme.</p>
+<p>It is worth noting that the three Merton estates provide something that no other regeneration scheme has offered - namely, a very generous <a href="http://35percent.org/img/mertonoffer.pdf">re-housing offer</a> to leaseholders which gives them full equity of one of the new-build replacement homes after 11 years. Although these have reported that replacement properties offered are smaller than their existing ones.</p>
+<p>In June 2021, the estate was in the news after an <a href="https://www.itv.com/news/2021-06-16/collapsed-ceilings-mice-and-mould-appalling-conditions-uncovered-across-an-entire-housing-estate-of-nearly-500-homes">ITV investigation</a> uncovered the apalling conditions that tenants were being made to endure in their homes.</p>
+<center>
+![Eastfields estate image](src/images/screenshot-2021-08-18-at-09-04-28-10-daniel-hewitt-danielhewittitv-twitter.png)
+</center>
+<p>The rats, leaks and collapsed ceilings found in the ITV report led to an inquiry by the Social Housing Regulator. But in August that inquiry cleared Clarion of any wrongdoing, finding no evidence of “organisational failure.”</p>
+<p>It has since emerged that not a single tenant was spoken to or property inspected by the Regulator as part of the inquiry.</p>
+<p>It also <a href="https://www.mylondon.news/news/south-london-news/thousands-living-london-slum-estates-21308221">turns out</a> that the Regulator waived the ‘Decent Homes Standard’ upon Clarion’s request on the Eastfields estate in 2014, meaning housing conditions were allowed to fall below basic legal requirements a long time ago.</p>
+<p>Ownership of the Estate was acquired by Circle Housing Group in 2010 as part of Stock Transfer Agreement containing all of Merton's council housing stock, totalling circa 9,500 homes.</p>
+<p>The stock transfer agreement committed Circle to improving the quality of accommodation to at least Decent Homes Standard by 2015. Circle then became Clarion after its merger with Affinity Sutton and decided in 2016 to demolish instead of improve the estate, following an <a href="https://www.merton.gov.uk/assets/Documents/www2/eastfields_-_chmp_case_for_regen.pdf">options appraisal assessment</a> carried out by Savills.</p>
+<p>The Mayor then approved £15m grant funding for the Eastfields estate scheme in June 2017 and <a href="https://www.london.gov.uk/sites/default/files/public%3A//public%3A//PAWS/media_id_437651///eastfields_estate_report.pdf">signed off</a> outline planning permission for the scheme in November 2018, despite it not meeting with his minimum affordable housing requirements (30% instead of 50% affordable and affordable rent rather than social rent).</p>
+<p>In September 2021, Merton Council <a href="https://www.housingtoday.co.uk/news/merton-council-agrees-deal-with-clarion-to-kickstart-unviable-2600-home-regen-project/5113627.article">agreed</a> to forgo a 5% profit share deal that it had with Clarion in order to help 'kick-start' the scheme, which had been declared unviable.</p>
+<p>The 2018 outline planning consent said that the scheme would be progressed in five phases over a 13-year period, each of the five phases requiring a detailed (reserved matters) planning application to be submitted. In Clarion's most recent <a href="https://eastfieldslive.com/pages/documents">Autumn 2023</a> it said that work is about to start on phase 1 of the scheme. As at October 2024, no further newsletters have been published.</p>
+<p>In 2023, Clarion negotiated a <a href="https://planning.merton.gov.uk/MVM.DMS/Planning%20Application/1000120000/1000120762/22P3686_Section%20106%20Agreement.pdf">revised section 106 agreement</a> with Merton Council, which replaces the previous definition of affordable housing with a much looser one:</p>
+<p><picture><source type="image/avif" srcset="/estates/eastfields/1G7_VB9_dX-796.avif 796w"><source type="image/webp" srcset="/estates/eastfields/1G7_VB9_dX-796.webp 796w"><img loading="lazy" decoding="async" src="/estates/eastfields/1G7_VB9_dX-796.png" alt="Eastfields estate image" width="796" height="395"></picture></p>
+<hr>
+<p><strong>Links:</strong></p>
+<p>June 2021 ITV report - <a href="https://www.itv.com/news/2021-06-16/collapsed-ceilings-mice-and-mould-appalling-conditions-uncovered-across-an-entire-housing-estate-of-nearly-500-homes">https://www.itv.com/news/2021-06-16/collapsed-ceilings-mice-and-mould-appalling-conditions-uncovered-across-an-entire-housing-estate-of-nearly-500-homes</a></p>
+<p>Mayor's <a href="https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/eastfields-estate">Stage 1 and Stage 2 planning reports</a> - approved Nov 2018</p>
+<p>Clarion's website for the scheme: <a href="https://eastfieldslive.com">https://eastfieldslive.com</a></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.407168,-0.149209], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.407168,-0.149209], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
+<p><picture><source type="image/avif" srcset="/estates/eastfields/UvBce8OMVw-1266.avif 1266w"><source type="image/webp" srcset="/estates/eastfields/UvBce8OMVw-1266.webp 1266w"><img loading="lazy" decoding="async" src="/estates/eastfields/UvBce8OMVw-1266.jpeg" alt="Eastfields estate image" width="1266" height="844"></picture>
+<picture><source type="image/avif" srcset="/estates/eastfields/P5il6q1_Z6-1125.avif 1125w"><source type="image/webp" srcset="/estates/eastfields/P5il6q1_Z6-1125.webp 1125w"><img loading="lazy" decoding="async" src="/estates/eastfields/P5il6q1_Z6-1125.jpeg" alt="Eastfields estate image" width="1125" height="844"></picture>
+<picture><source type="image/avif" srcset="/estates/eastfields/XAPflveYPo-1287.avif 1287w"><source type="image/webp" srcset="/estates/eastfields/XAPflveYPo-1287.webp 1287w"><img loading="lazy" decoding="async" src="/estates/eastfields/XAPflveYPo-1287.jpeg" alt="Eastfields estate image" width="1287" height="844"></picture></p>
+
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+		</footer>
+
+		<!-- This page `/estates/eastfields/` was built on 2024-11-14T15:14:59.784Z -->
+		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+	</body>
+</html>

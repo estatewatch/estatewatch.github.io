@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ESTATE WATCH</title>
+		<meta name="description" content="Monitoring London&#39;s estates under threat of demolition.">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="ESTATE WATCH">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Keep images within the border */
+img {
+ max-width: 100%;
+ height: auto;
+ filter: drop-shadow(0 0 0.75rem rgb(180, 152, 157));
+}
+  
+map {
+	width: 100% 
+	height: 180px;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<picture><source type="image/avif" srcset="/estates/aylesbury/5qD3cKtzaH-16.avif 16w"><source type="image/webp" srcset="/estates/aylesbury/5qD3cKtzaH-16.webp 16w"><img loading="lazy" decoding="async" width="16" alt="Magnifying glass icon" src="/estates/aylesbury/5qD3cKtzaH-16.png" height="16"></picture><a href="/" class="home-link">ESTATE WATCH</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/saveourestates/">Save our estates!</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/resources/">Resources</a></li>
+					<li class="nav-item"><a href="/blog/">Latest</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<h1 id="aylesbury-estate">Aylesbury estate</h1>
+
+<ul class="post-metadata">
+	<li><a href="/tags/southwark/" class="post-tag">Southwark</a></li>
+</ul>
+
+<pre class="language-yaml" tabindex="0"><code class="language-yaml"><span class="token key atrule">Homes under threat</span><span class="token punctuation">:</span> <span class="token number">2000</span>
+<span class="token key atrule">Landlord</span><span class="token punctuation">:</span> Southwark Council
+<span class="token key atrule">Ballot Status</span><span class="token punctuation">:</span> Exempt
+<span class="token key atrule">Planning Status</span><span class="token punctuation">:</span> Approved
+<span class="token key atrule">Developer</span><span class="token punctuation">:</span> Notting Hill Genesis
+<span class="token key atrule">Architect</span><span class="token punctuation">:</span> HTA</code></pre>
+
+<p><picture><source type="image/avif" srcset="/estates/aylesbury/5H-nOOQuv6-1068.avif 1068w"><source type="image/webp" srcset="/estates/aylesbury/5H-nOOQuv6-1068.webp 1068w"><img loading="lazy" decoding="async" src="/estates/aylesbury/5H-nOOQuv6-1068.jpeg" alt="Aylesbury estate image" width="1068" height="641"></picture></p>
+<p>Circa 2,000 homes remain earmarked for demolition on the remaining 3 phases of Southwark's Aylesbury estate redevelopment.</p>
+<p>Two early 'demonstration' phases were completed in 2014 on the corner of the estate. Demolition of the first main phase was completed in June 2020 and is now under construction.</p>
+<p>Phase 2 (of 4 phases in total) is approximately two years behind schedule and there is still no planning application submitted.</p>
+<p>The original estate was completed in 1977, providing 2,758 homes. In 1999 the Aylesbury estate received £56m as part of Labour’s New Deal for Communities (NDC) programme.</p>
+<p>The NDC finished in 2010 and the  Aylesbury Area Action Plan (AAAP) was formally adopted. The AAAP outlined the estate’s regeneration, involving phased demolition of all existing buildings and new-build re-development, increasing density to 3,575 homes. The first new homes were completed in 2012 and the Council appointed Notting Hill Genesis Housing Association as its development partner. The further works will happen in four phases, leading to an incremental decant and demolition of the estate, with the overall regeneration estimated to be completed in 2036.</p>
+<p>The scheme is being <a href="https://www.london.gov.uk/sites/default/files/2021.03.18._estate_regen_projects_approved_before_18_july_2018_march_2021.pdf">funded</a> by the Mayor and has been granted an <a href="https://www.london.gov.uk/sites/default/files/list_of_exemptions_-_27_november_2020.pdf">exemption</a> from his requirement to ballot residents on the demolition of their homes.</p>
+<p>Despite Southwark Council's aim to replace all of the existing social rented housing, Notting Hill Genesis' <a href="http://planbuild.southwark.gov.uk/documents/?GetDocument=%7b%7b%7b!clWxEC35adJ29O7pMe62Bg%3d%3d!%7d%7d%7d">planning application</a> describes the replacement 'social housing' as a mix of 'target and affordable rent' and acknowledges that in any event there will be an overall net loss of 931 social rented homes.</p>
+<p><picture><source type="image/avif" srcset="/estates/aylesbury/kYjJHsSbtg-530.avif 530w"><source type="image/webp" srcset="/estates/aylesbury/kYjJHsSbtg-530.webp 530w"><img loading="lazy" decoding="async" src="/estates/aylesbury/kYjJHsSbtg-530.png" alt="Aylesbury estate image" width="530" height="364"></picture></p>
+<p>In February 2015 a group of protesters <a href="https://www.theguardian.com/society/2015/feb/18/six-arrested-as-police-help-in-evictions-from-london-estate">occupied</a> the first development site in protest at the loss of council homes and residents <a href="/images/SNWolverton.pdf">disenfranchised</a> by the scheme.</p>
+<p><picture><source type="image/avif" srcset="/estates/aylesbury/dyJBXm9grT-1132.avif 1132w"><source type="image/webp" srcset="/estates/aylesbury/dyJBXm9grT-1132.webp 1132w"><img loading="lazy" decoding="async" src="/estates/aylesbury/dyJBXm9grT-1132.png" alt="Aylesbury estate image" width="1132" height="365"></picture></p>
+<p>In September 2016, after a <a href="http://35percent.org/2016-09-18-aylesbury-compulsory-purchase-order-rejected/">protracted public inquiry</a> the Secretary of State <a href="https://www.theguardian.com/society/2016/sep/16/government-blocks-controversial-plan-to-force-out-housing-estate-residents">rejected</a> Southwark Council's application to remove remaining leaseholders with a compulsory purchase order on the grounds that rehousing offers to leaseholders wouldn't enable them to stay in the area. This subsequently led to a <a href="/images/SN19April2018.pdf">policy change</a> which improved the rehousing offer.</p>
+<p>In July 2020, Southwark resolved to step in and <a href="http://35percent.org/2020-07-12-aylesbury-estate-fds-variation/">stump up £193m</a> to help its development partner complete the first phase of the Aylesbury estate redevelopment, in what has been <a href="https://www.southwarknews.co.uk/news/housing-chief-denies-aylesbury-estate-deal-is-bail-out-for-notting-hill-genesis/">termed as a bail out</a> after its development partner was <a href="https://www.insidehousing.co.uk/news/news/notting-hill-genesis-scales-back-development-plans-amid-changing-market-conditions-62506">forced to scale back its development plans</a> by the Social Housing Regulator.</p>
+<p>In 2021, Southwark replaced the boilers and upgraded the estate's district heating network (often cited as one of the reasons to demolish the estate) and its <a href="https://www.southwark.gov.uk/council-and-democracy/councillors-and-mps/leader-of-the-council-and-cabinet-members?chapter=6">Cabinet member for Climate Emergency and Sustainable Development</a> <a href="https://twitter.com/helendennis80/status/1395336950962327552">announced</a> that 80 homes on remaining phases of the <a href="https://www.estatewatch.london/estates/southwark/aylesbury/">Aylesbury estate</a> have been <a href="https://www.southwark.gov.uk/news/2021/may/southwark-council-to-provide-temporary-housing-for-80-homeless-people-on-aylesbury-estate-while-581-council-homes-are-being-built">refurbished to be let out as temporary accommodation</a> to families on the Council's housing waiting list.</p>
+<p><picture><source type="image/avif" srcset="/estates/aylesbury/tJ6XdKXrys-797.avif 797w"><source type="image/webp" srcset="/estates/aylesbury/tJ6XdKXrys-797.webp 797w"><img loading="lazy" decoding="async" src="/estates/aylesbury/tJ6XdKXrys-797.png" alt="Aylesbury estate image" width="797" height="442"></picture></p>
+<p>The homes have been refurbished to <a href="https://www.southwark.gov.uk/news/2021/mar/new-southwark-council-good-homes-standard-for-temporary-accommodation">Southwark Good Homes Standard</a> and will be available to let from July until the phase of the estate is 'decanted'. The Aylesbury estate is London's largest estate redevelopment and is set to take 15 years to complete. Approximately 700 of the estate's 2,759 homes have been demolished to date and phase 1 of 4 is currently under construction.</p>
+<p>This begs an obvious question: if remaining homes on the estate can be refurbished to acceptable standards for habitation for <a href="https://www.whatdotheyknow.com/request/830572/response/2021635/attach/3/FOI%201820226%20Southwak%20Response%20letter.pdf">under £10k per dwelling</a>, why are they still earmarked demolition?</p>
+<hr>
+<p><strong>Links:</strong></p>
+<p><a href="https://planning.southwark.gov.uk/online-applications/applicationDetails.do?keyVal=ZZZV1BKBWR660&amp;activeTab=summary">LA - Planning application documents</a></p>
+<p><a href="https://planapps.london.gov.uk/?planAppFilters=%255B%257B%2522or%2522%253A%255B%257B%2522name%2522%253A%257B%2522iRgx%2522%253A%2522aylesbury%2520estate%2522%257D%257D%252C%257B%2522glaReference%2522%253A%257B%2522iRgx%2522%253A%2522aylesbury%2520estate%2522%257D%257D%252C%257B%2522reference%2522%253A%257B%2522iRgx%2522%253A%2522aylesbury%2520estate%2522%257D%257D%252C%257B%2522postcode%2522%253A%257B%2522iRgx%2522%253A%2522aylesbury%2520estate%2522%257D%257D%255D%257D%252C%257B%2522project_id%2522%253A%257B%2522eq%2522%253A%2522637e245db0b8894bb2cb3034%2522%257D%257D%255D%2526planAppValues%253D%257B%2522general%2522%253A%2522aylesbury%2520estate%2522%257D">GLA - Planning reports</a></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.485789,-0.084806], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.485789,-0.084806], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
+<p>![Aylesbury estate image](src/images/fdsgreenspace.jpg&quot;, &quot;Aylesbury estate FDS green space&quot; %}</p>
+<p>![Aylesbury estate image](src/images/aylesburyident.png&quot;, &quot;Aylesbury estate alternative ident&quot; %}</p>
+
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+		</footer>
+
+		<!-- This page `/estates/aylesbury/` was built on 2024-11-14T15:14:59.777Z -->
+		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+	</body>
+</html>

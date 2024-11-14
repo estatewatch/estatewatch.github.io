@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ESTATE WATCH</title>
+		<meta name="description" content="Monitoring London&#39;s estates under threat of demolition.">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="ESTATE WATCH">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Keep images within the border */
+img {
+ max-width: 100%;
+ height: auto;
+ filter: drop-shadow(0 0 0.75rem rgb(180, 152, 157));
+}
+  
+map {
+	width: 100% 
+	height: 180px;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<picture><source type="image/avif" srcset="/estates/gascoigne/5qD3cKtzaH-16.avif 16w"><source type="image/webp" srcset="/estates/gascoigne/5qD3cKtzaH-16.webp 16w"><img loading="lazy" decoding="async" width="16" alt="Magnifying glass icon" src="/estates/gascoigne/5qD3cKtzaH-16.png" height="16"></picture><a href="/" class="home-link">ESTATE WATCH</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/saveourestates/">Save our estates!</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/resources/">Resources</a></li>
+					<li class="nav-item"><a href="/blog/">Latest</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<h1 id="gascoigne-estate">Gascoigne estate</h1>
+
+<ul class="post-metadata">
+	<li><a href="/tags/barkinganddagenham/" class="post-tag">Barking &amp; Dagenham</a></li>
+</ul>
+
+<pre class="language-yaml" tabindex="0"><code class="language-yaml"><span class="token key atrule">Homes under threat</span><span class="token punctuation">:</span> <span class="token number">179</span>
+<span class="token key atrule">Landlord</span><span class="token punctuation">:</span> Barking and Dagenham Council
+<span class="token key atrule">Ballot Status</span><span class="token punctuation">:</span> Exempt
+<span class="token key atrule">Planning Status</span><span class="token punctuation">:</span> Approved
+<span class="token key atrule">Developer</span><span class="token punctuation">:</span> BeFirst
+<span class="token key atrule">Architect</span><span class="token punctuation">:</span> Levitt Bernstein</code></pre>
+
+<p><picture><source type="image/avif" srcset="/estates/gascoigne/3SJ0_llqmr-1000.avif 1000w"><source type="image/webp" srcset="/estates/gascoigne/3SJ0_llqmr-1000.webp 1000w"><img loading="lazy" decoding="async" src="/estates/gascoigne/3SJ0_llqmr-1000.jpeg" alt="Gascoigne estate image" width="1000" height="750"></picture></p>
+<p>In Dec 2018, the Mayor approved the demolition of 179 homes on the latest phase of Barking &amp; Dagenham's Gascoigne estate regeneration, to be replaced by 850 new homes of which 78 at 'London Affordabe Rent' (defined as up to 80% market rent). Leaseholders have the 'right to return'  only if they can afford to pay the rent in one of the new shared-ownership flats.</p>
+<p>The Mayor's <a href="https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/gascoigne-estate-west">planning report</a> approves the demolition of 179 homes on this latest phase of the scheme, Gascoigne estate West - the <a href="/casestudies/gascoigne/">east side of the estate</a> having been approved for demolition in September 2015.</p>
+<p>This is despite the Mayor's own estate regeneration policy requiring no net loss of social rented housing. Indeed, the replacement 'social' housing is all 'London Affordable Rent' which is defined in the <a href="/images/gascoignes106.pdf">planning consent's section 106 legal agreement</a> as up to 80% market rent.</p>
+<p><picture><source type="image/avif" srcset="/estates/gascoigne/DmZNMoLxBy-370.avif 370w"><source type="image/webp" srcset="/estates/gascoigne/DmZNMoLxBy-370.webp 370w"><img loading="lazy" decoding="async" src="/estates/gascoigne/DmZNMoLxBy-370.png" alt="Gascoigne estate image" width="370" height="237"></picture></p>
+<p>These replacement 'affordable' homes have been funded by the Mayor and the estate was exempted by the Mayor from his requirement to ballot residents on the demolition of their homes.</p>
+<p>Planning application <a href="/images/bdreside.pdf">documents</a> confirm that tenants have been offered the 'right to return' to new homes on the estate, but acknowledge that (because the estate is being redeveloped by the Council's new <a href="https://www.lbbd.gov.uk/affordable-rents-reside-housing">Housing Company</a>) the terms and rent levels of new tenancies would differ from those that tenants currently enjoy:</p>
+<p><picture><source type="image/avif" srcset="/estates/gascoigne/pZBowzi1KO-745.avif 745w"><source type="image/webp" srcset="/estates/gascoigne/pZBowzi1KO-745.webp 745w"><img loading="lazy" decoding="async" src="/estates/gascoigne/pZBowzi1KO-745.png" alt="Gascoigne estate image" width="745" height="65"></picture></p>
+<p>Completed in 1971, the estate is divided into Gascoigne East and Gascoigne West by a main road running through the middle of the estate. The original estate had 2,260 homes across both the East and West sites, all of which are to be demolished. The planning application for the demolition of Gascoigne East was approved by the GLA in September 2015, planning for Gascoigne West was approved by the GLA in December 2018. The first phase of the redevelopment of Gascoigne East was completed in 2019, its full completion date is expected to be 2024. Work on phase 1 of Gascoigne West started with demolition in January 2020.</p>
+<p>Barking and Dagenham Council only offers an option of shared ownership for leaseholders who want to return to the estate - i.e. paying rent on the unowned share.</p>
+<p><picture><source type="image/avif" srcset="/estates/gascoigne/ULHiG54yjc-747.avif 747w"><source type="image/webp" srcset="/estates/gascoigne/ULHiG54yjc-747.webp 747w"><img loading="lazy" decoding="async" src="/estates/gascoigne/ULHiG54yjc-747.png" alt="Gascoigne estate image" width="747" height="63"></picture></p>
+<p>This goes against the legal “principle of equivalence” which says that persons affected by compulsory purchase should be no worse off in financial terms after the acquisition.</p>
+<p>Similarly unfair policies were <a href="https://www.theguardian.com/society/2016/sep/16/government-blocks-controversial-plan-to-force-out-housing-estate-residents">deemed unlawful</a> by the Secretary of State at the 2015 Aylesbury estate CPO inquiry and required Southwark to <a href="http://moderngov.southwarksites.com/documents/s74901/Report%20Amending%20the%20shared%20equity%20rehousing%20policy%20for%20qualifying%20homeowners%20affected%20by%20regenerati.pdf">amend</a> its policy.</p>
+<hr>
+<p><strong>Links:</strong>
+Mayor's stage 1 and 2 reports <a href="https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/gascoigne-estate-west">https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/gascoigne-estate-west</a></p>
+<p>Planning consent's <a href="https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/gascoigne-estate-west">section 106 agreement</a></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.533476,0.078037], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.533476,0.078037], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
+<p><picture><source type="image/avif" srcset="/estates/gascoigne/MrhD_ugUuK-1000.avif 1000w"><source type="image/webp" srcset="/estates/gascoigne/MrhD_ugUuK-1000.webp 1000w"><img loading="lazy" decoding="async" src="/estates/gascoigne/MrhD_ugUuK-1000.jpeg" alt="Gascoigne estate image" width="1000" height="750"></picture></p>
+<p><picture><source type="image/avif" srcset="/estates/gascoigne/cyIiB7zQM4-1000.avif 1000w"><source type="image/webp" srcset="/estates/gascoigne/cyIiB7zQM4-1000.webp 1000w"><img loading="lazy" decoding="async" src="/estates/gascoigne/cyIiB7zQM4-1000.jpeg" alt="Gascoigne estate image" width="1000" height="1333"></picture>
+<picture><source type="image/avif" srcset="/estates/gascoigne/4hNALcWcQe-1000.avif 1000w"><source type="image/webp" srcset="/estates/gascoigne/4hNALcWcQe-1000.webp 1000w"><img loading="lazy" decoding="async" src="/estates/gascoigne/4hNALcWcQe-1000.jpeg" alt="Gascoigne estate image" width="1000" height="750"></picture>
+<picture><source type="image/avif" srcset="/estates/gascoigne/gV8ihuPqGC-1000.avif 1000w"><source type="image/webp" srcset="/estates/gascoigne/gV8ihuPqGC-1000.webp 1000w"><img loading="lazy" decoding="async" src="/estates/gascoigne/gV8ihuPqGC-1000.jpeg" alt="Gascoigne estate image" width="1000" height="750"></picture>
+<picture><source type="image/avif" srcset="/estates/gascoigne/_rnbTfRum0-1000.avif 1000w"><source type="image/webp" srcset="/estates/gascoigne/_rnbTfRum0-1000.webp 1000w"><img loading="lazy" decoding="async" src="/estates/gascoigne/_rnbTfRum0-1000.jpeg" alt="Gascoigne estate image" width="1000" height="750"></picture>
+<picture><source type="image/avif" srcset="/estates/gascoigne/bV0o3fwj7l-1000.avif 1000w"><source type="image/webp" srcset="/estates/gascoigne/bV0o3fwj7l-1000.webp 1000w"><img loading="lazy" decoding="async" src="/estates/gascoigne/bV0o3fwj7l-1000.jpeg" alt="Gascoigne estate image" width="1000" height="750"></picture>
+<picture><source type="image/avif" srcset="/estates/gascoigne/KfYVbIazPD-1000.avif 1000w"><source type="image/webp" srcset="/estates/gascoigne/KfYVbIazPD-1000.webp 1000w"><img loading="lazy" decoding="async" src="/estates/gascoigne/KfYVbIazPD-1000.jpeg" alt="Gascoigne estate image" width="1000" height="750"></picture>
+<picture><source type="image/avif" srcset="/estates/gascoigne/NyHn1PYwrf-2000.avif 2000w"><source type="image/webp" srcset="/estates/gascoigne/NyHn1PYwrf-2000.webp 2000w"><img loading="lazy" decoding="async" src="/estates/gascoigne/NyHn1PYwrf-2000.jpeg" alt="Gascoigne estate image" width="2000" height="2000"></picture>
+<picture><source type="image/avif" srcset="/estates/gascoigne/gei56yooqX-2000.avif 2000w"><source type="image/webp" srcset="/estates/gascoigne/gei56yooqX-2000.webp 2000w"><img loading="lazy" decoding="async" src="/estates/gascoigne/gei56yooqX-2000.jpeg" alt="Gascoigne estate image" width="2000" height="2000"></picture>
+<picture><source type="image/avif" srcset="/estates/gascoigne/r0XUgDuyJc-2000.avif 2000w"><source type="image/webp" srcset="/estates/gascoigne/r0XUgDuyJc-2000.webp 2000w"><img loading="lazy" decoding="async" src="/estates/gascoigne/r0XUgDuyJc-2000.jpeg" alt="Gascoigne estate image" width="2000" height="1334"></picture>
+<picture><source type="image/avif" srcset="/estates/gascoigne/n5W-nMfEUK-2000.avif 2000w"><source type="image/webp" srcset="/estates/gascoigne/n5W-nMfEUK-2000.webp 2000w"><img loading="lazy" decoding="async" src="/estates/gascoigne/n5W-nMfEUK-2000.jpeg" alt="Gascoigne estate image" width="2000" height="1334"></picture>
+<picture><source type="image/avif" srcset="/estates/gascoigne/8CcdbDHHSf-2000.avif 2000w"><source type="image/webp" srcset="/estates/gascoigne/8CcdbDHHSf-2000.webp 2000w"><img loading="lazy" decoding="async" src="/estates/gascoigne/8CcdbDHHSf-2000.jpeg" alt="Gascoigne estate image" width="2000" height="1334"></picture>
+<picture><source type="image/avif" srcset="/estates/gascoigne/XVcKzYzd2X-2000.avif 2000w"><source type="image/webp" srcset="/estates/gascoigne/XVcKzYzd2X-2000.webp 2000w"><img loading="lazy" decoding="async" src="/estates/gascoigne/XVcKzYzd2X-2000.jpeg" alt="Gascoigne estate image" width="2000" height="2000"></picture>
+<picture><source type="image/avif" srcset="/estates/gascoigne/Ow88fc8m5R-2000.avif 2000w"><source type="image/webp" srcset="/estates/gascoigne/Ow88fc8m5R-2000.webp 2000w"><img loading="lazy" decoding="async" src="/estates/gascoigne/Ow88fc8m5R-2000.jpeg" alt="Gascoigne estate image" width="2000" height="2000"></picture>
+<picture><source type="image/avif" srcset="/estates/gascoigne/eUqvS4SNac-2000.avif 2000w"><source type="image/webp" srcset="/estates/gascoigne/eUqvS4SNac-2000.webp 2000w"><img loading="lazy" decoding="async" src="/estates/gascoigne/eUqvS4SNac-2000.jpeg" alt="Gascoigne estate image" width="2000" height="1600"></picture></p>
+<p>(Photo credits: Andrew Brown)</p>
+
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+		</footer>
+
+		<!-- This page `/estates/gascoigne/` was built on 2024-11-14T15:14:59.785Z -->
+		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+	</body>
+</html>
