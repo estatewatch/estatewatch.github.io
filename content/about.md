@@ -19,7 +19,7 @@ As the research project drew to a close, this website was developed as a resourc
 The Estate Watch website is now maintained as an open-source project and is being kept up to date by voluntary contributors via its Github interface. If you would like to get involved then read our <a href="/guide/"> Guide</a> on how to submit edits for review via Github. The raw data on estates can be accessed via our <a href="/estates.json">API.</a>
 </div>	
 
-<b>You can join our [discussion forum](https://github.com/estatewatch/estatewatch/discussions) or contact us at <a href="mailto:info@estatewatch.london">info@estatewatch.london</a></b>
+<b>If you want to keep in touch you can join our mailing list or email us at <a href="mailto:info@estatewatch.london">info@estatewatch.london</a></b>
 
 <div id="mc_embed_shell">
       <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
