@@ -1,0 +1,21 @@
+---
+permalink: '/estates.json'
+---
+{
+  "estates": [
+    {% for estate in collections.estates %}
+      {
+        "Name": "{{ estate.data.name }}",
+        "Borough": "{{ estate.data.borough }}",
+        "Landlord": "{{ estate.data.landlord }}",
+        "Existing Homes": "{{ estate.data.total }}",
+        "Developer": "{{ estate.data.developer }}",
+        "Architect": "{{ estate.data.architect }}",
+        "ITLA": "{{ estate.data.itla }}",
+        "Planning Status": "{{ estate.data.planning }}",
+        "Ballot Status": "{{ estate.data.ballot }}",
+        "Location": "{{ estate.data.location }}"
+      }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
