@@ -8,7 +8,7 @@ eleventyNavigation:
 <div class="message-box">
 <p>The negative social and environmental impacts of demolishing social housing estates are becoming increasingly evident. 
 
-We are campaigning for the Mayor to introduce a policy presumption against redevelopment such that demolition should only be allowed in exceptional circumstances. See our [Alternative Good Practice Guide](/alternative-good-practice-guide-to-estate-regeneration.pdf) for further details. </p>
+We are campaigning for the Mayor to introduce a policy presumption against redevelopment such that demolition should only be allowed in exceptional circumstances. See our [Alternative Good Practice Guide](../alternative-good-practice-guide-to-estate-regeneration.pdf) for further details. </p>
 </div>
 
 {%- css %}{% include "public/css/message-box.css" %}{% endcss %}
