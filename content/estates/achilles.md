@@ -33,6 +33,9 @@ In December 2023, Lewisham Council was [reported](https://www.insidehousing.co.u
 
 Whilst the Achilles St scheme itself wasn't put on hold, the review report highlighted risks associated with the redevelopment of the Achilles Street estate. 
 
+The estate has been [listed](https://c20society.org.uk/buildings-at-risk) by the 20th Century society.
+
+
 ---
 
 __Links:__
