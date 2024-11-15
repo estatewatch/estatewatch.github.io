@@ -56,8 +56,8 @@ var circle = L.circle({{ location }}, {
 
 ---
 
-![Calverly Close estate image](src/images/cal1.png", "Calverley Close estate" %}
-![Calverly Close estate image](src/images/cal3.png", "Calverley Close estate" %}
-![Calverly Close estate image](src/images/cal5.png", "Calverley Close estate" %}
+![Calverly Close estate image](src/images/cal1.png)
+![Calverly Close estate image](src/images/cal3.png)
+![Calverly Close estate image](src/images/cal5.png)
 
 

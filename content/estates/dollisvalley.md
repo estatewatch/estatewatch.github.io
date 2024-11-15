@@ -45,7 +45,7 @@ var circle = L.circle({{ location }}, {
 
 ---
 
- ![Dollis valley estate image](src/images/dvalley3.jpg", "Dollis Valley" %}
-  ![Dollis valley estate image](src/images/dvalley.png", "Dollis Valley" %}
-  ![Dollis valley estate image](src/images/dvalley2.png", "Dollis Valley" %}
-  ![Dollis valley estate image](src/images/dvalley4.png", "Dollis Valley" %}
+ ![Dollis valley estate image](src/images/dvalley3.jpg)
+  ![Dollis valley estate image](src/images/dvalley.png)
+  ![Dollis valley estate image](src/images/dvalley2.png)
+  ![Dollis valley estate image](src/images/dvalley4.png)

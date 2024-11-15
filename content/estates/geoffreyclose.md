@@ -34,7 +34,7 @@ Interestingly, the report does raise the issue that residents were balloted on a
 
 The tenure mix in Riverside's [Landlord Offer](http://estatewatch.london/images/geoffreycloseoffer.pdf) to residents at the time of the ballot was as follows:
 
-![Geoffrey Close estate image](src/images/roffer.png", "alt text" %}
+![Geoffrey Close estate image](src/images/roffer.png)
 
 But the tenure mix proposed in its planning application includes an extra 43 homes in total, while reducing the number of social rented habitable rooms by 44 to 431 and increasing the number of market sale habitable rooms by 72 to 781.
 

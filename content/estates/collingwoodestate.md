@@ -53,11 +53,11 @@ var circle = L.circle({{ location }}, {
 
 ---
 
-![Collingwood estate image](src/images/cw8.jpg", "Collingwood estate" %}
-![Collingwood estate image](src/images/cw7.jpg", "Collingwood estate" %}
-![Collingwood estate image](src/images/cw6.jpg", "Collingwood estate" %}
-![Collingwood estate image](src/images/cw5.jpg", "Collingwood estate" %}
-![Collingwood estate image](src/images/cw4.jpg", "Collingwood estate" %} 
-![Collingwood estate image](src/images/cw2.jpg", "Collingwood estate" %}
-![Collingwood estate image](src/images/cw1.jpg", "Collingwood estate" %}
-![Collingwood estate image](src/images/collingwoodaerial.png", "Collingwood estate" %}
+![Collingwood estate image](src/images/cw8.jpg)
+![Collingwood estate image](src/images/cw7.jpg)
+![Collingwood estate image](src/images/cw6.jpg)
+![Collingwood estate image](src/images/cw5.jpg)
+![Collingwood estate image](src/images/cw4.jpg) 
+![Collingwood estate image](src/images/cw2.jpg)
+![Collingwood estate image](src/images/cw1.jpg)
+![Collingwood estate image](src/images/collingwoodaerial.png)

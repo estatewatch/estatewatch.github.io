@@ -45,9 +45,9 @@ var circle = L.circle({{ location }}, {
 
 ---
 
-![Brookwood rd estate image](src/images/brookwoodaerial.png", "Brookwood estate aerial" %}
-![Brookwood rd estate image](src/images/bkwood1.jpg", "Brookwood esatte" %}
-![Brookwood rd estate image](src/images/bkwood3.jpg", "Bkwood estate" %}
-![Brookwood rd estate image](src/images/bkwood6.jpg", "Brookwood" %}
+![Brookwood rd estate image](src/images/brookwoodaerial.png)
+![Brookwood rd estate image](src/images/bkwood1.jpg)
+![Brookwood rd estate image](src/images/bkwood3.jpg)
+![Brookwood rd estate image](src/images/bkwood6.jpg)
 
 Photo credits: Luka Zumbach

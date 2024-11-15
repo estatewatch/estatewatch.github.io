@@ -53,8 +53,8 @@ var circle = L.circle({{ location }}, {
 
 ---
 
- ![Charlton house estate image](src/images/ch2.jpg", "charlton house" %}
- ![Charlton house estate image](src/images/ch3.jpg", "charlton house" %}
- ![Charlton house estate image](src/images/ch4.jpg", "charlton house" %}
- ![Charlton house estate image](src/images/ch5.jpg", "charlton house" %}
- ![Charlton house estate image](src/images/ch6.jpg", "charlton house" %}
+ ![Charlton house estate image](src/images/ch2.jpg)
+ ![Charlton house estate image](src/images/ch3.jpg)
+ ![Charlton house estate image](src/images/ch4.jpg)
+ ![Charlton house estate image](src/images/ch5.jpg)
+ ![Charlton house estate image](src/images/ch6.jpg)

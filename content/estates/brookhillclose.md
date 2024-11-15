@@ -50,5 +50,5 @@ var circle = L.circle({{ location }}, {
 
 ---
 
-![Brookhill close estate image](src/images/bhill1.png", "Brookhill" %}
-![Brookhill close estate image](src/images/brookhillaerial.png", "Brookhill Close estate" %}
+![Brookhill close estate image](src/images/bhill1.png)
+![Brookhill close estate image](src/images/brookhillaerial.png)

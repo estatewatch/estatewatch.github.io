@@ -76,6 +76,6 @@ var circle = L.circle({{ location }}, {
 
 ---
 
-![Aylesbury estate image](src/images/fdsgreenspace.jpg", "Aylesbury estate FDS green space" %}
+![Aylesbury estate image](src/images/fdsgreenspace.jpg)
 
-![Aylesbury estate image](src/images/aylesburyident.png", "Aylesbury estate alternative ident" %}
+![Aylesbury estate image](src/images/aylesburyident.png)

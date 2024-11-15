@@ -18,7 +18,7 @@ image: estates/src/images/wkt1.jpg
 In March 2020, residents on Camden's West Kentish Town estate were balloted on the demolition plans for their homes.
 Prior to the ballot, residents were [told](/images/wtoffer.pdf) that if they vote against the scheme the their homes wouldn't be brought up to standard for at least another five to ten years: 
 
-![West kentish Town estate image](src/images/wktvote.png", "wktvote" %}
+![West kentish Town estate image](src/images/wktvote.png)
 
 Unsurprisingly the majority of residents voted in favour.
 

@@ -24,7 +24,7 @@ In 2017, Wandsworth signed a joint venture agreement with developer Redrow for t
 
 Despite the existing estate comprising an almost even split of social rented and private homes (leaseholders and freeholders), it is [claimed](https://planning2.wandsworth.gov.uk/iam/IAMCache/5300271/5300271.pdf) that *"the limited diversity in housing tenures and high proportion of social housing has inhibited the creation of a genuinely mixed and balanced community"*.
 
-![Alton estate image](src/images/socialmix.png", "Extract from planning application" %}
+![Alton estate image](src/images/socialmix.png)
 
 Redrow submitted a planning application in late 2019, but in August 2020 it announced that it was pulling out of the scheme. Wandsworth Council went ahead and approved the application despite this in October 2020, giving consent for demolition and construction of 1,108 new homes of which 261 affordable (201 social rent). 
 
@@ -75,5 +75,5 @@ var circle = L.circle({{ location }}, {
 
 ---
 
-![Alton estate image](src/images/alton2.jpg", "alt text" %}
+![Alton estate image](src/images/alton2.jpg)
 

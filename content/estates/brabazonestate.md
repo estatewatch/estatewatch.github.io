@@ -47,21 +47,21 @@ var circle = L.circle({{ location }}, {
 
 ---
 
-  ![Brabazon estate image](src/images/bzn1.jpg", "Brabazon estate" %}
-  ![Brabazon estate image](src/images/bzn2.jpg", "Brabazon estate" %}
-  ![Brabazon estate image](src/images/bzn3.jpg", "Brabazon estate" %}
-  ![Brabazon estate image](src/images/bzn4.jpg", "Brabazon estate" %}
-  ![Brabazon estate image](src/images/bzn5.jpg", "Brabazon estate" %}
-  ![Brabazon estate image](src/images/bzn6.jpg", "Brabazon estate" %}
-  ![Brabazon estate image](src/images/bzn7.jpg", "Brabazon estate" %}
-  ![Brabazon estate image](src/images/bz1.jpg", "Brabazon estate" %}
-  ![Brabazon estate image](src/images/bz2.jpg", "Brabazon estate" %}
-  ![Brabazon estate image](src/images/bz3.jpg", "Brabazon estate" %}
-  ![Brabazon estate image](src/images/bz4.jpg", "Brabazon estate" %}
-  ![Brabazon estate image](src/images/bz6.jpg", "Brabazon estate" %}
-  ![Brabazon estate image](src/images/bz7.jpg", "Brabazon estate" %}
-  ![Brabazon estate image](src/images/bz8.jpg", "Brabazon estate" %}
-  ![Brabazon estate image](src/images/brabazonaerial.png", "Brabazon estate" %}
-  ![Brabazon estate image](src/images/normanbrabazon.png", "Brabazon estate" %}
+  ![Brabazon estate image](src/images/bzn1.jpg)
+  ![Brabazon estate image](src/images/bzn2.jpg)
+  ![Brabazon estate image](src/images/bzn3.jpg)
+  ![Brabazon estate image](src/images/bzn4.jpg)
+  ![Brabazon estate image](src/images/bzn5.jpg)
+  ![Brabazon estate image](src/images/bzn6.jpg)
+  ![Brabazon estate image](src/images/bzn7.jpg)
+  ![Brabazon estate image](src/images/bz1.jpg)
+  ![Brabazon estate image](src/images/bz2.jpg)
+  ![Brabazon estate image](src/images/bz3.jpg)
+  ![Brabazon estate image](src/images/bz4.jpg)
+  ![Brabazon estate image](src/images/bz6.jpg)
+  ![Brabazon estate image](src/images/bz7.jpg)
+  ![Brabazon estate image](src/images/bz8.jpg)
+  ![Brabazon estate image](src/images/brabazonaerial.png)
+  ![Brabazon estate image](src/images/normanbrabazon.png)
 
 Photo credits: Luka Zumbach

@@ -12,7 +12,7 @@ ballot: Approved
 architect: HTA
 image: estates/src/images/customhouse4.png
 ---
-![Custom house estate image](src/images/customhouse4.png", " Custom house" %}
+![Custom house estate image](src/images/customhouse4.png)
 
 Circa 300 homes remain under threat of demolition as part of Newham's regeneration of the Custom House area.
 
@@ -83,5 +83,5 @@ var circle = L.circle({{ location }}, {
 
 ---
 
-![Custom house estate images](src/images/customhouse2.jpg", "custon house" %}
-![Custom house estate images](src/images/customhouse3.png", " Custom house" %}
+![Custom house estate images](src/images/customhouse2.jpg)
+![Custom house estate images](src/images/customhouse3.png)

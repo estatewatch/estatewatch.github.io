@@ -57,8 +57,8 @@ var circle = L.circle({{ location }}, {
 
 ---
 
-![Clapham Park estate image](src/images/cpark6.jpg", "clapham park estate" %}
-![Clapham Park estate image](src/images/cpark5.png", "clapham park estate" %}
-![Clapham Park estate image](src/images/cpark3.png", "clapham park estate" %}
-![Clapham Park estate image](src/images/cpark2.png", "clapham park estate" %}
-![Clapham Park estate image](src/images/cpark4.png", "clapham park estate" %}
+![Clapham Park estate image](src/images/cpark6.jpg)
+![Clapham Park estate image](src/images/cpark5.png)
+![Clapham Park estate image](src/images/cpark3.png)
+![Clapham Park estate image](src/images/cpark2.png)
+![Clapham Park estate image](src/images/cpark4.png)

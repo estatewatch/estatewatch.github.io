@@ -43,6 +43,6 @@ var circle = L.circle({{ location }}, {
 
 ---
 
-![Dell Court estate image](src/images/dell2.png", "Dell court" %}
-![Dell Court estate image](src/images/dell3.png", "Dell court" %}
-![Dell Court estate image](src/images/dellaerial.png", "Dell court" %}
+![Dell Court estate image](src/images/dell2.png)
+![Dell Court estate image](src/images/dell3.png)
+![Dell Court estate image](src/images/dellaerial.png)

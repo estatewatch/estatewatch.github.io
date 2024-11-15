@@ -53,10 +53,10 @@ var circle = L.circle({{ location }}, {
 
 ---
 
- ![Chaucer Gardens estate image](src/images/chaucer1.jpg", "chaucer gardens estate" %}
- ![Chaucer Gardens estate image](src/images/chaucer2.jpg", "chaucer gardens estate" %}
- ![Chaucer Gardens estate image](src/images/chaucer3.jpg", "chaucer gardens estate" %}
- ![Chaucer Gardens estate image](src/images/chaucer6.jpg", "chaucer gardens estate" %}
- ![Chaucer Gardens estate image](src/images/chaucer7.jpg", "chaucer gardens estate" %}
+ ![Chaucer Gardens estate image](src/images/chaucer1.jpg)
+ ![Chaucer Gardens estate image](src/images/chaucer2.jpg)
+ ![Chaucer Gardens estate image](src/images/chaucer3.jpg)
+ ![Chaucer Gardens estate image](src/images/chaucer6.jpg)
+ ![Chaucer Gardens estate image](src/images/chaucer7.jpg)
 
 

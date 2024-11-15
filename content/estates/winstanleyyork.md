@@ -28,11 +28,11 @@ The Mayor's report ignores his [requirement](https://www.london.gov.uk/what-we-d
 
 The Mayor's [report](https://www.london.gov.uk/sites/default/files/public%3A//public%3A//PAWS/media_id_454975///york_road_and_winstanley_estates_report.pdf) is not clear about the rent levels of the 484 social rented homes - it only says those taken up by returning tenants will be at social rents:
 
-![Winstanly york road estate image](src/images/winstanleysr2.png", "winstanley sr2" %}
+![Winstanly york road estate image](src/images/winstanleysr2.png)
 
 The [viability assessment](https://planning2.wandsworth.gov.uk/iam/IAMCache/5121327/5121327.pdf) submitted to justify the claim that the scheme can't meet the Mayor's requirement of 50% affordable housing, confirms that the developer is estimated to receive over £200m profit:
 
-![Winstanly york road estate image](src/images/winstanleyprofit.png", "winstanley profit" %}
+![Winstanly york road estate image](src/images/winstanleyprofit.png)
 
 ---
 

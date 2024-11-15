@@ -63,6 +63,6 @@ var circle = L.circle({{ location }}, {
 
 ---
 
-![Barkantine estate image](src/images/barnsbury2.png", "second barnsbury image" %}
-![Barkantine estate image](src/images/barnsbury3.png", "third barnsbury image" %}
-![Barkantine estate image](src/images/barnsbury4.png", "fourth barnsbury image" %}
+![Barkantine estate image](src/images/barnsbury2.png)
+![Barkantine estate image](src/images/barnsbury3.png)
+![Barkantine estate image](src/images/barnsbury4.png)

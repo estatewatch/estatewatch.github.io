@@ -52,7 +52,7 @@ var circle = L.circle({{ location }}, {
 
 ---
 
-![Benhill estate image](src/images/benhill9.jpg", "benhill estate" %}
-![Benhill estate image](src/images/bhs2.jpg", "benhill estate" %}
-![Benhill estate image](src/images/bhs3.jpg", "benhill estate" %}
-![Benhill estate image](src/images/benhillaerial.png", "benhill estate" %}
+![Benhill estate image](src/images/benhill9.jpg)
+![Benhill estate image](src/images/bhs2.jpg)
+![Benhill estate image](src/images/bhs3.jpg)
+![Benhill estate image](src/images/benhillaerial.png)
