@@ -4,7 +4,8 @@ borough: towerhamlets
 tags: towerhamlets
 location: '[51.518195,-0.012409]'
 landlord: Poplar HARCA
-developer:
+developer: Hill
+architect: BPTW
 itla: Mike Tyrell
 total: 535
 ballot: Approved
@@ -23,11 +24,11 @@ The scheme is part of Poplar HARCA's [‘Poplar Reshaping’ masterplan](https:/
 
 ![Teviot estate image](src/images/reshapingpoplar.png)
 
-In December 2018, residents were [told](/images/teviotDec2018.pdf) they would be balloted on the regeneration options for their estate, but that if they chose refurbishment then they would have to have new homes built above them in order to pay for the refurbishment.
+In December 2018, residents were [told](src/images/teviotDec2018.pdf) they would be balloted on the regeneration options for their estate, but that if they chose refurbishment then they would have to have new homes built above them in order to pay for the refurbishment.
 
 ![Teviot estate image](src/images/teviotrooftops.png)
 
-In March 2019, residents were [informed](/images/teviotMarch2019.pdf) that their steering group had requested the refurbishment option to be taken off the table.
+In March 2019, residents were [informed](src/images/teviotMarch2019.pdf) that their steering group had requested the refurbishment option to be taken off the table.
 
 ![Teviot estate image](src/images/refurbgone.png)
 
@@ -37,7 +38,23 @@ Residents were also told that the scheme would take 7 to 10 years to complete bu
 
 ![Teviot estate image](src/images/teviothousingtoday.png)
 
-It is noteworthy that Poplar HARCA's [rehousing offer](/images/teviotoffer.pdf) to leaseholders is more generous than most (with the exception of Circle Housing's [offer in Merton](/images/mertonoffer.pdf) as it allows a certain amount of the shared equity loan to be written off after 7 years (Circle writes it off completely).
+It is noteworthy that Poplar HARCA's [rehousing offer](src/images/teviotoffer.pdf) to leaseholders is more generous than most (with the exception of Circle Housing's [offer in Merton](src/images/mertonoffer.pdf) as it allows a certain amount of the shared equity loan to be written off after 7 years (Circle writes it off completely).
+
+A planning application was lodged in October 2024, for demolition of the estate and construction of 1928 new homes of which 411 social or living rent, 98 intermediate affordable and 1419 private homes.
+
+The planning application says that the 411 replacement social will be provided either as social rent or THLR (Tower Hamlets Living Rent) which is around three times more expensive than social rent.
+
+This is breach of the Mayor's own policy which says that social rented homes must be replaced with like-for-like tenure. The Mayor's [stage 1 report](https://development.towerhamlets.gov.uk/online-applications/files/844BA29DA92775EF861EA51FC8D34223/pdf/PA_24_00922_A1-GLA_STAGE_1_REPORT-2102510.pdf) for the planning application brushes over this and is silent on the fact that the 35% affordable housing proposed falls short of his 50% minimum requirement for estate regenerations.
+
+![teviot tenure mix image](src/images/teviotmix.png)*Extract from the Mayor's Stage 1 report*
+
+---
+
+__Links:__
+
+[Planning application documents](https://development.towerhamlets.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=DCAPR_144583)
+
+[GLA Stage 1 report](https://development.towerhamlets.gov.uk/online-applications/files/844BA29DA92775EF861EA51FC8D34223/pdf/PA_24_00922_A1-GLA_STAGE_1_REPORT-2102510.pdf)
 
 ---
 
