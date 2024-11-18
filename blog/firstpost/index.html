@@ -3,11 +3,72 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>This is my first sample post.</title>
-		<meta name="description" content="This is a sample post for the blog section.">
+		<title>Estate Watch is back!</title>
+		<meta name="description" content="Estate watch is back in action - watch this space!">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="ESTATE WATCH">
 		
-		<style>/**
+		<style>.glitch-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFFFFF;
+ }
+ 
+ .glitch {
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    color: #070707;
+    letter-spacing: 3px;
+    z-index: 1;
+ }
+ 
+ .glitch:before,
+ .glitch:after {
+    display: block;
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+ }
+ 
+ .glitch:before {
+    animation: glitch-it 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+    color: #00FFFF;
+    z-index: -1;
+ }
+ 
+ .glitch:after {
+    animation: glitch-it 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+    color: #FF00FF;
+    z-index: -2;
+ }
+ 
+ @keyframes glitch-it {
+    0% {
+       transform: translate(0);
+    }
+    20% {
+       transform: translate(-2px, 2px);
+    }
+    40% {
+       transform: translate(-2px, -2px);
+    }
+    60% {
+       transform: translate(2px, 2px);
+    }
+    80% {
+       transform: translate(2px, -2px);
+    }
+    to {
+       transform: translate(0);
+    }
+ }
+/**
  * okaidia theme for JavaScript, CSS and HTML
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
  * @author ocodia
@@ -478,18 +539,49 @@ h2 + .header-anchor {
 		<main id="skip">
 			<heading-anchors>
 				
-<h1 id="this-is-my-first-sample-post">This is my first sample post.</h1>
+<h1 id="estate-watch-is-back">Estate Watch is back!</h1>
 
 <ul class="post-metadata">
-	<li><time datetime="2018-05-01">01 May 2018</time></li>
+	<li><time datetime="2024-11-06">06 November 2024</time></li>
 </ul>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<h2 id="section-header">Section Header</h2>
-<p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-<p><picture><source type="image/avif" srcset="/blog/firstpost/VgQA7LZYvH-700.avif 700w"><source type="image/webp" srcset="/blog/firstpost/VgQA7LZYvH-700.webp 700w"><img loading="lazy" decoding="async" src="/blog/firstpost/VgQA7LZYvH-700.png" alt="" width="700" height="496"></picture></p>
+<p>Thanks to <a href="https://justspace.org.uk">Just Space</a>, <a href="https://londontenants.org">London Tenants Federation</a> and student volunteers from <a href="https://www.ucl.ac.uk/">University College London</a>, Estate Watch is back online and back in action!</p>
+<div class="glitch-wrapper">
+   <div class="glitch" data-text="WE'RE BACK!">WE'RE BACK!</div>
+</div>
+<p>The website was mothballed last year when funding ran out but has now been spruced up, updated and put back online as an open source project. The new website now has a <a href="/estates.csv">live CSV open data feed</a> and the ability to be collaboratively edited and managed directly through a web browser. Info on how to get involved or contribute can be found <a href="/guide">here</a>.</p>
+<p>A number of new estates have been added to the list of those under threat, these are:</p>
+<ul>
+<li>The <a href="/estates/airways/">Airways estate</a> (Ealing)</li>
+<li>The <a href="/estates/savonaestate/">Savona estate</a> (Wandsworth)</li>
+<li>The <a href="/estates/chiswickroad/">Chiswick Road estate</a> (Enfield)</li>
+<li>The <a href="/estates/clockhouse/">Clockhouse estate</a> (Sutton)</li>
+<li>The <a href="/estates/copleyclose/">Copley Close estate</a> (Ealing)</li>
+<li>The <a href="/estates/devonsroad/">Devons Road estate</a> (Tower Hamlets)</li>
+<li>The <a href="/estates/grangecourt/">Grange Court estate</a> (Ealing)</li>
+<li>The <a href="/estates/ibscottclose/">Ibscott Close estate</a> (Barking &amp; Dagenham)</li>
+<li>The <a href="/estates/islipmanor/">Islip Manor estate</a> (Ealing)</li>
+<li>The <a href="/estates/lambourneclose/">Lambourne Close estate</a> (Ealing)</li>
+<li>The <a href="/estates/mainavenue/">Main Avenue estate</a> (Enfield)</li>
+<li>The <a href="/estates/medlarfarm/">Medlar Farm estate</a> (Ealing)</li>
+<li>The <a href="/estates/reginaroad/">Regina Road estate</a> (Croydon)</li>
+<li>The <a href="/estates/saltfordclose/">Saltford Close estate</a> (Bexley)</li>
+<li>The <a href="/estates/sheephouseway/">Sheephouse Way estate</a> (Kingston)</li>
+<li>The <a href="/estates/shiptonclose/">Shipton Close estate</a> (Barking &amp; Dagenham)</li>
+<li>The <a href="/estates/shires/">Shires estate</a> (Enfield)</li>
+<li>The <a href="/estates/southlane/">South Lane estate</a> (Kingston)</li>
+<li>The <a href="/estates/toplocks/">Toplocks estate</a> (Ealing)</li>
+<li>The <a href="/estates/trinityway/">Trinity Way estate</a> (Ealing)</li>
+<li>The <a href="/estates/wessexclose/">Wessex Close estate</a> (Kingston)</li>
+<li>The <a href="/estates/yeadinglane/">Yeading Lane(1) estate</a> (Ealing)</li>
+<li>The <a href="/estates/yeadinglane2/">Yeading Lane(2) estate</a> (Ealing)</li>
+</ul>
+<p>In addition, we have added a number of social housing blocks earmarked for demolition but which are not technically 'estates'.</p>
+<p>These include <a href="/estates/brookhouse/">Brook House</a>(Ealing), <a href="/estates/deancourt/">Dean Court</a>(Ealing), <a href="/estates/eroshouse/">Eros House</a>(Lewisham), <a href="/estates/nevilleclose/">Neville Close</a>(Ealing), <a href="/estates/oaktreecourt/">Oaktree Court</a>(Ealing), <a href="/estates/rafuxbridge/">RAF Uxbridge</a>(Hillingdon), <a href="/estates/southwolddrive/">Southwold Drive</a>(Barking &amp; Dagenham), <a href="/estates/walbrook/">Walbrook House</a>(Enfield), <a href="/estates/mordenregenerationzone/">Morden Regeneration Zone</a> (Merton) and <a href="/estates/mendippenine/">Mendip and Penine House</a> above Edmonton Green Shopping Centre.</p>
+<p>In future blog updates, we will be looking at what exactly constitutes a housing estate for the purposes of the Mayor's <a href="https://www.london.gov.uk/programmes-strategies/housing-and-land/homes-londoners/estate-regeneration">Estate Regeneration Policies</a> and how these should be applied.</p>
+<p>Most of the additions are from scouring through London boroughs' new draft Local Plans and site allocation documents where estates have been identified as potential redevelopment sites. We will also be taking a closer look at the Local Plan process of site allocations and the 'call for sites' which informs them as well as the implications this has for any subsequent meaningful consultation with residents. Watch this space!</p>
 
-<ul class="links-nextprev"><li class="links-nextprev-next">Next →<br><a href="/blog/secondpost/">This is my second sample post with a much longer title.</a></li>
+<ul class="links-nextprev"><li class="links-nextprev-next">Next →<br><a href="/blog/secondpost/">When is an estate not an estate?</a></li>
 </ul>
 
 			</heading-anchors>
@@ -503,7 +595,7 @@ h2 + .header-anchor {
 		      <a href="https://github.com/estatewatch/estatewatch.github.io/blob/main/./content/blog/firstpost.md">Edit this page on GitHub</a>
 		</footer>
 
-		<!-- This page `/blog/firstpost/` was last built on 2024-11-15T18:05:46.386Z -->
+		<!-- This page `/blog/firstpost/` was last built on 2024-11-18T10:04:11.838Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>
