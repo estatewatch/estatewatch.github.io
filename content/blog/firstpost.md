@@ -10,9 +10,11 @@ Thanks to [Just Space](https://justspace.org.uk), [London Tenants Federation](ht
    <div class="glitch" data-text="WE'RE BACK!">WE'RE BACK!</div>
 </div>
 
-The website was mothballed last year when funding ran out but has now been spruced up, updated and put back online as an open source project. The new website now has a [live CSV open data feed](/estates.csv) and the ability to be collaboratively edited and managed directly through a web browser. Info on how to get involved or contribute can be found [here](/guide). 
+The website was mothballed last year when funding ran out but has now been spruced up, updated and put back online as an open source project.
 
-A number of new estates have been added to the list of those under threat, these are:
+The new website now has a [live CSV open data feed](/estates.csv) and the ability to be collaboratively edited and managed directly through a web browser. Info on how to get involved or contribute can be found [here](/guide). 
+
+As part of the re-fresh we identifed a number of new estates to add to the list of those under threat, these are:
 * The [Airways estate](/estates/airways/) (Ealing)
 * The [Savona estate](/estates/savonaestate/) (Wandsworth)
 * The [Chiswick Road estate](/estates/chiswickroad/) (Enfield)
