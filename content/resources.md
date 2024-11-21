@@ -13,11 +13,11 @@ We have produced five guides for tenants and residents facing the redevelopment 
 ## Our Guides
 |    |          |   |
 |----------|:-------------|------:|
-| ![](../public/img/handouticon.png) |  [Seven reasons to be wary of 'estate regeneration'](../public/img/Handout_1.pdf) |
-| ![](../public/img/handouticon.png) |  [Resident-led regeneration: proposing alternatives to demolition](../public/img/Handout_3.pdf)   |
-| ![](../public/img/handouticon.png) | [Demolition ballots: 10 questions to ask before you cast your vote](../public/img/Handout_4.pdf) |
-| ![](../public/img/handouticon.png) | [CPO guide for leaseholders on estates earmarked for demolition](../public/img/cpoguide.pdf) |
-| ![](../public/img/handouticon.png) | [Our Alternative Good Practice Guide to estate regeneration](../public/img/alternative-good-practice-guide-to-estate-regeneration.pdf)  |
+| ![](../public/img/handouticon.png) |  [Seven reasons to be wary of 'estate regeneration'](../img/Handout_1.pdf) |
+| ![](../public/img/handouticon.png) |  [Resident-led regeneration: proposing alternatives to demolition](../img/Handout_3.pdf)   |
+| ![](../public/img/handouticon.png) | [Demolition ballots: 10 questions to ask before you cast your vote](../img/Handout_4.pdf) |
+| ![](../public/img/handouticon.png) | [CPO guide for leaseholders on estates earmarked for demolition](../img/cpoguide.pdf) |
+| ![](../public/img/handouticon.png) | [Our Alternative Good Practice Guide to estate regeneration](../img/alternative-good-practice-guide-to-estate-regeneration.pdf)  |
 
 ---
 

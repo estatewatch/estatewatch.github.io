@@ -40,7 +40,7 @@ Residents were also told that the scheme would take 7 to 10 years to complete bu
 
 It is noteworthy that Poplar HARCA's [rehousing offer](images/teviotoffer.pdf) to leaseholders is more generous than most (with the exception of Circle Housing's [offer in Merton](images/mertonoffer.pdf) as it allows a certain amount of the shared equity loan to be written off after 7 years (Circle writes it off completely).
 
-A planning application was lodged in June 2024, for demolition of the estate and construction of 1928 new homes of which 411 social or living rent, 98 intermediate affordable and 1419 private homes.
+A planning application was lodged in June 2024, for demolition of the estate and construction of 1928 new homes of which 411 social or London Living Rent, 98 intermediate affordable and 1419 private homes.
 
 The planning application says that the 411 replacement social will be provided either as social rent or THLR (Tower Hamlets Living Rent) which is around three times more expensive than social rent.
 
@@ -52,9 +52,9 @@ The scheme's failure to provide the minimum 50% affordable housing requirement i
 
 The appraisal argues that providing more than 35% affordable housing would make the scheme 'unviable' but brushes over the fact that a 16% protected profit margin for Poplar HARCA has been written in to the appraisal as a cost - i.e. Poplar HARCA is guaranteed a £131m profit before any surplus available for affordable housing is calculated.
 
+We argue in our [Alternative Good Practice Guide to Estate Regeneration](img/alternative-good-practice-guide-to-estate-regeneration.pdf) that housing associations should not be allowed to profit from estate redevelopment.
 
-
-The appraisal also counts on £95m grant funding from the Mayor despite the Mayor's policy of funding only *additional* social housing on estate redevelopments and not *replacement* social housing!
+The Financial Viability Appraisal also counts on £95m grant funding from the Mayor despite the Mayor's policy of funding only *additional* social housing on estate redevelopments and not *replacement* social housing!
 
 ![Extract from the FVA appraisal](src/images/teviotgrant.png)
 
