@@ -1,7 +1,7 @@
 ---
 title: Will the Mayor turn a blind eye to the Teviot?
 description: Why have estate regeneration policies if they are routinely ignored?
-date: 2024-11-19
+date: 2024-11-12
 ---
 ![Teviot estate image](../estates/src/images/te4.jpg)
 

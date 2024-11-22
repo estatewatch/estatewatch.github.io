@@ -12,11 +12,11 @@ planning: Approved
 architect: Pollard Thomas Edwards
 image: estates/src/images/alma2.png
 ---
-<img src="src/images/alma2.png" alt="alt text">
+![Alma estate photo](src/images/alma2.png)
 
 746 homes (717 council & 29 leasehold) have been approved for demolition on Enfield's Alma estate at Ponders End.
 
-The estate spanns 7.8 hectares of land near Ponders End Train Station, comprising four high rise tower blocks (each 23 storeys), and a number of low rise maisonette and flatted blocks.
+The estate spans 7.8 hectares of land near Ponders End Train Station, comprising four high rise tower blocks (each 23 storeys), and a number of low rise maisonette and flatted blocks.
 
 Only one of these towers (Curlew House) remains standing along with several maisonette blocks which are in the final phases of the estate’s redevelopment.
 
@@ -28,7 +28,7 @@ Outline planning permission for 993 new homes was granted in September 2015 of w
 
 <img src="src/images/almaah.png" alt="alt text">
 
-Following this, several S73 and S96A applications were submitted increasing the total number of homes to 1,080 homes and increase the number of affordable homes to 444 (with 222 social rent).
+Following this, several S73 and S96A applications were submitted increasing the total number of homes to 1,080 homes and increasing the number of affordable homes to 444 (with 222 social rent).
 
 In 2016 Enfield issued a compulsory purchase order for homes on the estate. In its [Statement of Reasons](/images/almacpo.pdf) justifying the Order, Enfield relies on its own neglect of the estate as justification for its demolition:
 
