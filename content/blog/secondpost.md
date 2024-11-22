@@ -35,5 +35,7 @@ This is just the latest in a long list of schemes ignoring the Mayor's estate re
 * [Douglas Bader Park estate](https://www.estatewatch.london/estates/douglasbaderpark/) - 28% affordable housing by unit/40% by habitable room
 * [Lansbury South estate](https://www.estatewatch.london/estates/lansbury/) - 36% affordable housing
 * [Cambridge Road estate](https://www.estatewatch.london/estates/cambridgeroad/) - 36% affordable housing
+* [Aberfeldy estate](/estates/aberfeldy/) - 38% affordable housing
+* [Alma estate](estates/almaestate/) - 31.7% affordable housing and just 246 of 1,402 new homes social rent!
 
-The application is yet to be approved. Will the Mayor allow the Teviot regeneration to join the growing list of schemes that flout his policies? WATCH THIS SPACE
+The application is yet to be approved. Will the Mayor once again turn a blind eye and allow the Teviot regeneration to join the growing list of schemes that flout his policies? WATCH THIS SPACE!

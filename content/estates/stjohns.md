@@ -53,6 +53,8 @@ July 2021 Consultation Boards - [https://www.onehousing.co.uk/__data/assets/pdf_
 
 [Landlord Offer](src/images/stjohnslandoffer.pdf)
 
+[Press article about the regeneration (poplarlondon.co.uk)](https://poplarlondon.co.uk/isle-of-dogs-residents-fight-to-remain-in-canary-wharf-housing-revolution/)
+
 ---
 
 <!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->

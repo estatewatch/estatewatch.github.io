@@ -51,6 +51,8 @@ One Housing Group's website - [https://www.onehousing.co.uk/about-us/what-we-do/
 
 The [4 Estates Forum](http://4estatesforum.org.uk)
 
+[Press article about the regeneration (poplarlondon.co.uk)](https://poplarlondon.co.uk/isle-of-dogs-residents-fight-to-remain-in-canary-wharf-housing-revolution/)
+
 ---
 
 <!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->

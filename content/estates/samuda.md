@@ -46,6 +46,8 @@ __Links:__
 
 Dedicated website for residents - <https://futuresamuda.co.uk>
 
+[Press article about the regeneration (poplarlondon.co.uk)](https://poplarlondon.co.uk/isle-of-dogs-residents-fight-to-remain-in-canary-wharf-housing-revolution/)
+
 ---
 
 <!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
