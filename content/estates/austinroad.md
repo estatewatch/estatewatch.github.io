@@ -38,7 +38,13 @@ The ballot was held in March 2021, with 79% voting in favour of redevelopment on
 
 Planning permission was granted in 2022 for a total of 420 new homes of which 50% affordable. As the Council was the applicant for the planning permission there is no section 106 agreement for the scheme. Instead there is a [Statement of Intent](https://planning.hillingdon.gov.uk/OcellaWeb/viewDocument?file=dv_pl_files%5C76550_APP_2021_4499%5C%5BAustin+Road%5D+Statement+of+Intent+28.09.2022_Redacted.pdf&module=pl). This leaves the precise tenures and mix of affordable housing open to the Council: 
 
-![Alton estate image](src/images/austinroads106.png)
+![Austin Road estate image](src/images/austinroads106.png)
+
+A November 2024 [Council report](https://modgov.hillingdon.gov.uk/documents/s62313/241111%20-%20Hayes%20Estate%20Regeneration%20Update.pdf) confirms that works have started on phase 1 of the redevelopment and that a Compulsory Purchase Order is being prepared. 
+
+It also confirms that Hillingdon has budgeted £161m for the scheme and that this sum may increase due to inflation in build costs. Dividing this by the number of new council homes being built comes to a staggering build cost of £797k for each new social rented home!  
+
+The report also confirms that the Mayor has allocated £50m in grant funding to this and Hillingdon's other estate redevelopment - the [Avondale Drive estate](estates/avondaledrive).
 
 ---
 __Links__  

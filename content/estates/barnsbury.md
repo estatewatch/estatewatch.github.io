@@ -6,6 +6,7 @@ location: '[51.536269,-0.114844]'
 landlord: Newlon Housing Association
 developer: Mount Anvil
 itla:
+architect: Pollard Thomas Edwards
 total: 371
 ballot: Approved
 planning: Approved
@@ -30,6 +31,8 @@ This is an a recurring element in resident ballots, where residents are forced t
 In 2018, residents [accused](https://www.islingtongazette.co.uk/news/has-newlon-housing-trust-left-barnsbury-estate-to-rot-3795818) Newlon of neglecting the estate and _'running it into the ground'_.
 
 Planning permission was granted in 2022 for 950 new homes of which 50% affordable.
+
+In April 2023, Islington Council [resolved](https://democracy.islington.gov.uk/documents/s32602/Barnsbury%20disposal%20of%20land%20and%20release%20of%20restrictive%20covenant.pdf) to use CPO powers on behalf of Newlon Housing Association.
 
 ---
 
