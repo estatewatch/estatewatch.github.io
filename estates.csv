@@ -77,6 +77,8 @@ Rainham Road,barkinganddagenham,100,"[51.547412,0.164733]",Barking and Dagenham 
 ,
 RAF Uxbridge estate,hillingdon,89,"[51.545461, -0.470859]",Hillingdon Council,,,,Exempt,,estates/src/images/rafuxbridge.png
 ,
+Pike Close estate,bromley,100,"[51.421991,0.021446]",Riverside Housing Association,Countryside Properties,HTA,Source Partnership,Approved,Approved,estates/src/images/pclose2.png
+,
 Oriel estate,hounslow,300,"[51.435475,-0.390207]",Hounslow Council,,,,Required,Pending,estates/src/images/or4.jpg
 ,
 Oldchurch Gardens estate,havering,84,"[51.568833,0.175872]",Havering Council,Wates,,TPAS,Exempt,Pending,estates/src/images/oc3.png
@@ -225,9 +227,9 @@ Central Hill estate,lambeth,476,"[51.420034,-0.085651]",Lambeth Council,,,PPCR,R
 ,
 Carpenters estate,newham,710,"[51.537846,-0.004882]",Newham Council,,,TPAS/Source Partnership,Approved,Pending,estates/src/images/cp12.jpg
 ,
-Cambridge Road estate,kingston,820,"[51.408046,-0.287284]",RB Kingston,Countryside Properties,,PPCR,Approved,Approved,estates/src/images/cambridge3.jpg
+Cambridge Road estate,kingston,820,"[51.408046,-0.287284]",RB Kingston,Countryside Properties,Patel Taylor,PPCR,Approved,Approved,estates/src/images/cambridge3.jpg
 ,
-Calverley Close estate,bromley,150,"[51.419397,0.021422]",Riverside Housing Association,,,Source Partnership,Approved,Pending,estates/src/images/cal4.png
+Calverley Close estate,bromley,150,"[51.419397,0.021422]",Riverside Housing Association,Countryside,HTA,Source Partnership,Approved,Pending,estates/src/images/cal4.png
 ,
 Brookwood Road estate,hounslow,200,"[51.475927,-0.362360]",Hounslow Council,,,,Required,Pending,estates/src/images/bkwood7.jpg
 ,
@@ -235,7 +237,7 @@ Brook House,ealing,50,"[51.503540,-0.280070]",RSL,,,,,,estates/src/images/brookh
 ,
 Brookhill Close estate,greenwich,80,"[51.483649,0.065543]",Hyde Housing Association,,,,Approved,Approved,estates/src/images/bhill2.png
 ,
-Broadwater Farm estate,haringey,200,"[51.594340,-0.080927]",Haringey Council,,,PPCR,Approved,Approved,estates/src/images/bwater3.jpg
+Broadwater Farm estate,haringey,200,"[51.594340,-0.080927]",Haringey Council,,Karakusevic Carson,PPCR,Approved,Approved,estates/src/images/bwater3.jpg
 ,
 Brabazon estate,hounslow,300,"[51.484513,-0.395689]",Hounslow Council,,,,Required,Pending,estates/src/images/bz5.jpg
 ,
@@ -253,7 +255,7 @@ Avenue Road estate,walthamforest,258,"[51.554350,-0.002466]",Waltham Forest Coun
 ,
 Austin Road estate,hillingdon,260,"[51.505778,-0.417528]",Hillingdon Council,Higgins,Pollard Thomas Edwards,Public Voice,Approved,Approved,estates/src/images/austin2.png
 ,
-Alton estate,wandsworth,288,"[51.450221,-0.243483]",Wandsworth Council,,Hawkins Brown,,Required,Pending,estates/src/images/altonthumblarge.jpg
+Alton estate,wandsworth,288,"[51.450221,-0.243483]",Wandsworth Council,,Hawkins Brown,,Required,,estates/src/images/altonthumblarge.jpg
 ,
 Alma estate,enfield,746,"[51.643512,-0.036348]",Enfield Council,Countryside Properties,Pollard Thomas Edwards,PEP,Exempt,Approved,estates/src/images/alma2.png
 ,
