@@ -6,6 +6,7 @@ location: '[51.408046,-0.287284]'
 ballot: Approved
 landlord: RB Kingston
 developer: Countryside Properties
+architect: Patel Taylor
 itla: PPCR
 total: 820
 planning: Approved
@@ -51,11 +52,25 @@ Another interesting point noted from the planning application is that the develo
 
 The planning application's [Energy Statement](https://publicaccess.kingston.gov.uk/online-applications/files/7E2224EA3ACA29219051C7CA067126FF/pdf/20_02942_FUL-CRE_-_ENERGY_STATEMENT_PART_1-4584307.pdf) acknowledges that the development will result in over 55,000 tonnes of CO2 emissions in the construction of the new homes alone.
 
+The planning application was approved in January 2022. I Autumn 2022, Kingston served a Compulsory Purchase Order on the estate. Its [Statement of Reasons for the CPO](https://www.cambridgeroadestate.com/assets/pdf/FINAL_Statement_of_Reasons_updated.pdf) gives the following reasons justifying the estate's redevelopment:
+
+> "The Estate suffers from significant condition issues but also fundamental design flaws that would make it impossible to deliver modern day ‘secure by design’ (including designing out crime and improving accessibility standards) through refurbishment due to layout and changes of levels across the site." (Para 4.16)
+
+> "The layout of the Estate makes it easier for criminals to 'ply their trade'. Dark stairwells, alleyways and obscure hotspots mean the area is difficult to police. Through regeneration there is an opportunity to design out crime as the layout of the scheme will be open and accessible, thus reducing the opportunity for crime to be as prevalent as it is today." (Para 4.22)
+
+The Statement also confirms that (like many other schemes) Kingston's offer of a 'shared equity' home to leaseholders is gatekept behind a 'shared ownership' scheme in which rent must be paid on the unowned equity: 
+
+> "If a resident owner does not have the required equity or enough funds to buy a new home outright, the Council provide help through shared equity or shared ownership (depending on circumstances)." (Para 8.11)
+
+Only 4 of the estate's 42 leaseholders who have relocated to date, have applied for and received an offer of a shared equity home. (Para 8.10)
+---
+__Links:__
+
 You can view the planning application documents on Kingston's planning portal [here (ref:20/02942)](https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=QK385KNH00H00).
 
 The Mayor's stage 1 report is available [here.](https://gla.force.com/pr/s/planning-application/a0i4J000002UOhyQAG/20206860?tabset-c2f3b=2)
 
-The planning application was approved in January 2022.
+The scheme has its own website here: [https://cambridgeroadestate.com](https://www.cambridgeroadestate.com)
 
 ---
 

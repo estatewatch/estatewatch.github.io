@@ -9,6 +9,7 @@ itla: PPCR
 total: 200
 ballot: Approved
 planning: Approved
+architect: Karakusevic Carson
 image: estates/src/images/bwater3.jpg
 ---
 ![Broadwater farm estate image](src/images/bwater3.jpg)
@@ -30,6 +31,14 @@ A ballot was held in Spring 2022, in which 85% voted in favour of redevelopment 
 Haringey's [shared equity offer](https://www.haringey.gov.uk/sites/haringeygovuk/files/broadwater_farm_rehousing_and_payments_policy.pdf) for leaseholders requires them to be able to afford a 60% share in any replacement home, which may require them to take out a second mortgage or invest personal savings. It also prohibits descendants from inheriting the equity share, which means the leaseholder can't pass their home on to their children.
 
 A planning application was approved in 2022 for a total of 294 new homes, all supposedly council homes at council rents.
+
+In September 2024, Haringey Council [resolved](https://new.haringey.gov.uk/news/20240918/major-milestone-broadwater-farm-estate) to sign a contract for work to start on the first 40 homes of the scheme. 
+
+---
+
+__Links:__
+
+Haringey's web page for the scheme [https://www.haringey.gov.uk/regeneration/tottenham/improving-broadwater-farm-together](https://www.haringey.gov.uk/regeneration/tottenham/improving-broadwater-farm-together)
 
 ---
 

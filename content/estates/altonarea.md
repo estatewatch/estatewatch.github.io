@@ -5,12 +5,12 @@ tags: wandsworth
 location: '[51.450221,-0.243483]'
 ballot: Required
 landlord: Wandsworth Council
-developer:
-itla: null
-total: 288
-planning: Pending
 architect: Hawkins Brown
+total: 288
 image: estates/src/images/altonthumblarge.jpg
+developer:
+itla:
+planning:
 ---
 ![Alton estate image](src/images/altonthumblarge.jpg)
 

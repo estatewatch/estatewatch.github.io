@@ -4,7 +4,8 @@ borough: bromley
 tags: bromley
 location: '[51.419397,0.021422]'
 landlord: Riverside Housing Association
-developer:
+developer: Countryside
+architect: HTA
 itla: Source Partnership
 total: 150
 ballot: Approved
@@ -25,7 +26,6 @@ Tpas visited residents at Calverley Close to ask for their thoughts and opinions
 
 ![Calverly Close estate image](src/images/riversidecalverley.png)
 
-
 The Mayor agreed funding in principle for the redevelopment in November 2018.
 
 A ballot was held in July 2021, with a majority of residents voting in favour of redevelopment.
@@ -33,6 +33,8 @@ A ballot was held in July 2021, with a majority of residents voting in favour of
 Planning permission was granted in 2023 for 275 new homes, of which 179 'affordable'.
 
 More information is available on Riverside's website here: [https://www.riverside.org.uk/redevelopment-projects/calverley-close-revitalising-your-neighbourhood/](https://www.riverside.org.uk/redevelopment-projects/calverley-close-revitalising-your-neighbourhood/)
+
+In March 2024, developer Countryside [celebrated](https://www.vistrygroup.co.uk/media-centre/press-releases/riverside-and-countryside-partnerships-mark-success-new-estate) 'breaking ground' on the first phase of the Calverley Close scheme.
 
 ---
 
