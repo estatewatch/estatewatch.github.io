@@ -63,7 +63,9 @@ The Statement also confirms that (like many other schemes) Kingston's offer of a
 > "If a resident owner does not have the required equity or enough funds to buy a new home outright, the Council provide help through shared equity or shared ownership (depending on circumstances)." (Para 8.11)
 
 Only 4 of the estate's 42 leaseholders who have relocated to date, have applied for and received an offer of a shared equity home. (Para 8.10)
+
 ---
+
 __Links:__
 
 You can view the planning application documents on Kingston's planning portal [here (ref:20/02942)](https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=QK385KNH00H00).

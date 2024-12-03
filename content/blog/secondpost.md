@@ -7,7 +7,7 @@ date: 2024-11-12
 
 A planning application was submitted in June this year, for demolition of the [Teviot estate](estates/teviot) in Poplar and construction of 1928 new homes of which 411 social or London Living Rent, 98 intermediate affordable and 1419 private homes.
 
-The planning application says that the 411 replacement social will be provided either as social rent or THLR (Tower Hamlets Living Rent) which is around three times more expensive than social rent.
+The planning application says that the 411 replacement social-rented homes will be provided either as social rent or THLR (Tower Hamlets Living Rent) which is around three times more expensive than social rent.
 
 This is breach of the Mayor's own policy which says that social rented homes must be replaced with like-for-like tenure. The Mayor's [stage 1 report](https://development.towerhamlets.gov.uk/online-applications/files/844BA29DA92775EF861EA51FC8D34223/pdf/PA_24_00922_A1-GLA_STAGE_1_REPORT-2102510.pdf) for the planning application brushes over this and is silent on the fact that the 35% affordable housing proposed falls short of his 50% minimum policy requirement for estate regenerations.
 
@@ -23,7 +23,7 @@ The appraisal also counts on £95m grant funding from the Mayor despite the Mayo
 
 ![Extract from the FVA appraisal](../estates/src/images/teviotgrant.png)
 
-This is just the latest in a long list of schemes ignoring the Mayor's estate regeneration policies on 50% minimum affordable housing reprovision and like-for-like tenure.
+This is just the latest in a long list of schemes ignoring the Mayor's planning policies for estate regeneration, above all the 50% minimum affordable housing requirement and like-for-like reprovision in terms of tenure:
 
 * [High Path estate](https://www.estatewatch.london/estates/highpath/) - 20% affordable with all replacement social housing at up to 80% market rent.
 * [Eastfields estate](https://www.estatewatch.london/estates/eastfields/) - 31% affordable with replacement social housing at up to 80% market rent.

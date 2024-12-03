@@ -22,3 +22,5 @@ More information is available on Riverside's website here: [https://www.riversid
 
 In March 2024, developer Countryside [celebrated](https://www.vistrygroup.co.uk/media-centre/press-releases/riverside-and-countryside-partnerships-mark-success-new-estate) 'topping out' on the first phase of the Pike Close scheme.
 
+The first 29 homes on the first phase of development are due to be completed in March 2025.
+
