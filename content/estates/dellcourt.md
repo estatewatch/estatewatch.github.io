@@ -8,7 +8,7 @@ developer: Wates
 itla: TPAS
 total: 29
 ballot: Exempt
-planning: Pending
+planning:
 image: estates/src/images/dell1.jpg
 ---
 ![Dell Court estate image](src/images/dell1.jpg)
@@ -20,6 +20,8 @@ The estate has been earmarked for redevelopment as part of Havering's [£1bn joi
 It is unclear whether Havering intends to ballot residents at this stage.
 
 Havering's [investment prospectus](https://www.investinhavering.co.uk/wp-content/uploads/2017/03/Vision-interactive-map.pdf) provides further details of the scheme.
+
+Havering's [website](https://www.havering.gov.uk/building-new-homes-havering-1) says that planning permission will be submitted in 2026.
 
 ---
 

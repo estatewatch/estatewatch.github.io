@@ -4,11 +4,11 @@ borough: hounslow
 tags: hounslow
 location: '[51.471914,-0.366567]'
 ballot: Exempt
-landlord: Home Group
-developer: null
-itla: null
+landlord: Home Group (RSL)
+developer:
+itla:
 total: 43
-planning: Approved 
+planning:
 architect: Farrells
 image: estates/src/images/cc3.png
 ---
@@ -28,7 +28,7 @@ Home Group commissioned an [options appraisal study](/images/bnpp.pdf) for the e
 
 ![Concorde Close estate](src/images/concordenpv.png)
 
-But the figure includes £2m of costs associated with a separate cost appraisal [report](/images/arcus.pdf) commissioned by Arcus and effectively double counts these costs in its own estimate (see appendix 7 of the BNP Paribas report).
+As of October 2024, the residents association [website](https://concordeclose.co.uk/) announces that they are no longer in operation.
 
 ---
 

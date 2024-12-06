@@ -4,10 +4,11 @@ borough: westminster
 tags: westminster
 location: '[51.523316,-0.170681]'
 landlord: Westminster Council
-developer:
+developer: Mount Anvil
+architect: Mae
 itla: PPCR
 total: 300
-ballot:
+ballot: Approved
 planning: Approved
 image: estates/src/images/cs.jpg
 ---
@@ -24,7 +25,7 @@ Residents of Westminster's [Church street](https://www.estatewatch.london/estate
 
 ![Church street estate image](src/images/churchstreetballot.png)
 
-The scheme underlying the ballot was then shelved in 2015 a new masterplan was drawn up. In 2018, Westminster Council announced that it would be holding any more ballots for further phases of the scheme. This was met by [protest](https://www.westminsterextra.co.uk/article/council-chiefs-at-war-with-mayor-khan-over-estate-demolition-vote) from the Mayor who threatened to withdraw £23m of funding.
+The scheme underlying the ballot was then shelved in 2015 a new masterplan was drawn up. In 2018, Westminster Council announced that it would not be holding any more ballots for further phases of the scheme. This was met by [protest](https://www.westminsterextra.co.uk/article/council-chiefs-at-war-with-mayor-khan-over-estate-demolition-vote) from the Mayor who threatened to withdraw £23m of funding.
 
 After a change of administration, residents were balloted again in December 2022. 73% of residents voted in favour of the scheme but it is not known how many turned out for the ballot.
 
@@ -39,6 +40,8 @@ A planning application was approved in 2023 for demolition of the existing homes
 In February 2021, Westminster Council came under fire after it was [reported](https://londonnewsonline.co.uk/residents-petrified-that-housing-development-could-destroy-businesses/) that retailers had been served with notices to quit in the next phase of the Council's redevelopment of the [Church Street area estates](https://estatewatch.london/estates/westminster/churchstreet/).
 
 ![Church street estate image](src/images/churchstreetarticle.png)
+
+In February 2024, Westminster appointed Mount Anvil as developers for phase 1 of the scheme. The Council's [website](https://www.westminster.gov.uk/news/westminster-approves-partner-first-phase-church-street-regeneration) says: _"A total of 429 new homes will be built at Site A, 171 of which will be for social rent including the reprovision of 98 that were existing at social rent levels."_
 
 Westminster's [policy for leaseholder re-housing](https://www.westminster.gov.uk/housing-policy-and-strategy/leaseholder-policy-housing-renewal-areas) requires leaseholders to take out a new mortgage if they want to take up the Council's shared equity offer on a new home being built as part of the scheme. 
 

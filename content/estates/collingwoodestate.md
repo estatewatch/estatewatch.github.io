@@ -8,7 +8,7 @@ developer:
 itla:
 total: 250
 ballot: Required
-planning: Pending
+planning:
 image: estates/src/images/cw3.jpg
 ---
 ![Collingwood estate image](src/images/cw3.jpg)

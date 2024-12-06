@@ -5,10 +5,11 @@ tags: havering
 location: '[51.607002,0.219207]'
 landlord: Havering Council
 developer: Wates
+architect:
 itla: TPAS
 total: 200
 ballot: Required
-planning: Pending
+planning:
 image: estates/src/images/farnham5.png
 ---
 ![Farnham Hilldene estate image](src/images/farnham5.png)
@@ -22,6 +23,8 @@ The estate has been earmarked for redevelopment as part of Havering's [£1bn joi
 The scheme has not yet applied for [funding](/approved/funding) from the Mayor or been exempted from his [requirement](/approved/ballotexemptions) to ballot residents on the demolition of their homes. It is unclear whether Havering intends to ballot residents at this stage.
 
 In Havering's [investment prospectus](https://www.investinhavering.co.uk/wp-content/uploads/2017/03/Vision-interactive-map.pdf), it originally said it wanted to explore building above the existing homes and shops. But in March 2019 the Council [said](https://www.romfordrecorder.co.uk/news/havering-council-plans-for-regeneration-in-harold-hill-1-5944449) that it prefers the option of wholesale redevelopment. provides further details of the scheme. It is now [consulting](https://www.havering.gov.uk/news/article/722/harold_hill_residents_encouraged_to_share_views_on_regeneration_project) residents on redevelopment options.
+
+Havering's [website](https://www.havering.gov.uk/building-new-homes-havering-1) says that planning permission would be submitted in summer 2024 for 478 new homes. As of October 2024 this had still not been submitted.
 
 ---
 

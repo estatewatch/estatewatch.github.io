@@ -4,7 +4,7 @@ borough: hackney
 tags: hackney
 location: '[51.536318,-0.083684]'
 landlord: Hackney Council
-developer: null
+developer: Higgins
 itla: PPCR
 total: 200
 ballot: Exempt
@@ -27,6 +27,8 @@ The scheme is being [funded](https://www.london.gov.uk/programmes-strategies/hou
 In August 2019, it was [reported](https://www.hackneygazette.co.uk/news/bridport-house-tenants-told-hoxton-block-could-be-demolished-rather-than-repaired-1-6243329) that one of the first buildings completed in the regeneration may be demolished because of structural defects.
 
 Hackney Council subsequently decided on remediation works which are estimated to cost £6m. In January 2022, it was [reported](https://www.insidehousing.co.uk/news/news/london-council-warns-all-options-remain-open-to-recoup-costs-on-defect-ridden-block-as-repairs-start-73949) that the Council is considering legal action to recover the cost of these works.
+
+Hackney's [web page](https://hackney.gov.uk/colville-estate) for the scheme says that _"the masterplan needs updating to ensure it reflects the needs of the community and new building standards. Working with Colville Estate residents on the Regeneration Steering Group, we’ve appointed a new design team to work with us and residents to update the masterplan. Design work began in 2024."_
 
 ---
 

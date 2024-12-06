@@ -5,9 +5,9 @@ tags: barnet
 ballot: Approved
 landlord: Home Group (Housing Association)
 developer: Home/Hill Group
-itla: null
+architect: Levitt Bernstein
+itla:
 total: 271
-status: Planning and ballot approved
 location: '[51.604697,-0.249247]'
 planning: Approved
 image: estates/src/images/db3.png
@@ -24,9 +24,11 @@ In May 2019, residents were balloted on the redevelopment options for the estate
 
 This is slowly [becoming standard practice](/approved/ballotexemptions/) in the ballot process - residents are faced with the choice of redevelopment or continued neglect and disinvestment; the option of having their homes refurbished is simply not on the table.
 
+75.4% of eligible residents voted Yes on a 90.5% turnout.
+
 In January 2021, a [planning application](https://publicaccess.barnet.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=QLUOGJJI09100) was submitted for redevelopment of the estate.
 
-In February 2021, the Mayor has published his ['stage 1' planning report](https://gla.force.com/pr/s/planning-application/a0i4J000002fSv8QAE/20210141?tabset-c2f3b=2) giving in principle approval to the [redevelopment of Barnet's Douglas Bader Park estate](https://estatewatch.london/estates/barnet/douglasbaderpark/).
+In February 2021, the Mayor has published his ['stage 1' planning report](https://gla.force.com/pr/s/planning-application/a0i4J000002fSv8QAE/20210141?tabset-c2f3b=2) giving in principle approval to the [redevelopment of Barnet's Douglas Bader Park estate](https://estatewatch.london/estates/barnet/douglasbaderpark/). 
 
 The estate is owned by housing association ['Home Group'](https://homegroup.org.uk), which is one of the Mayor's [strategic partners](https://www.insidehousing.co.uk/news/news/six-partnerships-announced-as-490m-grant-allocated-59289) in receipt of £46m GLA funding for agreeing to provide at least 60% affordable housing across its pipeline (see para 3.17 of the Mayor's [funding guidance](https://www.london.gov.uk/sites/default/files/smha_offer_2019.pdf) for more info).
 
@@ -43,6 +45,12 @@ Neither does it say anything about the Mayor's requirement to show that alternat
 The estate is located directly adjacent to another of Barnet's large scale estate redevelopments - the [Grahame Park estate](estates/grahamepark/).
 
 In September 2021, Barnet's planning committee narrowly approved the planning application, with four Labour councillors and a Liberal Democrat member voting against the plan. Five Conservatives voted in favour, and committee chairman Cllr Eva Greenspan used her casting vote to approve the scheme. 
+
+For residents living in phase one the temporary move programme began in January 2022.
+
+All households in phase 1 were moved by September 2022 into a temporary home on, or off, the estate. They will remain in their temporary homes until the new homes on phase 1 are built should they wish to return. 
+
+Sixty-five households from phase 2 were moved temporarily up to spring 2024. Phase 3 (the final phase) is still occupied but due to complete its decant by spring 2027.
 
 ---
 

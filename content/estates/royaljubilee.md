@@ -23,6 +23,8 @@ Havering's [investment prospectus](https://www.investinhavering.co.uk/wp-content
 
 ![Royal Jubilee Court estate image](src/images/jcinvest.png)
 
+Havering's [website](https://www.havering.gov.uk/building-new-homes-havering-1) says that the scheme is under review.
+
 ---
 
 <!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->

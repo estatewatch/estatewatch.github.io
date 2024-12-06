@@ -21,6 +21,7 @@ The scheme has not yet applied for [funding](/approved/funding) from the Mayor o
 
 ![Maygreen Crescent estate image](src/images/maygreenaerial.png)
 
+Havering's [website](https://www.havering.gov.uk/building-new-homes-havering-1) says that planning permission will be submitted in summer 2026 for 295 replacement homes.
 
 ---
 

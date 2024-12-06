@@ -5,6 +5,7 @@ tags: barnet
 location: '[51.644001,-0.197573]'
 landlord: Barnet Council
 developer: Countryside Properties
+architect: Alison Brooks
 itla: PPCR
 total: 363
 ballot: Exempt
@@ -21,7 +22,15 @@ Phase 1 of the scheme is currently underway. The [GLA report](https://www.london
 
 The scheme is being progressed in partnership with developer Countryside Properties, which has a dedicated website for the scheme: [www.dollisvalley.co.uk](http://www.dollisvalley.co.uk/)
 
-There is no section 106 agreement publicly available to know whether the replacement 'social' housing is affordable rent or social rent. The planning reference number for the application documents is [B/00354/13](https://publicaccess.barnet.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=ZZZULZJIJV526)
+There is no section 106 agreement publicly available with precise details of the replacement 'affordable' homes.
+
+In March 2022, permission was granted for the final two phases of the scheme comprising 223 new homes of which 95 'affordable'.
+
+---
+
+__Links:__
+
+ The planning reference number for the application documents is [B/00354/13](https://publicaccess.barnet.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=ZZZULZJIJV526)
 
 ---
 

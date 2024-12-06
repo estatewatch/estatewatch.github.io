@@ -46,6 +46,12 @@ The homes have been refurbished to [Southwark Good Homes Standard](https://www.s
 
 This begs an obvious question: if remaining homes on the estate can be refurbished to acceptable standards for habitation for [under £10k per dwelling](https://www.whatdotheyknow.com/request/830572/response/2021635/attach/3/FOI%201820226%20Southwak%20Response%20letter.pdf), why are they still earmarked demolition?
 
+Indeed, the Six Acres estate in Finsbury Park is built using the same system (Jespersen 12M) at the same time and by the same contractors (Laing) as the Aylesbury estate. Islington Council appears to have done a much better job of maintaining its estate:
+
+![six acres estate](src/images/sixacres.jpg)
+
+In November 2024, Notting Hill Genesis [re-submitted its planning application](https://www.35percent.org/posts/aylesbury-phase-2b-notting-hill-genesis-try-again/) for the next phase of the scheme (2b) after the previous application was [quashed in a high court appeal](https://www.35percent.org/posts/ayllesbury-planning-decision-quashed/). If approved, there will be a net loss of 184 social rented homes on this phase alone.
+
 ---
 
 __Links:__

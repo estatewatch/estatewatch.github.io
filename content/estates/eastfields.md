@@ -6,7 +6,7 @@ location: '[51.407168,-0.149209]'
 ballot: Exempt
 landlord: Clarion
 developer: Clarion
-itla: null
+itla:
 total: 446
 planning: Approved
 architect: Levitt Bernstein
@@ -66,9 +66,13 @@ In September 2021, Merton Council [agreed](https://www.housingtoday.co.uk/news/m
 
 The 2018 outline planning consent said that the scheme would be progressed in five phases over a 13-year period, each of the five phases requiring a detailed (reserved matters) planning application to be submitted. In Clarion's most recent [Autumn 2023](https://eastfieldslive.com/pages/documents) it said that work is about to start on phase 1 of the scheme. As at October 2024, no further newsletters have been published.
 
+In 2022, Merton Council served a Compulsory Purchase Order on homes on the estate's 50 remaining leaseholders. Its [Statement of Case for the CPO](https://www.merton.gov.uk/system/files/statement_of_case_-_eastfields_2.pdf) said that the scheme is not due to complete until 2035 (para 2.7).
+
 In 2023, Clarion negotiated a [revised section 106 agreement](https://planning.merton.gov.uk/MVM.DMS/Planning%20Application/1000120000/1000120762/22P3686_Section%20106%20Agreement.pdf) with Merton Council, which replaces the previous definition of affordable housing with a much looser one:
 
 ![Eastfields estate image](src/images/highpaths106.png)
+
+In January 2024, Merton Council [announced](https://news.merton.gov.uk/2024/01/23/milestone-groundbreaking-ceremony-marks-start-of-eastfields-regeneration/) that it had started work on phase one of the scheme, which its says _"will provide 32 homes by 2025"_.
 
 ---
 

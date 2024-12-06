@@ -7,7 +7,7 @@ landlord: Waltham Forest Council
 developer:
 itla:
 total: 200
-ballot:
+ballot: Required
 planning:
 image: estates/src/images/FW_JW5.jpg
 ---
@@ -26,7 +26,11 @@ In 2023, Waltham Forest Council came forward with new proposals for redevelopmen
 
 The new redevelopment option would involve building circa 450-500 new homes which would be all be “affordable”, split 50:50 between social rent and shared ownership.
 
-The redevelopment plans have been included within the borough's [Local Plan](https://www.walthamforest.gov.uk/sites/default/files/2024-08/Montague%20Road%20Estate%20%28R19116%29_0.pdf) before being subject to consultation and a resident ballot.
+The redevelopment plans were included within the borough's [Local Plan](https://www.walthamforest.gov.uk/sites/default/files/2024-08/Montague%20Road%20Estate%20%28R19116%29_0.pdf) before being subject to consultation and a resident ballot.
+
+In February 2024, it was [reported](https://walthamforestecho.co.uk/2024/02/20/leytonstone-estate-regeneration-plans-put-on-hold/) that the proposals to demolish the two blocks will be delayed due to the “challenging economic climate”.
+
+The same press article reported that Deputy Council leader Ahsan Khan said that _"the council is “committed” to balloting residents to decide which “investment options” to take forward in the future."_
 
 ---
 

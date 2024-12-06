@@ -3,9 +3,10 @@ name: Clichy estate
 borough: towerhamlets 
 tags: towerhamlets
 location: '[51.516104,-0.048942]'
-landlord: Tower Hamlets Council
-developer:
-itla:
+landlord: LB Tower Hamlets
+developer: LB Tower Hamlets
+architect: PRP
+itla: PPCR
 total: 100
 ballot: Approved
 planning: Approved
@@ -23,7 +24,9 @@ Residents had previously been consulted on an 'infill' option as well as full re
 
 The appointed architects <a href="https://www.prp-co.uk/">PRP</a> drew up plans for the redevelopment, which were approved by Newham's planning committee in April 2022.
 
-The scheme of 412 replacement homes, of which 90 at London Affordable Rent, 36 at social rent, 20 shared ownership and the remainder private.
+The Mayor's [stage 2 report](https://planapps.london.gov.uk/planningapps/PA-21-02703) confirms that of the 412 new homes approved, only 36 will be social rent. A further 90 will be affordable rent up to Tower Hamlets Living Rent levels (around twice as much as social rent), 20 will be shared ownership and the remainder private for sale homes.
+
+![Clichy estate tenure mix](src/images/clichytenuremix.png)
 
 Newham's [rehousing offer](https://mgov.newham.gov.uk/documents/s144070/Appenidx%201%20-%20LBN%20Estate%20Regeneration%20Housing%20Offer%20the%20Housing%20Offer.pdf) promises a new council home at the same rent level to secure tenants. Temporary tenants will be offered a secure tenancy on the redeveloped estate but will be charged an 'affordable rent':  
 
@@ -44,6 +47,8 @@ This leaves the door open to Newham 'gatekeeping' the shared equity offer as has
 __Links:__
 GLA Stage 1 report:
 [https://gla.force.com/pr/s/planning-application/a0i4J000006cArbQAE/20211263?tabset-c2f3b=2](https://gla.force.com/pr/s/planning-application/a0i4J000006cArbQAE/20211263?tabset-c2f3b=2)
+
+The Mayor's [stage 2 planning report](https://planapps.london.gov.uk/planningapps/PA-21-02703)
 
 ---
 

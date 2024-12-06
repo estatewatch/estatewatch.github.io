@@ -7,7 +7,7 @@ ballot: Exempt
 landlord: Havering Council
 developer: Wates
 itla: TPAS
-total: "290"
+total: 290
 planning: Approved
 image: estates/src/images/w2.png
 ---
@@ -38,6 +38,10 @@ It makes no provision for the gap between the value leaesholders receive for the
 The [re-housing offer](https://www.havering.gov.uk/download/downloads/id/1851/local_lettings_plan.pdf) for tenants is not much better. There is no guarantee of a tenancy in one of the replacement social/affordable homes or a right to return. The only guarantee is two direct offers of a tenancy in a home on an estate elsewhere in the borough, albeit selected by the Council.
 
 The Waterloo road scheme is a good example of how the offer to residents on estates exempted by the Mayor from his ballot requirement, is inferior to those subject to ballots. It is difficult to believe that, had they been asked, residents of the Waterloo Road estate would have voted for demolition based on Havering's poor re-housing offer to residents. 
+
+In May 2023, it was [reported](https://www.romfordrecorder.co.uk/news/23529723.flagship-havering-housing-scheme-site-paused-else/) that work has been stopped on the scheme whilst it is reviewed in light of the change in building regulations.
+
+[Newsletters](https://www.havering.gov.uk/building-new-homes-havering-1/12-sites-regeneration-waterloo-queen-street) from Autumn 2024 confirm that _"the scheme has been referred to the Building Safety Regulator, who will assess it in due course."_
 
 ---
 

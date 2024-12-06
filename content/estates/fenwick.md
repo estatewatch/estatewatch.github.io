@@ -5,6 +5,7 @@ tags: lambeth
 location: '[51.464695,-0.127468]'
 landlord: Lambeth Council
 developer:
+architect: Karakusevic Carson
 itla: Christine Searle (Public Voice)
 total: 431
 ballot: Required

@@ -9,7 +9,7 @@ developer: Populo (council-owned)
 architect: Proctor and Matthews
 itla: TPAS/Source Partnership
 total: 710
-planning: Pending
+planning: approved
 image: estates/src/images/cp12.jpg
 ---
 ![Carpenters estate image](src/images/cp12.jpg)
@@ -22,7 +22,7 @@ To save the estate from demolition, <a href="https://savecarpenters.wordpress.co
 
 ![Carpenters estate image](src/images/carp.png)
 
-From 2005 to 2010, redevelopment proposals focused on the demolition of the high rise blocks and some central low rise blocks to be replaced with alternative housing. Then came failed discussions with the University College London to develop the estate and Newham Council ceased the procurement of a joint venture partner, as there was limited evidence that residents had been fully engaged with redevelopment proposals. Newham Council implementing a programme of consultation and engagement with residents based on redeveloping the estate itself. Newham has since set up its own in-house development arm ['Populo Living'](https://www.populoliving.co.uk/).
+From 2005 to 2010, redevelopment proposals focused on the demolition of the high rise blocks and some central low rise blocks to be replaced with alternative housing. Then came failed discussions with the University College London to develop the estate and Newham Council ceased the procurement of a joint venture partner, as there was limited evidence that residents had been fully engaged with redevelopment proposals. Newham Council then implemented a programme of consultation and engagement with residents based on redeveloping the estate itself rather than in a joint venture. Newham has since set up its own in-house development arm ['Populo Living'](https://www.populoliving.co.uk/), which has taken over responsibility for the development plans.
 
 In October 2020, a [council report](https://mgov.newham.gov.uk/documents/s139593/Appraisal%20of%20Tower%20Blocks%20on%20the%20Carpenters%20Estate%20Stratford%20-%20update%20and%20next%20steps%20V8%20Cabint%20issu.pdf) submitted to Newham’s cabinet committee suggested one of the neighbourhood’s existing towers – James Riley Point – could be retained and refurbished before the start of any wider redevelopment that would require a residents’ ballot.
 
@@ -51,7 +51,7 @@ The [Financial Viability Assessment](src/images/carpentersfva.pdf) submitted in 
 
 ![Carpenters FVA](src/images/carpentersfva.png)
 
-The Mayor's grant funding policy says that he will only fund replacement social housing in 'exceptional circumstances' but Estate Watch is seeing him routinely fund replacement housing in nearly every estate regeneration. 
+The Mayor's grant funding policy says that he will only fund replacement social housing in 'exceptional circumstances' but it appears that almost every estate regeneration scheme is becoming an exception. 
 
 It is also noteworthy that the Mayor is allocating £24.7m of the funding to the refurbishment of the 132 council homes in the JRP tower (see page 26). This opens up the question of why the Mayor isn't allocating funding for refurbishment instead of demolition in general.
 

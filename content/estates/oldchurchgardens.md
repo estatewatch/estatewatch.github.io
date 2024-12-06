@@ -21,6 +21,7 @@ The scheme has not yet applied for [funding](/approved/funding) from the Mayor o
 
 ![Old Church Gardens estate image](src/images/oldchurchaerial.png)
 
+Havering's [website](https://www.havering.gov.uk/building-new-homes-havering-1) says that planning permission will be submitted in summer 2025 for 306 homes.
 
 ---
 
