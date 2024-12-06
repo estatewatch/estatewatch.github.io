@@ -97,7 +97,7 @@ Neville Close estate,ealing,50,"[51.505661,-0.266707]",Ealing Council,,,,,,estat
 ,
 Morden Regeneration Zone,merton,200,"[51.402088, -0.192285]",LB Merton,,,,Exempt?,,estates/src/images/mordenregenerationzone.png
 ,
-Fred Wigg and John Walsh Towers,walthamforest,200,"[51.560912,-0.013773]",Waltham Forest Council,,,,,,estates/src/images/FW_JW5.jpg
+Fred Wigg and John Walsh Towers,walthamforest,200,"[51.560912,-0.013773]",Waltham Forest Council,,,,Required,,estates/src/images/FW_JW5.jpg
 ,
 Milford Towers,lewisham,276,"[51.446550,-0.022020]",Lewisham Council,,,,Required,Pending,estates/src/images/mtowers2.png
 ,
@@ -167,9 +167,9 @@ Gascoigne estate,barkinganddagenham,179,"[51.533476,0.078037]",Barking and Dagen
 ,
 Friary Park estate,ealing,230,"[51.516962,-0.264300]",Catalyst Housing Group,Mount Anvil,Levitt Bernstein,,Exempt,Approved,estates/src/images/fpark2.png
 ,
-Fenwick estate,lambeth,431,"[51.464695,-0.127468]",Lambeth Council,,,Christine Searle (Public Voice),Required,Pending,estates/src/images/fw7.jpg
+Fenwick estate,lambeth,431,"[51.464695,-0.127468]",Lambeth Council,,Karakusevic Carson,Christine Searle (Public Voice),Required,Pending,estates/src/images/fw7.jpg
 ,
-Farnham and Hilldene estate,havering,200,"[51.607002,0.219207]",Havering Council,Wates,,TPAS,Required,Pending,estates/src/images/farnham5.png
+Farnham and Hilldene estate,havering,200,"[51.607002,0.219207]",Havering Council,Wates,,TPAS,Required,,estates/src/images/farnham5.png
 ,
 Excalibur estate,Lewisham,100,"[51.435624,-0.003185]",Lewisham Council,London and Quadrant,Hunters,,Exempt,Approved,estates/src/images/excalibur.jpg
 ,
@@ -181,15 +181,15 @@ Ebury Bridge estate,westminster,336,"[51.488945,-0.149611]",Westminster Council,
 ,
 Eastfields estate,merton,446,"[51.407168,-0.149209]",Clarion,Clarion,Levitt Bernstein,,Exempt,Approved,estates/src/images/ef3.jpg
 ,
-Douglas Bader Park estate,barnet,271,"[51.604697,-0.249247]",Home Group (Housing Association),Home/Hill Group,,,Approved,Approved,estates/src/images/db3.png
+Douglas Bader Park estate,barnet,271,"[51.604697,-0.249247]",Home Group (Housing Association),Home/Hill Group,Levitt Bernstein,,Approved,Approved,estates/src/images/db3.png
 ,
-Dollis Valley estate,barnet,363,"[51.644001,-0.197573]",Barnet Council,Countryside Properties,,PPCR,Exempt,Approved,estates/src/images/dv24.jpg
+Dollis Valley estate,barnet,363,"[51.644001,-0.197573]",Barnet Council,Countryside Properties,Alison Brooks,PPCR,Exempt,Approved,estates/src/images/dv24.jpg
 ,
 Devons Road estate,towerhamlets,300,"[51.522289,-0.019264]",Poplar HARCA,,,,,,estates/src/images/devonsroad.png
 ,
 Denby Court,lambeth,42,"[51.493660,-0.115040]",Lambeth Council,,,,Exempt,Approved,estates/src/images/denby1.png
 ,
-Dell Court,havering,29,"[51.557480,0.225340]",Havering Council,Wates,,TPAS,Exempt,Pending,estates/src/images/dell1.jpg
+Dell Court,havering,29,"[51.557480,0.225340]",Havering Council,Wates,,TPAS,Exempt,,estates/src/images/dell1.jpg
 ,
 Dean Court,ealing,50,"[51.517792,-0.263030]",Housing Association?,,,,,,estates/src/images/deancourt.png
 ,
@@ -201,21 +201,21 @@ Copley Close estate,ealing,333,"[51.520018,-0.330991]",LB Ealing,,,,,,estates/sr
 ,
 Convent Way estate,hounslow,440,"[51.494632,-0.393576]",Hounslow Council,,Bell Phillips,,Approved,Approved,estates/src/images/cv20.jpg
 ,
-Concorde Close,hounslow,43,"[51.471914,-0.366567]",Home Group,,Farrells,,Exempt,Approved,estates/src/images/cc3.png
+Concorde Close,hounslow,43,"[51.471914,-0.366567]",Home Group (RSL),,Farrells,,Exempt,,estates/src/images/cc3.png
 ,
-Colville estate,hackney,200,"[51.536318,-0.083684]",Hackney Council,,Karakusevic Carson,PPCR,Exempt,Approved,estates/src/images/colville9.jpg
+Colville estate,hackney,200,"[51.536318,-0.083684]",Hackney Council,Higgins,Karakusevic Carson,PPCR,Exempt,Approved,estates/src/images/colville9.jpg
 ,
-Collingwood estate,sutton,250,"[51.3691,-0.1988]",Sutton Council,,,,Required,Pending,estates/src/images/cw3.jpg
+Collingwood estate,sutton,250,"[51.3691,-0.1988]",Sutton Council,,,,Required,,estates/src/images/cw3.jpg
 ,
 Clockhouse estate,sutton,50,"[51.326066,-0.155669]",Sutton Council,,,,Exempt,,estates/src/images/clockhouse.png
 ,
-Clichy estate,towerhamlets,100,"[51.516104,-0.048942]",Tower Hamlets Council,,,,Approved,Approved,estates/src/images/clichyestate.jpg
+Clichy estate,towerhamlets,100,"[51.516104,-0.048942]",LB Tower Hamlets,LB Tower Hamlets,PRP,PPCR,Approved,Approved,estates/src/images/clichyestate.jpg
 ,
-Clare House,towerhamlets,129,"[51.536511,-0.030492]",Clarion Housing Association,,,,Exempt,Pending,estates/src/images/clarehouse.jpg
+Clare House,towerhamlets,129,"[51.536511,-0.030492]",Clarion Housing Association,Clarion,HTA,,Exempt,Pending,estates/src/images/clarehouse.jpg
 ,
 Clapham Park estate,lambeth,864,"[51.449331,-0.133379]",Metropolitan TV Housing Association,,,,Exempt,Approved,estates/src/images/cpark1.png
 ,
-Church Street Area,westminster,300,"[51.523316,-0.170681]",Westminster Council,,,PPCR,,Approved,estates/src/images/cs.jpg
+Church Street Area,westminster,300,"[51.523316,-0.170681]",Westminster Council,Mount Anvil,Mae,PPCR,Approved,Approved,estates/src/images/cs.jpg
 ,
 Chiswick Road estate,enfield,150,"[51.627168,-0.057194]",Enfield Council,,,,,,estates/src/images/chiswickroad.png
 ,
@@ -225,7 +225,7 @@ Charlton House,hounslow,100,"[51.486105,-0.300195]",Hounslow Council,,,,Approved
 ,
 Central Hill estate,lambeth,476,"[51.420034,-0.085651]",Lambeth Council,,,PPCR,Required,,estates/src/images/centrallhill.jpg
 ,
-Carpenters estate,newham,710,"[51.537846,-0.004882]",Newham Council,Populo (council-owned),Proctor and Matthews,TPAS/Source Partnership,Approved,Pending,estates/src/images/cp12.jpg
+Carpenters estate,newham,710,"[51.537846,-0.004882]",Newham Council,Populo (council-owned),Proctor and Matthews,TPAS/Source Partnership,Approved,approved,estates/src/images/cp12.jpg
 ,
 Cambridge Road estate,kingston,820,"[51.408046,-0.287284]",RB Kingston,Countryside Properties,Patel Taylor,PPCR,Approved,Approved,estates/src/images/cambridge3.jpg
 ,
