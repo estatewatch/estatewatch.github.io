@@ -7,23 +7,23 @@ Wornington Green estate,kensingtonandchelsea,150,"[51.523537,-0.212212]",RBKC,Ca
 ,
 Woodberry Down estate,hackney,1000,"[51.572949,-0.090658]",Hackney Council,Berkeley Homes,Fletcher Priest/WE/SEH,Simon Slater (Public Voice),Exempt,Approved,estates/src/images/woodberry-down-5.jpg
 ,
-Winstanley &amp; York Road estates,wandsworth,759,"[51.464762,-0.176427]",Wandsworth Council,Taylor Wimpey,HLM,,Exempt,Approved,estates/src/images/wy22.jpg
+Winstanley &amp; York Road estates,wandsworth,759,"[51.464762,-0.176427]",Wandsworth Council,Taylor Wimpey,HTA,,Exempt,Approved,estates/src/images/wy22.jpg
 ,
-Whitefield estate,barnet,243,"[51.572426,-0.219515]",Barnet Council,Argent/L&amp;Q,,PEP,Exempt,Approved,estates/src/images/whitefield3.jpg
+Whitefield estate,barnet,243,"[51.572426,-0.219515]",Barnet Council,Argent/L&amp;Q,Maccreanor Lavington,PEP,Exempt,Approved,estates/src/images/whitefield3.jpg
 ,
 West Kentish Town estate,camden,316,"[51.549409,-0.149254]",Camden Council,,,,Approved,Approved,estates/src/images/wkt1.jpg
 ,
-Westbury estate,lambeth,82,"[51.470468,-0.140646]",Lambeth Council,,,Norman Francis,Exempt,Approved,estates/src/images/wb1.jpg
+Westbury estate,lambeth,82,"[51.470468,-0.140646]",Lambeth Council,LB Lambeth,EPR,Newman Francis,Exempt,Approved,estates/src/images/wb1.jpg
 ,
 Wessex Close estate,kingston,120,"[51.412340, -0.281306]",RB Kingston,,,,Exempt,,estates/src/images/wessexclose.png
 ,
 Wendling estate,camden,241,"[51.551117,-0.156132]",Camden Council,,,Community Liaison Officers (Camden),Approved,Approved,estates/src/images/wg5.jpg
 ,
-Waterloo Road estate,havering,290,"[51.574334,0.176900]",Havering Council,Wates,,TPAS,Exempt,Approved,estates/src/images/w2.png
+Waterloo Road estate,havering,290,"[51.574334,0.176900]",Havering Council,Wates,Flanagan Lawrence,TPAS,Exempt,Approved,estates/src/images/w2.png
 ,
 Walbrook House,enfield,126,"[51.628832,-0.045066]",LB Enfield,,,,,,estates/src/images/walbrook.png
 ,
-Tustin estate,southwark,298,"[51.480339,-0.054867]",Southwark Council,,,Open Communities/Neal Purvis,Approved,Approved,estates/src/images/tustin5.jpeg
+Tustin estate,southwark,298,"[51.480339,-0.054867]",Southwark Council,Buoyges,DRMM,Open Communities/Neal Purvis,Approved,Approved,estates/src/images/tustin5.jpeg
 ,
 Trinity Way estate,ealing,150,"[51.512025,-0.247614]",LB Ealing,,,,,,estates/src/images/trinityway.png
 ,
@@ -35,7 +35,7 @@ Lesnes estate (Thamesmead East phase 2),bexley,596,"[51.495310,0.126122]",Peabod
 ,
 Teviot estate,towerhamlets,535,"[51.518195,-0.012409]",Poplar HARCA,Hill,BPTW,Mike Tyrell,Approved,Pending,estates/src/images/te4.jpg
 ,
-Sutton Court estate,sutton,150,"[51.3577,-0.1901]",Sutton Council,,,,Required,Pending,estates/src/images/suttoncourt.jpg
+Sutton Court estate,sutton,150,"[51.3577,-0.1901]",Sutton Council,,,,,,estates/src/images/suttoncourt.jpg
 ,
 St John&#39;s estate,towerhamlets,84,"[51.499039,-0.008984]",One Housing Group,,,TPAS,Approved,Approved,estates/src/images/ashepherd.jpg
 ,
@@ -45,21 +45,19 @@ Southwold Drive,barkinganddagenham,80,"[51.547526, 0.108163]",Barking and Dagenh
 ,
 South Lane estate,kingston,130,"[51.386237, -0.256749]",RB Kingston,,,,Exempt,,estates/src/images/southlane.png
 ,
-South Lambeth estate,lambeth,101,"[51.478668,-0.118861]",Lambeth Council,,,TPAS,Exempt,Approved,estates/src/images/slb5.jpg
+South Lambeth estate,lambeth,101,"[51.478668,-0.118861]",Lambeth Council,,Pollard Thomas Edwards,TPAS,Exempt,Approved,estates/src/images/slb5.jpg
 ,
-South Kilburn estate,brent,800,"[51.533219,-0.198561]",Brent Council,,,Communities First,Approved,Approved,estates/src/images/skil2.jpg
+South Kilburn estate,brent,800,"[51.533219,-0.198561]",Brent Council,Countryside,Alison Brooks,Communities First,Approved,Approved,estates/src/images/skil2.jpg
 ,
 South Acton estate,ealing,2100,"[51.502295,-0.272799]",Ealing Council,Countryside Properties,,PEP,Exempt,Approved,estates/src/images/sacton9.jpg
 ,
-Parkhill and Sunrise estate,havering,100,"[51.556744,0.206760]",Havering Council,Wates,,TPAS,Exempt,Pending,estates/src/images/ss4.png
-,
-Shires estate,enfield,200,"[51.61517,-0.05349]",Enfield Council,,,,Pending,Pending,estates/src/images/shropshire.png
+Shires estate,enfield,200,"[51.61517,-0.05349]",Enfield Council,,,,,,estates/src/images/shropshire.png
 ,
 Shipton Close estate,barkinganddagenham,60,"[51.55621041452271, 0.1287404051072312]",Barking and Dagenham Council,BeFirst?,,,Exempt?,,estates/src/images/shiptonclose.png
 ,
 Sheephouse Way estate,kingston,120,"[51.384434, -0.264362]",RB Kingston,,,,Exempt,,estates/src/images/sheephouseway.png
 ,
-Severn Way,brent,50,"[51.552401,-0.246721]",Brent Council,,,,Exempt,Pending,estates/src/images/Severn_way3LS.jpg
+Severn Way,brent,50,"[51.552401,-0.246721]",Brent Council,,,,Exempt,,estates/src/images/Severn_way3LS.jpg
 ,
 Savona estate,wandsworth,130,"[51.478880,-0.142430]",LB Wandsworth,,,,Exempt,,estates/src/images/savona2.jpg
 ,
@@ -67,9 +65,9 @@ Samuda estate,towerhamlets,317,"[51.496571,-0.008458]",One Housing Group,,,Open 
 ,
 Saltford Close estate,bexley,150,"[51.481231, 0.178457]",,,,,Required?,Masterplan pending,estates/src/images/saltfordclose.png
 ,
-Royal Jubilee Court,havering,52,"[51.585675,0.193341]",Havering Council,Wates,,TPAS,Exempt,Pending,estates/src/images/royaljubileeaerial.jpg
+Royal Jubilee Court,havering,52,"[51.585675,0.193341]",Havering Council,Wates,,TPAS,,,estates/src/images/royaljubileeaerial.jpg
 ,
-Roseberry Gardens estate,sutton,150,"[51.3679,-0.1929]",Sutton Council,,,,Required,Pending,estates/src/images/roseberry3.jpg
+Roseberry Gardens estate,sutton,150,"[51.3679,-0.1929]",Sutton Council,,,,Required,,estates/src/images/roseberry3.jpg
 ,
 Regina Road estate,croydon,191,"[51.400864,-0.069866]",Croydon Council,,,,Pending,Pending,estates/src/images/reginaroad.jpg
 ,
@@ -131,9 +129,9 @@ Lambourne Close estate,ealing,100,"[51.503159,-0.335400]",LB Ealing,,,,,,estates
 ,
 Ladderswood estate,enfield,100,"[51.613312,-0.137395]",Enfield Council,Mulalley/One Housing Group,VZDV,,Exempt,Approved,estates/src/images/lwood3.png
 ,
-Kingsbridge estate,towerhamlets,134,"[51.493200,-0.025874]",One Housing Group,,,Mike Tyrell,Approved,Pending,estates/src/images/kbridge.jpg
+Kingsbridge estate,towerhamlets,134,"[51.493200,-0.025874]",One Housing Group,,Howarth Tompkins,Mike Tyrell,Approved,Pending,estates/src/images/kbridge.jpg
 ,
-Juniper Crescent and Gilbeys Yard estate,camden,200,"[51.542436,-0.150620]",One Housing Group,Countryside Properties,,Communities First,Approved,Pending,estates/src/images/jp5.jpg
+Juniper Crescent and Gilbeys Yard estate,camden,200,"[51.542436,-0.150620]",One Housing Group,Countryside Properties,PRP,Communities First,Approved,Pending,estates/src/images/jp5.jpg
 ,
 Joyce Avenue and Snells Park estates,enfield,795,"[51.612022,-0.066698]",Enfield Council,,,Source Partnership,Approved,Approved,estates/src/images/jsnells.jpg
 ,
@@ -153,19 +151,19 @@ Ham Close estate,richmond,192,"[51.437734,-0.316239]",Richmond Housing Partnersh
 ,
 Green Man Lane estate,ealing,464,"[51.511542,-0.325448]",Ealing Council,Real/A2Dominion,Conran and Partners,,Exempt,Approved,estates/src/images/gman3.jpg
 ,
-Grange Farm estate,harrow,282,"[51.568998,-0.350978]",LB Harrow,Higgins,Hawkins Brown,One Enterprise,Exempt,Approved,estates/src/images/gfarm1.png
+Grange Farm estate,harrow,282,"[51.568998,-0.350978]",LB Harrow,Higgins/Wates,Hawkins Brown,One Enterprise,Exempt,Approved,estates/src/images/gfarm1.png
 ,
 Grange Court estate,ealing,150,"[51.537050,-0.397191]",LB Ealing,,,,,,estates/src/images/grangecourt.png
 ,
 Grahame Park estate,barnet,1314,"[51.602271,-0.244782]",Barnet Council,Notting Hill Genesis,Mae,,Exempt,Approved,estates/src/images/grahamepark4.jpg
 ,
-Golf Links estate,ealing,500,"[51.517047,-0.357820]",Ealing Council,,Levitt Bernstein,,Exempt,Approved,estates/src/images/glinks3.jpg
+Golf Links estate,ealing,500,"[51.517047,-0.357820]",Ealing Council,Hill,Levitt Bernstein,,Approved,Approved,estates/src/images/glinks3.jpg
 ,
-Geoffrey Close (Lambeth) estate,lambeth,134,"[51.469493,-0.099011]",Riverside Homes,,PRP,Source Partnership,Approved,Approved,estates/src/images/cle3.jpg
+Geoffrey Close (Lambeth) estate,lambeth,134,"[51.469493,-0.099011]",Riverside Homes,Bellway,PRP,Source Partnership,Approved,Approved,estates/src/images/cle3.jpg
 ,
 Gascoigne estate,barkinganddagenham,179,"[51.533476,0.078037]",Barking and Dagenham Council,BeFirst,Levitt Bernstein,,Exempt,Approved,estates/src/images/Lor_gascoigne2.jpg
 ,
-Friary Park estate,ealing,230,"[51.516962,-0.264300]",Catalyst Housing Group,Mount Anvil,Levitt Bernstein,,Exempt,Approved,estates/src/images/fpark2.png
+Friary Park estate,ealing,230,"[51.516962,-0.264300]",Peabody,Mount Anvil,Levitt Bernstein/Chapman Taylor,,Exempt,Approved,estates/src/images/fpark2.png
 ,
 Fenwick estate,lambeth,431,"[51.464695,-0.127468]",Lambeth Council,,Karakusevic Carson,Christine Searle (Public Voice),Required,Pending,estates/src/images/fw7.jpg
 ,
