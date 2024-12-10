@@ -31,7 +31,9 @@ In September 2021, the Council [applied for a scoping opinion](https://planninga
 
 A ballot of estate residents was held in November 2021. 78% of eligible residents voted in favour of redevelopment on an 85% turnout.
 
-The Mayor has pledged £150m grant funding to the scheme and Enfield approved its own planning application in September 2022 for 1900 new homes, half of which will be 'affordable'.
+The Mayor has pledged £150m (AHP) grant funding to the scheme and signed off Enfield's planning application, which was approved in July 2024. The permission is for 2,028 new homes, half of which will be 'affordable'.
+
+The Mayor has also [allocated £50m](https://www.enfield.gov.uk/news-and-events/2024/02/grant-to-propel-joyce-and-snells-estates-regeneration-project) from his Land Fund to the scheme.
 
 In July 2024, it was [reported](https://www.constructionenquirer.com/2024/07/23/go-ahead-for-850m-north-london-estate-rebuild/) that Enfield Council is seeking a development partner for the scheme.
 

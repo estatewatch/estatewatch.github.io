@@ -5,6 +5,8 @@ tags: brent
 location: '[51.533219,-0.198561]'
 ballot: Approved
 landlord: Brent Council
+architect: Alison Brooks
+developer: Countryside
 itla: Communities First
 total: 800
 planning: Approved

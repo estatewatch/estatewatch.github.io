@@ -5,6 +5,7 @@ tags: havering
 location: '[51.574334,0.176900]'
 ballot: Exempt
 landlord: Havering Council
+architect: Flanagan Lawrence
 developer: Wates
 itla: TPAS
 total: 290

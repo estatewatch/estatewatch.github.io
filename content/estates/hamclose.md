@@ -34,6 +34,8 @@ A planning application was approved in December 2022 for 452 new homes of which 
 
 More information is available on RHP's dedicated website for the scheme [https://www.hamclose.co.uk/](https://www.hamclose.co.uk/).
 
+It was [reported](https://richmond.nub.news/news/local-news/ham-close-estate-residents-desperate-for-regeneration-after-living-amongst-damp-and-mould-198786) in September 2023 that residents would _"be moved from August 2025 depending on their housing need, location, and availability of the correct sized home."_
+
 ---
 
 <!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->

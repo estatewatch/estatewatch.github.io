@@ -3,13 +3,13 @@ name: Friary Park estate
 borough: ealing
 tags: ealing
 location: '[51.516962,-0.264300]'
-landlord: Catalyst Housing Group
+landlord: Peabody
 developer: Mount Anvil
+architect: Levitt Bernstein/Chapman Taylor
 itla:
 total: 230
 ballot: Exempt
 planning: Approved
-architect: Levitt Bernstein
 image: estates/src/images/fpark2.png
 ---
 ![Friary Park estate image](src/images/fpark2.png)
@@ -20,7 +20,7 @@ The estate comprises 230 homes, including 225 social rent units and 5 privately 
 
 The estate also contains a community hall of 211sqm and a basketball court. It sits opposite Acton Main Line rail station, which will benefit from Crossrail services once the Elizabeth Line is operational.
 
-Planning permission for the redevelopment of the estate was granted in November 2019 to a [joint venture between Catalyst Housing Association and developer Mount Anvil](https://www.chg.org.uk/development-regeneration/regeneration/friary-park-ealing/friary-park-rumour-busters/). Despite being [funded](https://www.london.gov.uk/programmes-strategies/housing-and-land/homes-londoners/estate-regeneration/estate-regeneration-data) by the Mayor and [exempted](https://www.london.gov.uk/programmes-strategies/housing-and-land/homes-londoners/estate-regeneration/estate-regeneration-data) from his requirement to ballot residents, there is no stage 2 report available on the [GLA planning portal](https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/friary-park-estate) confirming the Mayor's approval of the scheme. 
+Planning permission for the redevelopment of the estate was granted in November 2019 to a [joint venture between owner Catalyst Housing Association and developer Mount Anvil](https://www.chg.org.uk/development-regeneration/regeneration/friary-park-ealing/friary-park-rumour-busters/). Despite being [funded](https://www.london.gov.uk/programmes-strategies/housing-and-land/homes-londoners/estate-regeneration/estate-regeneration-data) by the Mayor and [exempted](https://www.london.gov.uk/programmes-strategies/housing-and-land/homes-londoners/estate-regeneration/estate-regeneration-data) from his requirement to ballot residents, there is no stage 2 report available on the [GLA planning portal](https://www.london.gov.uk/what-we-do/planning/planning-applications-and-decisions/planning-application-search/friary-park-estate) confirming the Mayor's approval of the scheme. 
 
 The Mayor's [stage 1 planning report](https://www.london.gov.uk/sites/default/files/public%3A//public%3A//public%3A//public%3A//PAWS/media_id_477438/////friary_park_estate_report.pdf) says that the redeveloped site will increase three-fold in density providing 1,228 new homes of which 50% affordable, including _"up to"_ 237 social rented replacement homes.
 
@@ -29,6 +29,12 @@ The Mayor's [stage 1 planning report](https://www.london.gov.uk/sites/default/fi
 In November 2019, it was [reported](https://www.insidehousing.co.uk/news/news/london-housing-association-moves-step-closer-on-990-home-scheme-but-affordable-share-reduced-64284) that the proposed affordable housing quota had been reduced.
 
 There is no section 106 agreement publicly available so it is not clear exactly how many replacement social rented homes there will be or whether it will be truly social rented tenure or affordable rent (up to 80% market rent) - or whether it has been secured in perpetuity.
+
+In February 2023, Catalyst housing association merged with Peabody.
+
+Peabody's [website](https://www.peabody.org.uk/your-community/regeneration/friary-park/friary-park-about-the-regeneration-project/) says that of the 1,228 new homes, 455 homes will be affordable, 315 of which will be social rent or London affordable rent.
+
+![Friary Park CGI](src/images/friaryparkcgi.jpg)
 
 ---
 

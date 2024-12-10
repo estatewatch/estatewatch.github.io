@@ -34,7 +34,6 @@ This raises a question about the integrity of the Mayor's ballot requirement. Th
 
 In July 2021, Ealing's planning committee [approved](https://ealing.cmis.uk.com/ealing/Document.ashx?czJKcaeAi5tUFL1DTL2UE4zNRBcoShgo=bUieVZnWOS0tTI3Bj9sRKXwmZtamxCf6KTAbFBvU6FZ9z58fxKuigQ%3d%3d&rUzwRPf%2bZ3zd4E7Ikn8Lyw%3d%3d=pwRE6AGJFLDNlh225F5QMaQWCtPHwdhUfCZ%2fLUQzgA2uL5jNRG4jdQ%3d%3d&mCTIbCubSFfXsDGW9IXnlg%3d%3d=hFflUdN3100%3d&kCx1AnS9%2fpWZQ40DXFvdEw%3d%3d=hFflUdN3100%3d&uJovDxwdjMPoYv%2bAJvYtyA%3d%3d=ctNJFf55vVA%3d&FgPlIEJYlotS%2bYGoBi5olA%3d%3d=NHdURQburHA%3d&d9Qjj0ag1Pd993jsyOJqFvmyB7X0CSQK=ctNJFf55vVA%3d&WGewmoAfeNR9xqBux0r1Q8Za60lavYmz=ctNJFf55vVA%3d&WGewmoAfeNQ16B2MHuCpMRKZMwaG1PaO=ctNJFf55vVA%3d) its development partner Rydon's application for the demolition of the estate. 
 
-
 ![High Lane estate image](src/images/highlaneaerial.png)
 
 As continues to be the case with these ongoing estate redevelopment applications, the Mayor's minimum policy requirements have been routinely ignored. The Mayor's supposed no net loss of social rent, the 50% affordable housing requirement, the requirement to explore alternatives to demolition have all been completely ignored, as well as the Mayor's requirement to publish the viability assessment explaining with the affordable housing offer falls short of the policy quota.
@@ -43,7 +42,7 @@ You can view the planning application documents on Ealing's planning portal [her
 
 The Mayor's stage 1 planning report giving 'in principle' approval to the scheme is available on the GLA planning portal here: [https://gla.force.com/pr/s/planning-application/a0i4J000002V7cwQAC/20210031?tabset-c2f3b=2](https://gla.force.com/pr/s/planning-application/a0i4J000002V7cwQAC/20210031?tabset-c2f3b=2)
 
-The site was granted outline planning permission in March 2023 but works are yet to commence.
+In January 2024, it was [reported](https://www.ealingtoday.co.uk/default.asp?section=info&page=eahousing007.htm) that the Council's development partner for the scheme has gone into administration.
 
 ---
 

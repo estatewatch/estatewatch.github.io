@@ -35,7 +35,7 @@ The redevelopment is being [funded](https://www.london.gov.uk/programmes-strateg
 
 Waltham Forest applied for a Compulsory Purchase Order to be able to remove remaining leaseholders in 2019. 
 
-In january 2022, a planning application was submitted to add an extra 144 homes to the scheme, of which only 13 social rent. Residents have [complained](https://www.yellowad.co.uk/residents-fury-over-proposed-changes-to-walthamstow-housing-blocks-plan/) of the move as cynical, underhand and sneaky.
+In january 2022, a planning application was submitted to add an extra 144 homes to the scheme, of which only 13 social rent. Residents have [complained](https://www.yellowad.co.uk/residents-fury-over-proposed-changes-to-walthamstow-housing-blocks-plan/) of the move as _"cynical, underhand and sneaky"_.
 
 ---
 

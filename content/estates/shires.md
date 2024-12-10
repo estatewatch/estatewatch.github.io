@@ -7,8 +7,8 @@ landlord: Enfield Council
 developer:
 itla: 
 total: 200
-ballot: Pending
-planning: Pending
+ballot:
+planning:
 image: estates/src/images/shropshire.png
 ---
 ![Shires estate image](src/images/shropshire.png)
@@ -20,6 +20,8 @@ Two 18 storey blocks (Shropshire House and Cheshire House) have been earmarked f
 ![Shires estate image](src/images/cheshire.jpg)
 
 Enfield Council says: _“A hugely expensive and massively disruptive repairs programme - to the tune of £53 million - would be required to bring these blocks up to standard in the short term .. A decision on how to move forward will be made by the Summer of 2023."_
+
+In January 2024, it was [reported](https://enfielddispatch.co.uk/residents-remain-living-in-unsafe-towers-on-edmonton-estate/) that both blocks are still occupied.
 
 ---
 

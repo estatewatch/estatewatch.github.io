@@ -28,6 +28,8 @@ The same report confirms that the Mayor has allocated £27m funding towards the 
 
 Planning was approved in 2022 for the construction of 340 new homes, of which 260 social rent.
 
+In August 2024, Ledbury Estate residents [were told](https://southwarknews.co.uk/area/peckham/exclusive-estate-residents-told-they-must-move-out-as-soon-as-possible-as-fire-risks-have-worsened/) they must move out as soon as possible, following a fire safety check that found the existing fire safety risks had ‘worsened’.
+
 ---
 
 __Links:__

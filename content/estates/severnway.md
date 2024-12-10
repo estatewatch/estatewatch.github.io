@@ -8,7 +8,7 @@ developer:
 itla:
 total: 50
 ballot: Exempt
-planning: Pending
+planning:
 image: estates/src/images/Severn_way3LS.jpg
 ---
 ![Severn Way estate image](src/images/Severn_way3LS.jpg)
@@ -16,6 +16,8 @@ image: estates/src/images/Severn_way3LS.jpg
 Circa 50 homes on Severn Way Crescent in Brent are under threat of demolition.
 
 The crescent comprises two dozen post-war terraced Council homes which have been earmarked for redevelopment under the NEASDEN STATIONS GROWTH AREA development site in Brent's [Local plan.](https://www.brent.gov.uk/media/16411848/draft-local-plan-east.pdf)
+
+As of October 2024, the Local Plan has not been reviewed and the site allocation remains active.
 
 ---
 

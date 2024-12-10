@@ -66,6 +66,12 @@ According to the latest figures provided by the Council in February 2023 (see Ta
 
 However, there will be a net loss of around 190 units for social rent as compared to pre-regeneration numbers.
 
+In May 2024, the fourth phase of the scheme [narrowly won](https://www.hackneycitizen.co.uk/2024/05/15/critics-woodberry-down-plans-next-phase-approval/) detailed planning permission after objections were made to the Council's planning committee. 
+
+[Woodberry Down Community Organisation](https://wdco.org.uk/) voiced the following objection to the Council's planning committee: 
+
+> “144 social homes are being knocked down, and 90 are being built. […] This follows a similar loss in Phase 3, and a loss of 200 social homes from the first to the second masterplan. “We were promised these losses would be made up. Instead, the problem is made worse in Phase 4, and indeed worse in the draft third masterplan.”
+
 ---
 
 __Links:__  

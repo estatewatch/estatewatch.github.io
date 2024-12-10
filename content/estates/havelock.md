@@ -24,13 +24,13 @@ Ealing Council says that it is redeveloping the estate in a joint venture with C
 
 The replacement of the existing social rented homes with the affordable rent tenure is confirmed in the [Mayor's planning report](https://www.london.gov.uk/sites/default/files/public%3A//public%3A//PAWS/media_id_19485///1_havelock_estate_masterplan_report.pdf) for the scheme.
 
-![Havelock estate image](src/images/havelockgla.png)
-
-Phase 1 of the scheme is complete and phase 2 is underway and nearing completion. Homes are being marketed for sale in anticipation by Catalyst at [www.southallvillage.co.uk](http://www.southallvillage.co.uk). 
+![Havelock estate image](src/images/havelockgla.png) 
 
 In April 2019, Ealing Council [announced](https://www.ealing.gov.uk/info/201104/housing_regeneration/374/havelock_estate/3) that it had written to all residents advising that a review of the scheme would take place.
 
 There is no information relating to a right to return for tenants or leaseholders already decanted from phase 1.
+
+Phase 1 of the scheme is complete and phase 2 is underway and nearing completion. Homes are being marketed for sale in anticipation by Catalyst at [www.southallvillage.co.uk](http://www.southallvillage.co.uk).
 
 ---
 

@@ -59,6 +59,11 @@ The [revised section 106 agreement](https://planning.merton.gov.uk/MVM.DMS/Plann
 
 This is confirmed in the scheme's [viability assessment](https://planning.merton.gov.uk/MVM.DMS/Planning%20Application/1000120000/1000120762/22P3686_Financial%20Viability%20Assessment%2003.pdf) which says _"We have been advised by Clarion to assume that all rented homes will be let as Social Rent tenure homes, although note that the Section 106 agreement allows for a more flexible range of tenures to be provided."_ (para 6.2.4)
 
+In October 2024, Clarion launched a [fresh round of consultation](https://clarionconsults.co.uk/highpathphase2) on changes to phase 2 of the scheme. It [explained](https://clarionconsults.co.uk/highpathphase2) the reasons behind this as follows:
+
+> "Delays beyond Clarion’s control have meant that demolition and construction of Phase 2 have not yet been able to start. In this time, the Government introduced the Building Safety Act 2022 meaning new residential buildings over 18 metres in height now require a second staircase to improve fire safety for residents. There have also been updates to several building regulations relating to overheating and reducing carbon emissions.
+
+Clarion is updating the approved design to reflect these new regulatory requirements. Owing to the delays, Clarion is also looking to increase the number of homes in Phase 2."
 
 ---
 

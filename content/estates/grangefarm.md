@@ -4,7 +4,7 @@ borough: harrow
 tags: harrow
 location: '[51.568998,-0.350978]'
 landlord: LB Harrow
-developer: Higgins
+developer: Higgins/Wates
 itla: One Enterprise
 total: 282
 ballot: Exempt
@@ -34,7 +34,16 @@ This appears to contradict the conclusions in the [Mayor's report](https://www.l
 
 There is no publicly available section 106 agreement to confirm the exact tenure of the replacement 'social' housing or whether it has been secured in perpetuity.
 
+Harrow Council [says](https://www.harrow.gov.uk/downloads/file/23760/grange-farm-estate-faqs) that _"the rents will still be set an affordable level but will be higher than at present to reflect the new facilities and space standards."_
+
 In September 2020, Harrow [served a compulsory purchase order](https://www.harrow.gov.uk/housing-property/grange-farm-estate/2) on the estate's remaining residents.
+
+Phase 1 of the scheme was completed in 2023. This comprised 89 homes. Of these, 69 were social/affordable rent and 20 were shared ownership.
+
+Harrow [says](https://www.harrow.gov.uk/housing-property/grange-farm-estate) that 
+it appointed a new joint venture partner (Wates) for phases 2 and 3 of the scheme in 2022. This was to take forward the development of Phase 2 and 3. 
+
+The Council says that Wates will submit a new planning application for the remainder of the estate sometime in 2024. 
 
 ---
 

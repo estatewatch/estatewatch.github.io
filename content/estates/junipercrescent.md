@@ -4,6 +4,7 @@ borough: camden
 tags: camden
 location: '[51.542436,-0.150620]'
 developer: Countryside Properties
+architect: PRP
 landlord: One Housing Group
 itla: Communities First
 total: 200

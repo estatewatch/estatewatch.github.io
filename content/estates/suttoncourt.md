@@ -7,8 +7,8 @@ landlord: Sutton Council
 developer:
 itla:
 total: 150
-ballot: Required
-planning: Pending
+ballot:
+planning:
 image: estates/src/images/suttoncourt.jpg
 ---
 ![Sutton Court estate image](src/images/suttoncourt.jpg)

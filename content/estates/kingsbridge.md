@@ -5,6 +5,7 @@ tags: towerhamlets
 location: '[51.493200,-0.025874]'
 landlord: One Housing Group
 developer:
+architect: Howarth Tompkins
 itla: Mike Tyrell
 total: 134
 ballot: Approved

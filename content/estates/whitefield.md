@@ -5,6 +5,7 @@ tags: barnet
 location: '[51.572426,-0.219515]'
 landlord: Barnet Council
 developer: Argent/L&Q
+architect: Maccreanor Lavington
 itla: PEP
 total: 243
 ballot: Exempt
@@ -22,6 +23,8 @@ The development will see the construction of 7,400 new homes across the entire B
 In 2017 Barnet Council was granted the first [compulsory purchase order](/images/whitefieldcpo.pdf) to remove the remaining leaseholders from the first phase.
 
 In May 2023, the decanting of the first phase of the scheme commenced. In April 2024 it was [reported](https://barnetpost.co.uk/2024/04/18/delay-to-transfer-of-estate-residents-into-new-homes-at-brent-cross-redevelopment/) that the first new homes in the first phase of development had been delayed because of issues with the new gas-fired district heating system.
+
+In June 2024, Barnet [agreed to release funding](https://barnet.moderngov.co.uk/documents/s84349/DPR103-BXC%20Whitefield%20Estate%20Lowrise%20Demolition-2.6.24.pdf) to demolish the low-rise blocks on the estate.
 
 ---
 

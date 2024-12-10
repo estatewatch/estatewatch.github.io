@@ -4,10 +4,10 @@ borough: ealing
 tags: ealing
 location: '[51.517047,-0.357820]'
 landlord: Ealing Council
-developer:
+developer: Hill
 itla:
 total: 500
-ballot: Exempt
+ballot: Approved
 planning: Approved
 architect: Levitt Bernstein
 image: estates/src/images/glinks3.jpg
@@ -26,11 +26,11 @@ In October 2018, Ealing Council [resolved](https://ealing.cmis.uk.com/ealing/Doc
 
 ![Golf Links estate image](src/images/glinksplanning.png)
 
-Whilst phase 3 has received in-principle agreement for grant funding from the Mayor, it is exempt from the Mayor's requirement to ballot residents because there are less than 150 homes proposed for demolition. 
-
 The [planning application](https://pam.ealing.gov.uk/online-applications/applicationDetails.do?previousCaseType=Property&keyVal=Q2PTX9JMFLT00&previousCaseNumber=NOJRHB00DT01J&previousCaseUprn=000012015925&activeTab=summary&previousKeyVal=NOJRHB00DT01K) for phase 3 was approved by Ealing Council on 30 April 2020 (ref:195348OUT).
 
-Ealing Council recently [announced](https://www.ealing.gov.uk/info/201104/housing_regeneration/372/golf_links_estate/2) that it is looking at options for the further redevelopment of the estate beyond phase 4:
+The ballot had taken place in March 2022 and the results were 82% in favour of the redevelopment of the estate (turnout unknown). However, a top-up ballot was agreed to be held at the request of the GLA where residents of phases 1 and 2, and of Sheringham Tower, would be asked to vote on the proposals. The results of this ballot have not been made public.
+
+Ealing Council subsequently [announced](https://www.ealing.gov.uk/info/201104/housing_regeneration/372/golf_links_estate/2) that it is looking at options for the further redevelopment of the estate beyond phase 4:
 
 ![Golf Links estate image](src/images/glinks.png)
 

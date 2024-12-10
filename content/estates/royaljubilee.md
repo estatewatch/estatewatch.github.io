@@ -7,8 +7,8 @@ landlord: Havering Council
 developer: Wates
 itla: TPAS
 total: 52
-ballot: Exempt
-planning: Pending
+ballot:
+planning:
 image: estates/src/images/royaljubileeaerial.jpg
 ---
 ![Royal Jubilee Court estate image](src/images/royaljubileeaerial.jpg)
@@ -17,13 +17,9 @@ image: estates/src/images/royaljubileeaerial.jpg
 
 The estate has been earmarked for redevelopment as part of Havering's [£1bn joint venture with developer Wates Residential](https://www.wates.co.uk/articles/case-study/borough-of-havering-housing-redevelopment/) which will see 12 of the borough's estates redeveloped.
 
-The scheme has not yet applied for [funding](/approved/funding) from the Mayor or been exempted from his [requirement](/approved/ballotexemptions) to ballot residents on the demolition of their homes. It is unclear whether Havering intends to ballot residents at this stage.
+As of September 2024, Havering's [website](https://www.havering.gov.uk/building-new-homes-havering-1) says that the scheme is under review.
 
-Havering's [investment prospectus](https://www.investinhavering.co.uk/wp-content/uploads/2017/03/Vision-interactive-map.pdf) provides further details of the scheme.
-
-![Royal Jubilee Court estate image](src/images/jcinvest.png)
-
-Havering's [website](https://www.havering.gov.uk/building-new-homes-havering-1) says that the scheme is under review.
+The blocks were originally sheltered housing but are now being used as temporary accommodation for families on Havering's housing waiting list. 
 
 ---
 

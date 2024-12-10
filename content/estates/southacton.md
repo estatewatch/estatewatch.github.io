@@ -41,6 +41,8 @@ Ealing says that tenants will have a right to return to the redeveloped estate a
 
 In January 2021, Ealing Council commenced compulsory purchase proceedings to remove remaining leaseholders from the next phase of the scheme.
 
+In October 2023, the last family residing in this phase of the scheme was [forcibly evicted](https://www.bbc.co.uk/news/articles/cx8rv0q9z9go) from their home.
+
 ---
 
 __Links:__

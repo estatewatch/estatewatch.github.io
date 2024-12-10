@@ -2,11 +2,11 @@
 name: Westbury estate 
 borough: lambeth
 tags: lambeth
-coordinates: 
 location: '[51.470468,-0.140646]'
 landlord: Lambeth Council
-developer:
-itla: Norman Francis
+developer: LB Lambeth
+architect: EPR
+itla: Newman Francis
 total: 82
 ballot: Exempt
 planning: Approved
@@ -25,6 +25,10 @@ The Mayor's [report](https://www.london.gov.uk/sites/default/files/public%3A//pu
 In November 2019, the Council [resolved](https://moderngov.lambeth.gov.uk/mgIssueHistoryHome.aspx?IId=56827&PlanId=831&RPID=0) to commence compulsory purchase order proceedings in order to remove the 34 leaseholders from the maisonette blocks.
 
 The estate was initially awarded grant funding by the Mayor and exempted from his requirement to ballot residents. In September 2020, the Mayor announced that funding had been [withdrawn from the scheme](https://www.insidehousing.co.uk/news/news/gla-funding-withdrawn-for-three-major-council-estate-regeneration-schemes-68045), but Lambeth vowed to proceed with demolition regardless using its own funds.
+
+In October 2024, Lambeth [announced](https://love.lambeth.gov.uk/lambeth-plans-for-westbury-estate-renewal-progresses/) the completion of 64 social rent homes in the first phase of development. The same press release said that the Council is currently seeking a development partner to help complete the rest of the scheme. 
+
+Lambeth had previously [made the decision](https://www.insidehousing.co.uk/news/london-council-plans-to-deliver-at-least-500-new-homes-by-2030-85865) to shut down its in-house development company (Homes for Lambeth), after a review criticised its “very poor delivery”. 
 
 ---
 

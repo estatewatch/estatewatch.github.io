@@ -4,7 +4,7 @@ borough: lambeth
 tags: lambeth
 location: '[51.469493,-0.099011]'
 landlord: Riverside Homes
-developer:
+developer: Bellway
 itla: Source Partnership
 total: 134
 ballot: Approved
@@ -20,7 +20,7 @@ Housing association Riverside Homes, which manages the estate, [wants to replace
 
 In December 2018, 67% of residents who voted in the ballot voted in favour of redevelopment. The scheme is being [funded](https://www.london.gov.uk/programmes-strategies/housing-and-land/homes-londoners/estate-regeneration/estate-regeneration-data) by the Mayor in a joint venture between Riverside and Bellway Homes.
 
-In November 2020, Riverside applied for planning permission to demolish the estate's 134 homes and replace them with 441 homes of which just 135 social rent.
+In November 2020, Riverside applied for planning permission to demolish the estate's 134 homes and replace them with 441 homes of which 135 London Affordable Rent, 35 Shared Ownership homes, 27 London Living Rent homes and 241 homes for private sale.
 
 In December, the Mayor published his [stage 1 planning report](https://gla.force.com/pr/s/planning-application/a0i4J000002TXIGQA4/20206691?tabset-c2f3b=2) in response to the planning application. 
 
@@ -41,6 +41,8 @@ But the tenure mix proposed in its planning application includes an extra 43 hom
 While it is good to see the Mayor's planning report pick this up, it is disappointing to see that the Mayor proposes to take no action. The Mayor has provisionally granted £10M funding to this scheme. He ought to be using this leverage to ensure it complies with his basic policy requirements, not just on ballots and affordable housing tenure mix, but also on the more fundamental question of whether these buildings need to be demolished in the first place.
 
 You can view the Mayor's report [here](https://gla.force.com/pr/s/planning-application/a0i4J000002TXIGQA4/20206691?tabset-c2f3b=2), the full planning application documents (except the financial viability assessment which hasn't been published) on Lambeth's planning portal [here](https://planning.lambeth.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=QHD9R4BO08M00).
+
+In May 2024, Bellway [announced](https://www.bellwayplc.co.uk/media-centre/media-releases/construction-work-progresses-on-441-new-homes-in-lambeth) that work had started on the scheme.
 
 ---
 

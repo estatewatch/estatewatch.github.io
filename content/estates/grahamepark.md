@@ -50,6 +50,8 @@ Details of the planning consent for Phase A are available on Barnet's planning p
 
 The Grahame Park scheme is being funded by the Mayor and has been exempted from his requirement to ballot residents on the demolition of their homes. It is located directly adjacent to another large estate redevelopment scheme - the [Douglas Bader Park estate](https://estatewatch.london/estates/barnet/douglasbaderpark/).
 
+Notting Hill Genesis's 2024 [Newsletter](https://www.nhg.org.uk/media/t1fnp3lj/grahame-park-regeneration-2024-updates.pdf) for residents, confirms that phase 1 of the scheme is nearing completion and demolition works are about to commence on phase 2. The final phase of the scheme is not expected to complete until Spring 2032.
+
 ---
 
 __Links:__
@@ -58,7 +60,7 @@ __Links:__
 
 [Barnet Planning Portal - planning application supporting docs (ref:19/5493/OUT)](https://publicaccess.barnet.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=PZ5MNBJI0I700)
 
-Municipal Dreams website: <https://municipaldreams.wordpress.com/2024/10/22/grahame-park-barnet-part-ii/>
+Municipal Dreams website (history of the estate): <https://municipaldreams.wordpress.com/2024/10/15/grahame-park-barnet-part-i/>
 
 ---
 

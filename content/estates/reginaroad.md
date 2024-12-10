@@ -29,7 +29,7 @@ In June 2024, Croydon Council's Cabinet [agreed](https://democracy.croydon.gov.u
 
 Phase 1 will comprise 225 new Council homes (minimum 200 social rented and up to 25 leaseholder/freeholder products) and a kindergarten/ community facility.  Phase 2 will comprise a minimum of 155 private homes.
 
-Croydon was awarded a grant allocation of £53.8m for the scheme by the GLA in March 2024.
+Croydon was [awarded](https://insidecroydon.com/2024/07/13/regina-road-demolition-set-to-begin-thanks-to-54m-gla-grant/) a grant allocation of £53.8m for the scheme by the GLA in March 2024.
 
 ---
 

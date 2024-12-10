@@ -8,7 +8,7 @@ developer:
 itla:
 total: 150
 ballot: Required
-planning: Pending
+planning:
 image: estates/src/images/roseberry3.jpg
 ---
 ![Roseberry Gardens estate image](src/images/roseberry3.jpg)
@@ -24,6 +24,10 @@ The estate is also clearly marked in Sutton's [Policy Map](http://sutton.address
 ![Roseberry Gardens estate image](src/images/suttonpolicymap.png)
 
 The estate comprises around a dozen blocks of 2-3 storey maisonettes and around a dozen rows of 2-storey terraced homes. It is located directly adjacent to the [Benhill estate](/estates/sutton/benhillestate/) which is a much larger estate, and also earmarked for redevelopment in the local plan. 
+
+The estate remains earmarked as a potential development site in Sutton's [2024 Local Plan](https://www.sutton.gov.uk/documents/d/guest/local-plan-issues-and-preferred-options-2024-).
+
+![2024 local plan site allocation](src/images/2024lp.png)
 
 ---
 

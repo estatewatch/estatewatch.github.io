@@ -5,6 +5,7 @@ tags: lambeth
 location: '[51.478668,-0.118861]'
 landlord: Lambeth Council
 developer:
+architect: Pollard Thomas Edwards
 itla: TPAS
 total: 101
 ballot: Exempt

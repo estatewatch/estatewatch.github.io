@@ -5,11 +5,11 @@ tags: wandsworth
 location: '[51.464762,-0.176427]'
 landlord: Wandsworth Council
 developer: Taylor Wimpey
+architect: HTA
 itla:
 total: 759
 ballot: Exempt
 planning: Approved
-architect: HLM
 image: estates/src/images/wy22.jpg
 ---
 ![Winstanly york road estate image](src/images/wy22.jpg)
@@ -30,9 +30,17 @@ The Mayor's [report](https://www.london.gov.uk/sites/default/files/public%3A//pu
 
 ![Winstanly york road estate image](src/images/winstanleysr2.png)
 
+Local community news website CJAG has [produced](https://www.cjag.org/2021/01/19/the-full-case-against-winstanley-york-rd-scheme-social-cleansing-and-contempt-for-local-residents/) the following graphic showing the existing tenure of the estate versus that proposed:
+
+![cjag website](src/images/cjag.png)
+
 The [viability assessment](https://planning2.wandsworth.gov.uk/iam/IAMCache/5121327/5121327.pdf) submitted to justify the claim that the scheme can't meet the Mayor's requirement of 50% affordable housing, confirms that the developer is estimated to receive over £200m profit:
 
 ![Winstanly york road estate image](src/images/winstanleyprofit.png)
+
+Wandsworth's [March 2024 newsletter](https://www.wandsworth.gov.uk/media/r0vo4qtn/winstanley_york_road_newsletter_march_2024.pdf) says that the first block in the first phase is due to complete in Summer 2024, and _"will include 126 new social homes"_. What it means by 'social home' is unclear.
+
+As of October 2024, this first block was still not completed.
 
 ---
 
