@@ -21,4 +21,4 @@ We have produced five guides for tenants and residents facing the redevelopment 
 
 ---
 
-If you live on an estate under threat of demolition, you can get in touch with us at <b>info@estatewatch.london</b> or join our <a href="https://github.com/estatewatch/estatewatch/discussions/2">discussion forum.</a>
+If you live on an estate under threat of demolition, you can get in touch with us at <b>info@estatewatch.london</b>.
