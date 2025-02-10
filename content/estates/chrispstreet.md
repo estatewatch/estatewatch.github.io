@@ -10,6 +10,7 @@ itla:
 total: 169
 ballot: Exempt
 planning: Approved
+image: estates/src/images/fitzgeraldhouse.png
 ---
 ![Chrisp street image](src/images/fitzgeraldhouse.png)
 
@@ -56,6 +57,4 @@ var circle = L.circle({{ location }}, {
 </script>
 
 ---
-
-![Clichy estate image](src/images/clichyestate2.png)
 
