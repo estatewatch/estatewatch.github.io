@@ -14,9 +14,9 @@ image: estates/src/images/cp12.jpg
 ---
 ![Carpenters estate image](src/images/cp12.jpg)
 
-710 homes are under threat of demolition on Newham's Carpenters estate in Stratford.
+710 homes are under threat of demolition on Newham's Carpenters estate in Stratford. The estate comprises an number of low-rise terraces and three tower blocks - Lund Point, Dennison Point and James Riley Point.
 
-Plans for the estate's regeneration have been under consideration since 2000, with several buildings earmarked for demolition and the decanting of residents having started in 2005/06.  Three tower blocks on the estate have been emptied of council tenants, though some leaseholders remain.  The lower rise buildings continue to be occupied by a mixed community of council tenants, leaseholders and freeholders. 
+Plans for the estate's regeneration have been under consideration since 2000, with several buildings earmarked for demolition and the decanting of residents having started in 2005/06. In 2025 it was [reported](https://www.bbc.co.uk/news/articles/ckgzz1z1epxo) that less than half of the estate's 710 homes were being occupied.
 
 To save the estate from demolition, <a href="https://savecarpenters.wordpress.com/about/">Carpenters Against Regeneration Plans (CARP)</a> was formed by residents of the estate in 2011.  <a href="/images/ccplan.pdf">Carpenters Community Plan</a> was published in 2013 and the <a href="https://greatercarpenterscouk.files.wordpress.com/2019/06/np-june-2019-submission-version.pdf">Greater Carpenters Neighbourhood Plan</a> in 2019, both of which propose a bottom-up community based approach to planning the future of the estate.
 
@@ -61,7 +61,11 @@ The viability appraisal has also included a profit of £44m for Newham Council, 
 
 We argue in our [Alternative Good Practice Guide to Estate Regeneration](img/alternative-good-practice-guide-to-estate-regeneration.pdf) that councils and housing associations should not be allowed to profit from estate redevelopment and that any profit should go towards increasing the level of replacement social housing.
 
-As of November 2024, the application was yet to be signed off by the Mayor. WATCH THIS SPACE!
+In February 2025, the BBC [reported](https://www.bbc.co.uk/news/articles/ckgzz1z1epxo) that the Council was revising its plans after councillors had raised financial concerns for the project after the estimated borrowing costs jumped from £845m to £1.4bn, as a result of inflation and costs on new building safety requirements.
+
+The Council's Overview and Scrutiny Committee decided to send the original decision back to cabinet for reconsideration, and came up with a list of recommendations which included considering different funding strategies such as selling some or part of the estate.
+
+
 
 ---
 

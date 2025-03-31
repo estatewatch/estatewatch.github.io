@@ -5,7 +5,7 @@ tags: lewisham
 location: '[51.435624,-0.003185]'
 landlord: Lewisham Council
 developer: London and Quadrant
-itla:
+itla: Solon and PPCR
 total: 100
 ballot: Exempt
 planning: Approved
@@ -16,11 +16,11 @@ image: estates/src/images/excalibur.jpg
 
 Circa 100 homes remain earmarked for demolition in phases 3 and 4 of Lewisham's redevelopment of the Excalibur estate in Catford.
 
-Phases 1 and 2 of the scheme are nearing completion but it would appear that phases 3 and 4 have stalled.
-
 The estate's initial 189 homes are being redeveloped by housing association L&Q in conjunction with Lewisham Council.
 
 Permission was granted in 2013 for 362 new homes of which 166 social/affordable rent.
+
+The third phase of the scheme was [completed](https://londonnewsonline.co.uk/news/regeneration-of-catfords-post-war-prefabs-nears-completion/) in February 2025. The fourth and final phase of the scheme has still not been progressed some 20 years since the regeneration of the estate commenced.
 
 ---
 
