@@ -5,7 +5,7 @@ tags: islington
 location: '[51.536269,-0.114844]'
 landlord: Newlon Housing Association
 developer: Mount Anvil
-itla:
+itla: Source Partnership
 architect: Pollard Thomas Edwards
 total: 371
 ballot: Approved
@@ -32,7 +32,11 @@ In 2018, residents [accused](https://www.islingtongazette.co.uk/news/has-newlon-
 
 Planning permission was granted in 2022 for 950 new homes of which 50% affordable.
 
-In April 2023, Islington Council [resolved](https://democracy.islington.gov.uk/documents/s32602/Barnsbury%20disposal%20of%20land%20and%20release%20of%20restrictive%20covenant.pdf) to use CPO powers on behalf of Newlon Housing Association.
+In April 2023, Islington Council [resolved](https://democracy.islington.gov.uk/documents/s32602/Barnsbury%20disposal%20of%20land%20and%20release%20of%20restrictive%20covenant.pdf) to use CPO powers on behalf of Newlon Housing Association to reclaim homes owned by leaseholders.
+
+Newlon Housing Trust and developer Mount Anvil, had been set to retrofit nearly 600 existing homes on the estate as part of the scheme. The first phase, refitting 134 homes, was approved by Islington Council in November 2024.
+
+But in March 2025, it was [reported](https://www.architectsjournal.co.uk/news/pte-slams-impractical-funding-models-as-estate-overhaul-stalls) that the retrofit can’t go ahead because of changes in the viability of the scheme. Architect PTE is arguing for government funding to be allocated, saying that _‘current funding models do not support the realities of retrofitting historic buildings'._
 
 ---
 

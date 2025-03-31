@@ -11,7 +11,6 @@ total: 225
 planning: Approved
 architect: Levitt Bernstein
 image: estates/src/images/af2.png
-date: Last Modified
 ---
 <img src="src/images/af2.png" alt="Aberfeldy estate">
 

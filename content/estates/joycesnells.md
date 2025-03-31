@@ -5,7 +5,7 @@ tags: enfield
 location: '[51.612022,-0.066698]'
 ballot: Approved 
 landlord: Enfield Council
-developer:
+developer: LB Enfield
 itla: Source Partnership
 total: 795
 planning: Approved
@@ -33,9 +33,19 @@ A ballot of estate residents was held in November 2021. 78% of eligible resident
 
 The Mayor has pledged £150m (AHP) grant funding to the scheme and signed off Enfield's planning application, which was approved in July 2024. The permission is for 2,028 new homes, half of which will be 'affordable'.
 
-The Mayor has also [allocated £50m](https://www.enfield.gov.uk/news-and-events/2024/02/grant-to-propel-joyce-and-snells-estates-regeneration-project) from his Land Fund to the scheme.
+The Mayor has also [allocated £50m](https://www.enfield.gov.uk/news-and-events/2024/02/grant-to-propel-joyce-and-snells-estates-regeneration-project) from his Land Fund to the first phase of the scheme.
+
+The homes will be delivered across 11 phases, with the first four being delivered by the council with 481 of 575 homes to be affordable with the help of £92.2 million funding from the government’s Affordable Homes Programme. 
+
+The affordable homes in the first four phases will consist of 267 new social rent homes, 88 shared ownership homes, and the reprovision of 126 social rent homes.
+
+The remaining 1,453 homes over seven phases, are expected to be delivered by a partner or developer, but a future strategy is yet to be determined. 
 
 In July 2024, it was [reported](https://www.constructionenquirer.com/2024/07/23/go-ahead-for-850m-north-london-estate-rebuild/) that Enfield Council is seeking a development partner for the scheme.
+
+In February 2025, it was [reported](https://www.enfieldindependent.co.uk/news/24924375.concerns-enfield-council-borrowing-regeneration/) that concerns have been raised about the viability and financing of the scheme.
+
+With the scheme’s total cost nearly £800 million and approximately £380 million of Council borrowing set for the first four phases, Enfield Council's regeneration boss acknowledged the economic backdrop and an uncontrollable market sector made regeneration projects _“difficult”_. 
 
 ---
 
