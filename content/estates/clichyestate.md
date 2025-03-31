@@ -4,7 +4,7 @@ borough: towerhamlets
 tags: towerhamlets
 location: '[51.516104,-0.048942]'
 landlord: LB Tower Hamlets
-developer: LB Tower Hamlets
+developer: Countryside
 architect: PRP
 itla: PPCR
 total: 100
@@ -22,26 +22,13 @@ Residents had previously been consulted on an 'infill' option as well as full re
 
 ![Clichy estate image](src/images/clichyballot.png)*Extract from the <a href="https://www.whatdotheyknow.com/request/658746/response/1565802/attach/4/Ballot%20information%20requested%201.pdf">info-pack</a> sent to residents with the ballot paper.*
 
-The appointed architects <a href="https://www.prp-co.uk/">PRP</a> drew up plans for the redevelopment, which were approved by Newham's planning committee in April 2022.
+The appointed architects <a href="https://www.prp-co.uk/">PRP</a> drew up plans for the redevelopment, which were approved by the Council's planning committee in April 2022.
 
 The Mayor's [stage 2 report](https://planapps.london.gov.uk/planningapps/PA-21-02703) confirms that of the 412 new homes approved, only 36 will be social rent. A further 90 will be affordable rent up to Tower Hamlets Living Rent levels (around twice as much as social rent), 20 will be shared ownership and the remainder private for sale homes.
 
 ![Clichy estate tenure mix](src/images/clichytenuremix.png)
 
-Newham's [rehousing offer](https://mgov.newham.gov.uk/documents/s144070/Appenidx%201%20-%20LBN%20Estate%20Regeneration%20Housing%20Offer%20the%20Housing%20Offer.pdf) promises a new council home at the same rent level to secure tenants. Temporary tenants will be offered a secure tenancy on the redeveloped estate but will be charged an 'affordable rent':  
-
-_'Your rent will be an affordable rent, in accordance with the definitions set by the Mayor of London._'
-
-The policy for leaseholders is less clear:
-
-The Landlord Offer says:
-_"You will be offered a range of options to continue to own a new home in the Custom House Phase One area, depending on your financial circumstances._"
-
-Whilst both shared ownership and shared equity are both listed as possible options, small print in the Council's policy says:
-_"Eligibility criteria will be worked out via co-production within the legal powers available to the Council."_
-
-This leaves the door open to Newham 'gatekeeping' the shared equity offer as has been seen in other schemes where leaseholders are required to undergo a financial assessment and are subsequently told that they don't qualify for shared equity and are offered only shared ownership (i.e. paying rent on the unowned part of their homes.)
-
+In December 2024, Tower Hamlets [signed](https://www.towerhamlets.gov.uk/News_events/2024/December/Countryside-Partnerships-named-preferred-partner-for-initial-works-on-407-home-Tower-Hamlets-estate-regeneration.aspx) a development partnership agreement with developer Countryside Properties.
 ---
 
 __Links:__

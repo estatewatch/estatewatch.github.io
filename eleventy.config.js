@@ -68,6 +68,15 @@ export default async function(eleventyConfig) {
 	});
 
 	// Filters
+	eleventyConfig.addFilter("postDate", (dateObj) => {
+		// Can use toLocaleString the same way we were before
+		return dateObj.toLocaleString(undefined, {
+		  year: "numeric",
+		  month: "long",
+		  day: "numeric",
+		});
+	  });
+	  
 	eleventyConfig.addPlugin(pluginFilters);
 
 	eleventyConfig.addPlugin(IdAttributePlugin, {

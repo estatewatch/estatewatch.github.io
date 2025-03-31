@@ -4,8 +4,9 @@ borough: camden
 tags: camden 
 location: '[51.549409,-0.149254]'
 landlord: Camden Council
-developer:
-itla:
+developer: LB Camden
+architect: AHMM
+itla: LB Camden
 total: 316
 ballot: Approved
 planning: Approved
@@ -23,6 +24,8 @@ Prior to the ballot, residents were [told](/images/wtoffer.pdf) that if they vot
 Unsurprisingly the majority of residents voted in favour.
 
 Planning consent was approved in 2022, to build around 885 new homes over eight phases including at least 276 council homes and 78 homes for Camden Living rent. 
+
+Camden's [July 2022](https://democracy.camden.gov.uk/documents/s105347/11%20Future%20of%20West%20Kentish%20Town%20Estate_Part%20I_July22_signed.pdf) Cabinet report confirms that the total cost of the scheme will be £565m and will be financed by the Housing Revenue Account.
 
 In 2023, architect Alice Brown drew up an alternative plan for the regeneration of the estate. Backed by some residents, the plans show how the homes can be retrofitted adding insulation, reconfiguring internal walls and adding balconies to produce a climate impact estimated at six times smaller. 
 

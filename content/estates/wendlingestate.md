@@ -5,10 +5,10 @@ tags: camden
 location: '[51.551117,-0.156132]'
 landlord: Camden Council
 itla: Community Liaison Officers (Camden)
-developer:
+developer: TBC
 total: 241
 ballot: Approved
-planning: Approved
+planning: Pending
 image: estates/src/images/wg5.jpg
 ---
 ![Wendling estate image](src/images/wg5.jpg)
@@ -22,7 +22,7 @@ In July 2019, the Council's Cabinet [decided](http://democracy.camden.gov.uk/doc
 The decision was the cause of some unrest among residents, reported in the local press (April 2020): 
 [http://camdennewjournal.com/article/tenants-pass-vote-of-no-confidence-in-camdens-regeneration-chief](http://camdennewjournal.com/article/tenants-pass-vote-of-no-confidence-in-camdens-regeneration-chief)
 
-The Wendling estate overlooks the site of the former Bacton estate where Camden resolved to demolish 100 council homes over 10 years ago. 67 new private and 'affordable' homes were completed on the adjacent 'phase 1' of that scheme in 2015 but in 2021 the main plot of the former estate remains an empty building site. 
+The Wendling estate overlooks the site of the former Bacton estate where Camden resolved to demolish 100 council homes over 10 years ago. 67 new private and 'affordable' homes were completed on the adjacent 'phase 1' of that scheme in 2015 but in 2024 the main plot of the former estate remains an empty building site. In 2025 revised proposals have come up against [local opposition](https://www.hamhigh.co.uk/news/24883437.gospel-oak-bacton-estate-26-storey-tower-block-plans-slammed/) - see [bactontowersaction.org](https://bactontowersaction.org) for more details.
 
 <figure class="figure">
 <img src="src/images/bacton.jpg" alt="bacton estate" class="img-fluid rounded img-thumbnail">
