@@ -11,13 +11,13 @@ Winstanley &amp; York Road estates,wandsworth,759,"[51.464762,-0.176427]",Wandsw
 ,
 Whitefield estate,barnet,243,"[51.572426,-0.219515]",Barnet Council,Argent/L&amp;Q,Maccreanor Lavington,PEP,Exempt,Approved,estates/src/images/whitefield3.jpg
 ,
-West Kentish Town estate,camden,316,"[51.549409,-0.149254]",Camden Council,,,,Approved,Approved,estates/src/images/wkt1.jpg
+West Kentish Town estate,camden,316,"[51.549409,-0.149254]",Camden Council,LB Camden,AHMM,LB Camden,Approved,Approved,estates/src/images/wkt1.jpg
 ,
 Westbury estate,lambeth,82,"[51.470468,-0.140646]",Lambeth Council,LB Lambeth,EPR,Newman Francis,Exempt,Approved,estates/src/images/wb1.jpg
 ,
 Wessex Close estate,kingston,120,"[51.412340, -0.281306]",RB Kingston,,,,Exempt,,estates/src/images/wessexclose.png
 ,
-Wendling estate,camden,241,"[51.551117,-0.156132]",Camden Council,,,Community Liaison Officers (Camden),Approved,Approved,estates/src/images/wg5.jpg
+Wendling estate,camden,241,"[51.551117,-0.156132]",Camden Council,TBC,,Community Liaison Officers (Camden),Approved,Pending,estates/src/images/wg5.jpg
 ,
 Waterloo Road estate,havering,290,"[51.574334,0.176900]",Havering Council,Wates,Flanagan Lawrence,TPAS,Exempt,Approved,estates/src/images/w2.png
 ,
@@ -207,7 +207,7 @@ Collingwood estate,sutton,250,"[51.3691,-0.1988]",Sutton Council,,,,Required,,es
 ,
 Clockhouse estate,sutton,50,"[51.326066,-0.155669]",Sutton Council,,,,Exempt,,estates/src/images/clockhouse.png
 ,
-Clichy estate,towerhamlets,100,"[51.516104,-0.048942]",LB Tower Hamlets,LB Tower Hamlets,PRP,PPCR,Approved,Approved,estates/src/images/clichyestate.jpg
+Clichy estate,towerhamlets,100,"[51.516104,-0.048942]",LB Tower Hamlets,Countryside,PRP,PPCR,Approved,Approved,estates/src/images/clichyestate.jpg
 ,
 Clare House,towerhamlets,129,"[51.536511,-0.030492]",Clarion Housing Association,Clarion,HTA,,Exempt,Pending,estates/src/images/clarehouse.jpg
 ,
@@ -249,7 +249,7 @@ Barkantine estate,towerhamlets,72,"[51.498528,-0.024181]",One Housing Group,Moun
 ,
 Aylesbury estate,southwark,2000,"[51.485789,-0.084806]",Southwark Council,Notting Hill Genesis,HTA,,Exempt,Approved,estates/src/images/aylesburywendover.jpg
 ,
-Avondale Drive estate,hillingdon,144,"[51.510758,-0.406199]",Hillingdon Council,Higgins,Pollard Thomas Edwards,,Approved,Approved,estates/src/images/avondale3.png
+Avondale Drive estate,hillingdon,144,"[51.510758,-0.406199]",Hillingdon Council,Higgins,Pollard Thomas Edwards,PPCR,Approved,Approved,estates/src/images/avondale3.png
 ,
 Avenue Road estate,walthamforest,258,"[51.554350,-0.002466]",Waltham Forest Council,Bellway Homes,HTA,Newman Francis,Approved,Approved,estates/src/images/avenueroad.jpg
 ,
