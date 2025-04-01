@@ -28,7 +28,7 @@ Landlord: {{ landlord }}
 {% if developer %}Developer: {{ developer }}{% endif %}
 {% if architect %}Architect: {{ architect }}{% endif %}
 {% if itla %}Itla: {{ itla }}{% endif %}
-Page last updated: {{ page.date.toLocaleString(locales, options) }}
+Page last updated: {{ page.date | postDate ) }}
 {% endhighlight %}
 
 {{ content | safe }}
