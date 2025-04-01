@@ -27,7 +27,11 @@ Despite being [funded](/approval/funding) by the Mayor and exempted from his [ba
 
 Countryside have started [marketing](https://www.countrysideproperties.com/all-developments/london/new-avenue) new phase 1 homes off-plan on the redeveloped estate for prices starting at £600k.
 
-Phase 3 of the redevelopment comprising the south-east corner of the estate has been stalled according to the developer's [website for the scheme](https://www.countrysidehomes.com/developments/london/new-avenue-oakwood/download-newsletter). It says that works will commence on phase 3 in 2025 as revisions are made due to updated building regulations.
+Phase 3 of the redevelopment comprising the south-east corner of the estate has been stalled according to the developer's [website for the scheme](https://www.countrysidehomes.com/developments/london/new-avenue-oakwood/download-newsletter).
+
+In February 2025, it was [reported](https://enfielddispatch.co.uk/move-to-provide-more-social-rent-homes-on-southgate-estate-redevelopment/) that the council is negotiating with Countryside on the acquisition of 159 new homes previously earmarked for private sale, with plans to convert them into social-rent homes. This would be funded with a grant from the government’s Affordable Homes Programme (AHP).
+
+If Countryside agrees an offer, a revised planning and development programme will be drawn up. The start date for the third phase is set for March 2026 and the estimated completion date for the whole project is supposedly March 2028. 
 
 ---
 

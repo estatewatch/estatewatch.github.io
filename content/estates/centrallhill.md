@@ -43,6 +43,8 @@ These recommendations have led to a fundamental reshaping of Lambeth’s estate 
 
 The Overview and Scrutiny report indicates that estates such as Central Hill, Cressingham Gardens, and Fenwick are facing a complete reset.
 
+In December 2024, it was [reported](https://londonnewsonline.co.uk/news/lambeth-to-take-stock-of-gipsy-hill-estate-before-deciding-whether-to-stick-or-twist/) that the Council is to undertake a stock condition survey of the estate to inform a further options appraisal.
+
 ---
 
 <!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->

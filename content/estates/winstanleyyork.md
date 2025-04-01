@@ -42,6 +42,8 @@ Wandsworth's [March 2024 newsletter](https://www.wandsworth.gov.uk/media/r0vo4qt
 
 In January 2025, Wandsworth announced that it had ended its joint venture agreement with Taylor Wimpey. It issued a [press statement](https://www.wandsworth.gov.uk/news/news-january-2025/statement-on-the-winstanley-and-york-road-regeneration-joint-venture/) explaining that the _"Council will take a new approach to prioritise the delivery of affordable housing provision. The Council will acquire Taylor Wimpey’s outstanding interests in the JV at the end of December 2024 and will continue to deliver new homes, starting with ‘Block 6’ next."_
 
+In January 2025, it was reported that the Council is drawing up a new masterplan for the estate, which will be submitted at the end of 2026.
+
 ---
 
 __Links:__

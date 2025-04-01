@@ -42,7 +42,7 @@ The Waterloo road scheme is a good example of how the offer to residents on esta
 
 In May 2023, it was [reported](https://www.romfordrecorder.co.uk/news/23529723.flagship-havering-housing-scheme-site-paused-else/) that work has been stopped on the scheme whilst it is reviewed in light of the change in building regulations.
 
-[Newsletters](https://www.havering.gov.uk/building-new-homes-havering-1/12-sites-regeneration-waterloo-queen-street) from Autumn 2024 confirm that _"the scheme has been referred to the Building Safety Regulator, who will assess it in due course."_
+In January 2025, it was [reported](https://www.romfordrecorder.co.uk/news/24861547.waterloo-estate-romford-1-380-home-scheme-wont-restart-for-years/) that Havering Council now estimates it will resume work on the scheme in _“five to seven years’ time"._
 
 ---
 

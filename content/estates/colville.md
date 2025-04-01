@@ -30,6 +30,8 @@ Hackney Council subsequently decided on remediation works which are estimated to
 
 Hackney's [web page](https://hackney.gov.uk/colville-estate) for the scheme says that _"the masterplan needs updating to ensure it reflects the needs of the community and new building standards. Working with Colville Estate residents on the Regeneration Steering Group, we’ve appointed a new design team to work with us and residents to update the masterplan. Design work began in 2024."_
 
+In January 2025, it was reported that Kier has been appointed as development partner to deliver the next phase of the scheme.
+
 ---
 
 <!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->

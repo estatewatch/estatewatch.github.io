@@ -36,7 +36,7 @@ In 2016 Enfield issued a compulsory purchase order for homes on the estate. In i
 
 In 2024, having completed the first 376 homes of the scheme, developer Countryside applied to increase the number of homes in remaining phases bringing the total from 1,080 to 1,402 - with the number of affordable homes remaining at 444 but within this a small increase in the number of social rent from 222 to 246. 
 
-If approved, this would lead to a reduction of the overall affordable housing provision from 42.5% 34.7% (31.7% by unit) as acknowledged in the Mayor's [stage 1 report](https://planapps.london.gov.uk/planningapps/24-02608-FUL) for the application:
+The application was approved in March 2025, leading to a reduction of the overall affordable housing provision from 42.5% 34.7% (31.7% by unit) as acknowledged in the Mayor's [stage 1 report](https://planapps.london.gov.uk/planningapps/24-02608-FUL):
 
 ![extract from GLA report](src/images/almaglaextract.png)*Extract from the Mayor's stage 1 report for the revised masterplan application*
 

@@ -54,6 +54,8 @@ The application [approved](https://www.newham.gov.uk/news/article/1164/356-new-a
 
 ![Custom house estate image](src/images/customhousetenure.png)
 
+In August 2024, a ballot was held for the next phase of the scheme. This [resulted](https://www.romfordrecorder.co.uk/news/24494103.canning-town-estate-redevelopment-gets-resident-backing/) in 69% of residents voting in favour of demolition on a 56% turnout.
+
 ---
 
 __Links:__
