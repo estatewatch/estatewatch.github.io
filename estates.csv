@@ -3,7 +3,7 @@ Yeading Lane 2 estate,ealing,150,"[51.531224,-0.381707]",LB Ealing,,,,,,estates/
 ,
 Yeading Lane 1 estate,ealing,500,"[51.533307,-0.394019]",LB Ealing,,,,Required,,estates/src/images/yeadinglane.png
 ,
-Wornington Green estate,kensingtonandchelsea,150,"[51.523537,-0.212212]",RBKC,Catalyst Housing Association,PRP,Newman Francis,Exempt,Approved,estates/src/images/worning1.jpg
+Wornington Green estate,kensingtonandchelsea,150,"[51.523537,-0.212212]",RBKC,Catalyst Housing Association,PRP/Conran,Newman Francis,Exempt,Approved,estates/src/images/worning1.jpg
 ,
 Woodberry Down estate,hackney,1000,"[51.572949,-0.090658]",Hackney Council,Berkeley Homes,Fletcher Priest/WE/SEH,Simon Slater (Public Voice),Exempt,Approved,estates/src/images/woodberry-down-5.jpg
 ,
@@ -143,6 +143,8 @@ High Path estate,merton,608,"[51.414691,-0.190444]",Clarion,Clarion,PRP,,Exempt,
 ,
 High Lane estate,ealing,264,"[51.519802,-0.344496]",Ealing Council,Rydon,Pollard Thomas Edwards,,Approved,Approved,estates/src/images/highlane2.png
 ,
+Heston Grange estate,hounslow,123,"[51.488230, -0.377550]",MTVH,MTVH,HTA,,Approved,Pending,estates/src/images/hestongrange.png
+,
 Havelock estate,ealing,500,"[51.500392,-0.370627]",Ealing Council,Catalyst Group,Pollard Thomas Edwards,,Required,Approved,estates/src/images/havelock4.jpg
 ,
 Harts Lane estate,barkinganddagenham,500,"[51.541150, 0.071866]",Barking and Dagenham Council,,,,,,estates/src/images/hartslane.png
@@ -167,7 +169,7 @@ Friary Park estate,ealing,230,"[51.516962,-0.264300]",Peabody,Mount Anvil,Levitt
 ,
 Fenwick estate,lambeth,431,"[51.464695,-0.127468]",Lambeth Council,,Karakusevic Carson,Christine Searle (Public Voice),Required,Pending,estates/src/images/fw7.jpg
 ,
-Farnham and Hilldene estate,havering,200,"[51.607002,0.219207]",Havering Council,Wates,,TPAS,Required,,estates/src/images/farnham5.png
+Farnham and Hilldene estate,havering,117,"[51.607002,0.219207]",Havering Council,Wates,Collado Collins,TPAS,Approved,Pending,estates/src/images/farnham5.png
 ,
 Excalibur estate,Lewisham,100,"[51.435624,-0.003185]",Lewisham Council,London and Quadrant,Hunters,Solon and PPCR,Exempt,Approved,estates/src/images/excalibur.jpg
 ,
