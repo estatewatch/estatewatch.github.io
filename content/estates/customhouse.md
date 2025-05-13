@@ -56,6 +56,16 @@ The application [approved](https://www.newham.gov.uk/news/article/1164/356-new-a
 
 In August 2024, a ballot was held for the next phase of the scheme. This [resulted](https://www.romfordrecorder.co.uk/news/24494103.canning-town-estate-redevelopment-gets-resident-backing/) in 69% of residents voting in favour of demolition on a 56% turnout.
 
+In January 2025, it was [announced](https://www.pilc.org.uk/blog/custom-house-resident-takes-mayor-to-high-court/) that a legal challenge has been made against the planning consent. This challenge claims that _"These plans will result in the unnecessary demolition of council homes set at social and council rents, replacing them with “ affordable rent” homes under the guise of ‘social homes’."_ The case will be heard in the High Court and will address a number of issues including:
+
+* the social and environmental costs of the proposed demolition;  
+
+* the potential loss of social rent homes, referencing an FOI response showing higher right-of-return figures than those recorded by the Local Planning Authority; 
+
+* the decades of uncertainty faced by temporary tenants like the Claimant and 
+
+* problems with the resident ballot process. 
+
 ---
 
 __Links:__

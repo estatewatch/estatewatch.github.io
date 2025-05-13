@@ -20,7 +20,7 @@ A ballot was held in 2024 in which 71.9% of residents that voted, voted for demo
 
 The [Landlord Offer](src/images/hestongrangeoffer.pdf) failed to provide any details of the proposed tenure mix (as required by the Mayor's ballot requirement) and made it clear that if residents voted against demolition then the estate would be faced with ongoing neglect and the possibilty of re-running the ballot until the desired result is achieved:
 
-![Heston Grange Landlord Offer screenshot](src/images/hestongrangeballot.png)
+![Heston Grange Landlord Offer screenshot](src/images/hestonnovote.png)
 
 ---
 __Links:__
