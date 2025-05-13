@@ -9,7 +9,7 @@ itla: Newman Francis
 total: 150
 ballot: Exempt
 planning: Approved
-architect: PRP
+architect: PRP/Conran
 image: estates/src/images/worning1.jpg
 ---
 ![wornington green estate image](src/images/worning1.jpg)
@@ -35,7 +35,9 @@ The full documentary is available for viewing online here: [https://vimeo.com/46
 
 In September 2022, residents on the final remaining phase of the estate [complained](https://www.mylondon.news/news/west-london-news/life-half-demolished-west-london-25083396) that they had been living on a building site for more than 10 years.
 
-Planning permission for the remaining phase 3 of the scheme is due to be decided in Autumn 2024. Local community activists have set up a website campaigning for more social housing and the retention of trees: <https://www.worningtontrees.com/>
+Planning permission for the remaining phase 3 of the scheme was approved in March 2025. Of the 368 homes in the last phase, 206-208 would be for social rent, seven for shared ownership, and 155 homes for market sale, according to the planning officer’s report.
+
+Local community activists have set up a website campaigning for more social housing and the retention of trees: <https://www.worningtontrees.com/>
 
 ![wornington green estate image](src/images/worningtonphase3.png)
 

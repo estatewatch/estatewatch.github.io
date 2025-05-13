@@ -5,16 +5,16 @@ tags: havering
 location: '[51.607002,0.219207]'
 landlord: Havering Council
 developer: Wates
-architect:
+architect: Collado Collins
 itla: TPAS
-total: 200
-ballot: Required
-planning:
+total: 117
+ballot: Approved
+planning: Pending
 image: estates/src/images/farnham5.png
 ---
 ![Farnham Hilldene estate image](src/images/farnham5.png)
 
-Circa 200 homes are under threat of demolition at Havering's Farnham and Hilldene estate in Harold Hill. 
+117 homes are under threat of demolition at Havering's Farnham and Hilldene estate in Harold Hill. 
 
 The proposals also include the parades of shops above which the homes are situated.
 
@@ -24,7 +24,21 @@ The scheme has not yet applied for [funding](/approved/funding) from the Mayor o
 
 In Havering's [investment prospectus](https://www.investinhavering.co.uk/wp-content/uploads/2017/03/Vision-interactive-map.pdf), it originally said it wanted to explore building above the existing homes and shops. But in March 2019 the Council [said](https://www.romfordrecorder.co.uk/news/havering-council-plans-for-regeneration-in-harold-hill-1-5944449) that it prefers the option of wholesale redevelopment. provides further details of the scheme. It is now [consulting](https://www.havering.gov.uk/news/article/722/harold_hill_residents_encouraged_to_share_views_on_regeneration_project) residents on redevelopment options.
 
-Havering's [website](https://www.havering.gov.uk/building-new-homes-havering-1) says that planning permission would be submitted in summer 2024 for 478 new homes. As of October 2024 this had still not been submitted.
+In November 2024, a ballot was held and 96.3% of residents voted in favour of redevelopment but on a turnout of just 49.8%.
+
+In April 2025, Wates applied for planning permission for 481 new homes with the following tenure mix:
+
+![Farnham Hilldene tenure mix](src/images/farnhamtenure.png)
+
+The planning application documents state that the rents for the London Affordable Rent homes will be set as follows:
+
+![Farnham Benchmarks](src/images/farnhambenchmarks.png)
+
+---
+
+__Links:__
+
+[Planning application documents ref:P0421.25](https://development.havering.gov.uk/OcellaWeb/planningDetails?reference=P0421.25&from=planningSearch)
 
 ---
 

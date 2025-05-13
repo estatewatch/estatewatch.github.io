@@ -28,7 +28,13 @@ The estate was initially awarded grant funding by the Mayor and exempted from hi
 
 In October 2024, Lambeth [announced](https://love.lambeth.gov.uk/lambeth-plans-for-westbury-estate-renewal-progresses/) the completion of 64 social rent homes in the first phase of development. The same press release said that the Council is currently seeking a development partner to help complete the rest of the scheme. 
 
-Lambeth had previously [made the decision](https://www.insidehousing.co.uk/news/london-council-plans-to-deliver-at-least-500-new-homes-by-2030-85865) to shut down its in-house development company (Homes for Lambeth), after a review criticised its “very poor delivery”. 
+Lambeth had previously [made the decision](https://www.insidehousing.co.uk/news/london-council-plans-to-deliver-at-least-500-new-homes-by-2030-85865) to shut down its in-house development company (Homes for Lambeth), after a review criticised its “very poor delivery”.
+
+In May 2025, Lambeth Council issued a [press release](https://love.lambeth.gov.uk/lambeth-an-extra-300-new-homes-could-be-added-to-council-estate/) saying that it was looking for a development partner for the remainder of the scheme (having completed 64 homes in the first phase). 
+
+It also announced that it would be enlaring the scheme to encompass the two high-rise towers on the estate (Amesbury and Durrington Towers).
+
+![Westbury Towers](https://love.lambeth.gov.uk/wp-content/uploads/2025/05/Westbury-Towers-e1746095951802.png)
 
 ---
 
