@@ -12,6 +12,8 @@ ballot: Approved
 planning: Pending
 image: estates/src/images/hestongrange.png
 ---
+![Heston Grange estate image](src/images/hestongrange.png)
+
 123 homes have been earmarked for demolition at the Heston Grange estate in Hounslow.
 
 The estate overlooks Heston Park and is managed by MTVH housing association.

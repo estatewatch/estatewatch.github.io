@@ -18,7 +18,7 @@ layout: layouts/base.njk
 	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 	<li><a href="{{ tagUrl }}" class="post-tag">{{ borough | capitalize | replace("Barkinganddagenham", "Barking & Dagenham") | replace("Cityoflondon", "City of London") | replace("Kensingtonandchelsea", "Kensington & Chelsea") | replace("Towerhamlets", "Tower Hamlets") | replace("Walthamforest", "Waltham Forest") }}</a>{%- if not loop.last %}, {% endif %}</li>
 	{%- endfor %}
-</ul>
+</ul> 
 
 {% highlight "yaml" %}
 Homes under threat: {{ total }}
@@ -28,7 +28,7 @@ Landlord: {{ landlord }}
 {% if developer %}Developer: {{ developer }}{% endif %}
 {% if architect %}Architect: {{ architect }}{% endif %}
 {% if itla %}Itla: {{ itla }}{% endif %}
-Page last updated: {{ page.date | postDate }}
+{# Page last updated: {{ page.date | postDate }} #}
 {% endhighlight %}
 
 {{ content | safe }}
