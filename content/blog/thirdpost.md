@@ -1,7 +1,7 @@
 ---
 title: Alma estate developer pleads poverty
 description: Why have estate regeneration policies if they are routinely ignored?
-date: 2024-11-22
+date: 2024-12-22
 ---
 ![Alma estate photo](../estates/src/images/alma2.png)
 
