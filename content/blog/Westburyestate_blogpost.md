@@ -1,5 +1,5 @@
 ---
-title: Westbury estate demolition boundary extended to include 2 tower blocks
+title: Westbury estate - Tower blocks now included in demolition plans 
 description: Lambeth leading the way in estate regeneration bad practice!
 date: 2025-05-12
 ---
@@ -25,17 +25,22 @@ The report goes on to explain that following the Mayor's October 2024 letter, th
 
 The report then refers to a cost appraisal study which estimates the cost of refurbishing the two towers at a staggering £54m (excl. VAT) - that's £338k per flat for each of the 160 flats in the towers. It provides a second option which involves a _"30-year programme of planned maintenance, and other cyclical replacement and/or responsive repairs"_ at a cost of £55m over 30 years. 
 
-In 2015, an independent review of Southwark's refurbishment estimate for the Aylesbury estate _"found it ‘impossible to track down’ most of the cost for ‘external works’"_. This cost made up half of the £314 million total estimate for refurbishment.
+In 2015, a [review](https://www.architectsjournal.co.uk/news/assessing-aylesbury-whats-the-true-cost-of-demolishing-council-estates) of Southwark's refurbishment estimate for the Aylesbury estate found it _"impossible to track down"_ half of the costs for the £314 million total estimate for refurbishment.
 
-The third and final option is demolition and redevelopment, which the appraisal study estimates at just £5m, this representing the cost of responsive repairs and keeping the towers maintained until their demolition. There is no information about the cost to the council of decanting and demolishing the towers, the cost of rehousing tenants or the cost of compensating leaseholders. 
+The third and final option is demolition and redevelopment, which the appraisal study estimates at just £5m, this being the cost of maintaining the towers in the five years ahead of their demolition.
+
+The report concludes _"As established in the preceding section, retention of the towers in the long-term will require the investment of substantial sums. Redevelopment, by contrast, will have a materially lower impact on council finances."_ (para 2.37)
+
+There is no information included about the cost to the council of decanting and demolishing the towers, the cost of rehousing tenants or the cost of compensating leaseholders. 
 
 Neither has it been considered that retaining the towers provides the Council with an asset bringing in an ongoing stream of rental income or that there are various sources of funding available for retrofitting social housing.
 
 In fact, whether it has failed to consider important factors or has exagerated refurbishment costs is impossible to know because neither the cost appraisal study or the structural survey have been made public. To make matters worse the decision has been taken by a delegated officer decision rather than a committee, so any scrutiny is impossible.
 
-Another thing missing from the appraisal is any consideration of the carbon costs of redevelopment. The Council report says that _"the successful Development Partner will be required to provide a whole lifecycle carbon assessment during the planning process."_ Evidence if it were ever needed, that these lifecycle carbon assessments are simply a tick-box exercise!
+Another thing missing from the appraisal is any consideration of the carbon costs of redevelopment. The Council report says that _"the successful Development Partner will be required to provide a whole lifecycle carbon assessment during the planning process."_ This is best evidence that these lifecycle carbon assessments are regarded as an afterthought or simply a tick-box exercise!
 
-As if the report couldn't get any worse it goes on to acknowledge the Mayor's policy requirement for minimum 50% affordable housing but goes on to say it will accept 35%: _"This procurement process recognises the different market conditions that now apply, together with the site-specific circumstances here, in setting a minimum 35% affordable housing requirement."_ (para 1.19)
+As if the report couldn't get any worse, it goes on to acknowledge the Mayor's policy requirement for minimum 50% affordable housing on estate redevelopments but then goes on to say that Lambeth will accept just 35%: _"This procurement process recognises the different market conditions that now apply, together with the site-specific circumstances here, in setting a minimum 35% affordable housing requirement."_ (para 1.19)
 
 This is confirmed in the [published invitation to tender](https://www.theconstructionindex.co.uk/tenders/view/26195) - _"The Council requires a minimum provision of 35% affordable housing"_.
 
+Lambeth's approach here is a textbook example of how the Mayor's policies on estate regeneration are being ignored from beginning to end. We say that the only solution is a basic policy presumption against the demolition of social housing estates. More on this to come - WATCH THIS SPACE! 
