@@ -19,25 +19,27 @@ The [Council report](https://moderngov.lambeth.gov.uk/documents/s165728/CMDDR%20
 
 ![Westbury Towers report screenshot](../estates/src/images/westburyreport.png)
 
-In short; the Mayor has told Lambeth that if it wants grant funding then it must hold a ballot (Lambeth wasn't previously intending to ballot residents on the demolition of their homes). The Mayor has additionally stated that *all* residents living on the estate must be part of the ballot, regardless of whether their homes are part of the demolition plans (as per his [policy requirements](https://www.london.gov.uk/sites/default/files/gla_cfg_section_8._resident_ballots_-_18_july_2018.pdf)). I.e - if the tower blocks' residents don't have any skin in the game, they're unlikely to vote for redevelopment.
+In short: the Mayor has told Lambeth that if it wants grant funding then it must hold a ballot (Lambeth wasn't previously intending to ballot residents on the demolition of their homes). The Mayor has additionally stated that *all* residents living on the estate must be part of the ballot, regardless of whether their homes are part of the demolition plans (as per his [policy requirements](https://www.london.gov.uk/sites/default/files/gla_cfg_section_8._resident_ballots_-_18_july_2018.pdf)). I.e - if the tower blocks' residents don't have any skin in the game, they're unlikely to vote for redevelopment.
 
-The report goes on to explain that following the Mayor's October 2024 letter, the Council comissioned building surveyors to survey the fabric of the two towers the following month. This said that _"intrusive testing was also undertaken by a specialist. The study reported the structural frame to be in reasonable condition."_ It went on to conclude however that _"electrical systems, lifts, pipework, and risers, are likely to require renewal in the short to medium term to maintain reliable performance."_
+The report goes on to explain that following the Mayor's October 2024 letter, the Council comissioned building surveyors to survey the fabric of the two towers the following month. This said that _"intrusive testing was also undertaken by a specialist. The study reported the structural frame to be in reasonable condition"_  but _"electrical systems, lifts, pipework, and risers, are likely to require renewal in the short to medium term to maintain reliable performance."_
 
 The report then refers to a cost appraisal study which estimates the cost of refurbishing the two towers at a staggering £54m (excl. VAT) - that's £338k per flat for each of the 160 flats in the towers. It provides a second option which involves a _"30-year programme of planned maintenance, and other cyclical replacement and/or responsive repairs"_ at a cost of £55m over 30 years. 
 
-In 2015, a [review](https://www.architectsjournal.co.uk/news/assessing-aylesbury-whats-the-true-cost-of-demolishing-council-estates) of Southwark's refurbishment estimate for the Aylesbury estate found it _"impossible to track down"_ half of the costs for the £314 million total estimate for refurbishment.
+These refurbishment estimates appear exceptionally high. In 2015, a [review](https://www.architectsjournal.co.uk/news/assessing-aylesbury-whats-the-true-cost-of-demolishing-council-estates) of Southwark's refurbishment estimate for the Aylesbury estate found it _"impossible to track down"_ half of the costs for the £314 million total estimate for refurbishment.
 
-The third and final option is demolition and redevelopment, which the appraisal study estimates at just £5m, this being the cost of maintaining the towers in the five years ahead of their demolition.
+The appraisal's third and final option is demolition and redevelopment, which it estimates at just £5m, this being the cost of maintaining the towers in the five years ahead of their demolition.
 
 The report concludes _"As established in the preceding section, retention of the towers in the long-term will require the investment of substantial sums. Redevelopment, by contrast, will have a materially lower impact on council finances."_ (para 2.37)
 
+![](..estates/src/images/westburyscreenshot.png)
+
 There is no information included about the cost to the council of decanting and demolishing the towers, the cost of rehousing tenants or the cost of compensating leaseholders. 
 
-Neither has it been considered that retaining the towers provides the Council with an asset bringing in an ongoing stream of rental income or that there are various sources of funding available for retrofitting social housing.
+Neither has it been considered that retaining the towers provides the Council with an asset providing an ongoing stream of rental income or that there are various sources of funding available for retrofitting social housing.
 
-In fact, whether it has failed to consider important factors or has exagerated refurbishment costs is impossible to know because neither the cost appraisal study or the structural survey have been made public. To make matters worse the decision has been taken by a delegated officer decision rather than a committee, so any scrutiny is impossible.
+In fact, whether it has failed to consider important factors or has exaggerated refurbishment costs is impossible to know because neither the cost appraisal study or the structural survey have been made public. To make matters worse the decision has been taken by a delegated officer decision rather than a committee, so any scrutiny is impossible.
 
-Another thing missing from the appraisal is any consideration of the carbon costs of redevelopment. The Council report says that _"the successful Development Partner will be required to provide a whole lifecycle carbon assessment during the planning process."_ This is best evidence that these lifecycle carbon assessments are regarded as an afterthought or simply a tick-box exercise!
+Another striking omission is any consideration of the carbon costs of redevelopment. The Council report says that _"the successful Development Partner will be required to provide a whole lifecycle carbon assessment during the planning process."_ This is best evidence that these lifecycle carbon assessments are regarded as an afterthought or simply a tick-box exercise!
 
 As if the report couldn't get any worse, it goes on to acknowledge the Mayor's policy requirement for minimum 50% affordable housing on estate redevelopments but then goes on to say that Lambeth will accept just 35%: _"This procurement process recognises the different market conditions that now apply, together with the site-specific circumstances here, in setting a minimum 35% affordable housing requirement."_ (para 1.19)
 
