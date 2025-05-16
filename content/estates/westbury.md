@@ -30,11 +30,13 @@ In October 2024, Lambeth [announced](https://love.lambeth.gov.uk/lambeth-plans-f
 
 Lambeth had previously [made the decision](https://www.insidehousing.co.uk/news/london-council-plans-to-deliver-at-least-500-new-homes-by-2030-85865) to shut down its in-house development company (Homes for Lambeth), after a review criticised its “very poor delivery”.
 
-In May 2025, Lambeth Council issued a [press release](https://love.lambeth.gov.uk/lambeth-an-extra-300-new-homes-could-be-added-to-council-estate/) saying that it was looking for a development partner for the remainder of the scheme (having completed 64 homes in the first phase). 
+In May 2025, Lambeth Council issued a [press release](https://love.lambeth.gov.uk/lambeth-an-extra-300-new-homes-could-be-added-to-council-estate/) saying that it was looking for a development partner for the remainder of the scheme (having completed just 64 homes in the first phase). 
 
 It also announced that it would be enlaring the scheme to encompass the two high-rise towers on the estate (Amesbury and Durrington Towers).
 
 ![Westbury Towers](https://love.lambeth.gov.uk/wp-content/uploads/2025/05/Westbury-Towers-e1746095951802.png)
+
+The announcement was informed by a council report, survey and appraisal study which failed to take into acccount a number of key factors. Read more about these [here](https://estatewatch.london/blog/Westburyestate_blogpost/).
 
 ---
 

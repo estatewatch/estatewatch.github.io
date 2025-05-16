@@ -3,9 +3,9 @@ title: Westbury estate - Tower blocks now included in demolition plans
 description: Lambeth leading the way in estate regeneration bad practice!
 date: 2025-05-12
 ---
-![Westbury Towers](https://love.lambeth.gov.uk/wp-content/uploads/2025/05/Westbury-Towers-e1746095951802.png)
+![Westbury estate image](src/images/wb10.jpg)
 
-The Westbury estate in Lambeth belongs to a growing list of stalled estate regeneration schemes.
+The [Westbury estate](https://estatewatch.london/estates/westbury/) in Lambeth belongs to a growing list of stalled estate regeneration schemes.
 
 Works have been halted since the completion of a pilot phase of the scheme providing 64 new homes.
 
@@ -31,7 +31,7 @@ The appraisal's third and final option is demolition and redevelopment, which it
 
 The report concludes _"As established in the preceding section, retention of the towers in the long-term will require the investment of substantial sums. Redevelopment, by contrast, will have a materially lower impact on council finances."_ (para 2.37)
 
-![](..estates/src/images/westburyscreenshot.png)
+![screenshot of council report](../estates/src/images/westburyscreenshot.png)
 
 There is no information included about the cost to the council of decanting and demolishing the towers, the cost of rehousing tenants or the cost of compensating leaseholders. 
 
