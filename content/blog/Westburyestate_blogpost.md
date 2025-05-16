@@ -3,7 +3,7 @@ title: Westbury estate - Tower blocks now included in demolition plans
 description: Lambeth leading the way in estate regeneration bad practice!
 date: 2025-05-12
 ---
-![Westbury estate image](src/images/wb10.jpg)
+![Westbury estate image](../estates/src/images/wb10.jpg)
 
 The [Westbury estate](https://estatewatch.london/estates/westbury/) in Lambeth belongs to a growing list of stalled estate regeneration schemes.
 
