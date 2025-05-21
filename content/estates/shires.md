@@ -21,7 +21,7 @@ Two 18 storey blocks (Shropshire House and Cheshire House) have been earmarked f
 
 Enfield Council says: _“A hugely expensive and massively disruptive repairs programme - to the tune of £53 million - would be required to bring these blocks up to standard in the short term .. A decision on how to move forward will be made by the Summer of 2023."_
 
-In January 2024, it was [reported](https://enfielddispatch.co.uk/residents-remain-living-in-unsafe-towers-on-edmonton-estate/) that both blocks are still occupied.
+In February 2025, the Enfield Dispatch [reported](https://enfielddispatch.co.uk/final-council-tenants-set-to-leave-unsafe-edmonton-tower-blocks/) that the final three tenants were due to move out within the following month and that eighteen leaseholders remain in the towers. 
 
 ---
 
