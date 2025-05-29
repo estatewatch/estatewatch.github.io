@@ -9,7 +9,7 @@ architect: AHMM
 itla: LB Camden
 total: 316
 ballot: Approved
-planning: Approved
+planning: application not yet submitted
 image: estates/src/images/wkt1.jpg
 ---
 ![West kentish Town estate image](src/images/wkt1.jpg)
