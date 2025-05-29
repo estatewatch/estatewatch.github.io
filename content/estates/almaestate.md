@@ -8,7 +8,7 @@ developer: Countryside Properties
 itla: PEP
 total: 746
 ballot: Exempt
-planning: Approved
+planning: Approved by Enfield - Mayoral Approval pending
 architect: Pollard Thomas Edwards
 image: estates/src/images/alma2.png
 ---
@@ -36,7 +36,7 @@ In 2016 Enfield issued a compulsory purchase order for homes on the estate. In i
 
 In 2024, having completed the first 376 homes of the scheme, developer Countryside applied to increase the number of homes in remaining phases bringing the total from 1,080 to 1,402 - with the number of affordable homes remaining at 444 but within this a small increase in the number of social rent from 222 to 246. 
 
-The application was approved in March 2025, leading to a reduction of the overall affordable housing provision from 42.5% 34.7% (31.7% by unit) as acknowledged in the Mayor's [stage 1 report](https://planapps.london.gov.uk/planningapps/24-02608-FUL):
+The application was approved by Enfield Council in March 2025, leading to a reduction of the overall affordable housing provision from 42.5% 34.7% (31.7% by unit) as acknowledged in the Mayor's [stage 1 report](https://planapps.london.gov.uk/planningapps/24-02608-FUL):
 
 ![extract from GLA report](src/images/almaglaextract.png)*Extract from the Mayor's stage 1 report for the revised masterplan application*
 
@@ -50,7 +50,7 @@ The statement goes on to acknowledge that affordable housing offer fails to comp
 
 However, despite the Mayor's [policy requirement for viability assessments to be made public](https://www.london.gov.uk/programmes-strategies/planning/implementing-london-plan/london-plan-guidance/affordable-housing-and-viability-supplementary-planning-guidance-spg) this one remains hidden behind closed doors..
 
-The application is yet to be approved. Will the Mayor once again turn a blind eye and allow the Alma estate scheme to join the growing list of schemes that have watered down and flouted his affordable housing policies? WATCH THIS SPACE!
+The application is yet to receive Mayoral approval. Will the Mayor once again turn a blind eye and allow the Alma estate scheme to join the growing list of schemes that have watered down and flouted his affordable housing policies? WATCH THIS SPACE!
 
 ---
 __Links:__
