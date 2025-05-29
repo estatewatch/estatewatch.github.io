@@ -40,6 +40,9 @@ The __Enfield Dispatch__ reports that it contacted L&Q to ask if there are simil
 
  Finally, is it a coincidence that the Edmonton Green Shopping Centre has recently been included in the borough's [Local Plan](https://www.enfield.gov.uk/__data/assets/pdf_file/0031/55669/ELP-Reg19-Appendix-C-Site-Allocations-Planning.pdf) as a potential site for redevelopment and provision of over 1,000 new homes? Is the survey (which has not been made publicly available) being used as a means to mask what is essentially a development opportunity?
 
+As of 2024, it was [reported](https://enfielddispatch.co.uk/second-staircases-set-to-be-added-to-major-edmonton-green-redevelopment/) that the Crosstree led Edmonton Green redevelopment will retain and integrate the three towers, however, it is unclear how this resonates with MTV's statements and the L & Q survey. 
+
+
 ---
 
 __Links:__
@@ -47,6 +50,8 @@ __Links:__
 Local media article: <https://enfielddispatch.co.uk/two-edmonton-towers-face-demolition-over-safety-fears-with-hundreds-of-families-affected/>
 
 [PDF version](https://enfielddispatch.co.uk/wp-content/uploads/2024/03/Dispatch-67.pdf)
+
+Edmonton Green Masterplan: <https://edmontongreencentre.co.uk/wp-content/uploads/2023/09/Crosstree.EdmontonGreen.Boards.Web_.20.11.13.pdf> 
 
 
 ---
