@@ -20,7 +20,7 @@ Ealing, Enfield, Merton, Kingston, Richmond and Tower Hamlets are bringing forwa
 
 In its new [Local Plan](https://www.rbkc.gov.uk/planning-and-building-control/planning-policy/local-plan), the Royal Borough of Kensington and Chelsea has gone one step further to introduce a policy presumption against the redevelopment of social housing estates: 
 
-![RBCK plan extract](http://estatewatch.london/images/rbkcplan.png)
+![RBCK plan extract](https://estatewatch.london/images/rbkcplan.png)
 
 There is increasing awareness of the huge social, environmental and financial costs of estate redevelopment.
 
