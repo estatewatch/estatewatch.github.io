@@ -1,5 +1,5 @@
 ---
-title: City of London’s ‘retrofit first’ policy to come into force 
+title: City of London’s ‘retrofit first’ policy comes into force 
 date: 2025-06-03
 ---
 ![Retrofirst logo](https://cdn.rt.emap.com/wp-content/uploads/sites/4/2019/09/30072635/retrofirsttwitter20193-2-748x499.jpg)
@@ -16,13 +16,13 @@ Westminster has introduced a similar policy in its [draft Local Plan review](htt
 
 ![Westminster Local Plan](/estates/src/images/westminsterplan.png)
 
-Ealing, Enfield, Merton, Kingston, Richmond and Tower Hamlets are bringing forward policy or guidance adopting a ‘retrofit first’ approach and it has been [reported](https://lichfields.uk/blog/2024/april/02/retrofit-first-the-city-camden-now-westminster-who-will-be-next) that several other boroughs are preparing supplementary planning guidance on the issue.
+It has been [reported](https://lichfields.uk/blog/2024/april/02/retrofit-first-the-city-camden-now-westminster-who-will-be-next) that Ealing, Enfield, Merton, Kingston, Richmond and Tower Hamlets are bringing forward policy or guidance adopting a ‘retrofit first’ approach and that several other boroughs are preparing supplementary planning guidance on it.
 
 In its new [Local Plan](https://www.rbkc.gov.uk/planning-and-building-control/planning-policy/local-plan), the Royal Borough of Kensington and Chelsea has gone one step further to introduce a policy presumption against the redevelopment of social housing estates: 
 
 ![RBCK plan extract](/estates/src/images/rbkcplan.png)
 
-There is increasing awareness of the huge social, environmental and financial costs of estate redevelopment.
+It is becoming clear that there is an increasing awareness of the huge social, environmental and financial costs of estate redevelopment.
 
 A 2013 [study by architects Gensler](https://heygateestate.wordpress.com/wp-content/uploads/2012/12/genslerheygate.pdf), showed that refurbishment of the Heygate estate in Southwark could have saved 40,000 Tonnes of CO2 while costing the same as the Council paid to decant the estate:
 
@@ -32,8 +32,7 @@ The Architects Journal is running a [Retrofirst Campaign](https://www.architects
 
 The Mayor and GLA appear to be taking note. In a [‘Retrofit vs Rebuild’ report](https://www.london.gov.uk/who-we-are/what-london-assembly-does/london-assembly-work/london-assembly-publications/retrofit-vs-rebuild-report) by its Planning and Regeneration Committee, it stated that lessons should be learnt from the City of London on its retrofit first approach. The report said _"A trend towards discouraging demolition could positively impact how we manage the quality of our historic housing estates going forward. This, in turn, could positively impact the capacity for communities to remain in their homes and to protect beloved historic community buildings"_.
 
-
-We argue in our [Alternative Estate Regeneration Guidance](https://estatewatch.london/images/alternative-good-practice-guide-to-estate-regeneration.pdf) that there should be a policy presumption against the demolition of social housing estates and we will be encouraging the Mayor to adopt such an approach in the forthcoming London Plan Review. WATCH THIS SPACE! 
+We argue in our [Alternative Estate Regeneration Guidance](https://estatewatch.london/images/alternative-good-practice-guide-to-estate-regeneration.pdf) that there should be a basic policy presumption against the demolition of social housing estates and we will be encouraging the Mayor to adopt such an approach in the forthcoming London Plan Review. WATCH THIS SPACE! 
 
 
 
