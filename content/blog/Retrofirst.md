@@ -14,13 +14,13 @@ These include Camden, through its [Local Plan](https://www.camden.gov.uk/documen
 
 Westminster has introduced a similar policy in its [draft Local Plan review](https://www.westminster.gov.uk/media/document/regulation-19-city-plan):
 
-![Westminster Local Plan](/images/westminsterplan.png)
+![Westminster Local Plan](/estates/src/images/westminsterplan.png)
 
 Ealing, Enfield, Merton, Kingston, Richmond and Tower Hamlets are bringing forward policy or guidance adopting a ‘retrofit first’ approach and it has been [reported](https://lichfields.uk/blog/2024/april/02/retrofit-first-the-city-camden-now-westminster-who-will-be-next) that several other boroughs are preparing supplementary planning guidance on the issue.
 
 In its new [Local Plan](https://www.rbkc.gov.uk/planning-and-building-control/planning-policy/local-plan), the Royal Borough of Kensington and Chelsea has gone one step further to introduce a policy presumption against the redevelopment of social housing estates: 
 
-![RBCK plan extract](/images/rbkcplan.png)
+![RBCK plan extract](/estates/src/images/rbkcplan.png)
 
 There is increasing awareness of the huge social, environmental and financial costs of estate redevelopment.
 
