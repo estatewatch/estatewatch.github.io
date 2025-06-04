@@ -1,10 +1,10 @@
 ---
 title: City of London’s ‘retrofit first’ policy comes into force 
-date: 2025-06-03
+date: 2025-05-12
 ---
 ![Retrofirst logo](https://cdn.rt.emap.com/wp-content/uploads/sites/4/2019/09/30072635/retrofirsttwitter20193-2-748x499.jpg)
 
-A proposal by the City of London to encourage reuse of existing buildings and other circular economy measures has become policy after being approved by the Corporation’s Planning and Transportation Committee.
+A proposal by the City of London to encourage reuse of existing buildings has become policy after being approved by the Corporation’s Planning and Transportation Committee.
 
 The new [Planning for Sustainability Supplementary Planning Document (SPD)](https://www.cityoflondon.gov.uk/assets/Services-Environment/Planning-for-Sustainability-SPD.pdf), provides guidance on how developers should approach the City Corporation’s sustainability policies in their planning applications.
 
@@ -12,7 +12,7 @@ Last year it was [reported](https://lichfields.uk/blog/2024/april/02/retrofit-fi
 
 These include Camden, through its [Local Plan](https://www.camden.gov.uk/documents/20142/4820180/Draft+New+Camden+Local+Plan+2024+v1.pdf/415cc7da-c24a-8237-ddc2-5c72045af9d2?t=1706548115256) approved in April this year which prioritises retrofitting existing buildings over demolition; 
 
-Westminster has introduced a similar policy in its [draft Local Plan review](https://www.westminster.gov.uk/media/document/regulation-19-city-plan):
+Westminster is introducing a similar policy in its [draft Local Plan review](https://www.westminster.gov.uk/media/document/regulation-19-city-plan):
 
 ![Westminster Local Plan](/estates/src/images/westminsterplan.png)
 
