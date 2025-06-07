@@ -18,7 +18,7 @@ image: estates/src/images/barnsbury1.png
 
 The former Council estate was transferred to Newlon Housing association in 1999 under Islington's stock transfer policy.
 
-In a joint venture with developer Mount Anvil, Newlon plans to demolish the 1970s blocks on the estate between Charlotte Terrace and Caledonian Road, including the two blocks next to the canal on Carnegie Street.
+The Barnsbury Estate has been divided into ‘Old Barnsbury’ and New Barnsbury’. Old Barnsbury describes the 1930s section of the estate between Charlotte Terrace and Barnsbury Road which was intended to be retrofitted. In a joint venture with developer Mount Anvil, Newlon plans to demolish the 'New Barnsbury Estate' 1970s blocks between Charlotte Terrace and Caledonian Road, including the two blocks next to the canal on Carnegie Street.
 
 In March 2021, a residents ballot was held in which 73% of those who voted supported the proposals on a 79% turnout.
 
