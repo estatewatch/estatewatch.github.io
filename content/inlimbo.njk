@@ -1,0 +1,16 @@
+---js
+const eleventyNavigation = {
+	key: "Stalled",
+	order: 4
+};
+---
+{%- css %}{% include "public/css/message-box.css" %}{% endcss %}
+<div class="message-box">
+	
+<h2>{{ collections.limboestates.length }} London housing estates have been demolished and not fully rebuilt!</h2> Estate redevelopments often end up being stalled, sometimes for periods spanning many years. This can be down to funding, viability or regulatory changes but also to developers not wanting to flood the market or attempting to extract further concessions from Local Authority partners.</br> 
+Below are a number of schemes where estates have been demolished but not yet completely rebuilt - some of these started being emptied more than 20 years ago!
+
+</div>
+
+{% set limboestateslist = collections.limboestates %}
+{% include "limboestateslist.njk" %}
