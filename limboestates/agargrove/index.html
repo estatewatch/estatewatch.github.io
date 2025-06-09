@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ESTATE WATCH</title>
+		<meta name="description" content="Monitoring London estates under threat of demolition.">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="ESTATE WATCH">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Keep images within the border */
+img {
+ max-width: 100%;
+ height: auto;
+ border: 2px solid #000;
+}
+  
+map {
+	width: 100% 
+	height: 180px;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<picture><source type="image/avif" srcset="/limboestates/agargrove/5qD3cKtzaH-16.avif 16w"><source type="image/webp" srcset="/limboestates/agargrove/5qD3cKtzaH-16.webp 16w"><img loading="lazy" decoding="async" width="16" alt="Magnifying glass icon" src="/limboestates/agargrove/5qD3cKtzaH-16.png" height="16"></picture><a href="/" class="home-link">ESTATE WATCH</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/saveourestates/">Save our estates!</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/resources/">Resources</a></li>
+					<li class="nav-item"><a href="/inlimbo/">Stalled</a></li>
+					<li class="nav-item"><a href="/blog/">Latest</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<h1 id="agar-grove-estate">Agar Grove estate</h1>
+
+<ul class="post-metadata">
+</ul> 
+
+<pre class="language-yaml" tabindex="0"><code class="language-yaml"><span class="token key atrule">Number of homes</span><span class="token punctuation">:</span> <span class="token number">249</span>
+<span class="token key atrule">Landlord</span><span class="token punctuation">:</span> Camden Council
+<span class="token key atrule">Ballot Status</span><span class="token punctuation">:</span> Exempt
+<span class="token key atrule">Planning Status</span><span class="token punctuation">:</span> Approved
+<span class="token key atrule">Developer</span><span class="token punctuation">:</span> Camden Council</code></pre>
+
+<p><picture><source type="image/avif" srcset="/limboestates/agargrove/yV3nfRcWI5-685.avif 685w"><source type="image/webp" srcset="/limboestates/agargrove/yV3nfRcWI5-685.webp 685w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/yV3nfRcWI5-685.jpeg" alt="Agar Grove estate header image" width="685" height="549"></picture></p>
+<p>249 council homes have been demolished on the Agar Grove estate in Camden.</p>
+<p>The estate is situated near Camden Town to the north of Kings Cross and comprises 249 homes in circa 10 blocks of low-rise maisonettes and an 18 storey high-rise block (Lulworth House - which is supposed to be refurbished as part of the plans).</p>
+<p>The scheme was funded by the Mayor and exempted from his requirement to ballot residents on the demolition of their homes.</p>
+<p>Planning consent for redevelopment was granted in Dec 2014 which spans six phases of development. The first phase in currently underway and Camden has already started marketing the new private homes on this phase <a href="https://thecamdencollection.co.uk/">https://thecamdencollection.co.uk/</a>:</p>
+<p><picture><source type="image/avif" srcset="/limboestates/agargrove/0NFw4NDSZr-950.avif 950w"><source type="image/webp" srcset="/limboestates/agargrove/0NFw4NDSZr-950.webp 950w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/0NFw4NDSZr-950.png" alt="agar grove" width="950" height="464"></picture></p>
+<p>In 2019, Camden Council issued a Compulsory Purchase Order in order to remove the remaining leaseholders in the next phase. The Council's <a href="https://www.camden.gov.uk/documents/20142/35497697/Agar+Grove+estate+CPO+-+Statement+of+Reasons+May+2019.pdf/5dc5fe4d-8a00-07db-2e4e-d4984251e7d7">statement of reasons</a> for redeveloping the estate gives the following explanation of why demolition is necessary:</p>
+<p><picture><source type="image/avif" srcset="/limboestates/agargrove/CypE8NPPur-766.avif 766w"><source type="image/webp" srcset="/limboestates/agargrove/CypE8NPPur-766.webp 766w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/CypE8NPPur-766.png" alt="" width="766" height="445"></picture></p>
+<p>It also explains that only 216 replacement social rented homes will replace the 249 being demolished (para 3.10).</p>
+<p>In January 2025, it was <a href="https://www.architectsjournal.co.uk/buildings/housing-quality-up-bills-down-hawkinsbrown-and-mae-regenerate-camden-estate">reported</a> that works on the final phase of the scheme (refurbishment of Lulworth House - the retained tower block) had been halted due to design issues stemming from changes to the Building Regulations and isn’t expected to finish until 2030.</p>
+<hr>
+<p><picture><source type="image/avif" srcset="/limboestates/agargrove/yV3nfRcWI5-685.avif 685w"><source type="image/webp" srcset="/limboestates/agargrove/yV3nfRcWI5-685.webp 685w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/yV3nfRcWI5-685.jpeg" alt="Agar grove image" width="685" height="549"></picture>
+<picture><source type="image/avif" srcset="/limboestates/agargrove/Rxo-0mv13F-653.avif 653w"><source type="image/webp" srcset="/limboestates/agargrove/Rxo-0mv13F-653.webp 653w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/Rxo-0mv13F-653.png" alt="Agar grove image" width="653" height="502"></picture>
+<picture><source type="image/avif" srcset="/limboestates/agargrove/bKtetANiuG-632.avif 632w"><source type="image/webp" srcset="/limboestates/agargrove/bKtetANiuG-632.webp 632w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/bKtetANiuG-632.png" alt="Agar grove image" width="632" height="498"></picture>
+<picture><source type="image/avif" srcset="/limboestates/agargrove/seZXNu7zxt-584.avif 584w"><source type="image/webp" srcset="/limboestates/agargrove/seZXNu7zxt-584.webp 584w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/seZXNu7zxt-584.png" alt="Agar grove image" width="584" height="509"></picture>
+<picture><source type="image/avif" srcset="/limboestates/agargrove/fnrBJjZKZU-678.avif 678w"><source type="image/webp" srcset="/limboestates/agargrove/fnrBJjZKZU-678.webp 678w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/fnrBJjZKZU-678.png" alt="Agar grove image" width="678" height="564"></picture>
+<picture><source type="image/avif" srcset="/limboestates/agargrove/drP8mOrFb5-696.avif 696w"><source type="image/webp" srcset="/limboestates/agargrove/drP8mOrFb5-696.webp 696w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/drP8mOrFb5-696.png" alt="Agar grove image" width="696" height="500"></picture>
+<picture><source type="image/avif" srcset="/limboestates/agargrove/KPc2Fuv4NG-996.avif 996w"><source type="image/webp" srcset="/limboestates/agargrove/KPc2Fuv4NG-996.webp 996w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/KPc2Fuv4NG-996.jpeg" alt="Agar grove image" width="996" height="560"></picture>
+<picture><source type="image/avif" srcset="/limboestates/agargrove/FRjEVdt4RX-996.avif 996w"><source type="image/webp" srcset="/limboestates/agargrove/FRjEVdt4RX-996.webp 996w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/FRjEVdt4RX-996.jpeg" alt="Agar grove image" width="996" height="560"></picture>
+<picture><source type="image/avif" srcset="/limboestates/agargrove/PsWRTT3y6S-996.avif 996w"><source type="image/webp" srcset="/limboestates/agargrove/PsWRTT3y6S-996.webp 996w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/PsWRTT3y6S-996.jpeg" alt="Agar grove image" width="996" height="560"></picture>
+<picture><source type="image/avif" srcset="/limboestates/agargrove/RBfEnYyPfX-996.avif 996w"><source type="image/webp" srcset="/limboestates/agargrove/RBfEnYyPfX-996.webp 996w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/RBfEnYyPfX-996.jpeg" alt="Agar grove image" width="996" height="560"></picture>
+<picture><source type="image/avif" srcset="/limboestates/agargrove/hvZ8iSlGNd-996.avif 996w"><source type="image/webp" srcset="/limboestates/agargrove/hvZ8iSlGNd-996.webp 996w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/hvZ8iSlGNd-996.jpeg" alt="Agar grove image" width="996" height="560"></picture>
+<picture><source type="image/avif" srcset="/limboestates/agargrove/lwc4Jv9p8j-996.avif 996w"><source type="image/webp" srcset="/limboestates/agargrove/lwc4Jv9p8j-996.webp 996w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/lwc4Jv9p8j-996.jpeg" alt="Agar grove image" width="996" height="560"></picture>
+<picture><source type="image/avif" srcset="/limboestates/agargrove/oPrrtrM_3N-996.avif 996w"><source type="image/webp" srcset="/limboestates/agargrove/oPrrtrM_3N-996.webp 996w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/oPrrtrM_3N-996.jpeg" alt="Agar grove image" width="996" height="560"></picture>
+<picture><source type="image/avif" srcset="/limboestates/agargrove/dqZzFXWoSr-996.avif 996w"><source type="image/webp" srcset="/limboestates/agargrove/dqZzFXWoSr-996.webp 996w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/dqZzFXWoSr-996.jpeg" alt="Agar grove image" width="996" height="560"></picture>
+<picture><source type="image/avif" srcset="/limboestates/agargrove/UXt9hvqHD7-996.avif 996w"><source type="image/webp" srcset="/limboestates/agargrove/UXt9hvqHD7-996.webp 996w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/UXt9hvqHD7-996.jpeg" alt="Agar grove image" width="996" height="560"></picture>
+<picture><source type="image/avif" srcset="/limboestates/agargrove/_90OYYgc1_-996.avif 996w"><source type="image/webp" srcset="/limboestates/agargrove/_90OYYgc1_-996.webp 996w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/_90OYYgc1_-996.jpeg" alt="Agar grove image" width="996" height="560"></picture>
+<picture><source type="image/avif" srcset="/limboestates/agargrove/553QPK0aKA-996.avif 996w"><source type="image/webp" srcset="/limboestates/agargrove/553QPK0aKA-996.webp 996w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/553QPK0aKA-996.jpeg" alt="Agar grove image" width="996" height="560"></picture>
+<picture><source type="image/avif" srcset="/limboestates/agargrove/yfvD88ep8j-996.avif 996w"><source type="image/webp" srcset="/limboestates/agargrove/yfvD88ep8j-996.webp 996w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/yfvD88ep8j-996.jpeg" alt="Agar grove image" width="996" height="560"></picture>
+<picture><source type="image/avif" srcset="/limboestates/agargrove/mDoQkevF6g-996.avif 996w"><source type="image/webp" srcset="/limboestates/agargrove/mDoQkevF6g-996.webp 996w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/mDoQkevF6g-996.jpeg" alt="Agar grove image" width="996" height="560"></picture>
+<picture><source type="image/avif" srcset="/limboestates/agargrove/L_kYFZm2MY-996.avif 996w"><source type="image/webp" srcset="/limboestates/agargrove/L_kYFZm2MY-996.webp 996w"><img loading="lazy" decoding="async" src="/limboestates/agargrove/L_kYFZm2MY-996.jpeg" alt="Agar grove image" width="996" height="560"></picture></p>
+
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+  <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
+  <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"></path>
+</svg>
+		      <a href="https://github.com/estatewatch/estatewatch.github.io/blob/main/./content/limboestates/agargrove.md">Edit this page on GitHub</a>
+		</footer>
+
+		<!-- This page `/limboestates/agargrove/` was last built on 2025-06-09T13:31:03.935Z -->
+		<script type="module" src="/dist/xbxy_EL6cU.js"></script>
+	</body>
+</html>
