@@ -442,11 +442,6 @@
 	</url>
 	
 	<url>
-		<loc>https://estatewatch.london/estates/maryongrove/</loc>
-		<lastmod>2025-06-10</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://estatewatch.london/estates/maydewhouse/</loc>
 		<lastmod>2025-06-10</lastmod>
 	</url>
@@ -758,6 +753,11 @@
 	
 	<url>
 		<loc>https://estatewatch.london/limboestates/mariancourt/</loc>
+		<lastmod>2025-06-10</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://estatewatch.london/limboestates/maryongrove/</loc>
 		<lastmod>2025-06-10</lastmod>
 	</url>
 	
