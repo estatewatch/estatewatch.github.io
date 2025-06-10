@@ -12,19 +12,19 @@ planning: Approved
 architect: Pollard Thomas Edwards
 image: estates/src/images/mw7.png
 ---
-![Maryon Grove estate image](src/images/mw7.png)
+![Maryon Grove estate image](../estates/src/images/mw7.png)
 
-172 homes on Greenwich's Maryon Grove estate in Charlton have been earmarked for demolition by Greenwich Council. 
+172 homes on Greenwich's Maryon Grove estate in Charlton have been earmarked for demolition by Greenwich Council and its development partner Lovell. 
 
-The estate comprises 172 homes in 16 4-storey blocks. It overlooks Maryon park to the West and the Thames barrier to the North and is adjacent to the [Morris Walk estate](https://www.estatewatch.london/estates/greenwich/morriswalk/) which is also earmarked for demolition. 
+The estate comprised 172 homes in 16 4-storey blocks. It overlooked Maryon park to the West and the Thames barrier to the North and is adjacent to the [Morris Walk estate](https://www.estatewatch.london/estates/greenwich/morriswalk/) which is has also been demolished. 
 
-![Maryon Grove estate image](src/images/morriswalkaerial.jpg)
+![Maryon Grove estate image](../estates/src/images/morriswalkaerial.jpg)
 
 Outline permission granted in 2015 for 165 new homes, with just 35% affordable of which 70% affordable rent. The estate is being redeveloped in a joint venture between Greenwich Council and developer [Lovell](https://www.lovell.co.uk/)
 
 The Mayors [report](https://www.london.gov.uk/sites/default/files/public%3A//public%3A//PAWS/media_id_251849///one_woolwich_maryon_road_report.pdf) approving the application acknowledges that there will be a net loss of 108 social rented units.
 
-![Maryon Grove estate image](src/images/mgnetloss.png)
+![Maryon Grove estate image](../estates/src/images/mgnetloss.png)
 
 It also acknowledges that the replacement 'social' housing will be 'affordable rent' in tenure - i.e. up to 80% market rents.
 
@@ -36,10 +36,17 @@ Meanwhile, the last few homes on the estate are being demolished, having been le
 
 ![](https://www.fromthemurkydepths.co.uk/wp-content/uploads/2023/04/Woolwich-estate-maryon-grove-78-1024x768.jpg)*Photo credit: https://fromthemurkydepths.co.uk*
 
-![Maryon Grove estate image](src/images/maryontenure.png)
+![Maryon Grove estate image](../estates/src/images/maryontenure.png)
 
-The Maryon Grove estate is the last of Greenwich's 'Three estates' schemes, in which 1,064 homes on three estates (The Connaught, Morris Walk and Maryon Grove estates) are being demolished and replaced with 1,600 new homes of which just 278 council homes. In September 2024, Greenwich applied to modify the planning consent and reduce this number to 241 on grounds of reduced financial viability. The [committee report](https://greenwich.moderngov.co.uk/documents/s8304/Woolwich%20Estates%20Maryon%20Road%20Grove.pdf) approving the reduction claims that refusing the application would result in the developer Lovell walking away from the scheme. 
+The Maryon Grove estate is the last of Greenwich's 'Three estates' schemes, in which 1,064 homes on three estates (The Connaught, Morris Walk and Maryon Grove estates) are being demolished and replaced with 1,600 new homes of which just 278 council homes. 
 
+Shortly after demolishing the estate, in September 2024 the developer [pleaded poverty](https://www.newsshopper.co.uk/news/24609247.greenwich-council-cut-number-homes-maryon-estate/) and said that unless the number of council homes to be reprovided was reduced the scheme would not move forward because it wasn't viable. 
+
+The [committee report](https://greenwich.moderngov.co.uk/documents/s8304/Woolwich%20Estates%20Maryon%20Road%20Grove.pdf) approving the reduction claims that refusing the application would result in the developer Lovell walking away from the scheme. 
+
+In March 2025, the scheme [went back](https://greenwichwire.co.uk/2025/03/12/derelict-maryon-grove-trinity-rise-charlton-greenwich-council-lovell/) to the planning committee for further changes.
+
+June 2025, the Maryon Grove estate remains an empty hoarded-up building site.
 ---
 
 __Links:__
