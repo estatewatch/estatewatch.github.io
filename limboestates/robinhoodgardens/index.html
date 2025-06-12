@@ -490,11 +490,13 @@ h2 + .header-anchor {
 <span class="token key atrule">Landlord</span><span class="token punctuation">:</span> Tower Hamlets
 <span class="token key atrule">Ballot Status</span><span class="token punctuation">:</span> Exempt
 <span class="token key atrule">Planning Status</span><span class="token punctuation">:</span> Approved
-<span class="token key atrule">Developer</span><span class="token punctuation">:</span> Swan Housing
+<span class="token key atrule">Developer</span><span class="token punctuation">:</span> Swan Housing/Countryside
 <span class="token key atrule">Architect</span><span class="token punctuation">:</span> Haworth Tomkins</code></pre>
 
 <p><picture><source type="image/avif" srcset="/limboestates/robinhoodgardens/WYvkgQHzog-1459.avif 1459w"><source type="image/webp" srcset="/limboestates/robinhoodgardens/WYvkgQHzog-1459.webp 1459w"><img loading="lazy" decoding="async" src="/limboestates/robinhoodgardens/WYvkgQHzog-1459.jpeg" alt="Robin hood gardens" width="1459" height="1196"></picture></p>
 <p>The remaining half of the Robin Hood Gardens estate in Poplar is earmarked for demolition.</p>
+<p>A 2006 survey found the blocks to be ‘in poor condition’ with significant defects to the external envelope and roof coverings. It recommended the replacement of existing bathrooms and kitchens and identified problems with electrical wiring and other services. A 2007 study concluded it would cost £70,000 per flat to bring them up to the Government’s Decent Homes Standard. In 2008, Tower Hamlets Council had voted for its demolition.</p>
+<p>A petition to have the estate listed was signed by architects such as Richard Rogers, Toyo Ito and the late Zaha Hadid but ultimately failed.</p>
 <p>The scheme forms part of a five-phase regeneration project, aiming to create a total of 1,575 new homes, 566 social rent and 132 intermediate.</p>
 <p>The <a href="https://development.towerhamlets.gov.uk/online-applications/applicationDetails.do?activeTab=documents&amp;keyVal=DCAPR_101615">planning application</a> was approved in 2012.</p>
 <p>The first phase where the western block was demolished was completed in 2015.</p>
@@ -502,6 +504,23 @@ h2 + .header-anchor {
 <hr>
 <p><strong>Links:</strong></p>
 <p>Planning application documents: <a href="https://development.towerhamlets.gov.uk/online-applications/applicationDetails.do?activeTab=documents&amp;keyVal=DCAPR_101615">https://development.towerhamlets.gov.uk/online-applications/applicationDetails.do?activeTab=documents&amp;keyVal=DCAPR_101615</a></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.509502,-0.008179], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.509502,-0.008179], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 			</heading-anchors>
@@ -515,7 +534,7 @@ h2 + .header-anchor {
 		      <a href="https://github.com/estatewatch/estatewatch.github.io/blob/main/./content/limboestates/robinhoodgardens.md">Edit this page on GitHub</a>
 		</footer>
 
-		<!-- This page `/limboestates/robinhoodgardens/` was last built on 2025-06-11T20:34:19.891Z -->
+		<!-- This page `/limboestates/robinhoodgardens/` was last built on 2025-06-12T12:55:42.721Z -->
 		<script type="module" src="/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

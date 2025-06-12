@@ -520,6 +520,23 @@ h2 + .header-anchor {
 <picture><source type="image/avif" srcset="/limboestates/mariancourt/opLJBlbgz0-759.avif 759w"><source type="image/webp" srcset="/limboestates/mariancourt/opLJBlbgz0-759.webp 759w"><img loading="lazy" decoding="async" src="/limboestates/mariancourt/opLJBlbgz0-759.png" alt="Marian Court" width="759" height="566"></picture>
 <picture><source type="image/avif" srcset="/limboestates/mariancourt/piuHcz9RfH-643.avif 643w"><source type="image/webp" srcset="/limboestates/mariancourt/piuHcz9RfH-643.webp 643w"><img loading="lazy" decoding="async" src="/limboestates/mariancourt/piuHcz9RfH-643.png" alt="Marian Court" width="643" height="480"></picture>
 <picture><source type="image/avif" srcset="/limboestates/mariancourt/1l07QRM2AC-1262.avif 1262w"><source type="image/webp" srcset="/limboestates/mariancourt/1l07QRM2AC-1262.webp 1262w"><img loading="lazy" decoding="async" src="/limboestates/mariancourt/1l07QRM2AC-1262.png" alt="Marian Court" width="1262" height="572"></picture></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.547861,-0.049139], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.547861,-0.049139], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 			</heading-anchors>
@@ -533,7 +550,7 @@ h2 + .header-anchor {
 		      <a href="https://github.com/estatewatch/estatewatch.github.io/blob/main/./content/limboestates/mariancourt.md">Edit this page on GitHub</a>
 		</footer>
 
-		<!-- This page `/limboestates/mariancourt/` was last built on 2025-06-11T20:34:19.890Z -->
+		<!-- This page `/limboestates/mariancourt/` was last built on 2025-06-12T12:55:42.719Z -->
 		<script type="module" src="/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

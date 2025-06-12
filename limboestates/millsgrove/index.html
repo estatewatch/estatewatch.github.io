@@ -506,7 +506,24 @@ h2 + .header-anchor {
 <hr>
 <p><picture><source type="image/avif" srcset="/limboestates/millsgrove/epcwSwkPn--619.avif 619w"><source type="image/webp" srcset="/limboestates/millsgrove/epcwSwkPn--619.webp 619w"><img loading="lazy" decoding="async" src="/limboestates/millsgrove/epcwSwkPn--619.png" alt="M Grove image" width="619" height="496"></picture>
 <picture><source type="image/avif" srcset="/limboestates/millsgrove/9SGq7N5aEI-673.avif 673w"><source type="image/webp" srcset="/limboestates/millsgrove/9SGq7N5aEI-673.webp 673w"><img loading="lazy" decoding="async" src="/limboestates/millsgrove/9SGq7N5aEI-673.png" alt="M Grove image" width="673" height="517"></picture>
-![M Grove image](../estates/src/images/mgrove5.png</p>
+<picture><source type="image/avif" srcset="/limboestates/millsgrove/y0YYIjSVKD-619.avif 619w"><source type="image/webp" srcset="/limboestates/millsgrove/y0YYIjSVKD-619.webp 619w"><img loading="lazy" decoding="async" src="/limboestates/millsgrove/y0YYIjSVKD-619.png" alt="M Grove image" width="619" height="493"></picture></p>
+<hr>
+<!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
+<div id="map" style="width: 100%; height: 400px;"></div>
+<script>
+  var map = L.map('map').setView([51.591830,-0.218737], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var circle = L.circle([51.591830,-0.218737], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+</script>
+<hr>
 
 
 			</heading-anchors>
@@ -520,7 +537,7 @@ h2 + .header-anchor {
 		      <a href="https://github.com/estatewatch/estatewatch.github.io/blob/main/./content/limboestates/millsgrove.md">Edit this page on GitHub</a>
 		</footer>
 
-		<!-- This page `/limboestates/millsgrove/` was last built on 2025-06-11T20:34:19.891Z -->
+		<!-- This page `/limboestates/millsgrove/` was last built on 2025-06-12T12:55:42.720Z -->
 		<script type="module" src="/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>
