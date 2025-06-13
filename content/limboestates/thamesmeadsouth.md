@@ -32,6 +32,8 @@ The [section 106 agreement](/images/thamesmeadsouths106.pdf) agreement says that
 
 This latest phase of the scheme was demolished in 2020 and as of November 2024 remains an empty hoarded-off building site. 
 
+Out of the 329 homes in this second phase of the scheme just 59 will be social/affordable rent.
+
 ---
 
 __Links:__  
