@@ -42,7 +42,7 @@ Leaseholders wanting to take up a new home on the redeveloped estate will have t
 
 The estate [lay empty](https://www.fromthemurkydepths.co.uk/2020/04/14/woolwichs-morris-walk-estate-in-its-final-days/) for several years before it was demolished in 2021.
 
-As of November 2024, the first small phase of redevelopment is underway whilst the rest of the site site is boarded up.
+As of November 2024, the first small phase of redevelopment is underway on the North-east corner of the estate, whilst the rest of the site remains empty and boarded up.
 
 ---
 
