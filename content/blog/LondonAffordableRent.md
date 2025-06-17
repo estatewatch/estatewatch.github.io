@@ -1,5 +1,5 @@
 ---
-title: New London Plan to close loophole on estate regeneration 
+title: Mayor to close loophole on replacement social rented housing 
 description: Long established loophole to be finally closed
 date: 2025-06-17
 ---
@@ -15,11 +15,11 @@ The remainder can be provided as a tenure that the Mayor calls 'London Affordabl
 
 But in 2023 the Mayor decided to discontinue this tenure and stop publishing the benchmarks. The Mayor's website says that _"For subsequent years, providers should apply their own updates to the benchmarks in line with the social housing rent-setting guidance published by the Regulator."_ 
 
-Except the Regulator's [rent-setting guidance](https://assets.publishing.service.gov.uk/media/65e73fe83f6945a00603608e/Rent_Standard_-_April_2020__1_.pdf) has different rent-setting guidance for social rent and affordable rent. If affordable rent is intended then providers can rack up rents on new tenancies to 80% of market rent:
+This is all good and well except that the Regulator's [rent-setting guidance](https://assets.publishing.service.gov.uk/media/65e73fe83f6945a00603608e/Rent_Standard_-_April_2020__1_.pdf) allows affordable rent to be set at up to 80% of market rent:
 
 ![Rent Standard Guidance](../estates/src/images/rentstandardguidance.png)
 
-In any case, the confusion around affordable housing tenures has been a problem for some time now and section 106 agreements often enable developers to define those tenures as they see fit.
+How this is to be interpreted is not clear. What is clear is that the confusion around affordable housing tenures has been a problem for some time now and section 106 agreements often enable developers to define those tenures as they see fit.
 
 Here is how London Affordable Rent is defined in the [section 106 agreement](../estates/src/images/gascoignes106.pdf) for the [Gascoigne estate redevelopment](https://estatewatch.london/estates/gascoigne/):
 
