@@ -20,7 +20,7 @@ The Mayor's [planning report](https://www.london.gov.uk/what-we-do/planning/plan
 
 This is despite the Mayor's own estate regeneration policy requiring no net loss of social rented housing. Indeed, the replacement 'social' housing is all 'London Affordable Rent' which is defined in the [planning consent's section 106 legal agreement](/images/gascoignes106.pdf) as up to 80% market rent.
 
-![Gascoigne estate image](src/images/gascoignes106.png)
+![Gascoigne estate image](src/images/gascoignelar.png)
 
 These replacement 'affordable' homes have been funded by the Mayor and the estate was exempted by the Mayor from his requirement to ballot residents on the demolition of their homes.
 

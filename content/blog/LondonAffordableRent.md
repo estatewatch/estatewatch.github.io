@@ -23,7 +23,7 @@ In any case, the confusion around affordable housing tenures has been a problem 
 
 Here is how London Affordable Rent is defined in the [section 106 agreement](../estates/src/images/gascoignes106.pdf) for the [Gascoigne estate redevelopment](https://estatewatch.london/estates/gascoigne/):
 
-![Gascoigne estate image](../estates/src/images/gascoignes106.png)
+![Gascoigne estate image](../estates/src/images/gascoignelar.png)
 
 The [New London Plan](https://www.london.gov.uk/programmes-strategies/planning/planning-consultations/towards-new-london-plan) proposes to close this loophole and require all social rented housing demolished to be replaced by social rented housing:
 
