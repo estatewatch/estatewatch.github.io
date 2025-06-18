@@ -1,15 +1,15 @@
 ---
-title: Mayor to close loophole on replacement social rented housing 
+title: Mayor to close loophole on replacement social housing 
 description: Long established loophole to be finally closed
 date: 2025-06-17
 ---
 ![Unaffordable rent image](../estates/src/images/unaffordablerent.png)
 
-The [current London Plan](https://www.london.gov.uk/sites/default/files/the_london_plan_2021.pdf) contains a loophole that allows redevelopment of estates to reprovide social rented housing only where a former tenant has exercised a right to return: 
+The [current London Plan](https://www.london.gov.uk/sites/default/files/the_london_plan_2021.pdf) contains a loophole that allows estate redevelopments to reprovide social rented housing only where a former tenant has exercised a right to return: 
 
 ![Extract from London Plan](../estates/src/images/londonplanlar.png)
 
-The remainder can be provided as a tenure that the Mayor calls 'London Affordable Rent', which was an affordable housing tenure that Mayor himself introduced in 2017 and which was supposed to be capped at 'benchmarks' published every year by the GLA:
+The remainder can be provided as a tenure that the Mayor calls 'London Affordable Rent', which was an affordable housing tenure that the Mayor introduced in 2017 and supposed to be set according to 'benchmarks' published every year by the GLA:
 
 ![Lar benchmarks](../estates/src/images/larbenchmarks.png)
 
@@ -19,7 +19,9 @@ This is all good and well except that the Regulator's [rent-setting guidance](ht
 
 ![Rent Standard Guidance](../estates/src/images/rentstandardguidance.png)
 
-How this is to be interpreted is not clear. What is clear is that the confusion around affordable housing tenures has been a problem for some time now and section 106 agreements often enable developers to define those tenures as they see fit.
+Whilst the guidance says that rent for existing tenancies cannot be increased by more than CPI+1%, how this applies to re-lets or schemes yet to complete is not clear.
+
+What is clear is that the confusion around affordable housing tenures has been a problem for some time now and section 106 agreements often afford developers further wriggle room to define those them as they see fit.
 
 Here is how London Affordable Rent is defined in the [section 106 agreement](../estates/src/images/gascoignes106.pdf) for the [Gascoigne estate redevelopment](https://estatewatch.london/estates/gascoigne/):
 

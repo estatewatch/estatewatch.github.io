@@ -1,5 +1,5 @@
 ---
-title: Westbury estate - Tower blocks now included in demolition plans 
+title: Westbury estate - demolition plans expanded 
 description: Lambeth leading the way in estate regeneration bad practice!
 date: 2025-05-12
 ---
