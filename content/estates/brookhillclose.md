@@ -19,7 +19,15 @@ A ballot was approved in May 2019 and plans are now being drawn up in a prelimin
 
 A planning application for 254 new homes was [approved](https://committees.royalgreenwich.gov.uk/Data/Planning%20Board/202302211830/Agenda/4.0%20-%20Brookhill%20Close%20Report.pdf) in February 2023. 50% of which will be London Affordable Rent and the remainder shared ownership.
 
+Here is how London Affordable Rent is defined in the [section 106 agreement](../estates/src/images/brookhillcloses106.pdf):
+
+![Brookhill Close s106](../estates/src/images/brookhillcloses106.png)
+
+Given that the Mayor [discontinued publishing benchmarks](https://estatewatch.london/blog/LondonAffordableRent/) in 2023, rents can be charged at up to 80% of market rent.
+
 Leaseholders and freeholders on the estate are being offered a direct home swap for a new home on the redeveloped estate at no cost.
+
+As at October 2024, the Southern half of the estate has been decanted and boarded up whilst the Northern half of the estate remains occupied. 
 
 ---
 

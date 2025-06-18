@@ -27,6 +27,10 @@ Here is how London Affordable Rent is defined in the [section 106 agreement](../
 
 ![Gascoigne estate image](../estates/src/images/gascoignelar.png)
 
+Here is how London Affordable Rent is defined in the [section 106 agreement](../estates/src/images/brookhillcloses106.pdf) for the [Brookhill Close estate redevelopment](https://estatewatch.london/estates/brookhillclose/):
+
+![Brookhill Close s106](../estates/src/images/brookhillcloses106.png)
+
 The [New London Plan](https://www.london.gov.uk/programmes-strategies/planning/planning-consultations/towards-new-london-plan) proposes to close this loophole and require all social rented housing demolished to be replaced by social rented housing:
 
 ![New London Plan extract](../estates/src/images/nlpextract.png)
