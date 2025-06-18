@@ -15,13 +15,11 @@ The remainder can be provided as a tenure that the Mayor calls 'London Affordabl
 
 But in 2023 the Mayor decided to discontinue this tenure and stop publishing the benchmarks. The Mayor's website says that _"For subsequent years, providers should apply their own updates to the benchmarks in line with the social housing rent-setting guidance published by the Regulator."_ 
 
-This is all good and well except that the Regulator's [rent-setting guidance](https://assets.publishing.service.gov.uk/media/65e73fe83f6945a00603608e/Rent_Standard_-_April_2020__1_.pdf) allows affordable rent to be set at up to 80% of market rent:
+This is clear and while Regulator's [rent-setting guidance](https://assets.publishing.service.gov.uk/media/65e73fe83f6945a00603608e/Rent_Standard_-_April_2020__1_.pdf) says that rent for existing tenancies cannot be increased by more than CPI+1%, it allows affordable rent to be set at up to 80% of market rent on new tenancies or re-lets:
 
 ![Rent Standard Guidance](../estates/src/images/rentstandardguidance.png)
 
-Whilst the guidance says that rent for existing tenancies cannot be increased by more than CPI+1%, how this applies to re-lets or schemes yet to complete is not clear.
-
-What is clear is that the confusion around affordable housing tenures has been a problem for some time now and section 106 agreements often afford developers further wriggle room to define them as they see fit.
+Confusion surrounding the various different affordable housing tenures has been a problem for some time now and section 106 agreements often afford developers further wriggle room to define them as they see fit.
 
 Here is how London Affordable Rent is defined in the [section 106 agreement](https://estatewatch.london/images/gascoignes106.pdf) for the [Gascoigne estate redevelopment](https://estatewatch.london/estates/gascoigne/):
 
@@ -35,4 +33,4 @@ The [New London Plan](https://www.london.gov.uk/programmes-strategies/planning/p
 
 ![New London Plan extract](../estates/src/images/nlpextract.png)
 
-This comes too late for many of the schemes already underway or that have already been approved, but We welcome this long-overdue change in policy and look forward to [having our say](https://justspace.org.uk/towards/) on what else should be included in the next London Plan. This will first and foremost include a [policy presumption against estate redevelopment](https://estatewatch.london/blog/Retrofirst/) and other suggestions from our [Alternative Good Practice Guide](https://estatewatch.london/img/alternative-good-practice-guide-to-estate-regeneration.pdf) - WATCH THIS SPACE!
+This comes too late for many of the schemes already underway or that have already been approved, but we welcome this long-overdue change in policy and look forward to [having our say](https://justspace.org.uk/towards/) on what else should be included in the next London Plan. This will first and foremost include a [policy presumption against estate redevelopment](https://estatewatch.london/blog/Retrofirst/) and other suggestions from our [Alternative Good Practice Guide](https://estatewatch.london/img/alternative-good-practice-guide-to-estate-regeneration.pdf) - WATCH THIS SPACE!
