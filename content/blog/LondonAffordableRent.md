@@ -9,7 +9,7 @@ The [current London Plan](https://www.london.gov.uk/sites/default/files/the_lond
 
 ![Extract from London Plan](../estates/src/images/londonplanlar.png)
 
-The remainder can be provided as a tenure that the Mayor calls 'London Affordable Rent', which was an affordable housing tenure that the Mayor introduced in 2017 and was supposed to be set according to 'benchmarks' published every year by the GLA:
+The remainder can be provided as a tenure that the Mayor calls __'London Affordable Rent'__, which was an affordable housing tenure that the Mayor introduced in 2017 and was supposed to be set according to 'benchmarks' published every year by the GLA:
 
 ![Lar benchmarks](../estates/src/images/larbenchmarks.png)
 
