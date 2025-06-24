@@ -19,7 +19,7 @@ The block has since stood empty. In 2022, Southwark Council announced plans that
 
 [https://southwarknews.co.uk/news/housing/exclusive-bermondseys-maydew-house-set-for-demolition/](https://southwarknews.co.uk/news/housing/exclusive-bermondseys-maydew-house-set-for-demolition/)
 
-In Autumn 2024, the Council [decided to demolish](https://southwarknews.co.uk/area/bermondsey/bermondsey-council-estate-block-pulled-down-after-15-million-spent-before-failed-refurbishment/) the block and preparation works for demolition were commenced in Oct 2024.
+In Autumn 2024, the Council [decided to demolish](https://southwarknews.co.uk/area/bermondsey/bermondsey-council-estate-block-pulled-down-after-15-million-spent-before-failed-refurbishment/) the block and preparation works for demolition were commenced in Oct 2024 and demolition was complete by June 2025. As at June 2025, the site remains a cleared building site and the Council is reportedly looking for a development partner.
 
 ---
 
