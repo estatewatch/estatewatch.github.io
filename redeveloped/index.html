@@ -1,0 +1,813 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ESTATE WATCH</title>
+		<meta name="description" content="Monitoring London estates under threat of demolition.">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="ESTATE WATCH">
+		
+		<style>/* Message Box */
+.message-box {
+	--color-message-box: #ffc;
+
+	display: block;
+	background-color: var(--color-message-box);
+	color: var(--color-gray-90);
+	padding: 1em 0.625em; /* 16px 10px /16 */
+	border: 2px solid #000;
+}
+.message-box ol {
+	margin-top: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+	.message-box {
+		--color-message-box: #082840;
+	}
+}
+.postlist { counter-reset: start-from NaN }
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Keep images within the border */
+img {
+ max-width: 100%;
+ height: auto;
+ border: 2px solid #000;
+}
+  
+map {
+	width: 100% 
+	height: 180px;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<picture><source type="image/avif" srcset="/redeveloped/5qD3cKtzaH-16.avif 16w"><source type="image/webp" srcset="/redeveloped/5qD3cKtzaH-16.webp 16w"><img loading="lazy" decoding="async" width="16" alt="Magnifying glass icon" src="/redeveloped/5qD3cKtzaH-16.png" height="16"></picture><a href="/" class="home-link">ESTATE WATCH</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/saveourestates/">Save our estates!</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/resources/">Resources</a></li>
+					<li class="nav-item"><a href="/inlimbo/">Stalled</a></li>
+					<li class="nav-item"><a href="/redeveloped/" aria-current="page">Gone</a></li>
+					<li class="nav-item"><a href="/blog/">Latest</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+
+<div class="message-box">
+	
+<h2 id="28-london-housing-estates-have-already-been-demolished-and-redeveloped">28 London housing estates have already been demolished and redeveloped.</h2>
+Not one of these has reprovided the social rented housing lost. In most cases this has been replaced by <b>affordable rent</b> (up to 80% market rent).
+
+</div>
+
+
+
+<ol reversed="" class="postlist">
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/arthurstreet/" class="postlist-link">Arthur Street estate</a>
+		 Bexley
+		<a href="/redevelopedestates/arthurstreet/">
+		<picture><source type="image/avif" srcset="/redeveloped/BnT4UW2Snb-1086.avif 1086w"><source type="image/webp" srcset="/redeveloped/BnT4UW2Snb-1086.webp 1086w"><img loading="lazy" decoding="async" src="/redeveloped/BnT4UW2Snb-1086.jpeg" alt="header image" width="1086" height="811"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.473006,0.183563], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/arthurstreet/" class="postlist-link">Arthur Street estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/barhampark/" class="postlist-link">Barham Park estate</a>
+		 Brent
+		<a href="/redevelopedestates/barhampark/">
+		<picture><source type="image/avif" srcset="/redeveloped/NFjwQb8s_S-758.avif 758w"><source type="image/webp" srcset="/redeveloped/NFjwQb8s_S-758.webp 758w"><img loading="lazy" decoding="async" src="/redeveloped/NFjwQb8s_S-758.png" alt="header image" width="758" height="525"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.553934,-0.316587], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/barhampark/" class="postlist-link">Barham Park estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/beechtreeplace/" class="postlist-link">Beech Tree Place</a>
+		 Sutton
+		<a href="/redevelopedestates/beechtreeplace/">
+		<picture><source type="image/avif" srcset="/redeveloped/gjn-nPBAJO-810.avif 810w"><source type="image/webp" srcset="/redeveloped/gjn-nPBAJO-810.webp 810w"><img loading="lazy" decoding="async" src="/redeveloped/gjn-nPBAJO-810.jpeg" alt="header image" width="810" height="539"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.363438,-0.194613], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/beechtreeplace/" class="postlist-link">Beech Tree Place</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/bowbridge/" class="postlist-link">Bow Bridge estate</a>
+		 Tower Hamlets
+		<a href="/redevelopedestates/bowbridge/">
+		<picture><source type="image/avif" srcset="/redeveloped/PH9e--1N7s-800.avif 800w"><source type="image/webp" srcset="/redeveloped/PH9e--1N7s-800.webp 800w"><img loading="lazy" decoding="async" src="/redeveloped/PH9e--1N7s-800.jpeg" alt="header image" width="800" height="536"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.527082,-0.016940], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/bowbridge/" class="postlist-link">Bow Bridge estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/connaught/" class="postlist-link">Connaught estate</a>
+		 Greenwich
+		<a href="/redevelopedestates/connaught/">
+		<picture><source type="image/avif" srcset="/redeveloped/sN27kukwhD-800.avif 800w"><source type="image/webp" srcset="/redeveloped/sN27kukwhD-800.webp 800w"><img loading="lazy" decoding="async" src="/redeveloped/sN27kukwhD-800.jpeg" alt="header image" width="800" height="600"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.487706,0.064427], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/connaught/" class="postlist-link">Connaught estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/elmington/" class="postlist-link">Elmington estate</a>
+		 Southwark
+		<a href="/redevelopedestates/elmington/">
+		<picture><source type="image/avif" srcset="/redeveloped/HISHpSrpjR-768.avif 768w"><source type="image/webp" srcset="/redeveloped/HISHpSrpjR-768.webp 768w"><img loading="lazy" decoding="async" src="/redeveloped/HISHpSrpjR-768.jpeg" alt="header image" width="768" height="504"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.479557,-0.089306], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/elmington/" class="postlist-link">Elmington estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/goresbrook/" class="postlist-link">Goresbrook Village estate</a>
+		 Barking and dagenham
+		<a href="/redevelopedestates/goresbrook/">
+		<picture><source type="image/avif" srcset="/redeveloped/L859Nd94yT-400.avif 400w"><source type="image/webp" srcset="/redeveloped/L859Nd94yT-400.webp 400w"><img loading="lazy" decoding="async" src="/redeveloped/L859Nd94yT-400.jpeg" alt="header image" width="400" height="300"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.533531,0.116668], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/goresbrook/" class="postlist-link">Goresbrook Village estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/hylandsroad/" class="postlist-link">Hylands Road estate</a>
+		 Waltham Forest
+		<a href="/redevelopedestates/hylandsroad/">
+		<picture><source type="image/avif" srcset="/redeveloped/Hd4NFgjQIw-568.avif 568w"><source type="image/webp" srcset="/redeveloped/Hd4NFgjQIw-568.webp 568w"><img loading="lazy" decoding="async" src="/redeveloped/Hd4NFgjQIw-568.jpeg" alt="header image" width="568" height="352"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.592118,-0.004060], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/hylandsroad/" class="postlist-link">Hylands Road estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/kender/" class="postlist-link">Kender estate</a>
+		 Lewisham
+		<a href="/redevelopedestates/kender/">
+		<picture><source type="image/avif" srcset="/redeveloped/SDQrY44dBA-648.avif 648w"><source type="image/webp" srcset="/redeveloped/SDQrY44dBA-648.webp 648w"><img loading="lazy" decoding="async" src="/redeveloped/SDQrY44dBA-648.jpeg" alt="header image" width="648" height="567"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.478169,-0.050057], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/kender/" class="postlist-link">Kender estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/kingscrescent/" class="postlist-link">Kings Crescent estate</a>
+		 Hackney
+		<a href="/redevelopedestates/kingscrescent/">
+		<picture><source type="image/avif" srcset="/redeveloped/wjeV_-aBlt-400.avif 400w"><source type="image/webp" srcset="/redeveloped/wjeV_-aBlt-400.webp 400w"><img loading="lazy" decoding="async" src="/redeveloped/wjeV_-aBlt-400.jpeg" alt="header image" width="400" height="300"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([-0.092488,51.562183], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/kingscrescent/" class="postlist-link">Kings Crescent estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/larner/" class="postlist-link">Larner Road estate</a>
+		 Bexley
+		<a href="/redevelopedestates/larner/">
+		<picture><source type="image/avif" srcset="/redeveloped/PtPG1bXbtd-400.avif 400w"><source type="image/webp" srcset="/redeveloped/PtPG1bXbtd-400.webp 400w"><img loading="lazy" decoding="async" src="/redeveloped/PtPG1bXbtd-400.jpeg" alt="header image" width="400" height="300"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.473574,0.17835], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/larner/" class="postlist-link">Larner Road estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/leopold/" class="postlist-link">Leopold estate</a>
+		 Tower hamlets
+		<a href="/redevelopedestates/leopold/">
+		<picture><source type="image/avif" srcset="/redeveloped/ldyb5qK2Wt-400.avif 400w"><source type="image/webp" srcset="/redeveloped/ldyb5qK2Wt-400.webp 400w"><img loading="lazy" decoding="async" src="/redeveloped/ldyb5qK2Wt-400.jpeg" alt="header image" width="400" height="300"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.518176,-0.029091], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/leopold/" class="postlist-link">Leopold estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/lethbridge/" class="postlist-link">Heathside and Lethbridge estate</a>
+		 Lewisham
+		<a href="/redevelopedestates/lethbridge/">
+		<picture><source type="image/avif" srcset="/redeveloped/aHo18BbTc9-619.avif 619w"><source type="image/webp" srcset="/redeveloped/aHo18BbTc9-619.webp 619w"><img loading="lazy" decoding="async" src="/redeveloped/aHo18BbTc9-619.png" alt="header image" width="619" height="537"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.471971,-0.013962], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/lethbridge/" class="postlist-link">Heathside and Lethbridge estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/leys/" class="postlist-link">Leys estate</a>
+		 Barking &amp; Dagenham
+		<a href="/redevelopedestates/leys/">
+		<picture><source type="image/avif" srcset="/redeveloped/Yazw1jJdXV-738.avif 738w"><source type="image/webp" srcset="/redeveloped/Yazw1jJdXV-738.webp 738w"><img loading="lazy" decoding="async" src="/redeveloped/Yazw1jJdXV-738.png" alt="header image" width="738" height="538"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.536751,0.168521], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/leys/" class="postlist-link">Leys estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/loughboroughpark/" class="postlist-link">Loughborough Park estate</a>
+		 Lambeth
+		<a href="/redevelopedestates/loughboroughpark/">
+		<picture><source type="image/avif" srcset="/redeveloped/vjaw2VPunE-640.avif 640w"><source type="image/webp" srcset="/redeveloped/vjaw2VPunE-640.webp 640w"><img loading="lazy" decoding="async" src="/redeveloped/vjaw2VPunE-640.png" alt="header image" width="640" height="567"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.458923,-0.105629], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/loughboroughpark/" class="postlist-link">Loughborough Park estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/maitlandpark/" class="postlist-link">Aspen House (Maitland Park estate)</a>
+		 Camden
+		<a href="/redevelopedestates/maitlandpark/">
+		<picture><source type="image/avif" srcset="/redeveloped/1ojpGuxI7N-1003.avif 1003w"><source type="image/webp" srcset="/redeveloped/1ojpGuxI7N-1003.webp 1003w"><img loading="lazy" decoding="async" src="/redeveloped/1ojpGuxI7N-1003.jpeg" alt="header image" width="1003" height="564"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.548572,-0.157043], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/maitlandpark/" class="postlist-link">Aspen House (Maitland Park estate)</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/mardyke/" class="postlist-link">Mardyke estate</a>
+		 Barking &amp; Dagenham
+		<a href="/redevelopedestates/mardyke/">
+		<picture><source type="image/avif" srcset="/redeveloped/SNY4KJYhCQ-400.avif 400w"><source type="image/webp" srcset="/redeveloped/SNY4KJYhCQ-400.webp 400w"><img loading="lazy" decoding="async" src="/redeveloped/SNY4KJYhCQ-400.jpeg" alt="header image" width="400" height="300"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.529157,0.170159], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/mardyke/" class="postlist-link">Mardyke estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/marlyonroad/" class="postlist-link">Marlyon Road estate</a>
+		 Redbridge
+		<a href="/redevelopedestates/marlyonroad/">
+		<picture><source type="image/avif" srcset="/redeveloped/eo-Wz2HPdB-538.avif 538w"><source type="image/webp" srcset="/redeveloped/eo-Wz2HPdB-538.webp 538w"><img loading="lazy" decoding="async" src="/redeveloped/eo-Wz2HPdB-538.jpeg" alt="header image" width="538" height="364"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.611731,0.121567], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/marlyonroad/" class="postlist-link">Marlyon Road estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/millsgrove/" class="postlist-link">Mills Grove &amp; Westhorpe Gdns estate</a>
+		 Barnet
+		<a href="/redevelopedestates/millsgrove/">
+		<picture><source type="image/avif" srcset="/redeveloped/U49kpxUAIv-669.avif 669w"><source type="image/webp" srcset="/redeveloped/U49kpxUAIv-669.webp 669w"><img loading="lazy" decoding="async" src="/redeveloped/U49kpxUAIv-669.png" alt="header image" width="669" height="561"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.591830,-0.218737], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/millsgrove/" class="postlist-link">Mills Grove &amp; Westhorpe Gdns estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/myattsfields/" class="postlist-link">Myatts Fields estate</a>
+		 Lambeth
+		<a href="/redevelopedestates/myattsfields/">
+		<picture><source type="image/avif" srcset="/redeveloped/LZYdfm7cBO-800.avif 800w"><source type="image/webp" srcset="/redeveloped/LZYdfm7cBO-800.webp 800w"><img loading="lazy" decoding="async" src="/redeveloped/LZYdfm7cBO-800.jpeg" alt="header image" width="800" height="600"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.474589,-0.108238], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/myattsfields/" class="postlist-link">Myatts Fields estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/newavenue/" class="postlist-link">New Avenue estate</a>
+		 Enfield
+		<a href="/redevelopedestates/newavenue/">
+		<picture><source type="image/avif" srcset="/redeveloped/xr5mj0Fu8m-680.avif 680w"><source type="image/webp" srcset="/redeveloped/xr5mj0Fu8m-680.webp 680w"><img loading="lazy" decoding="async" src="/redeveloped/xr5mj0Fu8m-680.jpeg" alt="header image" width="680" height="497"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.639810,-0.135530], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/newavenue/" class="postlist-link">New Avenue estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/northpeckham/" class="postlist-link">North Peckham estate</a>
+		 Southwark
+		<a href="/redevelopedestates/northpeckham/">
+		<picture><source type="image/avif" srcset="/redeveloped/Z5cIzhnZpb-2007.avif 2007w"><source type="image/webp" srcset="/redeveloped/Z5cIzhnZpb-2007.webp 2007w"><img loading="lazy" decoding="async" src="/redeveloped/Z5cIzhnZpb-2007.jpeg" alt="header image" width="2007" height="1389"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.477372,-0.078713], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/northpeckham/" class="postlist-link">North Peckham estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/ocean/" class="postlist-link">Ocean estate</a>
+		 Tower hamlets
+		<a href="/redevelopedestates/ocean/">
+		<picture><source type="image/avif" srcset="/redeveloped/NY65xOOEnW-1000.avif 1000w"><source type="image/webp" srcset="/redeveloped/NY65xOOEnW-1000.webp 1000w"><img loading="lazy" decoding="async" src="/redeveloped/NY65xOOEnW-1000.jpeg" alt="header image" width="1000" height="677"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.521884,-0.042882], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/ocean/" class="postlist-link">Ocean estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/pepys/" class="postlist-link">Pepys estate</a>
+		 Lewisham
+		<a href="/redevelopedestates/pepys/">
+		<picture><source type="image/avif" srcset="/redeveloped/1QvL3kgQ3D-1000.avif 1000w"><source type="image/webp" srcset="/redeveloped/1QvL3kgQ3D-1000.webp 1000w"><img loading="lazy" decoding="async" src="/redeveloped/1QvL3kgQ3D-1000.jpeg" alt="header image" width="1000" height="750"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.48873,-0.0334], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/pepys/" class="postlist-link">Pepys estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/rectorypark/" class="postlist-link">Rectory Park estate</a>
+		 Ealing
+		<a href="/redevelopedestates/rectorypark/">
+		<picture><source type="image/avif" srcset="/redeveloped/lnTGu_htjM-400.avif 400w"><source type="image/webp" srcset="/redeveloped/lnTGu_htjM-400.webp 400w"><img loading="lazy" decoding="async" src="/redeveloped/lnTGu_htjM-400.jpeg" alt="header image" width="400" height="300"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.534215,-0.37889], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/rectorypark/" class="postlist-link">Rectory Park estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/sherwoodclose/" class="postlist-link">Sherwood Close estate</a>
+		 Ealing
+		<a href="/redevelopedestates/sherwoodclose/">
+		<picture><source type="image/avif" srcset="/redeveloped/Xv5G0RmTNM-687.avif 687w"><source type="image/webp" srcset="/redeveloped/Xv5G0RmTNM-687.webp 687w"><img loading="lazy" decoding="async" src="/redeveloped/Xv5G0RmTNM-687.jpeg" alt="header image" width="687" height="543"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.509075,-0.319455], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/sherwoodclose/" class="postlist-link">Sherwood Close estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/shootuphill/" class="postlist-link">Watling Gardens estate</a>
+		 Brent
+		<a href="/redevelopedestates/shootuphill/">
+		<picture><source type="image/avif" srcset="/redeveloped/_ayVOzjMF--800.avif 800w"><source type="image/webp" srcset="/redeveloped/_ayVOzjMF--800.webp 800w"><img loading="lazy" decoding="async" src="/redeveloped/_ayVOzjMF--800.jpeg" alt="header image" width="800" height="600"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.548923,-0.206821], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/shootuphill/" class="postlist-link">Watling Gardens estate</a>');
+</script>
+
+	<li class="postlist-item">
+		<a href="/redevelopedestates/silwood/" class="postlist-link">Silwood estate</a>
+		 Southwark/lewisham
+		<a href="/redevelopedestates/silwood/">
+		<picture><source type="image/avif" srcset="/redeveloped/nq7-Hg1Q8C-2639.avif 2639w"><source type="image/webp" srcset="/redeveloped/nq7-Hg1Q8C-2639.webp 2639w"><img loading="lazy" decoding="async" src="/redeveloped/nq7-Hg1Q8C-2639.jpeg" alt="header image" width="2639" height="1774"></picture>
+		</a>
+	</li>
+	<script>
+var circle = L.circle([51.490200,-0.053286], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 300
+}).addTo(map).bindPopup('<a href="/redevelopedestates/silwood/" class="postlist-link">Silwood estate</a>');
+</script>
+
+</ol>
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+  <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
+  <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"></path>
+</svg>
+		      <a href="https://github.com/estatewatch/estatewatch.github.io/blob/main/./content/redeveloped.njk">Edit this page on GitHub</a>
+		</footer>
+
+		<!-- This page `/redeveloped/` was last built on 2025-06-28T10:05:35.025Z -->
+		<script type="module" src="/dist/xbxy_EL6cU.js"></script>
+	</body>
+</html>
