@@ -34,9 +34,9 @@ Barking and Dagenham Council only offers an option of shared ownership for lease
 
 ![Gascoigne estate image](src/images/bdresideso.png)
 
-This goes against the legal “principle of equivalence” which says that persons affected by compulsory purchase should be no worse off in financial terms after the acquisition. 
-
 Similarly unfair policies were [deemed unlawful](https://www.theguardian.com/society/2016/sep/16/government-blocks-controversial-plan-to-force-out-housing-estate-residents) by the Secretary of State at the 2015 Aylesbury estate CPO inquiry and required Southwark to [amend](http://moderngov.southwarksites.com/documents/s74901/Report%20Amending%20the%20shared%20equity%20rehousing%20policy%20for%20qualifying%20homeowners%20affected%20by%20regenerati.pdf) its policy.
+
+In June 2025, the BBC [reported](https://www.bbc.co.uk/news/articles/cnvmj5g753go?app-referrer=deep-link) on defective new-build properties already completed in the first phases of the scheme.
 
 ---
 

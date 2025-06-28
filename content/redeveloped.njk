@@ -1,0 +1,16 @@
+---js
+const eleventyNavigation = {
+	key: "Gone",
+	order: 5
+};
+---
+{%- css %}{% include "public/css/message-box.css" %}{% endcss %}
+<div class="message-box">
+	
+<h2>{{ collections.redevelopedestates.length }} London housing estates have already been demolished and redeveloped.</h2>
+Not one of these has reprovided the social rented housing lost. In most cases this has been replaced by <b>affordable rent</b> (up to 80% market rent).
+
+</div>
+
+{% set redevelopedestateslist = collections.redevelopedestates %}
+{% include "redevelopedestateslist.njk" %}

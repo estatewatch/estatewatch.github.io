@@ -94,6 +94,11 @@ export default async function(eleventyConfig) {
 	  eleventyConfig.addCollection("limboestates", function(collectionApi) {
 		return collectionApi.getFilteredByGlob("content/limboestates/*.md");
 	});
+
+	  // create the 'redevelopedestates' collection from the 'redevelopedestates' folder
+	  eleventyConfig.addCollection("redevelopedestates", function(collectionApi) {
+		return collectionApi.getFilteredByGlob("content/redevelopedestates/*.md");
+	});
 	
 	eleventyConfig.addShortcode("currentBuildDate", () => {
 		return (new Date()).toISOString();
