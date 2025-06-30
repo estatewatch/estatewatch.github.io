@@ -1,5 +1,5 @@
 ---
-name: Thamesmead South (phase 1) 
+name: Thamesmead South
 borough: bexley
 images: estates/src/images/smere1.png
 location: '[51.497783,0.122512]'
