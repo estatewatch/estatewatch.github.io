@@ -42,12 +42,20 @@ While it is good to see the Mayor's planning report pick this up, it is disappoi
 
 You can view the Mayor's report [here](https://gla.force.com/pr/s/planning-application/a0i4J000002TXIGQA4/20206691?tabset-c2f3b=2), the full planning application documents (except the financial viability assessment which hasn't been published) on Lambeth's planning portal [here](https://planning.lambeth.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=QHD9R4BO08M00).
 
-In May 2024, Bellway [announced](https://www.bellwayplc.co.uk/media-centre/media-releases/construction-work-progresses-on-441-new-homes-in-lambeth) that work had started on the scheme.
+The application was approved by Lambeth Council’s planning committee on Tuesday 31 August, which included the provision of 135 homes for social/affordable rent, a further 62 affordable homes for London Living Rent or shared ownership, and 244 private homes.
+
+While the [section 106 agreement](https://planning.lambeth.gov.uk/online-applications/files/9905A07B43816BCDF19CC46030AB9509/pdf/20_03257_FUL-REDACTED_S106-3275264.pdf) guarantees social rent levels for those residents remaining on the estate, it allows the remainder of the social rented homes to be provided as London Affordable Rent which in turn [allows](https://estatewatch.london/blog/LondonAffordableRent/) rents of up to 80% market rent.
+
+![Geoffrey Close s106](src/images/gcloses106.png)
+
+In February 2025, Riverside [celebrated](https://www.riverside.org.uk/riverside-and-bellway-london-hold-topping-out-ceremony-at-regeneration-project-in-lambeth/) the 'topping out' of the first block in the scheme which will provide 25 affordable homes when complete.
 
 ---
 
 __Links:__  
 Riverside Homes website: [https://www.riverside.org.uk/redevelopment-projects/lambeth-estate-revitalising-your-neighbourhood/about-the-redevelopment-of-the-lambeth-estate/](https://www.riverside.org.uk/redevelopment-projects/lambeth-estate-revitalising-your-neighbourhood/about-the-redevelopment-of-the-lambeth-estate/)
+
+[Planning application documents(ref: 20/03257/FUL )](https://planning.lambeth.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=QHD9R4BO08M00)
 
 ---
 
