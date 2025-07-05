@@ -28,7 +28,9 @@ A ballot of residents in the second phase of the scheme returned a positive resu
 
 There are no publicly available section 106 agreements for the consented phases so it is impossible to confirm whether the replacement 'social' housing will be social rent or affordable rent (up to 80% market rent).
 
-It is also a breach of the legal “principle of equivalence” which says that persons affected by compulsory purchase should be no worse off in financial terms after the acquisition. 
+In 2020, it was [reported](https://www.harrowtimes.co.uk/news/18672760.l-q-brent-council-respond-south-kilburn-concerns/) that residents were experiencing ongoing defects with homes completed in the earlier phases of the scheme.
+
+In April 2021, a window was [reported](https://www.kilburntimes.co.uk/news/21942410.fifth-floor-window-south-kilburn-block-smashes-ground/) to have fallen out of one of these new build blocks.
 
 UCL Bartlett's [Dr Pablo Sendra](https://www.ucl.ac.uk/bartlett/planning/dr-pablo-sendra-fernandez) is currently working with residents on the estate to create an alternative community-led plan, which satisfies the Council's regeneration objectives while retaining the estate's existing buildings.
 
@@ -52,6 +54,8 @@ She gave a first-hand account of the impact of regeneration on the lives of loca
 </center>
 
 In October 2024, it was [reported](https://wembleymatters.blogspot.com/2024/10/brent-council-tries-to-stop-south.html) that Brent Council was seeking to avoid the scheme hitting the buffers by appointing a single developer for the remainder of the scheme and increasing the amount of private housing.
+
+In July 2025, there were [further reports](https://x.com/Kwajotweneboa/status/1940092995895709761) of windows falling out of new-build blocks on the estate.
 
 ---
 
