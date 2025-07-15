@@ -58,7 +58,11 @@ The Financial Viability Appraisal also counts on £95m grant funding from the Ma
 
 ![Extract from the FVA appraisal](src/images/teviotgrant.png)
 
-This begs the question of what is the point in the Mayor's estate regeneration policies if he allows boroughs, developers and housing associations to routinely ignore them?
+Note that this grant funding is only for the first of four phases. The viability assessment's [addendum](https://development.towerhamlets.gov.uk/online-applications/files/C227D57F5285ED9C9E8BDA14A48943F3/pdf/PA_24_00922_A1-AFFORDABLE_HOUSING_STATEMENT-_VERSION_3_-_MARCH_2025-2206467.pdf) says that it hasn't taken into account possible Mayoral funding for the rest of the scheme because _"phases 2-4 will be delivered outside of the current grant funding programme."_
+
+This brings into question the integrity of the viability assessment and the Mayor's estate regeneration policies if boroughs, developers and housing associations are allowed to routinely ignore them.
+
+The scheme was granted planning consent by Tower Hamlets' planning committee in July 2025.
 
 ---
 
