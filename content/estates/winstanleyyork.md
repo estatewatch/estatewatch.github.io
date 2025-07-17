@@ -42,7 +42,11 @@ Wandsworth's [March 2024 newsletter](https://www.wandsworth.gov.uk/media/r0vo4qt
 
 In January 2025, Wandsworth announced that it had ended its joint venture agreement with Taylor Wimpey. It issued a [press statement](https://www.wandsworth.gov.uk/news/news-january-2025/statement-on-the-winstanley-and-york-road-regeneration-joint-venture/) explaining that the _"Council will take a new approach to prioritise the delivery of affordable housing provision. The Council will acquire Taylor Wimpey’s outstanding interests in the JV at the end of December 2024 and will continue to deliver new homes, starting with ‘Block 6’ next."_
 
-In January 2025, it was reported that the Council is drawing up a new masterplan for the estate, which will be submitted at the end of 2026.
+In July 2025, Wandsworth's Cabinet [agreed](https://democracy.wandsworth.gov.uk/documents/s121017/25-255%20WYR%20Renewal%20Plan.pdf) to review the approach to regenerating the estate. It resolved to start seeking a new Joint Venture partner to deliver the rest of the scheme. The [Cabinet report](https://democracy.wandsworth.gov.uk/documents/s121017/25-255%20WYR%20Renewal%20Plan.pdf) states that the first phase of redevelopment has been completed by the Council and will provide 70 private homes and 69 council homes.
+
+It goes on to say that residents will be balloted on the demolition of their homes in September 2026 and the new revised redevelopment plans will be presented to them in Summer 2026.
+
+It concludes by stating that £1.25bn investment will be required to complete the revised scheme but fails to say where this money will come from or how much has been spent by the Council to date. The appendix to the Cabinet report _"Appendix 2 – Joint Venture Business Plan for 2025"_ was witheld from publication on the Council's website on grounds of 'commercial sensitivity'. 
 
 ---
 
