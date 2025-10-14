@@ -35,6 +35,8 @@ Whilst the Achilles St scheme itself wasn't put on hold, the review report highl
 
 In September 2024, Lewisham Council approved a [report](https://councilmeetings.lewisham.gov.uk/documents/s116383/Achilles%20Estate%20Regen%20report%20PART%201.pdf) resolving to submit a planning application for 279 new homes, of which 105 private, 52 shared ownership and 122 social rent.
 
+In September 2025, a planning application was submitted for 278 new homes, 60% of them for 'affordable' tenures, of which 122 council homes and 44 homes for shared ownership.
+
 ---
 
 __Links:__

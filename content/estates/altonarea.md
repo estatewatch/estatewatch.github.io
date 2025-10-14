@@ -44,6 +44,8 @@ In September 2022, demolition plans were put on hold under proposals to review s
 
 In July 2024, Wandsworth Council [announced](https://www.wandsworth.gov.uk/news/news-july-2024/alton-renewal-gets-underway-with-new-council-investment-across-the-estate/) consultation on a revised 'renewal plan' for the estate, in which it wishes to consult on different options. The announcement said that _"There is a case for some housing blocks to be considered for demolition and proposals to improve existing homes will be explored, including retrofit options."_
 
+In June 2025, Wandsworth Council announced a ballot on the new Masterplan, under which 167 homes on the estate would be replaced with 614 new homes, with 57% 'affordable' housing.
+
 ---
 
 **Links:**   

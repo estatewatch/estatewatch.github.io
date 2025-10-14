@@ -59,6 +59,8 @@ Camden's [2024 draft Local Plan](https://res.cloudinary.com/commonplace-digital-
 
 ![Juniper Crescent and Gilbeys Yard estate image](src/images/gilbey2024.png)
 
+A planning application was submitted in July 2025, for 478 homes on the Juniper Crescent site with Gilbey's yard having been excluded for the plans.
+
 ---
 
 __Links:__

@@ -9,7 +9,7 @@ architect: AHMM
 itla: LB Camden
 total: 316
 ballot: Approved
-planning: application not yet submitted
+planning: application submitted
 image: estates/src/images/wkt1.jpg
 ---
 ![West kentish Town estate image](src/images/wkt1.jpg)
@@ -27,7 +27,9 @@ Planning consent was approved in 2022, to build around 885 new homes over eight 
 
 Camden's [July 2022](https://democracy.camden.gov.uk/documents/s105347/11%20Future%20of%20West%20Kentish%20Town%20Estate_Part%20I_July22_signed.pdf) Cabinet report confirms that the total cost of the scheme will be £565m and will be financed by the Housing Revenue Account.
 
-In 2023, architect Alice Brown drew up an alternative plan for the regeneration of the estate. Backed by some residents, the plans show how the homes can be retrofitted adding insulation, reconfiguring internal walls and adding balconies to produce a climate impact estimated at six times smaller. 
+In 2023, architect Alice Brown drew up an [alternative plan](https://westkentishtown.org/2025/04/17/updated-west-kentish-town-estate-retrofit-proposals/) for the regeneration of the estate. Backed by some residents, the plans show how the homes can be retrofitted adding insulation, reconfiguring internal walls and adding balconies to produce a climate impact estimated at six times smaller. 
+
+In July 2025, a planning application application was [submitted](https://westkentishtown.org/2025/07/11/the-west-kentish-town-estate-planning-application-has-finally-arrived/) for the demolition of the estate and its replacement by 856 new homes, of which 530 for private sale and 326 social rent.
 
 ---
 
