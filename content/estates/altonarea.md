@@ -46,6 +46,8 @@ In July 2024, Wandsworth Council [announced](https://www.wandsworth.gov.uk/news/
 
 In June 2025, Wandsworth Council announced a ballot on the new Masterplan, under which 167 homes on the estate would be replaced with 614 new homes, with 57% 'affordable' housing.
 
+In October 2025 a ballot was [held](https://www.wandsworth.gov.uk/alton-regeneration-ballot) and from 41.5% of the 3,395 residents who were eligible to vote. 82.4% voted ‘yes’, 17.6% voted ‘no’ and 3 ballot papers were invalid.
+
 ---
 
 **Links:**   
