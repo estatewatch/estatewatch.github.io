@@ -8,7 +8,7 @@ layout: layouts/base.njk
 The Estate Watch website uses<a href="https://pages.github.com/"> Github</a> (a web-based platform which facilitates collaborative development of software projects) to store and publish data. The first step to getting involved is to sign up for a (free) github account at <a href="https://github.com/signup"> https://github.com/signup</a>.
 </div>
 
-<video width="100%">
+<video controls width="100%">
  
   <source src="/images/estatewatchtutorial.mp4" type="video/mp4" />
 
