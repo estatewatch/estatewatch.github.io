@@ -10,7 +10,7 @@ The Estate Watch website uses<a href="https://pages.github.com/"> Github</a> (a 
 
 <video width="100%">
  
-  <source src="estates/src/images/estatewatchtutorial.mp4" type="video/mp4" />
+  <source src="/images/estatewatchtutorial.mp4" type="video/mp4" />
 
 </video>
 
