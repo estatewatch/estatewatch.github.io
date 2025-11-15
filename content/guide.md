@@ -36,11 +36,11 @@ Once you have been redirected to the source text page, you will see a page like 
 
 Once in editing mode you can edit the text directly or add images and pdf documents, either by dragging and dropping them into the page or copying and pasting them in. You can also use the 'add image' button at the bottom of the page.
 
-This text editor differs from most word processing environments in that it uses 'Markdown' - a lightweight markup language for creating formatted text using a plain-text editor. You can read a brief guide on using Markdown here: <https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax>
+This text editor differs from most word processing environments in that it uses 'Markdown' - a lightweight markup language for creating formatted text using a plain-text editor. You can read a short guide on how to use Markdown tags [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 This shows for example, how hyperlinks can be inserted by enclosing the linked word in square brackets followed by the URL in parentheses. The shortcut for this is [CTRL + K] - (hold down the CTRL or CMD key and then press k).
 
-When you have finished editing, click on the green 'Commit Changes' button then the 'Propose Changes' and then the 'Create pull request' buttons. This will submit your proposed changes for review by an administrator before being published.
+When you have finished editing, click through the green buttons - starting with 'Commit Changes' then 'Propose Changes' and then 'Create pull request'. This will submit your proposed changes for review by an administrator before being published.
 
 {%- css %}{% include "public/css/message-box.css" %}{% endcss %}
 <div class="message-box-green">
