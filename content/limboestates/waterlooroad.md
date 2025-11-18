@@ -14,7 +14,7 @@ image: estates/src/images/w2.png
 ---
 ![Waterloo rd estate image](src/images/w2.png)
 
-290 homes are under threat of demolition on Havering's Waterloo road and Queen's street estate in Romford.
+290 homes have been demolished on Havering's Waterloo road and Queen's street estate in Romford.
 
 The estate is situated between Romford Town Centre and lies just a third of a mile away from the site of the new Crossrail station.
 
@@ -40,9 +40,14 @@ The [re-housing offer](https://www.havering.gov.uk/download/downloads/id/1851/lo
 
 The Waterloo road scheme is a good example of how the offer to residents on estates exempted by the Mayor from his ballot requirement, is inferior to those subject to ballots. It is difficult to believe that, had they been asked, residents of the Waterloo Road estate would have voted for demolition based on Havering's poor re-housing offer to residents. 
 
-In May 2023, it was [reported](https://www.romfordrecorder.co.uk/news/23529723.flagship-havering-housing-scheme-site-paused-else/) that work has been stopped on the scheme whilst it is reviewed in light of the change in building regulations.
+In May 2023 having demolished all remaining homes on the estate, it was [reported](https://www.romfordrecorder.co.uk/news/23529723.flagship-havering-housing-scheme-site-paused-else/) that work has been stopped on the scheme whilst it is reviewed in light of the change in building regulations.
 
 In January 2025, it was [reported](https://www.romfordrecorder.co.uk/news/24861547.waterloo-estate-romford-1-380-home-scheme-wont-restart-for-years/) that Havering Council now estimates it will resume work on the scheme in _“five to seven years’ time"._
+
+According to a [Nov 2025 report](https://www.londoncouncils.gov.uk/news-and-press-releases/2025/decade-renewal-contribution-london-estate-regeneration) by London Councils, the scheme has stalled.
+
+The report explains that _"new fire safety regulations, the need to submit the
+building control application to the Building Safety Regulator, and additional cost requirements has meant that construction has not progressed as planned."_
 
 ---
 

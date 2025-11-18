@@ -22,6 +22,10 @@ Permission was granted in 2013 for 362 new homes of which 166 social/affordable 
 
 The third phase of the scheme was [completed](https://londonnewsonline.co.uk/news/regeneration-of-catfords-post-war-prefabs-nears-completion/) in February 2025. The fourth and final phase of the scheme has still not been progressed some 20 years since the regeneration of the estate commenced.
 
+According to a [Nov 2025 report](https://www.londoncouncils.gov.uk/news-and-press-releases/2025/decade-renewal-contribution-london-estate-regeneration) by London Councils, the scheme has stalled.
+
+The report says: _"The delay with the delivery of Phase 3 has had a knock-on effect on the completion of the scheme with delivery of Phase 4. The outline planning permission granted has now expired. The period of delivery of Phase 3 has coincided with the well documented issues around build cost inflation, labour shortages and stagnating property values."_
+
 ---
 
 __Links:__

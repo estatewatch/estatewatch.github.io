@@ -1,17 +1,17 @@
 ---
-name: Marian Court estate 
+name: Bridge House and Marian Court 
 borough: hackney
 image: estates/src/images/marian.png
 location: '[51.547861,-0.049139]'
 landlord: Hackney Council
 developer: Austringer Capital
 itla:
-total: 75
+total: 135
 ballot: Exempt
 ---
 ![Marian Court image header](../estates/src/images/marian.png)
 
-75 homes have been demolished on Hackney's Marian Court estate in Homerton.
+135 homes have been demolished on Hackney's Marian Court estate in Homerton.
 
 Both Marian Court and the adjacent Brige House site were [earmarked for redevelopment](https://hackney.gov.uk/bridge-house) by Hackney Council in a joint venture with developer Austringer Capital. 
 

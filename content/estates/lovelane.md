@@ -31,6 +31,11 @@ The residents eligible to vote consisted primarily of temporary residents, which
 
 In January 2022, it was revealed that Haringey Council spent £350k on its campaign for a YES vote. As a result of this, a [petition](https://www.pilc.org.uk/tell-sadiq-to-say-yes-to-the-resident-empowerment-fund/) has been set up, calling on the Mayor to create a Resident Empowerment Fund that will level the playing field between councils and the local community in estate ballots.
 
+According to a [Nov 2025 report](https://www.londoncouncils.gov.uk/news-and-press-releases/2025/decade-renewal-contribution-london-estate-regeneration) by London Councils, the scheme has stalled.
+
+The report explains: _"Works have been paused due to challenges to the overall viability
+position of the scheme. This is mainly due to external factors seen on many projects, such as inflationary pressures, cost of capital/funding, a static or declining residential market, and regulatory changes impacting on building efficiency and build cost."_
+
 ---
 
 <!------------THE CODE BELOW RENDERS THE MAP - DO NOT EDIT! ---------------------------->
