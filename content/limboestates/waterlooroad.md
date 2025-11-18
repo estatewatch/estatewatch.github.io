@@ -12,7 +12,7 @@ total: 290
 planning: Approved
 image: estates/src/images/w2.png
 ---
-![Waterloo rd estate image](src/images/w2.png)
+![Waterloo rd estate image](../estates/src/images/w2.png)
 
 290 homes have been demolished on Havering's Waterloo road and Queen's street estate in Romford.
 
@@ -34,7 +34,7 @@ Havering's [re-housing offer](https://www.havering.gov.uk/download/downloads/id/
 
 It makes no provision for the gap between the value leaesholders receive for their current homes and the cost of the replacement new-builds. It simply gives them 'first refusal' on the purchase of a new home - if they can afford it!
 
-![Waterloo rd estate image](src/images/firstrefusal.png)
+![Waterloo rd estate image](../estates/src/images/firstrefusal.png)
 
 The [re-housing offer](https://www.havering.gov.uk/download/downloads/id/1851/local_lettings_plan.pdf) for tenants is not much better. There is no guarantee of a tenancy in one of the replacement social/affordable homes or a right to return. The only guarantee is two direct offers of a tenancy in a home on an estate elsewhere in the borough, albeit selected by the Council.
 
