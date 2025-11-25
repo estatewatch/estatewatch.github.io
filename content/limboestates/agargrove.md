@@ -4,6 +4,7 @@ borough: camden
 location: '[51.542259,-0.133195]'
 landlord: Camden Council
 developer: Camden Council
+architect: Hawkins Brown/Mae
 itla:
 total: 249
 ballot: Exempt
@@ -18,6 +19,8 @@ The estate is situated near Camden Town to the north of Kings Cross and comprise
 
 The scheme was funded by the Mayor and exempted from his requirement to ballot residents on the demolition of their homes. 
 
+The scheme is being delivered by Camden Council directly. A 2013 Cabinet report estimated that the scheme will cost the council £143m but that most of this will be compensated by sales receipts for the private housing. There is no publicly available information on how much the scheme has cost to date and how much has been recovered from private sales.
+
 Planning consent for redevelopment was granted in Dec 2014 which spans six phases of development. The first phase in currently underway and Camden has already started marketing the new private homes on this phase [https://thecamdencollection.co.uk/](https://thecamdencollection.co.uk/): 
 
 ![agar grove](../estates/src/images/visiv.png)
@@ -28,9 +31,9 @@ In 2019, Camden Council issued a Compulsory Purchase Order in order to remove th
 
 It also explains that only 216 replacement social rented homes will replace the 249 being demolished (para 3.10). 
 
+In August 2023, it was reported that new build homes on the first phase have been [plagued by a series of major build defects](https://www.camdennewjournal.co.uk/article/flagship-modern-housing-development-in-need-or-urgent-repairs-tenants-say).
+
 In January 2025, it was [reported](https://www.architectsjournal.co.uk/buildings/housing-quality-up-bills-down-hawkinsbrown-and-mae-regenerate-camden-estate) that works on the final phase of the scheme (refurbishment of Lulworth House - the retained tower block) had been halted due to design issues stemming from changes to the Building Regulations and isn’t expected to finish until 2030.
-
-
 
 ---
 

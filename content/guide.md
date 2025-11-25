@@ -40,7 +40,7 @@ This text editor differs from most word processing environments in that it uses 
 
 This shows for example, how hyperlinks can be inserted by enclosing the linked word in square brackets followed by the URL in parentheses. The shortcut for this is [CTRL + K] - (hold down the CTRL or CMD key and then press k).
 
-When you have finished editing, click through the green buttons - starting with 'Commit Changes' then 'Propose Changes' and then 'Create pull request'. This will submit your proposed changes for review by an administrator before being published.
+When you have finished editing, you can review what they will look like by clicking on the 'Preview' button. Finally, click the green 'Commit Changes' button and then the 'Propose Changes' and then 'Create pull request' buttons. This will submit your changes for review by an administrator before being published.
 
 {%- css %}{% include "public/css/message-box.css" %}{% endcss %}
 <div class="message-box-green">

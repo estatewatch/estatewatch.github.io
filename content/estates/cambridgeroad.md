@@ -42,8 +42,6 @@ Kingston Council is stumping up nearly £200M to see this scheme through. This i
 * £130M for the social rented units of which £60M grant funding.
 * £29M for the shared equity units for leaseholders
 
-Combined with £60M funding agreed by the Mayor, that's £250M of public money to replace a Council estate of 832 homes - more than £300k is being spent demolishing and replacing each home.
-
 Despite it being one of the Mayor's requirements for estate redevelopments, the application provides no cost/benefit analysis of refurbishment vs demolition. So it is impossible to say whether these public funds could be better spent exploring the [environmental, social and economic benefits of refurbishment](http://estatewatch.london/refurbishment). Neither does the application say anything about the Mayor's requirement that demolition is pursued as a last resort. The Mayor's [stage 1 report](https://gla.force.com/pr/s/planning-application/a0i4J000002UOhyQAG/20206860?tabset-c2f3b=2) for the scheme simply says this:
 
 ![Cambridge road estate image](src/images/screenshot-2021-08-26-at-18-07-29-pdu-case-report-xxxx-yy-date-gla-6860-stage-1-report-28-02-21-pdf.png)
@@ -62,7 +60,13 @@ The Statement also confirms that (like many other schemes) Kingston's offer of a
 
 > "If a resident owner does not have the required equity or enough funds to buy a new home outright, the Council provide help through shared equity or shared ownership (depending on circumstances)." (Para 8.11)
 
-Only 4 of the estate's 42 leaseholders who have relocated to date, have applied for and received an offer of a shared equity home. (Para 8.10)
+In March 2025, a [Council report](https://moderngov.kingston.gov.uk/mgAi.aspx?ID=50318) explained that the scheme has run into viability issues because of increased build costs and a failure to sell many of the private for sale homes in the first phase. 
+
+The report goes on to consider using council funds to buy these unsold properties out and confirms that the council will only be receiving a nominal value for the sale of the land - £5 for the whole estate! (£1 for each phase).
+
+![five pound fee](src/images/capitalreceipt.png)
+
+In October 2025, former Council leader and orchestrator of the scheme, Kevin Davis, was [reported](https://insidecroydon.com/2025/10/24/labours-town-hall-leader-joins-new-firm-of-property-lobbyists/) to have joined a firm of property lobbyists alongside former Southwark leader Peter John (cf. Heygate, Aylesbury etc..)
 
 ---
 
