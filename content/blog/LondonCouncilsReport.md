@@ -1,5 +1,5 @@
 ---
-title: London Councils report 
+title: London Councils report - a decade of renewal?
 description: London Councils lobby for higher rents to subsidise estate regeneration
 date: 2025-11-19
 ---
