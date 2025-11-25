@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>London Councils report</title>
+		<meta name="description" content="London Councils lobby for higher rents to subsidise estate regeneration">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="ESTATE WATCH">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Keep images within the border */
+img {
+ max-width: 100%;
+ height: auto;
+ border: 2px solid #000;
+}
+  
+map {
+	width: 100% 
+	height: 180px;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<picture><source type="image/avif" srcset="/blog/LondonCouncilsReport/5qD3cKtzaH-16.avif 16w"><source type="image/webp" srcset="/blog/LondonCouncilsReport/5qD3cKtzaH-16.webp 16w"><img loading="lazy" decoding="async" width="16" alt="Magnifying glass icon" src="/blog/LondonCouncilsReport/5qD3cKtzaH-16.png" height="16"></picture><a href="/" class="home-link">ESTATE WATCH</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/saveourestates/">Save our estates!</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/resources/">Resources</a></li>
+					<li class="nav-item"><a href="/inlimbo/">Stalled</a></li>
+					<li class="nav-item"><a href="/redeveloped/">Completed</a></li>
+					<li class="nav-item"><a href="/blog/">Latest</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+<h1 id="london-councils-report">London Councils report</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2025-11-19">19 November 2025</time></li>
+</ul>
+
+<p><picture><source type="image/avif" srcset="/blog/LondonCouncilsReport/6lFxC_RUjn-843.avif 843w"><source type="image/webp" srcset="/blog/LondonCouncilsReport/6lFxC_RUjn-843.webp 843w"><img loading="lazy" decoding="async" src="/blog/LondonCouncilsReport/6lFxC_RUjn-843.png" alt="Lonon Councils image" width="843" height="525"></picture></p>
+<p>London Councils, the umbrella group for London boroughs, has published a <a href="https://www.londoncouncils.gov.uk/news-and-press-releases/2025/decade-renewal-contribution-london-estate-regeneration">report</a> lobbying for more london estates to be redeveloped.</p>
+<p>The report is titled <em>'A decade of Renewal'</em>.</p>
+<p>Given the <a href="https://estatewatch.london/inlimbo/">growing number</a> of estates demolished, left to sit empty and held hostage for years while developers extract further concessions from local authority partners, it should more aptly be titled <em>'A decade of Demolition and Landbanking'</em>.</p>
+<p>The report starts out by making the bizarre claim that <em>&quot;In many areas, the affordable housing supply that has been delivered in recent years has been enabled .. where boroughs have taken the lead to drive place and housing quality transformation through estate based regeneration.&quot;</em></p>
+<p>Facts show that the exact opposite is true. In 2021, a <a href="https://www.london.gov.uk/press-releases/assembly/sian-berry/demolition-of-estates-continues-13500-homes-lost">report</a> by London Assembly member Sian Berry showed that estate regeneration schemes had resulted in a net loss of 6,748 social rented homes since 2003.</p>
+<p><picture><source type="image/avif" srcset="/blog/LondonCouncilsReport/QBO81tk6Ft-812.avif 812w"><img loading="lazy" decoding="async" src="/blog/LondonCouncilsReport/QBO81tk6Ft-812.webp" alt="net loss image" width="812" height="609"></picture></p>
+<p>It also showed that schemes in the pipeline with planning approval will end up resulting in a net loss of 13,539 social rented homes.</p>
+<p>The London Councils report subsequently laments that they are spending £5m a day on temporary accommodation for homeless families, but fails to make the connection between this and the growing <a href="https://estatewatch.london/inlimbo/">list</a> of stalled schemes where <a href="https://www.35percent.org/posts/nearly-1-000-empty-homes-on-the-aylesbury-estate/">thousands of council homes have sat empty</a> or been demolished and not replaced for periods sometimes spanning two decades.</p>
+<h2 id="shining-examples">Shining Examples..</h2>
+<p>The report then goes on to introduce <em>&quot;a number of case study examples of estate regeneration schemes across London that showcase London boroughs’ appetite to get things built, built sustainably, and to a high standard that serves Londoners’ needs.&quot;</em></p>
+<p><picture><source type="image/avif" srcset="/blog/LondonCouncilsReport/j931C3phW3-842.avif 842w"><source type="image/webp" srcset="/blog/LondonCouncilsReport/j931C3phW3-842.webp 842w"><img loading="lazy" decoding="async" src="/blog/LondonCouncilsReport/j931C3phW3-842.png" alt="London Councils image" width="842" height="544"></picture></p>
+<p>Curiously, instead of drawing from the <a href="https://estatewatch.london/redeveloped/">dozens of London schemes</a> already completed, it examines just two schemes, neither of which yet complete!</p>
+<h2 id="exhibit-1">Exhibit 1</h2>
+<p>The first example given is the <a href="https://estatewatch.london/limboestates/agargrove/">Agar Grove estate</a> in Camden, which despite being a relatively small scheme and having received planning consent more than a decade ago, is still not finished and not due to complete until 2030.</p>
+<p>The scheme is hardly a shining example to extol the virtues of estate regeneration. Despite costing Camden Council a considerable amount of money (2013 estimate was £143m), the scheme is resulting in an overall net loss of council homes and has been <a href="https://www.camdennewjournal.co.uk/article/flagship-modern-housing-development-in-need-or-urgent-repairs-tenants-say">plagued by a series of major build defects</a>.</p>
+<h2 id="exhibit-2">Exhibit 2</h2>
+<p>The second example given is Kingston Council's <a href="https://estatewatch.london/estates/cambridgeroad/">Cambridge road estate</a>.</p>
+<p>Similarly, despite planning consent being granted nearly four years ago, not a single home in the first phase of the scheme has yet been completed. The scheme is also costing the Council an arm and a leg - £200m was the original estimate but it was recently <a href="https://moderngov.kingston.gov.uk/mgAi.aspx?ID=50318">reported</a> that the scheme has run into viability issues because of increased build costs and a failure to sell many of the private for sale homes in the first phase.</p>
+<p>The Council is now considering putting its hands further in its pockets to buy these out. It has also confirmed an <em>&quot;expectation of there being no more than a nominal value ascribed to the Council’s land&quot;</em>. Its development partner will be paying £5 for the whole estate (£1 for each phase).</p>
+<p><picture><source type="image/avif" srcset="/blog/LondonCouncilsReport/KOo3mjDCtp-631.avif 631w"><source type="image/webp" srcset="/blog/LondonCouncilsReport/KOo3mjDCtp-631.webp 631w"><img loading="lazy" decoding="async" src="/blog/LondonCouncilsReport/KOo3mjDCtp-631.png" alt="five pound fee" width="631" height="101"></picture></p>
+<h2 id="more-of-the-same">More of the same..</h2>
+<p>A common thread with these schemes and a striking omission from the report, is the phenomenal amount of money these schemes are costing councils' already-tight budgets.</p>
+<p>Advocating the demolition of more much-needed council homes and handing estates over to developers who routinely stall and plead poverty, while complaining about spending £5m a day on temporary housing, defies all common sense.</p>
+<p>Journalist, Pete Apps, has written in more detail about the London Councils report and its shortcomings here: <a href="https://peteapps.substack.com/p/the-limits-of-estate-regeneration">https://peteapps.substack.com/p/the-limits-of-estate-regeneration</a></p>
+
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/LondonAffordableRent/">Mayor to close loophole on replacement social housing</a></li>
+</ul>
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+  <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
+  <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"></path>
+</svg>
+		      <a href="https://github.com/estatewatch/estatewatch.github.io/blob/main/./content/blog/LondonCouncilsReport.md">Edit this page on GitHub</a>
+		</footer>
+
+		<!-- This page `/blog/LondonCouncilsReport/` was last built on 2025-11-25T14:11:44.462Z -->
+		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
+	</body>
+</html>
