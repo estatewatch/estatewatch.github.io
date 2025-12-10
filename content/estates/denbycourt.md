@@ -4,7 +4,8 @@ borough: Lambeth
 tags: lambeth
 location: '[51.493660,-0.115040]'
 landlord: Lambeth Council
-developer:
+developer: Vistry
+architect: Stitch
 itla:
 total: 42
 ballot: Exempt
