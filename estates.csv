@@ -131,6 +131,8 @@ Lambourne Close estate,ealing,100,"[51.503159,-0.335400]",LB Ealing,,,,,,estates
 ,
 Ladderswood estate,enfield,100,"[51.613312,-0.137395]",Enfield Council,Mulalley/One Housing Group,VZDV,,Exempt,Approved,estates/src/images/lwood3.png
 ,
+Knights Walk estate,Lambeth,18,"[51.491595, -0.106746]",Lambeth Council,Vistry,Mae/Stitch,,Exempt,Approved,estates/src/images/knightswalk.png
+,
 Kingsbridge estate,towerhamlets,134,"[51.493200,-0.025874]",One Housing Group,,Howarth Tompkins,Mike Tyrell,Approved,Pending,estates/src/images/kbridge.jpg
 ,
 Juniper Crescent and Gilbeys Yard estate,camden,200,"[51.542436,-0.150620]",One Housing Group,Countryside Properties,PRP,Communities First,Approved,Pending,estates/src/images/jp5.jpg
@@ -189,7 +191,7 @@ Dollis Valley estate,barnet,363,"[51.644001,-0.197573]",Barnet Council,Countrysi
 ,
 Devons Road estate,towerhamlets,300,"[51.522289,-0.019264]",Poplar HARCA,,,,,,estates/src/images/devonsroad.png
 ,
-Denby Court,Lambeth,42,"[51.493660,-0.115040]",Lambeth Council,,,,Exempt,Approved,estates/src/images/denby1.png
+Denby Court,Lambeth,42,"[51.493660,-0.115040]",Lambeth Council,Vistry,Stitch,,Exempt,Approved,estates/src/images/denby1.png
 ,
 Dell Court,havering,29,"[51.557480,0.225340]",Havering Council,Wates,,TPAS,Exempt,,estates/src/images/dell1.jpg
 ,
