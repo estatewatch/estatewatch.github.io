@@ -5,6 +5,8 @@ Yeading Lane 1 estate,ealing,500,"[51.533307,-0.394019]",LB Ealing,,,,Required,,
 ,
 Wornington Green estate,kensingtonandchelsea,150,"[51.523537,-0.212212]",RBKC,Catalyst Housing Association,PRP/Conran,Newman Francis,Exempt,Approved,estates/src/images/worning1.jpg
 ,
+Woolwich Dockyard estates,greenwich,670,"[51.493426, 0.054357]",Greenwich Council,,,,,,estates/src/images/woolwichdockyard.png
+,
 Woodberry Down estate,hackney,1000,"[51.572949,-0.090658]",Hackney Council,Berkeley Homes,Fletcher Priest/WE/SEH,Simon Slater (Public Voice),Exempt,Approved,estates/src/images/woodberry-down-5.jpg
 ,
 Winstanley &amp; York Road estates,wandsworth,759,"[51.464762,-0.176427]",Wandsworth Council,Taylor Wimpey,HTA,,Exempt,Approved,estates/src/images/wy22.jpg
@@ -26,6 +28,8 @@ Tustin estate,southwark,298,"[51.480339,-0.054867]",Southwark Council,Buoyges,DR
 Trinity Way estate,ealing,150,"[51.512025,-0.247614]",LB Ealing,,,,,,estates/src/images/trinityway.png
 ,
 Toplocks estate,ealing,150,"[51.501843,-0.364982]",Unknown RSL,,,,,,estates/src/images/toplocks.png
+,
+Tolmers Square estate,camden,50,"[51.526033, -0.137517]",Camden Council,,,,Exempt,,estates/src/images/tolmerscreenshot.png
 ,
 Thames View estate,barkinganddagenham,100,"[51.528893,0.109535]",Barking and Dagenham Council,BeFirst,,,Exempt,Approved,estates/src/images/tv1.png
 ,
