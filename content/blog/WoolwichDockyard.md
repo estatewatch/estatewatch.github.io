@@ -5,15 +5,15 @@ date: 2026-02-06
 ---
 Two more Greenwich Council estates have been added to the list of estates under threat.
 
-![Woolwich Dockyard estates image](src/images/woolwichdockyard.png)
+![Woolwich Dockyard estates image](../estates/src/images/woolwichdockyard.png)
 
 670 council homes have been earmarked for potential redevelopment on the Woolwich Dockyard estate and neighbouring St. Mary's estate in Woolwich.
 
-![St Mary's estate image](src/images/stmarys.png)
+![St Mary's estate image](../estates/src/images/stmarys.png)
 
 The two estates have been identified for comprehensive redevelopment in Greenwich's [2026 Local Plan](https://committees.royalgreenwich.gov.uk/documents/s17183/12.3%20Appendix%20A%20Part%203.pdf) with the potential to provide 1,700 new homes.
 
-![Woolwich dockyard estate allocation image](src/images/woolwichdockyardallocation.png)
+![Woolwich dockyard estate allocation image](../estates/src/images/woolwichdockyardallocation.png)
 
 The estates are adjacent to the [Maryon Grove](https://estatewatch.london/limboestates/maryongrove/) and [Morris Walk](https://estatewatch.london/limboestates/morriswalk/) estates, which are both in the process of being redeveloped by Greenwich Council after a decade of delays.
 
