@@ -1,5 +1,5 @@
 ---
-name: Woolwich Dockyard estates
+name: Woolwich Dockyard & St Mary estates
 borough: greenwich
 tags: greenwich
 location: '[51.493426, 0.054357]'
@@ -15,11 +15,15 @@ image: estates/src/images/woolwichdockyard.png
 
 670 council homes have been earmarked for potential redevelopment on the Woolwich Dockyard estate and neighbouring St. Mary's estate in Woolwich.
 
-These been identified for comprehensive redevelopment in Greenwich's [2026 Local Plan](https://committees.royalgreenwich.gov.uk/documents/s17183/12.3%20Appendix%20A%20Part%203.pdf) with the potential to provide 1,700 new homes.
+![St Mary's estate image](src/images/stmarys.png)
+
+The estates have been identified for comprehensive redevelopment in Greenwich's [2026 Local Plan](https://committees.royalgreenwich.gov.uk/documents/s17183/12.3%20Appendix%20A%20Part%203.pdf) with the potential to provide 1,700 new homes.
 
 ![Woolwich dockyard estate allocation image](src/images/woolwichdockyardallocation.png)
 
-It is not known whether residents have yet been consulted on the plans.
+The estates are adjacent to the [Maryon Grove](https://estatewatch.london/limboestates/maryongrove/) and [Morris Walk](https://estatewatch.london/limboestates/morriswalk/) estates, which are both in the process of being redeveloped by Greenwich Council.
+
+Shortly after publishing the site allocation in its draft Local Plan, Greenwich issued a [press release](https://www.royalgreenwich.gov.uk/news/2026/draft-local-plan-and-woolwich-dockyard-area) saying': _"No decision has been made, to bring forward proposals, to redevelop the Woolwich Dockyard and St Marys Estate as part of an estate renewal programme. The Draft Local Plan includes a list of areas where future development to provide new homes could happen and both estates have been included. If any proposals were ever bought forward, residents would be involved from the beginning and no development could go ahead without residents showing support through a ballot."_
 
 ---
 
