@@ -20,22 +20,18 @@ Ealing council are, as of 2026, midway through carrying out a major regeneration
 The overarching regeneration project aims to build 279 new homes and refurbish 469 others over the course of 7 phases through partial demolition and infill. 
 As of Feb 2026, phases 1, 2, 3, 4 and 6 are completed, with 5 still in progress and 7 having been paused.
 
+A 2023 Council [report](https://ealing.moderngov.co.uk/documents/s6352/SP4%20-%20Chairs%20Site%20Visit%20Feedback%20-%20Appendix%202.pdf) suggests that at least some of the new homes have been let to key workers at Discounted Market Rent (ie. up to 80% market rent) rather than social rent.
+
 Phase 7 (refurbishment of 333 existing flats and construction of six new homes) is unlikely to be affordable within the council’s current budget ([as highlighted in recent reports](https://ealing.moderngov.co.uk/documents/s18496/Housing+Development+and+Regeneration+Report+to+Scrutiny.pdf)) and has thus been put into dormancy pending review.
 
-As such, redevelopment has now been listed as an option in the [2024 Local Plan](https://www.ealing.gov.uk/download/downloads/id/19587/appendix_e_-_results.pdf) site allocation and the final decision has yet to be made as to whether to continue with phase 7's original plan to refurbish the existing flats, or to instead demolish them and build brand new blocks.
-
+As such, redevelopment has now been listed as an option in the [2024 Local Plan](https://www.ealing.gov.uk/download/downloads/id/19587/appendix_e_-_results.pdf) site allocation and the final decision has yet to be made as to whether to continue with phase 7's original plan to refurbish the existing flats, or to instead demolish them and redevelop the site.
 
 ![Copley Close estate](src/images/copleyclosesite.png)
 
-It is not known if residents have been made aware of the 2024 designation, however other phases of the project are reported to have had [high levels of resident consultation](https://ealing.moderngov.co.uk/documents/s6352/SP4%20-%20Chairs%20Site%20Visit%20Feedback%20-%20Appendix%202.pdf).
-
-
+It is not known if residents have been made aware of the 2024 designation.
 
 
 Full detials on the other phases of the project are listed below:
-
-
-
 
 **Phase 1 Worcester Court:** Construction of 5 new build houses and refurbishment of 18 flats. _Completed in December 2016_
 
